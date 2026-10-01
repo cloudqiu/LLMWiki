@@ -10,7 +10,7 @@ sources: [raw/vocab-inbox.md]
 word: unravel
 ipa: /ʌnˈrævl/
 pos: v.
-root: "un- + ravel（中古荷兰语 ravelen：纠结/拆散）"
+root: "un- + ravel（荷兰语 ravelen：缠结/拆散）"
 ---
 
 # unravel
@@ -22,7 +22,12 @@ root: "un- + ravel（中古荷兰语 ravelen：纠结/拆散）"
 - _The deal unraveled after months of talks._ 谈了数月之后，这笔交易告吹了。
 - _Detectives are still trying to unravel the mystery._ 侦探们仍在努力解开这个谜团。
 
-**词根 / 词族**：`un-`（反义前缀）+ `ravel`（中古荷兰语 ravelen，「纠结、拆散」；ravel 自身也兼表「缠结」与「解开」）。遇到形式 **unraveling**（美拼；英式常拼 unravelling）。
+**词源 / 构词**
+- **拆解**：un-（词头——「反向、解除」义的 un-²，如 undo / unbind；非「否定」义的 un-¹，如 unhappy）+ ravel（词根，整体借自荷兰语）+ 无词尾
+- **演变**：荷兰语 ravelen「缠结、磨散」/ rafelen「拆开编织」← rafel「磨散的线」（**更早来源不明**）→ 英语 ravel（1580s，既表「缠结」也表「解开」）→ **unravel（c. 1600）**；1640s 出现不及物用法，1650s 起表「弄明白、澄清」
+- **冷知识「ravel 悖论」**：ravel 一词同时兼表「缠结」和「解开」（织物隐喻：线一经拆散，反而乱作一团），因此 unravel 与 ravel 既是同义词又是反义词，un- 在此算「反义」还是「强化」，词典学界都有争论（Century Dictionary 有言）
+- **同族 / 派生**：ravel（v./n.：缠结；散线）、英拼 unravelled / unravelling、美拼 unraveled / unraveling（遇到形式）
+- **记忆钩**：毛衣被猫抓——线被 unravel（拆开）之后满地 ravel（散线乱线）：一个词，既是动作也是后果
 
 **同义 / 搭配 / 易混**
 - 搭配：`unravel a mystery / the truth / a plot`；主语常为 plans / deal / relationship / life（局面「土崩瓦解」）

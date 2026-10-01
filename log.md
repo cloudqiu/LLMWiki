@@ -103,3 +103,11 @@
 - `.gitignore` 追加：插件本体（main.js / styles.css）不入库，仅跟踪启用清单与插件 manifest/data（设置）
 - hub [[english-vocabulary]]：新增「SRS（复习层，已装）」小节，移除开放问题中的选型项；index Backlog 移除该项
 - 待办：首批卡已就绪（3 词条）——可开始首次复习
+
+## [2026-10-01] query | 词源深挖：deplete / off-kilter / unravel（etymonline 核对）
+
+- 请求：为现有词条补全词源深挖（词头 / 词根 / 词尾要素、来源与演变）
+- 词源要点：**deplete**＝1807 年由 depletion 反向构词（拉丁 dēplēre「倒空」，PIE \*pele-「填满」的家族里唯一的「倒空」）；**unravel**＝un-²（反向前缀）+ 荷兰语 ravelen，c.1600，附带「ravel 同义又反义」悖论；**off-kilter**＝kilter 词源不明（方言 kelter c.1600），out of kilter 首见 1620s，off- 为「偏离常规」组合成分
+- 落地：3 个词条「词根/词族」→「词源/构词」升级（含拆解/演变/同族/记忆钩）；`templates/vocab.md` 与 CLAUDE.md §3.4 同步（v1.4.1）
+- 核对依据：etymonline（deplete / unravel / ravel / kilter 四页）；日期与词形均采用其记载，不作推测
+- 备注：data.json 显示算法仍为 SM-2-OSR（FSRS 切换待用户在插件设置中完成）

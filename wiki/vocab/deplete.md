@@ -10,7 +10,7 @@ sources: [raw/vocab-inbox.md]
 word: deplete
 ipa: /dɪˈpliːt/
 pos: v.
-root: "de- + -plet-（拉丁 plēre：填满）"
+root: "de- + plēre（拉丁「填满」；PIE *pele-）"
 ---
 
 # deplete
@@ -22,7 +22,11 @@ root: "de- + -plet-（拉丁 plēre：填满）"
 - _The long campaign depleted the party's funds._ 漫长的竞选耗尽了该党的资金。
 - _Insomnia had depleted her energy._ 失眠让她精力耗尽。
 
-**词根 / 词族**：拉丁 `dēplēre`（de- 完全 + plēre 填满）→ 本义「掏空」。同根词：complete、supplement、replete；名词 **depletion**（消耗、枯竭）。
+**词源 / 构词**
+- **拆解**：de-（词头「去掉、away」）+ plēre（词根「填满」，拉丁）；-ete 为拉丁词尾的英语残留，与 complete / replete 同型
+- **演变**：拉丁 dēplēre「倒空」（字面＝un-fill）→ 晚期拉丁 dēplētiō → 英语 **depletion**（1650s，医学义「放血」）→ **deplete（1807）由 depletion 反向构词**（back-formation），最初亦为医学义（放血、泻药），1859 年起泛化为一般义
+- **同族 / 派生**：complete、replete、supplement、implement、expletive（同出拉丁 plēre「填满」）；plenary / plenty（同出 plēnus「满的」）；depletion（1650s）、depletive（1799）
+- **记忆钩**：PIE 词根 \*pele-「填满」的家族里，deplete 是唯一的「倒空」——de（去掉）+ plete（填满）＝把满的掏空
 
 **同义 / 搭配 / 易混**
 - 搭配：deplete resources / reserves / stocks / energy；常用被动 `be depleted of`；`depleted uranium`（贫铀）

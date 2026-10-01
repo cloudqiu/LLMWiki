@@ -22,7 +22,11 @@ root: "kilter（词源不明）"
 - _The news threw him off-kilter for days._ 那条消息让他好几天都没缓过劲来。
 - _After the move, her world felt off-kilter._ 搬家之后，她感觉整个世界都不对劲了。
 
-**词根 / 词族**：`kilter` 词源不明（一说与 17 世纪方言 kelter「秩序、状况」有关）；现代英语中几乎只存活于 off-kilter / out of kilter 这两个短语里。
+**词源 / 构词**
+- **拆解**：off-（词头——非古典前缀，是能产的组合成分「偏离正常」，如 off-key 走调、offbeat、off-grid）+ kilter（名词「正常状态、良好状态」；词源不明的孤词）+ 无词尾
+- **演变**：方言 kelter「良好状态、秩序」（c. 1600）→ kilter；最早以短语 **out of kilter（1620s）** 见诸记载；**更深来源不可考**——etymonline 明确标 unknown origin，无 PIE 词根可拆（词源学诚实的边界）
+- **同族 / 联想**：off-key、offbeat、off-brand、off-grid、off-label——同以 off- 表「偏离常规」；kilter 本身无词族
+- **记忆钩**：off（偏离）+ kilter（正常档位）＝「不在正常档位」→ 不对劲
 
 **同义 / 搭配 / 易混**
 - 搭配：`out of kilter`（= off-kilter，出故障/不对劲）、`throw sb/sth off-kilter`（打乱常态）、`feel off-kilter`
