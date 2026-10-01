@@ -20,9 +20,9 @@ sources: [raw/vocab-inbox.md]
 
 ## 进度
 
-- 词条：**6**（new 6 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
-- 待处理：inbox 暂无积压（两批共 6 词已编译，均出自《Mattering》）
-- 词条（6）：[[deplete]]、[[off-kilter]]、[[unravel]]、[[turquoise]]、[[flurry]]、[[nook]]
+- 词条：**8**（new 8 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
+- 待处理：inbox 暂无积压（三批共 8 词已编译，均出自《Mattering》）
+- 词条（8）：[[deplete]]、[[off-kilter]]、[[unravel]]、[[turquoise]]、[[flurry]]、[[nook]]、[[counterweight]]、[[disconcert]]
 
 ## 怎么用
 

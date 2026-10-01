@@ -126,3 +126,11 @@
 - 词源要点：**turquoise**＝法语「土耳其石」（取道土耳其传入欧洲，实产波斯）；**flurry**＝1690s「一阵疾风」，来源不确定（疑拟声）；**nook**＝c.1300「角落」，来源不明（或古诺斯语 nokke）
 - 更新：[[english-vocabulary]]（进度 3→6，词条列表全列）、`index.md`（Stats）
 - 待办：无积压；SRS 已装、可开始首刷（词条已达 6 个，够刷一轮）
+
+## [2026-10-01] ingest | vocab: 第三批 2 词（counterweight / disconcert）
+
+- 来源：`raw/vocab-inbox.md`（《Mattering》）→ src/mattering；去重跳过 6 词
+- 新建词条 2 个：[[counterweight]]、[[disconcert]]（遇到形式 disconcerting 归并至 lemma）
+- 词源要点：**counterweight**＝透明复合词（counter- ← 拉丁 contra；weight ← 古英语 / PIE \*wegh-）；**disconcert**＝1680s，法语 disconcerter ← 意大利 concertare「使协调」，dis- 反转之；同根 \*krei- 家族（certain / discern / crisis）
+- 备注：etymonline 与 Wiktionary 均无 counterweight 成词年代——已按 schema 标「待验证」而非编造
+- 更新：[[english-vocabulary]]（6→8）、`index.md`（Stats）
