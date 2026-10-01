@@ -20,10 +20,10 @@ sources: [raw/vocab-inbox.md]
 
 ## 进度
 
-- 词条：**11**（new 11 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
-- 待处理：inbox 暂无积压（五批共 11 词已编译，均出自《Mattering》）
-- 词条（11）：[[deplete]]、[[off-kilter]]、[[unravel]]、[[turquoise]]、[[flurry]]、[[nook]]、[[counterweight]]、[[disconcert]]、[[hospice]]、[[decor]]、[[unto]]
-- 待回补：[[unto]] 的词源细节未对照 etymonline（2026-10-01 会话网络受限，已标待验证）；其余 10 词编译时均已对照核实
+- 词条：**12**（new 12 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
+- 待处理：inbox 暂无积压（六批共 12 词已编译，均出自《Mattering》）
+- 词条（12）：[[deplete]]、[[off-kilter]]、[[unravel]]、[[turquoise]]、[[flurry]]、[[nook]]、[[counterweight]]、[[disconcert]]、[[hospice]]、[[decor]]、[[unto]]、[[endometriosis]]
+- 待回补（联网后）：[[unto]] 与 [[endometriosis]] 的词源细节未对照 etymonline / 医学词典（2026-10-01 会话网络受限，已标待验证）；其余 10 词编译时均已对照核实
 
 ## 怎么用
 
@@ -50,6 +50,7 @@ sources: [raw/vocab-inbox.md]
 （暂无已建页面——出现值得综合的词族、易混对或主题簇时在此登记，并链到对应页面）
 
 - **候选（2026-10-01）**：「直到 / 到」虚词簇 **unto · until · till**——三者同出日耳曼语「直到」义（un- ← 哥特语 und），中古英语中 unto 与 until 一度同义；待 until、till 收词后建一页对照（含 unto / onto 拼写易混）。当前已在 [[unto]] 词条内先行记录
+- **候选（2026-10-01）**：**希腊医学构词零件**（endo- / metr- / hyster- / -osis / -itis）——由 [[endometriosis]] 触发的可复用零件库：拆得动 endometriosis，就同时拿下 endometritis、adenomyosis、myometrium、hysterectomy 等一串词（含 -osis 病名 vs -itis 炎症的易混）。词条尚未收词，先登记；愿建页就说一声
 
 ## 开放问题
 

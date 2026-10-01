@@ -151,3 +151,13 @@
 - 易混提示：unto / to / until / onto（unto↔onto 仅差一字母）
 - **备注（环境限制）**：本会话出网被整体 sinkhole（所有域名解析至保留段 198.18.0.0/15，`web_fetch` 全线失败），etymonline / Wiktionary **无法访问**——词源按既有知识撰写，「成词机制（un-+to 复合 vs. until 类推）」与「印欧语更早来源」已标**待验证**；恢复联网后应回补 etymonline 核对（词条与 hub 均已记该待办）
 - 更新：[[english-vocabulary]]（进度 10→11、新增待回补项、词族候选 unto/until/till）、`index.md`（Stats：vocab 10→11）
+
+## [2026-10-01] ingest | vocab: 第六批 1 词（endometriosis）
+
+- 来源：`raw/vocab-inbox.md`（《Mattering》）→ src/mattering；去重跳过 11 词
+- 新建词条 1 个：[[endometriosis]]（首个非通用语域词条；新增 `domain/medical` 标签，为该词条判断——若与 hub 的「工作/专业领域」约定不符可撤）
+- 词源要点：**endometriosis**＝endometrium（19 世纪解剖学术语：endo- 希腊「在内」+ metr- 希腊 mētra「子宫」+ -ium）再挂希腊病理后缀 -osis；字面「内膜的病变状态」；一般追溯到 John A. Sampson（1927）命名——**待验证**（无网络）
+- 易混要点：endometritis（-itis 炎症，一字之差）、adenomyosis（内膜进肌层）、endometrium（正常内膜）；同族 metr- 与 hyster- 两套「子宫」词根
+- **备注（环境限制）**：出网仍被 sinkhole（198.18.0.0/15），etymonline / 医学词典不可达；「1927 年 Sampson 造词」标待验证，与 [[unto]] 一并留待联网回补
+- **顺带发现的仓库杂物**：根目录出现空文件 `other-word.md`（2026-10-01 12:47 生成）——成因是 `templates/vocab.md` 里作占位示例的 wikilink `[[other-word]]` 被点击后由 Obsidian 自动建note。未删除（schema 规则 4：不静默删页），待用户定夺；建议把模板与 hub 中的该占位改为反引号 `other-word` 以免再生
+- 更新：[[english-vocabulary]]（进度 11→12、待回补项并入本词、新增「希腊医学构词零件」词族候选）、`index.md`（Stats：vocab 11→12）
