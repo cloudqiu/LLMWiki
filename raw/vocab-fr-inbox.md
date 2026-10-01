@@ -15,7 +15,22 @@ detective -- Duolingo
 il y a
 environ
 mot
-neuveaux
+nouveaux
 auteur
 connais
 court
+presentatrice
+presentateur
+certain
+trouve
+emission
+decouvert
+incroyable
+deja
+vu
+litterature
+moderne
+autrice
+prendre
+ca
+

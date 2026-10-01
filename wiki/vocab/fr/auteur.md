@@ -18,6 +18,8 @@ root: "拉丁 auctor「创造者、发起人」← augere「增加」"
 
 # auteur
 
+> 收录说明：本批 inbox 另收 `autrice`（阴性形式）——按「词形变化归并同一 lemma」并入本页，阴性见「形态要点」；autrice 是 2010 年代法国「回归阴性施事形式」运动中被重新倡导的写法（较 auteure 更有词源依据，回归拉丁 auctrix）。
+
 **释义**：作者、著者；（作品、计划的）发起人；责任人（l'auteur d'un crime 作案者） ｜ personne qui a fait une œuvre ; celui/celle qui est à l'origine de qqch
 
 **例句**

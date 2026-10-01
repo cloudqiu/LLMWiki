@@ -242,3 +242,13 @@
 - 英法交叉要点（本批亮点，借入 vs 共祖样本）：**new（共祖）vs novel（古法语借入）**；**know / can（共祖）vs connoisseur（法语借入，1714）**；**auteur / author 双重借入（doublet）**；**environs / environment ← 法语**；**bon mot / mot juste ← 法语**；**curt 拉丁直借 vs court 经古法语（借的是 cour，另一词源）**
 - 更新：[[french-vocabulary]]（进度 5→12、待回补 12 条、词族候选 ×3：connaître/savoir、court·cour·cours、nouveau·neuf·récent+new/novel）、`index.md`（Stats：fr 5→12，总 29）
 - **备注（环境限制）**：出网仍被 sinkhole（复测 cnrtl.fr 解析 198.18.0.132），法语词源核对债务累计 **12** 条，待联网一并清账
+
+## [2026-10-01] ingest | vocab-fr: 第四批 14 条 → 12 词条（présentateur / certain / trouver / émission / découvrir / incroyable / déjà / voir / littérature / moderne / prendre / ça）
+
+- 来源：`raw/vocab-fr-inbox.md` → src/duolingo（本批 inbox **未标注出处**——推断 Duolingo，**待确认**）；去重跳过 12 条（前 12 均已编译）
+- 新建词条 12 条：[[presentateur]]、[[certain]]、[[trouver]]、[[emission]]、[[decouvrir]]、[[incroyable]]、[[deja]]、[[voir]]、[[litterature]]、[[moderne]]、[[prendre]]、[[ca]]；另补 [[auteur]]（并入 `autrice`）
+- **lemma / 归并**：`presentateur` + `presentatrice` 合并为 [[presentateur]]（-teur/-trice 阴性格配，一页承载）；`autrice` 并入 [[auteur]]（阴性形式）；`trouve`→[[trouver]]、`decouvert`→[[decouvrir]]、`vu`→[[voir]]（动词变位形式归不定式）；`deja`/`emission`/`litterature` 补重音、`ca` 补软音符
+- 词源要点：**trouver**＝通俗拉丁 *tropare「作诗寻章」← 希腊 tropos——「找到」由「寻得妙句」泛化；**émission**＝拉丁 emittere（ex- 出 + mittere 送）——「节目」义英语没有（**faux ami**）；**déjà**＝des ja（dès + 拉丁 jam「已经」）——与 jamais 同根反义；**voir**＝拉丁 videre ← PIE \*weid-（看/知一体两面）；**prendre**＝拉丁 prehendere「抓」——一「抓」串起拿/吃/乘/花五义；**ça**＝cela 的口语缩合
+- 英法交叉亮点：**trove**（= 法语 trouvé）← treasure trove；**discover / cover / covert** ← 古法语 descovrir/covrir；**déjà vu** ← 法语（1903）；**view / voyeur** ← 法语 veoir/voir；**entrepreneur / surprise（-prise = 抓）**；**modern ← 法语 moderne**
+- 更新：[[french-vocabulary]]（进度 12→24、待回补 24 条、词族候选 ×3：prehendere「抓」、videre「看/知」、credere「信」）、`index.md`（Stats：fr 12→24，总 41）
+- **备注（环境限制）**：出网仍被 sinkhole（复测 cnrtl.fr 198.18.0.132、etymonline 198.18.0.112），法语词源核对债务累计 **24** 条
