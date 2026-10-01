@@ -89,3 +89,9 @@
 - 首次执行 §3.4 词汇编译流程；更新 [[english-vocabulary]]（进度 0→3 + 最近入库）、`index.md`（Stats）
 - 备注：例句为 LLM 生成；词源细节（kilter 词源不明、ravel 荷兰语来源）已在词条内说明
 - 待办：SRS 插件仍未装（见 hub 开放问题）；随积累考虑词族 / 易混综合页
+
+## [2026-10-01] query | vocab 测验 #1（deplete / off-kilter / unravel）
+
+- 首次复习测验：Claude 出题 9 道（填空 3 / 英译中 2 / 中译英 2 / 短语 1 / 辨析 1），对话内作答
+- 产物落盘：`output/2026-10-01-vocab-quiz-01.md`（含答案解析与作答记录区）；index.md Outputs 区首条 + Stats（Outputs 0→1）
+- 评分结果随后记入产物文件（不改历史条目）
