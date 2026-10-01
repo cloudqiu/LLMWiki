@@ -20,10 +20,10 @@ sources: [raw/vocab-inbox.md]
 
 ## 进度
 
-- 词条：**12**（new 12 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
-- 待处理：inbox 暂无积压（六批共 12 词已编译，均出自《Mattering》）
-- 词条（12）：[[deplete]]、[[off-kilter]]、[[unravel]]、[[turquoise]]、[[flurry]]、[[nook]]、[[counterweight]]、[[disconcert]]、[[hospice]]、[[decor]]、[[unto]]、[[endometriosis]]
-- 待回补（联网后）：[[unto]] 与 [[endometriosis]] 的词源细节未对照 etymonline / 医学词典（2026-10-01 会话网络受限，已标待验证）；其余 10 词编译时均已对照核实
+- 词条：**15**（new 15 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
+- 待处理：inbox 暂无积压（七批共 15 词已编译，均出自《Mattering》）
+- 词条（15）：[[deplete]]、[[off-kilter]]、[[unravel]]、[[turquoise]]、[[flurry]]、[[nook]]、[[counterweight]]、[[disconcert]]、[[hospice]]、[[decor]]、[[unto]]、[[endometriosis]]、[[sew]]、[[competent]]、[[faucet]]
+- **待回补（联网后）**：[[unto]]、[[endometriosis]]、[[sew]]、[[competent]]、[[faucet]] 5 词未对照 etymonline / 医学词典（2026-10-01 会话出网被 sinkhole，已逐条标「待验证」）；其余 10 词编译时均已对照核实。**核对债务在累积**——`web_fetch` 对全部域名失败（DNS 解析至保留段 198.18.0.0/15），需恢复出网后才能一次性清账
 
 ## 怎么用
 
@@ -51,6 +51,7 @@ sources: [raw/vocab-inbox.md]
 
 - **候选（2026-10-01）**：「直到 / 到」虚词簇 **unto · until · till**——三者同出日耳曼语「直到」义（un- ← 哥特语 und），中古英语中 unto 与 until 一度同义；待 until、till 收词后建一页对照（含 unto / onto 拼写易混）。当前已在 [[unto]] 词条内先行记录
 - **候选（2026-10-01）**：**希腊医学构词零件**（endo- / metr- / hyster- / -osis / -itis）——由 [[endometriosis]] 触发的可复用零件库：拆得动 endometriosis，就同时拿下 endometritis、adenomyosis、myometrium、hysterectomy 等一串词（含 -osis 病名 vs -itis 炎症的易混）。词条尚未收词，先登记；愿建页就说一声
+- **候选（2026-10-01）**：**同音易混簇 sew · sow · so**（均读 /səʊ/，拼写高发错点）——[[sew]] 已收词，sow / so 未收；再遇同音簇可合并建一页拼写辨析（每词条内已先记录）
 
 ## 开放问题
 

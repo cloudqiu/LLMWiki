@@ -161,3 +161,14 @@
 - **备注（环境限制）**：出网仍被 sinkhole（198.18.0.0/15），etymonline / 医学词典不可达；「1927 年 Sampson 造词」标待验证，与 [[unto]] 一并留待联网回补
 - **顺带发现的仓库杂物**：根目录出现空文件 `other-word.md`（2026-10-01 12:47 生成）——成因是 `templates/vocab.md` 里作占位示例的 wikilink `[[other-word]]` 被点击后由 Obsidian 自动建note。未删除（schema 规则 4：不静默删页），待用户定夺；建议把模板与 hub 中的该占位改为反引号 `other-word` 以免再生
 - 更新：[[english-vocabulary]]（进度 11→12、待回补项并入本词、新增「希腊医学构词零件」词族候选）、`index.md`（Stats：vocab 11→12）
+
+## [2026-10-01] ingest | vocab: 第七批 3 词（sew / competent / faucet）
+
+- 来源：`raw/vocab-inbox.md`（《Mattering》）→ src/mattering；去重跳过 12 词
+- 新建词条 3 个：[[sew]]、[[competent]]、[[faucet]]
+- 词源要点：**sew**＝古英语 siwian ← 原始日耳曼语 \*siwjanan ← PIE \*syu-「缝、绑」，同族 seam / suture / couture，本族词故拼写与变化不规则；**competent**＝拉丁 com-「共同」+ petere「追求」→ competere「共同争取、相合」→「够得上标准」，与 compete/competition 同根，同族 petition / appetite / impetus / repeat（PIE \*pet-），另有法律义「有管辖权的、有行为能力的」（competent authority）；**faucet**＝古法语 fausset「塞子、龙头」← fausser「弄坏」← 拉丁 falsus「假的」（false/fail/fault 家族），约 1400 年入英语，原指酒桶取酒塞嘴
+- 易混要点：**sew / sow / so 三词同音 /səʊ/**（拼写高发错点，已登记词族候选）；competent vs qualified / capable / proficient（并记「merely competent」的贬义语用）；**faucet（美） vs tap（英）**，拼读 au=/ɔː/、-et=/ɪt/
+- **备注（环境限制）**：出网仍被 sinkhole（先 `Resolve-DnsName` 复测确认解析仍指向 198.18.0.0/15，`Invoke-WebRequest` 与 `web_fetch` 均失败），etymonline 不可达——三词的年代/理据细节逐条标「待验证」
+- **核对债务**：待回补清单累计 5 词（unto / endometriosis / sew / competent / faucet），已在 hub 显式标记「债务在累积」，待恢复出网后一次性清账
+- 更新：[[english-vocabulary]]（进度 12→15、待回补清单列全、新增同音簇词族候选）、`index.md`（Stats：vocab 12→15）
+- **更正上一条（第六批）**：占位 wikilink `[[other-word]]` **只存在于 `templates/vocab.md:30`**，hub 页并无该占位（已 grep 全库确认）——上条「模板与 hub 中的该占位」表述有误，修正为仅模板；`other-word.md` 已从磁盘消失（用户清理），无需再处理
