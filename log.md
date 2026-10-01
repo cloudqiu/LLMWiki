@@ -118,3 +118,11 @@
 - 机制核对（官方文档 stephenmwangi.com）：多行卡 `?` / 双向 `??`，两侧可多行、须「贴合」分隔行；卡片只渲染卡内文本，不自动带出页面其它段落——故将词源摘要写入卡背
 - 变更：3 个词条闪卡改为多行双向卡（背面＝释义＋词源摘要＋同族/联想）；templates/vocab.md、CLAUDE.md §3.4 与 §7（v1.4.2）、hub 结构约定同步
 - 备注：旧卡无复习历史（scheduleData 为空），重构无损失；如需主动测验词源可另加挖空卡（`==…==`），暂不默认
+
+## [2026-10-01] ingest | vocab: 第二批 3 词（turquoise / flurry / nook）
+
+- 来源：`raw/vocab-inbox.md`；均出自《Mattering》→ `src/mattering`；去重跳过已编译的 3 词（deplete / off-kilter / unravel）
+- 新建词条 3 个：[[turquoise]]、[[flurry]]、[[nook]]——按 v1.4.1 标准（词源对照 etymonline）+ v1.4.2 卡格式（多行双向卡，卡背含词源）
+- 词源要点：**turquoise**＝法语「土耳其石」（取道土耳其传入欧洲，实产波斯）；**flurry**＝1690s「一阵疾风」，来源不确定（疑拟声）；**nook**＝c.1300「角落」，来源不明（或古诺斯语 nokke）
+- 更新：[[english-vocabulary]]（进度 3→6，词条列表全列）、`index.md`（Stats）
+- 待办：无积压；SRS 已装、可开始首刷（词条已达 6 个，够刷一轮）

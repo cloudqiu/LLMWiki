@@ -9,3 +9,6 @@ Claude 只读本文件、从不改写内容；处理时说一句「ingest vocab�
 deplete -- From the book "Mattering"
 off-kilter -- From the book "Mattering"
 unraveling -- From the book "Mattering"
+turquoise -- From the book "Mattering"
+flurry -- From the book "Mattering"
+nook -- From the book "Mattering"
