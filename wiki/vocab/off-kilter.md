@@ -34,7 +34,11 @@ root: "kilter（词源不明）"
 
 ## 闪卡 #flashcards
 
-off-kilter::: adj. 失去平衡的；不对劲的、失常的
+off-kilter
+??
+**adj.** 失去平衡的；不对劲的、失常的
+**词源**：off-（偏离常规）+ kilter（正常状态；来源不明，1620s 始见 out of kilter）
+**联想**：off-key / offbeat / off-grid
 
 ## 来源
 

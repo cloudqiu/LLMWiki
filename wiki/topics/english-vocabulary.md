@@ -41,7 +41,7 @@ sources: [raw/vocab-inbox.md]
 
 - 词条路径：`wiki/vocab/<word>.md`（小写 lemma；**不逐条进 index.md**）
 - 标签：`src/<来源>`（如 src/reading、src/书名-slug，标注在哪读到的）、`domain/<领域>`（如 domain/tech、domain/finance，工作/专业领域）——按需取用
-- 闪卡：词条「闪卡」小节内 `word:::释义`（`:::` = 双向卡），小节标题带 `#flashcards` 标签——插件凭此发现卡片；如需按来源分子牌组，可用 `#flashcards/<子牌组>`（如 #flashcards/mattering）
+- 闪卡：词条「闪卡」小节内**多行双向卡**（`word` ⏎ `??` ⏎ 释义＋词源摘要的背面），小节标题带 `#flashcards` 标签——插件凭此发现卡片、复习时同屏显示词源；如需按来源分子牌组，可用 `#flashcards/<子牌组>`（如 #flashcards/mattering）
 - 发现方式：全库按标签自动发现（卡片集中在 `wiki/vocab`）
 
 ## 词族 / 综合页

@@ -34,7 +34,11 @@ root: "de- + plēre（拉丁「填满」；PIE *pele-）"
 
 ## 闪卡 #flashcards
 
-deplete::: v. 大量消耗；耗尽（资源、精力）
+deplete
+??
+**v.** 大量消耗；耗尽（资源、精力）
+**词源**：de-（去掉）+ plēre（拉丁「填满」）＝倒空（字面 un-fill）；1807 由 depletion 反向构词
+**同族**：complete / replete / supplement / implement
 
 ## 来源
 

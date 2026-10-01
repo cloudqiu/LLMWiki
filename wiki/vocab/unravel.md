@@ -35,7 +35,11 @@ root: "un- + ravel（荷兰语 ravelen：缠结/拆散）"
 
 ## 闪卡 #flashcards
 
-unravel::: v. 解开（线/谜团）；（计划、局面）瓦解、崩溃
+unravel
+??
+**v.** 解开（线/谜团）；（计划、局面）瓦解、崩溃
+**词源**：un-（反向）+ ravel（荷兰语 ravelen 缠结）；ravel 与 unravel 既同义又反义
+**拼写**：美 unraveled/unraveling ｜ 英 unravelled/unravelling
 
 ## 来源
 
