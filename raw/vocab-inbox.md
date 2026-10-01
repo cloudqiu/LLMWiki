@@ -5,3 +5,7 @@
 Claude 只读本文件、从不改写内容；处理时说一句「ingest vocab」。
 已编译词条 → wiki/vocab/；进度与约定 → wiki/topics/english-vocabulary。
 -->
+
+deplete -- From the book "Mattering"
+off-kilter -- From the book "Mattering"
+unraveling -- From the book "Mattering"

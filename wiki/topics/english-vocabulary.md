@@ -20,8 +20,9 @@ sources: [raw/vocab-inbox.md]
 
 ## 进度
 
-- 词条：**0**（new 0 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
-- 待处理：inbox 中暂无积压
+- 词条：**3**（new 3 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
+- 待处理：inbox 暂无积压（首批：《Mattering》3 词已编译）
+- 最近入库（2026-10-01）：[[deplete]]、[[off-kilter]]、[[unravel]]
 
 ## 怎么用
 
