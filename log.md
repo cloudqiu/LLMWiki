@@ -172,3 +172,20 @@
 - **核对债务**：待回补清单累计 5 词（unto / endometriosis / sew / competent / faucet），已在 hub 显式标记「债务在累积」，待恢复出网后一次性清账
 - 更新：[[english-vocabulary]]（进度 12→15、待回补清单列全、新增同音簇词族候选）、`index.md`（Stats：vocab 12→15）
 - **更正上一条（第六批）**：占位 wikilink `[[other-word]]` **只存在于 `templates/vocab.md:30`**，hub 页并无该占位（已 grep 全库确认）——上条「模板与 hub 中的该占位」表述有误，修正为仅模板；`other-word.md` 已从磁盘消失（用户清理），无需再处理
+
+## [2026-10-01] schema | v1.5 词汇系统支持多词单位（短语动词 / 习语）
+
+- 触发：本批 inbox 收进 `wore on`、`in sight`——**首次出现多词单位**，而 §3.4 原文只写「每词一页 `wiki/vocab/<word>.md`」，无命名与 lemma 依据；为免 wiki 层自行发明约定而无 schema 支撑，当批一并立规
+- 新规：多词单位同样每词条一页——文件名空格换连字符 kebab-case（`wear-on.md`、`in-sight.md`）；frontmatter `word` 保留空格原形（`"wear on"`）；**lemma 取词典 headword，不取遇到形式**（`wore on` → `wear on`，同 `unraveling` → [[unravel]] 之例）；pos 标 `phr. v.` / `idiom`；建页前先查近形页（`in-sight` vs `insight`、`wear-on` vs `wear`）
+- 同步：`CLAUDE.md` §3.4 第 2 步 + §7 追加 v1.5；hub「结构约定」加多词条款与「同名陷阱」提示
+- 备注：本变更**源自用户收词行为本身，非用户显式请求**——已在 §7 注明「如不认可可回退」，等用户表态
+
+## [2026-10-01] ingest | vocab: 第八批 2 条（wear on / in sight）——首批多词词条
+
+- 来源：`raw/vocab-inbox.md`（《Mattering》）→ src/mattering；去重跳过 15 条
+- 新建词条 2 条：[[wear-on]]（遇到形式 `wore on`）、[[in-sight]]
+- 词源要点：**wear on**＝wear（古英语 werian「穿、佩戴」← 原始日耳曼语 \*wazjanan ← PIE \*wes-「穿衣」，同族 vest / invest / vestment）＋ on（小品词，表「继续下去」，同 go on / read on / carry on）——「时间继续往前磨」；**in sight**＝in + sight（古英语 sihþ ← 日耳曼语 \*sihtiz ← PIE \*sekʷ-「看」，同族 see / insight / foresight / hindsight）；「临近、在望」义＝目标进入视野的隐喻（故 no end in sight ＝ 尽头不在视野里）
+- 易混要点：**wear + 小品词四兄弟** on / off / out / down（含义相去甚远）；**in sight vs insight（只差一个空格！）**、on sight（一见就，shoot on sight）、out of sight、at sight；各登记一条词族候选
+- **备注（环境限制）**：出网仍被 sinkhole（复测解析仍为 198.18.0.0/15），两词细节标「待验证」；待回补清单累计 **7** 条
+- 更新：[[english-vocabulary]]（进度 15→17、结构约定加多词条款、两条词族候选）、`index.md`（Stats：vocab 15→17）、`CLAUDE.md`（v1.5）
+- 另注：根目录出现 `Untitled.canvas`（2 字节，内容 `{}`）——Obsidian 空画布残留；未删除（不静默删用户文件）、未入库，待用户定夺

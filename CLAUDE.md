@@ -104,7 +104,7 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 词汇系统的收词与编译。用户持续收词：追加到 `raw/vocab-inbox.md`（用户专用，Claude 只读），或在会话中口述（Claude 先将其**原样**记入 `raw/vocab-capture-YYYY-MM-DD.md` 再编译，保持可追溯）。用户说「ingest vocab」时执行：
 
 1. 读 inbox / 捕获文件，与 `wiki/vocab/` 现有词条**去重**（词形变化归并到同一 lemma）；已存在的词只补充不重复建页。
-2. 批量编译（每批 20-50 词）：每词一页 `wiki/vocab/<word>.md`（依据 `templates/vocab.md`）——IPA、词性、双语释义、例句（含翻译）、词源/构词（词头·词根·词尾拆解、来源与演变、同族/派生；词源细节对照 etymonline 等权威源核实）、同义/搭配/易混；不确定信息标「待验证」。内嵌闪卡：**多行双向卡**（`word`、`??`、释义＋词源摘要的背面），复习时卡背同屏显示词源。
+2. 批量编译（每批 20-50 词）：每词一页 `wiki/vocab/<word>.md`（依据 `templates/vocab.md`）——IPA、词性、双语释义、例句（含翻译）、词源/构词（词头·词根·词尾拆解、来源与演变、同族/派生；词源细节对照 etymonline 等权威源核实）、同义/搭配/易混；不确定信息标「待验证」。内嵌闪卡：**多行双向卡**（`word`、`??`、释义＋词源摘要的背面），复习时卡背同屏显示词源。**多词单位**（短语动词、习语）同样每词条一页：文件名换成连字符 kebab-case（`wear-on.md`、`in-sight.md`），frontmatter 的 `word` 保留空格原形，lemma 取词典 headword 而非遇到形式（`wore on` → `wear on`）；pos 标 `phr. v.` / `idiom` 等。建页前先检查近形页（`in-sight` 与 `insight`、`wear-on` 与 `wear` 只差一个连字符）。
 3. 出现值得综合的词族 / 易混对 / 主题簇时，建立或更新对应页面（concepts/ 或 topics/），补交叉链接。
 4. 更新 hub 页 [[english-vocabulary]]：词条计数与待处理清单（**词条不逐条进 `index.md`**）。
 5. 追加 log：`## [YYYY-MM-DD] ingest | vocab: <批次摘要>`。
@@ -153,3 +153,4 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 - **[2026-10-01]** v1.4：新增词汇系统——`wiki/vocab/`（type: vocab，每词一页）、`templates/vocab.md`、hub 页 [[english-vocabulary]]、收件箱 `raw/vocab-inbox.md`；§3 新增「3.4 Vocab 词汇编译」工作流；§4 增 vocab 例外与 Stats 行格式（源自 query：用户词汇管理需求）。
 - **[2026-10-01]** v1.4.1：词条富化标准升级——「词根/词族」小节扩展为「词源/构词」（词头·词根·词尾拆解、来源与演变、同族/派生、记忆钩），并规定词源细节对照 etymonline 等权威源核实；模板与 §3.4 同步（用户请求：深挖每个词的词源要素）。
 - **[2026-10-01]** v1.4.2：词条闪卡格式升级——单行卡 `word:::释义` 改为**多行双向卡**（`??`，背面＝释义＋词源摘要），复习同屏可见词源；模板、hub 约定与 §3.4 同步（用户请求：闪卡显示词源深挖内容）。
+- **[2026-10-01]** v1.5：词汇系统支持**多词单位**（短语动词 / 习语）——起因是 inbox 收进 `wore on`、`in sight`，而 §3.4 原只写「每词一页」。规定：文件名连字符 kebab-case、`word` 保留空格原形、lemma 取 headword 而非遇到形式（`wore on` → `wear on`）、pos 标 `phr. v.` / `idiom`、建页前查近形页（`in-sight` vs `insight`）。§3.4 第 2 步同步；hub「结构约定」同步（源自用户收词行为本身，非用户显式请求——如不认可可回退）。
