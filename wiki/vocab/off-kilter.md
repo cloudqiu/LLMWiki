@@ -28,7 +28,7 @@ root: "kilter（词源不明）"
 - 搭配：`out of kilter`（= off-kilter，出故障/不对劲）、`throw sb/sth off-kilter`（打乱常态）、`feel off-kilter`
 - 易混：**off-balance**（偏物理「失衡」）、**askew / awry**（偏「歪斜、出岔子」）；off-kilter 的比喻义（状态不对劲）在书评、文化评论里很常见
 
-## 闪卡
+## 闪卡 #flashcards
 
 off-kilter::: adj. 失去平衡的；不对劲的、失常的
 

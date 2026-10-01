@@ -28,14 +28,21 @@ sources: [raw/vocab-inbox.md]
 
 1. **收词**：把生词追加到 `raw/vocab-inbox.md`（一行一个，可附来源/例句）；或在会话中口述「这批词：…」——Claude 先**原样**记入 `raw/vocab-capture-YYYY-MM-DD.md` 再编译。
 2. **编译**：说「ingest vocab」→ 去重、逐词建/更新词条（每批 20-50 词）、更新本页、记 log。
-3. **复习**：SRS 插件每日刷卡（扫描范围含 `wiki/vocab`）；想测验就说「考我：最近 20 个 new 词」→ Claude 出题（cloze / 翻译 / 辨析），产物落 `output/`。
+3. **复习**：已装 SRS（见下节）——每日 `Ctrl+P → "Review Flashcards from all notes"` 刷卡；想测验就说「考我：最近 20 个 new 词」→ Claude 出题（cloze / 翻译 / 辨析），产物落 `output/`（示例：[[2026-10-01-vocab-quiz-01]]）。
+
+## SRS（复习层，已装）
+
+- 插件：**Spaced Repetition v1.15.4**（st3v3nmw；2026-10-01 安装并启用）
+- 当前配置（安装默认值，与本库约定一致）：闪卡标签 `#flashcards` ｜ 单行卡 `::`、双向卡 `:::` ｜ 算法 SM-2-OSR（插件设置里可切 **FSRS**）
+- 排程数据：`dataStore = NOTES`——复习后插件的排程信息会以 `<!--SR:…-->` 注释写进词条笔记（正常现象，git 中会见到此类小改动）
+- 入口：`Ctrl+P` → "Review Flashcards from all notes"；或侧边栏复习队列（启动时自动打开）
 
 ## 结构约定
 
 - 词条路径：`wiki/vocab/<word>.md`（小写 lemma；**不逐条进 index.md**）
 - 标签：`src/<来源>`（如 src/reading、src/书名-slug，标注在哪读到的）、`domain/<领域>`（如 domain/tech、domain/finance，工作/专业领域）——按需取用
-- 闪卡：词条内 `word:::释义`（Spaced Repetition 插件兼容；`:::` = 双向卡）
-- 插件扫描范围：`wiki/vocab`
+- 闪卡：词条「闪卡」小节内 `word:::释义`（`:::` = 双向卡），小节标题带 `#flashcards` 标签——插件凭此发现卡片；如需按来源分子牌组，可用 `#flashcards/<子牌组>`（如 #flashcards/mattering）
+- 发现方式：全库按标签自动发现（卡片集中在 `wiki/vocab`）
 
 ## 词族 / 综合页
 
@@ -43,7 +50,6 @@ sources: [raw/vocab-inbox.md]
 
 ## 开放问题
 
-- **SRS 插件选型（待装）**：Spaced Repetition（经典，生态兼容最广，卡片语法即本库所用）vs LearnKit / EngramQuest（FSRS 新算法）vs 语言学习专用（English Vocabulary Learning Plugin、Klomimory）。选定后在此记录配置。
 - 例句来源：当前为 LLM 生成 + 待验证标记；是否引入词典核对流程？
 - Dataview（未装）：装上后本页可改为动态统计表（按 learning / tags 查询）。
 

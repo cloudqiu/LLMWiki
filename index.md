@@ -51,7 +51,6 @@
 - Marp 幻灯片 / Dataview 查询用法（工具用法页）
 - 搜索方案：qmd 集成评估（wiki 规模增长后再做）
 - （评估）raw/ 子目录化（articles / papers）——待来源规模增长后再议（output/ 落盘已于 2026-10-01 采纳，见 schema v1.3）
-- SRS 插件选型与安装（Spaced Repetition / LearnKit）——见 [[english-vocabulary]] 开放问题
 
 ## Stats
 

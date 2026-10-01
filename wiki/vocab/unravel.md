@@ -28,7 +28,7 @@ root: "un- + ravel（中古荷兰语 ravelen：纠结/拆散）"
 - 搭配：`unravel a mystery / the truth / a plot`；主语常为 plans / deal / relationship / life（局面「土崩瓦解」）
 - 易混：**unfold**（展开、逐渐明朗，中性）；**fall apart**（口语，偏「散架」）；与作曲家 Ravel（拉威尔）无词源关系
 
-## 闪卡
+## 闪卡 #flashcards
 
 unravel::: v. 解开（线/谜团）；（计划、局面）瓦解、崩溃
 

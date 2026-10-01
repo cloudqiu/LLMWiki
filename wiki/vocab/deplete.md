@@ -28,7 +28,7 @@ root: "de- + -plet-（拉丁 plēre：填满）"
 - 搭配：deplete resources / reserves / stocks / energy；常用被动 `be depleted of`；`depleted uranium`（贫铀）
 - 易混：**exhaust** 更常指「使（人）精疲力尽」或彻底用尽；deplete 多接资源类名词，且常用被动
 
-## 闪卡
+## 闪卡 #flashcards
 
 deplete::: v. 大量消耗；耗尽（资源、精力）
 

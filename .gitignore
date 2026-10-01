@@ -2,6 +2,11 @@
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
+# Obsidian 社区插件：入库启用清单与设置（community-plugins.json、manifest.json、data.json），
+# 插件本体不入库（可从社区商店重装）
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+
 # 系统文件
 Thumbs.db
 .DS_Store
