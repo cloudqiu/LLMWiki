@@ -20,10 +20,10 @@ sources: [raw/vocab-fr-inbox.md]
 
 ## 进度
 
-- 词条：**1**（new 1 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
-- 待处理：inbox 暂无积压（首批 1 条已编译，出自 Duolingo）
-- 词条（1）：[[gouvernement]]
-- **待回补（联网后）**：[[gouvernement]] 共 **1** 条未对照 CNRTL（「12 世纪首见」等年代细节标「待验证」）；法语词源一律以 CNRTL/TLFi 为准
+- 词条：**5**（new 5 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
+- 待处理：inbox 暂无积压（两批共 5 条已编译，均出自 Duolingo）
+- 词条（5）：[[gouvernement]]、[[cathedrale]]、[[patissier]]、[[chapitre]]、[[detective]]
+- **待回补（联网后）**：[[gouvernement]]、[[cathedrale]]、[[patissier]]、[[chapitre]]、[[detective]] 共 **5** 条未对照 CNRTL（年代与借入路径细节逐条标「待验证」）；法语词源一律以 CNRTL/TLFi 为准
 
 ## 怎么用
 
@@ -60,7 +60,7 @@ sources: [raw/vocab-fr-inbox.md]
   理由：Obsidian 按 basename 解析链接，而 é / œ 存在 NFC/NFD 两种编码——ASCII 化杜绝重影页面。
 
 - **命名消歧**（basename 必须**全库唯一**；建页前先扫全库，含 `templates/`——`concept.md`、`source.md` 等本身就是法语词）：
-  - 跨语言同名（décor / decor、hospice、turquoise、compétent / competent）：法语页加 `-fr`（`decor-fr.md`），两页互链
+  - 跨语言同名（décor / decor、hospice、turquoise、compétent / competent；反向例 [[detective]]）：**后建页者**加语言后缀——法语后建用 `-fr`（`decor-fr.md`）、英语后建用 `-en`（`detective-en.md`），两页互链
   - 同语言近形（ou / où、a / à、la / là、sur / sûr、du / dû、cote / côte / coté）：**一律先用带词性后缀的名字**（`ou-conj.md` / `ou-adv.md`），避免「先到先得」的任意性，并登记下表
   - **Windows 保留名**（con / prn / aux / nul / com1-9 / lpt1-9）加后缀（`con-adj.md`、`aux-prep.md`）
 - 标签：`src/<来源>`、`domain/<领域>`；语言由 frontmatter `lang: fr` 标记
@@ -72,13 +72,17 @@ sources: [raw/vocab-fr-inbox.md]
 
 | 页面 | 原形 | 说明 |
 | --- | --- | --- |
-| （空——触发消歧时在此登记） | | |
+| [[detective]]（法语） | detective | 英语 detective 若日后收词建页，按「后建者加语言后缀」规则记为 `detective-en.md`，两页互链 |
 
 ## 词族 / 综合页
 
 （暂无已建页面——出现 faux amis 簇、同音簇、构词零件（-tion / -ment / re- / dé-）或英法同源对（décor ↔ [[decor]]）等值得综合的内容时在此登记）
 
 - **候选（2026-10-01）**：「掌舵」词族 **gouvernement · gouverner · gouverneur · gouvernail · gouvernante · gouvernance**——同出拉丁 gubernare ← 希腊 kybernan「掌舵」，与英语 govern / governor / cybernetics / cyber- 同源；由 [[gouvernement]] 触发，待再收两三词后评估建综合页
+- **候选（2026-10-01）**：**caput「头」词族**（[[chapitre]] · 英语 chief / chef / capital / captain / cape）——chief 与 chef 是英语对同一词源的双重借入；待再收 capitaine / capital 类法语词后评估建页
+- **候选（2026-10-01）**：**cathedra「座」词族**（[[cathedrale]] · 英语 chair / chaise / cathedra）——chair 与 cathedral 同出拉丁 cathedra（双重借入），chairman 的 chair 也在这一线
+- **候选（2026-10-01）**：**pasta「面团」词族**（[[patissier]] · pâte · 英语 pastry / paste / pasta / pâté）——paste 与 pasta 双重借入、pâté 再借入；「一个词根多次进英语」的样本
+- **候选（2026-10-01）**：**英语回借簇（anglicismes）**（[[detective]] 起）——détective 之后若再收 week-end / email / marketing 等，可合并一页「法语里的英语借词」
 
 ## 开放问题
 

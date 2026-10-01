@@ -221,3 +221,14 @@
 - 实装：[[gouvernement]] 新增该小节——英 government / govern / governor / governance ← 古法语本词族（拼写丢 u、词义更宽）；governess 为平行构词；cyber- 共祖非借入；另记「gouvernance 1990 年代从英语回借」待验证
 - 备注：英语词库暂未收录 government 等同源词——如后续收词，两页互链；核对债务（CNRTL / etymonline）仍待联网
 - 更新：`log.md` 本条；词条 `updated` 保持 2026-10-01（同日多次修订）
+
+## [2026-10-01] ingest | vocab-fr: 第二批 4 词（cathédrale / pâtissier / chapitre / détective）
+
+- 来源：`raw/vocab-fr-inbox.md`（Duolingo）→ src/duolingo；去重跳过 gouvernement
+- 新建词条 4 条：[[cathedrale]]、[[patissier]]、[[chapitre]]、[[detective]]——v1.6.1「英法交叉核对」首次批量实装
+- 词源要点：**cathédrale**＝拉丁 cathedra「座椅」（← 希腊 kathedra）——主教之座所在之堂；**pâtissier**＝pâte（← 拉丁 pasta ← 希腊 pastē 麦粥/面团）+ -ier；**chapitre**＝拉丁 capitulum「小头」（caput 的指小）——教会「首脑议事会」义由此；**détective**＝**反向回借**（法 ← 英，约 1907）：英语 detective ← detect ← 拉丁 detegere「揭开」= de- + tegere（盖）
+- 英法交叉要点：**chair 与 cathedral 同为拉丁 cathedra 的双重借入**；**chief / chef** 同为英语对同一词源的双重借入（caput 家族）；paste / pasta / pâté / pastry 同出拉丁 pasta；detect（揭盖）与 protect（盖住）同根反义
+- 异常处理：inbox 首行 `cathedrate`——法语无此词，判定为 **cathédrale** 的拼写变体（**待用户确认**），按 lemma 编译并在词条加「收录说明」；`patissier` / `detective` 为缺重音形式，lemma 按标准拼写（pâtissier / détective）
+- 规则细化：跨语言同名消歧改为「**后建页者**加语言后缀」（原规则只写法语 `-fr`；因 [[detective]] 先建、英语 detective 可能后建，补齐对称情形 `-en`）——同步 §3.4 与 hub 结构约定；[[detective]] 预登入 hub 命名消歧登记表
+- 更新：[[french-vocabulary]]（进度 1→5、待回补 5 条、词族候选 ×4：caput / cathedra / pasta / 英语回借簇）、`index.md`（Stats：fr 1→5，总 22）
+- **备注（环境限制）**：出网仍被 sinkhole（复测 cnrtl.fr 解析仍为 198.18.0.128），年代/路径细节逐条标「待验证」
