@@ -18,7 +18,7 @@ root: "拉丁 novellus「新的、年轻的」（novus「新」的指小词）"
 
 # nouveau
 
-> 收录说明：inbox 里的遇到形式是 **neuveaux**——法语无此词，判定为 **nouveaux**（nouveau 的阳性复数）之拼写笔误，按 lemma **nouveau** 编译（**待用户确认**；若你本意是别的词请告知）。
+> 收录说明：inbox 里的遇到形式最初是 **neuveaux**（法语无此词，判定为 nouveaux 笔误），用户随后已更正为 **nouveaux**——确认归并至 lemma **nouveau** 无误。
 
 **释义**：新的、新出现的、新换的；又一个、另一个（表「另一」）；(n.) 新生、新事物 ｜ récent, qui vient d'apparaître ; un autre
 
@@ -60,5 +60,5 @@ nouveau
 
 ## 来源
 
-- raw/vocab-fr-inbox.md（2026-10-01 收录；出处：inbox 未标注——推断 Duolingo，**待确认**；inbox 形式 `neuveaux`——疑为 nouveaux 笔误）
+- raw/vocab-fr-inbox.md（2026-10-01 收录；出处：inbox 未标注——推断 Duolingo，**待确认**；inbox 形式由 `neuveaux` 更正为 `nouveaux`，确认归并）
 - 备注：本轮出网仍被 sinkhole，CNRTL 不可达——「novellus→nouveau 演变年代」「novel 借入年代」标**待验证**，已登入 [[french-vocabulary]] 待回补清单
