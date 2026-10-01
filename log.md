@@ -202,3 +202,13 @@
 - 待办/风险：① 法语词源核对债务随首批词条起累积（出网被 sinkhole 复测确认，一律标「待验证」，登入 [[french-vocabulary]] 待回补清单）；② 幽灵卡修复需在 Obsidian 中核实牌组数（英语应为 17 词条 / 34 卡）；③ `raw/vocab-inbox.md` 内「→ wiki/vocab/」为历史文本，按 §5 规则 1 不改
 - 另：根目录 `Untitled.canvas`（空画布残留）经用户确认删除；该文件未入库，删除不影响 git 历史
 - 更新：`index.md`（Topics 双 hub、Stats：wiki 页面 16→17、vocab 含 en/fr 分计）、[[english-vocabulary]]（路径、闪卡标签、多词待办句移除、法语互链）、[[personal-knowledge-management]]（页面地图 + 开放问题）
+
+## [2026-10-01] ingest | vocab-fr: 首批 1 词（gouvernement）——法语系统首条词条
+
+- 来源：`raw/vocab-fr-inbox.md`（Duolingo）→ src/duolingo；去重：无既有词条
+- 新建词条 1 条：[[gouvernement]]（法语系统首条，`templates/vocab-fr.md` 首次实装）
+- 词源要点：gouverner + -ment（拉丁 -mentum）← 拉丁 gubernare「掌舵、治国」← 希腊 kybernan「掌舵」——与 gouvernail（舵）、gouverneur、英语 govern / governor / cybernetics 同源（「治国＝掌舵」隐喻）
+- 易混要点：le gouvernement（内阁/行政班子）vs l'État（国家，更广）、la gouvernance（治理）、le régime（政权）；拼读 gou=/ɡu/、-ment=/mɑ̃/
+- **备注（环境限制）**：出网仍被 sinkhole，CNRTL 不可达——「12 世纪首见」等年代细节标「待验证」，登入 [[french-vocabulary]] 待回补清单（法语核对债务开账，共 1 条）
+- 更新：[[french-vocabulary]]（进度 0→1、待回补开账、新增「掌舵」词族候选）、`index.md`（Stats：fr 0→1）
+- 首批观察：v1.6 命名规则（ASCII 转写 / 全库唯一 / Windows 保留名）均未触发消歧——`gouvernement` 无近形与同名冲突

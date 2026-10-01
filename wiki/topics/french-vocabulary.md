@@ -20,9 +20,10 @@ sources: [raw/vocab-fr-inbox.md]
 
 ## 进度
 
-- 词条：**0**（new 0 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
-- 待处理：inbox 暂无积压（等待首批收词）
-- **待回补（联网后）**：暂无——首批词条编译起累积（法语词源一律以 CNRTL/TLFi 为准；出网被 sinkhole 期间一律标「待验证」）
+- 词条：**1**（new 1 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
+- 待处理：inbox 暂无积压（首批 1 条已编译，出自 Duolingo）
+- 词条（1）：[[gouvernement]]
+- **待回补（联网后）**：[[gouvernement]] 共 **1** 条未对照 CNRTL（「12 世纪首见」等年代细节标「待验证」）；法语词源一律以 CNRTL/TLFi 为准
 
 ## 怎么用
 
@@ -74,7 +75,9 @@ sources: [raw/vocab-fr-inbox.md]
 
 ## 词族 / 综合页
 
-（暂无——出现 faux amis 簇、同音簇、构词零件（-tion / -ment / re- / dé-）或英法同源对（décor ↔ [[decor]]）等值得综合的内容时在此登记）
+（暂无已建页面——出现 faux amis 簇、同音簇、构词零件（-tion / -ment / re- / dé-）或英法同源对（décor ↔ [[decor]]）等值得综合的内容时在此登记）
+
+- **候选（2026-10-01）**：「掌舵」词族 **gouvernement · gouverner · gouverneur · gouvernail · gouvernante · gouvernance**——同出拉丁 gubernare ← 希腊 kybernan「掌舵」，与英语 govern / governor / cybernetics / cyber- 同源；由 [[gouvernement]] 触发，待再收两三词后评估建综合页
 
 ## 开放问题
 
