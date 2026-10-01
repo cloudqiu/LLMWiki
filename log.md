@@ -269,3 +269,14 @@
 - 英法交叉亮点：**sound ← 古法语 son**；**friar ← 古法语 frere**（vs brother 共祖）；**search/research ← 古法语 cerchier**；**déodorant ← 英 deodorant（反向回借）**；**jamais vu ← 法语**（déjà vu 的反面）；**inacceptable（法 in-）vs unacceptable（英 un-）平行构词**；**soufflé / gateau / surface / power 各为其法语源词的英语借入**
 - 更新：[[french-vocabulary]]（进度 24→38、待回补 38 条、命名消歧登记表 +sur-prep、词族候选 ×3：capere「拿」、主有词 mon/ton/son、stare「站」）、`index.md`（Stats：fr 24→38，总 55）
 - **备注（环境限制）**：出网仍被 sinkhole（复测 cnrtl.fr 198.18.0.132），法语词源核对债务累计 **38** 条
+
+## [2026-10-01] schema | v1.7 词汇系统迁出 → 独立库 LLMLangWiki
+
+- 触发：用户决定把英语 / 法语词汇系统整体迁出为独立语言专库 `C:\Users\zhenz\Documents\LLMLangWiki`（拼写为用户选定）；词汇今后只在新库维护，避免双份分叉
+- 迁出方式：整仓复制 + SHA256 全量校验（逐字节一致）后，本库以 `git rm` 移除——55 词条（en 17 / fr 38）、hub `english-vocabulary` / `french-vocabulary`、`templates/vocab.md` / `vocab-fr.md`、`raw/vocab-inbox.md` / `vocab-fr-inbox.md`、产物 `output/2026-10-01-vocab-quiz-01.md`（topic / answer 模板与 `output/README.md` 系复制副本，本库保留原文件）
+- inbox 说明：`raw/vocab-*.md` 系按用户决定的整仓迁出，内容逐字未改——硬性规则 1 的对象是内容而非位置；此后收词在新库进行
+- schema 同步（本文件，v1.7）：§3.4 整节移除；§1 树、§2.1（vocab frontmatter）、§2.2（法语细则指引）、§4（vocab 例外与 Stats 格式）相应回退；§7 追加本记录
+- 页面同步：`index.md`（Topics −2、Outputs → 占位、Stats：3 来源 / 15 页 / 0 产物）；[[personal-knowledge-management]]（页面地图 −2 行；记忆方法开放问题改为「已落地并迁出」）
+- 历史保留：本 log 旧条目与 §7 旧记录原文不动——其中词条链接自此悬空（指向已迁出页面），属历史记录不追改；新库 log 已逐字继承 22 条词汇条目（含继承说明）
+- 新库侧：git 全新初始化（首次提交见其 log「setup | LLMLangWiki 建库」条目）；SRS `dataStore=NOTES` 无独立排程数据，Obsidian 打开新库即用
+- 待办：新库联网后清账两语「待回补」清单（en 7 条 etymonline ｜ fr 38 条 CNRTL）

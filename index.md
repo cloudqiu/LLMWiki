@@ -28,8 +28,6 @@
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
-- [[english-vocabulary]] — 英语词汇系统 hub：收词（inbox）→ 逐词编译（wiki/vocab/en）→ SRS（#flashcards/en）+ 测验复习；含进度与约定。
-- [[french-vocabulary]] — 法语词汇系统 hub：收词（raw/vocab-fr-inbox）→ 逐词编译（wiki/vocab/fr）→ SRS（#flashcards/fr）复习；含命名消歧约定。
 
 ## Comparisons 对比
 
@@ -41,7 +39,7 @@
 
 ## Outputs 产物（output/）
 
-- [[2026-10-01-vocab-quiz-01]] — 词汇测验 #1：deplete / off-kilter / unravel（9 题 + 答案解析，2026-10-01）
+（暂无——有产物时登记）
 
 ## Backlog 待建页面
 
@@ -55,4 +53,4 @@
 
 ## Stats
 
-- 来源：**3** 份 ｜ wiki 页面：**17** ｜ vocab 词条：**55**（en **17** ｜ fr **38**） ｜ Outputs：**1** ｜ 最近更新：2026-10-01
+- 来源：**3** 份 ｜ wiki 页面：**15** ｜ Outputs：**0** ｜ 最近更新：2026-10-01
