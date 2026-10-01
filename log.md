@@ -134,3 +134,11 @@
 - 词源要点：**counterweight**＝透明复合词（counter- ← 拉丁 contra；weight ← 古英语 / PIE \*wegh-）；**disconcert**＝1680s，法语 disconcerter ← 意大利 concertare「使协调」，dis- 反转之；同根 \*krei- 家族（certain / discern / crisis）
 - 备注：etymonline 与 Wiktionary 均无 counterweight 成词年代——已按 schema 标「待验证」而非编造
 - 更新：[[english-vocabulary]]（6→8）、`index.md`（Stats）
+
+## [2026-10-01] ingest | vocab: 第四批 2 词（hospice / decor）
+
+- 来源：`raw/vocab-inbox.md`（《Mattering》）→ src/mattering；去重跳过 8 词
+- 新建词条 2 个：[[hospice]]、[[decor]]
+- 词源要点：**hospice**＝1818「旅人招待所」→1879「临终机构」；拉丁 hospes（客人/主人），与 hospital / hotel / hostile 同出 PIE \*ghos-ti-「陌生人」家族；**decor**＝1897（原为剧场用语），法语 décor 逆构自 décorer ← 拉丁 decorare，英语恰好还原了拉丁名词 decor 本身；同根 \*dek-（decent / dignity / doctor / orthodox）
+- 更新：[[english-vocabulary]]（8→10）、`index.md`（Stats）
+- 备注：hospice 词条未采纳「运动始于 1960s 英国」作例句（无本批来源支撑），改用中性例句
