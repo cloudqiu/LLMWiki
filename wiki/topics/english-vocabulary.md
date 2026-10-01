@@ -14,9 +14,11 @@ sources: [raw/vocab-inbox.md]
 
 本库的英语词汇管理系统（2026-10-01 建立）。分工：
 
-> `raw/vocab-inbox.md` 收词（用户）→ `wiki/vocab/` 逐词编译与富化（LLM）→ 词族 / 易混 / 主题综合（持续）→ 复习双轨：SRS 插件排程 + Claude 按需出题。
+> `raw/vocab-inbox.md` 收词（用户）→ `wiki/vocab/en/` 逐词编译与富化（LLM）→ 词族 / 易混 / 主题综合（持续）→ 复习双轨：SRS 插件排程 + Claude 按需出题。
 
 词条富化含：IPA、词性、双语释义、例句（含翻译）、词根/词族、同义/搭配、易混提示；不确定信息标「待验证」。阅读词条本身即为第一遍复习；`learning` 字段（new → learning → known）跟踪掌握度。
+
+语言分轨（2026-10-01 起）：本页只管英语；法语姊妹系统见 [[french-vocabulary]]（同构、独立收词与计数）。
 
 ## 进度
 
@@ -40,12 +42,12 @@ sources: [raw/vocab-inbox.md]
 
 ## 结构约定
 
-- 词条路径：`wiki/vocab/<word>.md`（小写 lemma；**不逐条进 index.md**）
-- **多词词条（2026-10-01 新增约定，因收进 wore on / in sight 而立）**：短语动词与习语同样每词一页，文件名把空格换成连字符（kebab-case），如 `wear-on.md`、`in-sight.md`；frontmatter 的 `word` 保留原样空格（`"wear on"`）；**lemma 取词典 headword，不取遇到形式**——inbox 里的 `wore on` 归并到 `wear on`（同 `unraveling` → [[unravel]] 之例）；pos 用 `phr. v.` / `idiom` 等标注；闪卡正面照写多词 headword。**待办：CLAUDE.md §3.4 目前只写了「每词一页」，尚未覆盖多词单位——已向用户提议补一行 schema**
+- 词条路径：`wiki/vocab/en/<word>.md`（小写 lemma；**不逐条进 index.md**）
+- **多词词条（2026-10-01 新增约定，因收进 wore on / in sight 而立）**：短语动词与习语同样每词一页，文件名把空格换成连字符（kebab-case），如 `wear-on.md`、`in-sight.md`；frontmatter 的 `word` 保留原样空格（`"wear on"`）；**lemma 取词典 headword，不取遇到形式**——inbox 里的 `wore on` 归并到 `wear on`（同 `unraveling` → [[unravel]] 之例）；pos 用 `phr. v.` / `idiom` 等标注；闪卡正面照写多词 headword。（schema v1.5 已把本条并入 CLAUDE.md §3.4。）
 - 标签：`src/<来源>`（如 src/reading、src/书名-slug，标注在哪读到的）、`domain/<领域>`（如 domain/tech、domain/finance，工作/专业领域）——按需取用
-- 闪卡：词条「闪卡」小节内**多行双向卡**（`word` ⏎ `??` ⏎ 释义＋词源摘要的背面），小节标题带 `#flashcards` 标签——插件凭此发现卡片、复习时同屏显示词源；如需按来源分子牌组，可用 `#flashcards/<子牌组>`（如 #flashcards/mattering）
+- 闪卡：词条「闪卡」小节内**多行双向卡**（`word` ⏎ `??` ⏎ 释义＋词源摘要的背面），小节标题带 `#flashcards/en` 标签——插件凭标签发现卡片、复习时同屏显示词源；法语姊妹系统用 `#flashcards/fr`（见 [[french-vocabulary]]）——牌组树可选 en / fr 分语种刷卡，「all notes」则两语混合；**模板页不写标签**（防 SRS 把占位卡解析成幽灵卡）
 - **同名陷阱**：多词词条与单词词条可能只差一个连字符（[[in-sight]] vs `insight`、[[wear-on]] vs `wear`）——建页前先 grep 是否已有近形页面，避免误建重页
-- 发现方式：全库按标签自动发现（卡片集中在 `wiki/vocab`）
+- 发现方式：全库按标签自动发现（卡片集中在 `wiki/vocab/en`）
 
 ## 词族 / 综合页
 

@@ -39,12 +39,13 @@ sources: [raw/llm-wiki.md, raw/ClaudeCode-Obsidian-还能这么玩从零搭一�
 | [[claude-code]] | 实体 | 执行维护的 agent（本库维护者） |
 | [[runoob]] | 实体 | 教程发布者（stub） |
 | [[english-vocabulary]] | 主题 | 词汇系统 hub：收词→词条→SRS 复习 |
+| [[french-vocabulary]] | 主题 | 法语词汇系统 hub：收词→词条→SRS 子牌组复习 |
 
 ## 开放问题
 
 - LLM 维护 wiki 的质量如何审计？（本库目前靠 lint 巡检 + 矛盾显式标注；是否足够？）
 - 规模上限的实证：100 份来源之后，`index.md` 模式是否仍够用？何时需要 [[qmd]]？
-- 与「间隔重复 / 主动回忆」等记忆方法如何结合？——**已启动**：以英语词汇系统为第一个落地场景（[[english-vocabulary]]：SRS 插件 + Claude 出题双轨），效果待观察。
+- 与「间隔重复 / 主动回忆」等记忆方法如何结合？——**已启动**：以英/法双语词汇系统为落地场景（[[english-vocabulary]]、[[french-vocabulary]]：SRS 插件 + Claude 出题双轨），效果待观察。
 - 谱系线：memex → Engelbart (1962) → 超文本（Nelson）→ wiki 反向链接，这条演变线如何逐段深化？
 - 与团队协作场景如何衔接（多人 + LLM 共同维护）？
 - 目录结构收敛：本库约定（raw 平铺 + 六类 wiki 目录）与教程变体（raw 子目录 / synthesis / output）保持并存，还是收敛其一？

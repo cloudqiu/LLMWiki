@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: decor
 ipa: /ˈdeɪkɔː(r)/
@@ -32,7 +33,7 @@ root: "法语 décor ← 拉丁 decorare（装饰）← decus 美饰（PIE *dek-
 - 搭配：interior decor（室内装潢）、home decor、minimalist decor、stage decor
 - 易混：**decoration**（具体的装饰品或装饰行为）、**furnishings**（家具陈设）、décor（法语拼写，英语中也常见带重音形式）
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 decor
 ??

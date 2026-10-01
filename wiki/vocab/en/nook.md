@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: nook
 ipa: /nʊk/
@@ -32,7 +33,7 @@ root: "来源不明（或古诺斯语 nokke「钩、弯折」）"
 - 搭配：every nook and cranny（习语：每个角落）；a quiet / cozy / breakfast nook（美式住宅用语：早餐角）
 - 易混：**cranny**（裂缝、缝隙，常与 nook 连用）、**niche**（壁龛；引申「生态位/小众市场」）、**recess**（凹进处，更正式）
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 nook
 ??

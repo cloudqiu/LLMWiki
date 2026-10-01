@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: competent
 ipa: /ˈkɒmpɪtənt/              # US /ˈkɑːmpɪtənt/
@@ -35,7 +36,7 @@ root: "com-（拉丁「共同」）+ pet-（拉丁 petere「追求、争取」�
 - 易混：**qualified** 侧重「有资格、够条件」；**capable** 侧重「做得到」，可接 of doing；**proficient / skilled** 侧重「技术熟练」；**competent** 强调「达到胜任标准」，常是「合格、够用」而非「出色」
 - 反义：**incompetent**（不称职的）——注意重音仍在 -com- 上
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 competent
 ??

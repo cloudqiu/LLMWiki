@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: turquoise
 ipa: /ˈtɜːkwɔɪz/
@@ -32,7 +33,7 @@ root: "法语 turqueise（土耳其的，阴性）← Turc 土耳其"
 - 搭配：turquoise blue ｜ turquoise waters（青绿色的海面，旅行/文学高频）
 - 易混：**teal**（偏深的蓝绿）、**aquamarine**（海蓝宝石，偏蓝）、**cyan**（印刷/屏幕用色相名）
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 turquoise
 ??

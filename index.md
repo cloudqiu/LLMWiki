@@ -28,7 +28,8 @@
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
-- [[english-vocabulary]] — 英语词汇系统 hub：收词（inbox）→ 逐词编译（wiki/vocab）→ SRS + 测验复习；含进度与约定。
+- [[english-vocabulary]] — 英语词汇系统 hub：收词（inbox）→ 逐词编译（wiki/vocab/en）→ SRS（#flashcards/en）+ 测验复习；含进度与约定。
+- [[french-vocabulary]] — 法语词汇系统 hub：收词（raw/vocab-fr-inbox）→ 逐词编译（wiki/vocab/fr）→ SRS（#flashcards/fr）复习；含命名消歧约定。
 
 ## Comparisons 对比
 
@@ -54,4 +55,4 @@
 
 ## Stats
 
-- 来源：**3** 份 ｜ wiki 页面：**16** ｜ vocab 词条：**17** ｜ Outputs：**1** ｜ 最近更新：2026-10-01
+- 来源：**3** 份 ｜ wiki 页面：**17** ｜ vocab 词条：**17**（en **17** ｜ fr **0**） ｜ Outputs：**1** ｜ 最近更新：2026-10-01

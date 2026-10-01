@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: deplete
 ipa: /dɪˈpliːt/
@@ -32,7 +33,7 @@ root: "de- + plēre（拉丁「填满」；PIE *pele-）"
 - 搭配：deplete resources / reserves / stocks / energy；常用被动 `be depleted of`；`depleted uranium`（贫铀）
 - 易混：**exhaust** 更常指「使（人）精疲力尽」或彻底用尽；deplete 多接资源类名词，且常用被动
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 deplete
 ??

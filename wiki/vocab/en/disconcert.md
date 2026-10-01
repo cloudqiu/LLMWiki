@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: disconcert
 ipa: /ˌdɪskənˈsɜːt/
@@ -32,7 +33,7 @@ root: "dis- + concerter（法语「使协调」）← 拉丁 certare 竞争 / ce
 - 搭配：disconcerting news / silence / question；be disconcerted by sth
 - 易混/近义：**unsettle**（使不安，更中性）、**embarrass**（偏社交窘迫）、[[flurry]]（v. 使慌乱——近义一族）
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 disconcert
 ??

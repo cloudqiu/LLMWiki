@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: "wear on"
 ipa: /ˌweər ˈɒn/               # US /ˌwer ˈɑːn/
@@ -40,7 +41,7 @@ root: "wear（古英语 werian「穿」← 日耳曼语 *wazjanan ← PIE *wes-�
   - **wear down**＝磨薄；也指「磨掉对方锐气、耗到对方让步」
 - 易混：**drag on**（也指时间拖长，但更强调「没完没了、令人厌烦」，贬义更重）；**pass**（中性「过去」，无磨的意味）
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 wear on
 ??

@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: flurry
 ipa: /ˈflʌri/
@@ -32,7 +33,7 @@ root: "来源不确定（疑拟声；或与方言 flurr 相关）"
 - 搭配：a flurry of activity / excitement / speculation / snow；in a flurry（慌乱中）
 - 易混：**fluster**（更偏「使慌张」，常以人作宾语）、**gust**（纯风的「一阵」）、**burst**（中性「一阵」）
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 flurry
 ??

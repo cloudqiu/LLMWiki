@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering, domain/medical]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: endometriosis
 ipa: /ˌendəʊmiːtriˈəʊsɪs/      # US /ˌendoʊmiːtriˈoʊsɪs/
@@ -40,7 +41,7 @@ root: "endo-（希腊「在内」）+ metr-（希腊 mētra「子宫」）+ -ios
 - 语域：医学与健康报道术语；日常口语不常用，但在女性健康话题中常见
 - 提示：本词条仅作语言学习用，不构成医学信息
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 endometriosis
 ??

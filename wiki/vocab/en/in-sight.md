@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: "in sight"
 ipa: /ɪn ˈsaɪt/
@@ -39,7 +40,7 @@ root: "in（古英语 in「在内」）+ sight（古英语 sihþ「所见、视�
   - **at sight** ＝ 一见（即付/即办，商业用语：payable at sight 见票即付）
 - 反义：**out of sight**（不在视野内）
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 in sight
 ??

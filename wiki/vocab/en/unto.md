@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: unto
 ipa: /ʌnˈtuː/                    # 弱读 /ˈʌntə/
@@ -35,7 +36,7 @@ root: "un-（日耳曼语「直到、及于」前缀，与 until 同源）+ to�
 - 易混：**to**（现代通用词，unto 只是其古体变体）；**until**（只表时间「直到……为止」）；**onto**（表「到……上面」的结果/位置，unto 不表「上面」）——unto 与 onto 只差一个字母，是拼写易错点
 - 语域提示：现代写作里用 unto 几乎只在引《圣经》、法律文本或刻意古雅时；日常一律用 to
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 unto
 ??

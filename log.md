@@ -189,3 +189,16 @@
 - **备注（环境限制）**：出网仍被 sinkhole（复测解析仍为 198.18.0.0/15），两词细节标「待验证」；待回补清单累计 **7** 条
 - 更新：[[english-vocabulary]]（进度 15→17、结构约定加多词条款、两条词族候选）、`index.md`（Stats：vocab 15→17）、`CLAUDE.md`（v1.5）
 - 另注：根目录出现 `Untitled.canvas`（2 字节，内容 `{}`）——Obsidian 空画布残留；未删除（不静默删用户文件）、未入库，待用户定夺
+
+## [2026-10-01] schema | v1.6 法语词汇系统 + vocab 目录分语言重构（en / fr）
+
+- 触发：用户决定新增**法语**词汇系统（沿用 inbox 收词；条目深度＝阴阳性 + 复数 + 动词变位要点；词源对照 CNRTL），并把词汇目录按语言分轨
+- 重构：`git mv` 17 条英语词条 `wiki/vocab/*.md` → `wiki/vocab/en/`（**纯重命名、内容零改动**，独立提交 3ebd3ac，`git show --numstat` 验证 0 插入/0 删除）；`.gitkeep` 迁至 `wiki/vocab/fr/`。wikilink 按 basename 解析（`newLinkFormat: shortest`）——迁移前后 unresolved-link 基线一致（仅 `templates/vocab.md` 的 `[[other-word]]` 一处真断链，本次一并修复为反引号）
+- 新增：`templates/vocab-fr.md`（`lang` / `gender` / `plural` 字段 + 「形态要点」章节；动词不列表格）、hub 页 [[french-vocabulary]]（含命名消歧登记表）、收件箱 `raw/vocab-fr-inbox.md`
+- schema 同步（CLAUDE.md）：§1 树（vocab/en、vocab/fr）、§2.1（`lang` + `gender` / `plural`）、§2.2（非 ASCII 文件名转写）、§3.4（语言分轨对照表：inbox / 目录 / 模板 / hub / log 标记 `vocab-fr:` / 权威源 CNRTL；法语命名与消歧细则）、§4（双 hub + Stats 格式）、§7（v1.6）
+- 词条变更：17 条英语词条补 `lang: en`；闪卡小节标题 `#flashcards` → `#flashcards/en`（语言子牌组，与法语 `#flashcards/fr` 对称；据插件源码子标签自动纳入；排程零风险——迁移前全库无 `SR:` 注释、插件 cardSchedules 为空）
+- 幽灵卡修复：模板不再带 `#flashcards` 标签（SRS 插件无模板目录排除，`templates/vocab.md` 的占位卡此前可能被解析为幽灵卡；两个模板均改为注释说明 + 实例页带标签）
+- 命名规则要点（法语）：文件名 ASCII 转写（é→e、ç→c、œ→oe、撇号→连字符）；**全库唯一**——跨语言同名加 `-fr`（如 décor → `decor-fr.md`，与 [[decor]] 互链）、同语言近形预置词性后缀（`ou-conj` / `ou-adv`）、避开 Windows 保留名（con / aux / nul）；lemma 取 headword（`suis` → `être`）
+- 待办/风险：① 法语词源核对债务随首批词条起累积（出网被 sinkhole 复测确认，一律标「待验证」，登入 [[french-vocabulary]] 待回补清单）；② 幽灵卡修复需在 Obsidian 中核实牌组数（英语应为 17 词条 / 34 卡）；③ `raw/vocab-inbox.md` 内「→ wiki/vocab/」为历史文本，按 §5 规则 1 不改
+- 另：根目录 `Untitled.canvas`（空画布残留）经用户确认删除；该文件未入库，删除不影响 git 历史
+- 更新：`index.md`（Topics 双 hub、Stats：wiki 页面 16→17、vocab 含 en/fr 分计）、[[english-vocabulary]]（路径、闪卡标签、多词待办句移除、法语互链）、[[personal-knowledge-management]]（页面地图 + 开放问题）

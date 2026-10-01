@@ -26,7 +26,9 @@ LLMWiki/
 │   ├── concepts/        # 概念、方法、模式
 │   ├── topics/          # 主题总览（hub / synthesis，随来源积累持续演进）
 │   ├── comparisons/     # 对比页
-│   ├── vocab/           # 英语词条（每词一页，type: vocab；不逐条进 index，由 hub 统辖）
+│   ├── vocab/           # 词汇词条（每词一页，type: vocab；不逐条进 index，由各语言 hub 统辖）
+│   │   ├── en/          # 英语词条（hub: english-vocabulary）
+│   │   └── fr/          # 法语词条（hub: french-vocabulary）
 │   └── answers/         # 从查询中归档的优质问答
 ├── output/              # 【产物区】lint 报告、查询产物（幻灯片/图表等）落盘处；非 wiki 页面
 └── templates/           # 页面模板（创建新页面前先读对应模板）
@@ -48,7 +50,8 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 # 以下按类型补充：
 # source 页: author, source_url, raw_file, format
 # entity 页: entity_type: person | organization | tool | project | place | other
-# vocab 页: word, ipa, pos, learning: new | learning | known, root（可选）
+# vocab 页: lang: en | fr, word, ipa, pos, learning: new | learning | known, root（可选）
+#           法语词条另加：gender: m. | f. | m. pl. | f. pl.（名词）、plural（名词/形容词复数，不规则必填）
 ---
 ```
 
@@ -56,7 +59,7 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 
 ### 2.2 命名与链接
 
-- 文件名：小写 kebab-case、ASCII、全局唯一，如 `llm-wiki.md`。
+- 文件名：小写 kebab-case、ASCII、全局唯一，如 `llm-wiki.md`；非 ASCII 字符一律转写（é/è/ê→e、à→a、ç→c、œ→oe、撇号→连字符），法语细则见 §3.4（`raw/` 不受此限）。
 - 链接统一用 wikilink：`[[llm-wiki]]`；需要中文显示名时 `[[llm-wiki|LLM Wiki 模式]]`。
 - 指向尚未创建页面的链接是**允许且有意义**的（待建信号），但必须同时登记到 `index.md` 的 Backlog。
 - `index.md` / `log.md` / `CLAUDE.md` 用普通文本提及（不建 wikilink）。
@@ -101,24 +104,34 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 
 ### 3.4 Vocab 词汇编译（ingest 的专用变体）
 
-词汇系统的收词与编译。用户持续收词：追加到 `raw/vocab-inbox.md`（用户专用，Claude 只读），或在会话中口述（Claude 先将其**原样**记入 `raw/vocab-capture-YYYY-MM-DD.md` 再编译，保持可追溯）。用户说「ingest vocab」时执行：
+词汇系统按**语言分轨**，两轨同构、各自独立收词与计数：
 
-1. 读 inbox / 捕获文件，与 `wiki/vocab/` 现有词条**去重**（词形变化归并到同一 lemma）；已存在的词只补充不重复建页。
-2. 批量编译（每批 20-50 词）：每词一页 `wiki/vocab/<word>.md`（依据 `templates/vocab.md`）——IPA、词性、双语释义、例句（含翻译）、词源/构词（词头·词根·词尾拆解、来源与演变、同族/派生；词源细节对照 etymonline 等权威源核实）、同义/搭配/易混；不确定信息标「待验证」。内嵌闪卡：**多行双向卡**（`word`、`??`、释义＋词源摘要的背面），复习时卡背同屏显示词源。**多词单位**（短语动词、习语）同样每词条一页：文件名换成连字符 kebab-case（`wear-on.md`、`in-sight.md`），frontmatter 的 `word` 保留空格原形，lemma 取词典 headword 而非遇到形式（`wore on` → `wear on`）；pos 标 `phr. v.` / `idiom` 等。建页前先检查近形页（`in-sight` 与 `insight`、`wear-on` 与 `wear` 只差一个连字符）。
-3. 出现值得综合的词族 / 易混对 / 主题簇时，建立或更新对应页面（concepts/ 或 topics/），补交叉链接。
-4. 更新 hub 页 [[english-vocabulary]]：词条计数与待处理清单（**词条不逐条进 `index.md`**）。
-5. 追加 log：`## [YYYY-MM-DD] ingest | vocab: <批次摘要>`。
+| 语言 | 收件箱（raw/，Claude 只读） | 词条目录 | 模板 | hub | log 标记 | 词源权威源 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 英语 | `raw/vocab-inbox.md` | `wiki/vocab/en/` | `templates/vocab.md` | [[english-vocabulary]] | `vocab:` | etymonline |
+| 法语 | `raw/vocab-fr-inbox.md` | `wiki/vocab/fr/` | `templates/vocab-fr.md` | [[french-vocabulary]] | `vocab-fr:` | CNRTL（TLFi） |
+
+触发词：「ingest vocab」（英语）/「ingest vocab-fr」（法语）。会话口述时先**原样**记入 `raw/vocab-capture-YYYY-MM-DD.md`（英语）或 `raw/vocab-fr-capture-YYYY-MM-DD.md`（法语）再编译，保持可追溯。
+
+1. 读对应 inbox / 捕获文件，与对应词条目录现有词条**去重**（词形变化归并到同一 lemma）；已存在的词只补充不重复建页。
+2. 批量编译（每批 20-50 词）：每词一页（依据对应模板）——IPA、词性、双语释义、例句（含翻译）、词源/构词（词头·词根·词尾拆解、来源与演变、同族/派生；词源细节对照上表权威源核实）、同义/搭配/易混；不确定信息标「待验证」。内嵌闪卡：**多行双向卡**（`word`、`??`、释义＋词源摘要的背面），复习时卡背同屏显示词源。**多词单位**（短语动词、习语、多词表达）同样每词条一页：文件名空格与撇号换连字符 kebab-case（`wear-on.md`、`avoir-l-air.md`），frontmatter 的 `word` 保留原形，lemma 取词典 headword 而非遇到形式（`wore on` → `wear on`；`suis` → `être`）；pos 标 `phr. v.` / `idiom` 等。建页前先检查**近形页与全库同名页**（`in-sight` 与 `insight`、`wear-on` 与 `wear`；法语词可能与既有英语词条或模板同名，如 `décor` 与 `decor`）。
+3. **语言特有要求**：
+   - 英语：闪卡小节标题带 `#flashcards/en`。
+   - 法语：名词必填 `gender`（m. | f.）与 `plural`（不规则复数必填）；动词在正文「形态要点」给不定式、组别（1er/2e/3e）、助动词、过去分词与现在时六形（**不列表格**）；形容词给阴阳性与复数变化；闪卡小节标题带 `#flashcards/fr`。文件名一律 ASCII 转写（é/è/ê→e、à→a、ç→c、œ→oe、撇号→连字符、已有连字符保留，如 `peut-être` → `peut-etre`），且**必须全库唯一**（Obsidian 按 basename 解析链接）：转写撞名时——跨语言同名加 `-fr`（`decor-fr.md`，并与原词条互链）；同语言近形由先建页者保留原形、后建者加词性后缀（`ou-adv.md`），并在法语 hub 的「命名消歧登记表」登记；避开 **Windows 保留名**（`con` / `aux` / `nul` / `prn` / `com1-9` / `lpt1-9`，加后缀作名，如 `con-adj.md`）。词源一律对照 CNRTL（TLFi）核实；无网络时标「待验证」并登入法语 hub 待回补清单。
+4. 出现值得综合的词族 / 易混对 / 主题簇时，建立或更新对应页面（concepts/ 或 topics/），补交叉链接。
+5. 更新对应 hub 页：词条计数与待处理清单（**词条不逐条进 `index.md`**）。
+6. 追加 log：`## [YYYY-MM-DD] ingest | vocab: <批次摘要>`（法语批次用 `vocab-fr:` 前缀，操作词仍为 ingest，便于 grep）。
 
 ## 4. 导航文件规范
 
 ### index.md（内容目录，content-oriented）
 
 - 每个页面一行：链接 + 一句话摘要；按类型分区：Sources / Concepts / Entities / Topics / Comparisons / Answers / Outputs（output/ 产物，链接指向文件）。
-- **vocab 例外**：`wiki/vocab/` 词条不逐条入目录（规模考虑）——只登记 hub 页 [[english-vocabulary]]；词条靠 hub、搜索与 graph 检索。
+- **vocab 例外**：`wiki/vocab/` 词条不逐条入目录（规模考虑）——只登记各语言 hub 页 [[english-vocabulary]] 与 [[french-vocabulary]]；词条靠 hub、搜索与 graph 检索。
 - 另设 **Backlog** 区：待建页面与待补事项。
 - 每次 ingest 后必须更新；查询时**先读本文件**。
 - 适用规模：约 100 份来源 / 数百页以内。
-- **Stats 行格式**：`- 来源：**N** 份 ｜ wiki 页面：**N** ｜ vocab 词条：**N** ｜ Outputs：**N** ｜ 最近更新：YYYY-MM-DD`。
+- **Stats 行格式**：`- 来源：**N** 份 ｜ wiki 页面：**N** ｜ vocab 词条：**N**（en **N** ｜ fr **N**） ｜ Outputs：**N** ｜ 最近更新：YYYY-MM-DD`。
 
 ### log.md（时间线，chronological，append-only）
 
@@ -154,3 +167,4 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 - **[2026-10-01]** v1.4.1：词条富化标准升级——「词根/词族」小节扩展为「词源/构词」（词头·词根·词尾拆解、来源与演变、同族/派生、记忆钩），并规定词源细节对照 etymonline 等权威源核实；模板与 §3.4 同步（用户请求：深挖每个词的词源要素）。
 - **[2026-10-01]** v1.4.2：词条闪卡格式升级——单行卡 `word:::释义` 改为**多行双向卡**（`??`，背面＝释义＋词源摘要），复习同屏可见词源；模板、hub 约定与 §3.4 同步（用户请求：闪卡显示词源深挖内容）。
 - **[2026-10-01]** v1.5：词汇系统支持**多词单位**（短语动词 / 习语）——起因是 inbox 收进 `wore on`、`in sight`，而 §3.4 原只写「每词一页」。规定：文件名连字符 kebab-case、`word` 保留空格原形、lemma 取 headword 而非遇到形式（`wore on` → `wear on`）、pos 标 `phr. v.` / `idiom`、建页前查近形页（`in-sight` vs `insight`）。§3.4 第 2 步同步；hub「结构约定」同步（源自用户收词行为本身，非用户显式请求——如不认可可回退）。
+- **[2026-10-01]** v1.6：新增**法语词汇系统**，词汇系统改为**按语言分轨**——`wiki/vocab/` 重构为 `wiki/vocab/en/`（17 条英语词条整体迁移，纯重命名，wikilink 按 basename 解析、未断链）与 `wiki/vocab/fr/`；新增 `templates/vocab-fr.md`、hub 页 [[french-vocabulary]]、收件箱 `raw/vocab-fr-inbox.md`；frontmatter 新增 `lang: en | fr`（英语词条同步补齐）与法语字段 `gender` / `plural`；法语词条深度＝阴阳性 + 复数 + 动词「形态要点」（不定式·组别·助动词·过去分词·现在时六形，不列表格），词源以 CNRTL（TLFi）为准；文件名 ASCII 转写 + 全库唯一消歧（跨语言同名 `-fr` 后缀、同语言近形加词性后缀、避开 Windows 保留名 con/aux/nul）；闪卡按语言分子牌组（英语补 `#flashcards/en`、法语 `#flashcards/fr`；模板不再带 `#flashcards` 标签，以免 SRS 把模板解析成幽灵卡）；§1 / §2.1 / §2.2 / §3.4 / §4 同步；顺带修复 `templates/vocab.md` 的活链占位 `[[other-word]]` → 反引号（v1.4 遗留，曾致 Obsidian 自动建页）（源自用户请求：法语词汇系统与英语同构）。

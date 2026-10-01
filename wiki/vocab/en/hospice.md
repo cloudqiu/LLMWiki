@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: hospice
 ipa: /ˈhɒspɪs/
@@ -32,7 +33,7 @@ root: "拉丁 hospes（客人/主人）→ hospitium 招待所 → 法语 hospic
 - 搭配：hospice care（临终关怀照护）、hospice movement、in / at a hospice
 - 易混：**hospital**（医院，治病为主）、**nursing home**（养老院）、**palliative care**（缓和医疗——侧重医疗手段；hospice 侧重场所与理念）
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 hospice
 ??

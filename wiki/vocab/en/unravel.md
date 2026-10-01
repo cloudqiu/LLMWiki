@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: unravel
 ipa: /ʌnˈrævl/
@@ -33,7 +34,7 @@ root: "un- + ravel（荷兰语 ravelen：缠结/拆散）"
 - 搭配：`unravel a mystery / the truth / a plot`；主语常为 plans / deal / relationship / life（局面「土崩瓦解」）
 - 易混：**unfold**（展开、逐渐明朗，中性）；**fall apart**（口语，偏「散架」）；与作曲家 Ravel（拉威尔）无词源关系
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 unravel
 ??

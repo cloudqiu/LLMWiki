@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: faucet
 ipa: /ˈfɔːsɪt/
@@ -34,7 +35,7 @@ root: "古法语 fausset「塞子、龙头」← fausser「弄坏、使失效」
 - 拼读陷阱：**au 读 /ɔː/**（不是 /aʊ/，别读成 "fow-set"）；**-et 读 /ɪt/**
 - 易混：**tap**（英式通用；另有「轻拍」「窃听」义）；**spigot**（美式，户外或桶上的水嘴）；**valve**（阀门，偏工程件）
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 faucet
 ??

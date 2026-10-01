@@ -6,6 +6,7 @@ updated: 2026-10-01
 tags: [vocab, src/mattering]
 status: growing
 learning: new
+lang: en
 sources: [raw/vocab-inbox.md]
 word: sew
 ipa: /səʊ/
@@ -34,7 +35,7 @@ root: "古英语 siwian「缝补」← 原始日耳曼语 *siwjanan ← PIE *syu
 - **同音三胞胎（全部读 /səʊ/）**：**sew** 缝 ｜ **sow** 播种（sow seeds；名词「母猪」读 /saʊ/）｜ **so** 如此、因此——三词同音，是写作高频错点
 - 易混：**stitch**（针脚；「缝一针」的具体动作，名词动词皆可）——sew 指缝制这件事的整体
 
-## 闪卡 #flashcards
+## 闪卡 #flashcards/en
 
 sew
 ??
