@@ -66,3 +66,18 @@
 - 修改 `CLAUDE.md`（v1.3）：§1 结构（+`output/`）、§2.1（frontmatter 适用范围）、§3.2（query 新增「产物落盘」步）、§3.3（lint 报告落盘至 `output/YYYY-MM-DD-lint.md`）、§4（index 新增 Outputs 区）、§5 规则 3（同步义务扩展到产物）、§7（v1.3 记录）
 - 新建 `output/README.md`（约定说明）；`index.md` 增加 Outputs 区、Backlog 调整（raw 子目录化仍待议）；来源页 [[claude-code-obsidian-tutorial]] 讨论问题同步决议
 - 待办：raw 子目录化评估仍开放；其余讨论问题（截图下载、主题/插件启用）未决
+
+## [2026-10-01] query | 词汇管理方案设计（英语生词）
+
+- 问题：用户希望用本库管理已收集的英语词汇（散落各处未整理；以「阅读遇到的词」与「工作/专业词汇」为主）
+- 方案要点：`raw/vocab-inbox.md` 收词（用户）→ `wiki/vocab/<word>` 逐词编译与富化（LLM，含闪卡行）→ 词族/易混/主题综合 → 复习双轨（SRS 插件排程 + Claude 按需出题）
+- 决策（用户选定）：① 复习 = SRS 插件 + Claude 出题；② 无从批量导入，自 inbox 逐步收录；③ 标签以来源（src/）+ 领域（domain/）为主
+- 回填：要点落 [[english-vocabulary]]（hub）；schema 变更见下一条
+- 插件调研（2026 现状）：Spaced Repetition（经典生态）、LearnKit / EngramQuest（FSRS）、English Vocabulary Learning Plugin / Klomimory（语言学习专用）、Glossa / AI Flashcard Generator（AI 制卡）——选型待定，记于 hub
+
+## [2026-10-01] schema | 词汇系统 v1.4
+
+- 新增：`wiki/vocab/`（新页面类型 vocab，每词一页、不逐条进 index）、`templates/vocab.md`、hub 页 [[english-vocabulary]]、收件箱 `raw/vocab-inbox.md`（用户追加；Claude 只读）
+- 修改 `CLAUDE.md`（v1.4）：§1（结构 +vocab/）、§2.1（vocab 页 frontmatter 字段）、§3.4（新增「Vocab 词汇编译」工作流）、§4（vocab 例外 + Stats 行格式）、§7（v1.4 记录）
+- 更新：`index.md`（Topics + Stats + Backlog）；[[personal-knowledge-management]]（记忆方法开放问题 → 已启动 + 页面地图）
+- 待办：SRS 插件选型与安装；首批词条待用户收词后编译

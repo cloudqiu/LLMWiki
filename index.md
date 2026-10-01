@@ -28,6 +28,7 @@
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
+- [[english-vocabulary]] — 英语词汇系统 hub：收词（inbox）→ 逐词编译（wiki/vocab）→ SRS + 测验复习；含进度与约定。
 
 ## Comparisons 对比
 
@@ -50,7 +51,8 @@
 - Marp 幻灯片 / Dataview 查询用法（工具用法页）
 - 搜索方案：qmd 集成评估（wiki 规模增长后再做）
 - （评估）raw/ 子目录化（articles / papers）——待来源规模增长后再议（output/ 落盘已于 2026-10-01 采纳，见 schema v1.3）
+- SRS 插件选型与安装（Spaced Repetition / LearnKit）——见 [[english-vocabulary]] 开放问题
 
 ## Stats
 
-- 来源：**3** 份 ｜ wiki 页面：**15** ｜ 最近更新：2026-10-01
+- 来源：**3** 份 ｜ wiki 页面：**16** ｜ vocab 词条：**0** ｜ Outputs：**0** ｜ 最近更新：2026-10-01

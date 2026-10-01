@@ -26,6 +26,7 @@ LLMWiki/
 │   ├── concepts/        # 概念、方法、模式
 │   ├── topics/          # 主题总览（hub / synthesis，随来源积累持续演进）
 │   ├── comparisons/     # 对比页
+│   ├── vocab/           # 英语词条（每词一页，type: vocab；不逐条进 index，由 hub 统辖）
 │   └── answers/         # 从查询中归档的优质问答
 ├── output/              # 【产物区】lint 报告、查询产物（幻灯片/图表等）落盘处；非 wiki 页面
 └── templates/           # 页面模板（创建新页面前先读对应模板）
@@ -47,6 +48,7 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 # 以下按类型补充：
 # source 页: author, source_url, raw_file, format
 # entity 页: entity_type: person | organization | tool | project | place | other
+# vocab 页: word, ipa, pos, learning: new | learning | known, root（可选）
 ---
 ```
 
@@ -97,14 +99,26 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 
 报告落盘为 `output/YYYY-MM-DD-lint.md`，对话中给出摘要；修复动作完成后追加 log：`## [YYYY-MM-DD] lint | <摘要>`，并在 index 的 Outputs 区登记一行。有长期参考价值的结论可另行回填 `wiki/answers/`。
 
+### 3.4 Vocab 词汇编译（ingest 的专用变体）
+
+词汇系统的收词与编译。用户持续收词：追加到 `raw/vocab-inbox.md`（用户专用，Claude 只读），或在会话中口述（Claude 先将其**原样**记入 `raw/vocab-capture-YYYY-MM-DD.md` 再编译，保持可追溯）。用户说「ingest vocab」时执行：
+
+1. 读 inbox / 捕获文件，与 `wiki/vocab/` 现有词条**去重**（词形变化归并到同一 lemma）；已存在的词只补充不重复建页。
+2. 批量编译（每批 20-50 词）：每词一页 `wiki/vocab/<word>.md`（依据 `templates/vocab.md`）——IPA、词性、双语释义、例句（含翻译）、词根/词族、同义/搭配/易混；不确定信息标「待验证」。内嵌闪卡行 `word:::释义`（Spaced Repetition 插件兼容，`:::` = 双向卡）。
+3. 出现值得综合的词族 / 易混对 / 主题簇时，建立或更新对应页面（concepts/ 或 topics/），补交叉链接。
+4. 更新 hub 页 [[english-vocabulary]]：词条计数与待处理清单（**词条不逐条进 `index.md`**）。
+5. 追加 log：`## [YYYY-MM-DD] ingest | vocab: <批次摘要>`。
+
 ## 4. 导航文件规范
 
 ### index.md（内容目录，content-oriented）
 
 - 每个页面一行：链接 + 一句话摘要；按类型分区：Sources / Concepts / Entities / Topics / Comparisons / Answers / Outputs（output/ 产物，链接指向文件）。
+- **vocab 例外**：`wiki/vocab/` 词条不逐条入目录（规模考虑）——只登记 hub 页 [[english-vocabulary]]；词条靠 hub、搜索与 graph 检索。
 - 另设 **Backlog** 区：待建页面与待补事项。
 - 每次 ingest 后必须更新；查询时**先读本文件**。
 - 适用规模：约 100 份来源 / 数百页以内。
+- **Stats 行格式**：`- 来源：**N** 份 ｜ wiki 页面：**N** ｜ vocab 词条：**N** ｜ Outputs：**N** ｜ 最近更新：YYYY-MM-DD`。
 
 ### log.md（时间线，chronological，append-only）
 
@@ -136,3 +150,4 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 - **[2026-10-01]** v1.1：PDF 资料在 `raw/` 中同时保存机器提取的同名 `.txt`（本机无 poppler 时的阅读/检索方案；原件仍为唯一权威）。
 - **[2026-10-01]** v1.2：安装 poppler（scoop 26.09.0），PDF 可直接渲染阅读；`.txt` 提取保留为检索层。
 - **[2026-10-01]** v1.3：新增 `output/` 产物区并确立落盘约定（lint 报告、查询产物；源自 [[claude-code-obsidian-tutorial]] 摄入时的讨论）；相应更新 §1（结构）、§2.1（frontmatter 适用范围）、§3.2（query 新增「产物落盘」）、§3.3（lint 报告落盘）、§4（index 新增 Outputs 区）、§5 规则 3。
+- **[2026-10-01]** v1.4：新增词汇系统——`wiki/vocab/`（type: vocab，每词一页）、`templates/vocab.md`、hub 页 [[english-vocabulary]]、收件箱 `raw/vocab-inbox.md`；§3 新增「3.4 Vocab 词汇编译」工作流；§4 增 vocab 例外与 Stats 行格式（源自 query：用户词汇管理需求）。
