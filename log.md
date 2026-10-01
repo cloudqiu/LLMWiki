@@ -212,3 +212,12 @@
 - **备注（环境限制）**：出网仍被 sinkhole，CNRTL 不可达——「12 世纪首见」等年代细节标「待验证」，登入 [[french-vocabulary]] 待回补清单（法语核对债务开账，共 1 条）
 - 更新：[[french-vocabulary]]（进度 0→1、待回补开账、新增「掌舵」词族候选）、`index.md`（Stats：fr 0→1）
 - 首批观察：v1.6 命名规则（ASCII 转写 / 全库唯一 / Windows 保留名）均未触发消歧——`gouvernement` 无近形与同名冲突
+
+## [2026-10-01] schema | v1.6.1 法语词条新增「英法交叉核对（受影响的英语词）」
+
+- 触发：用户请求——法语词条要找出**受该法语词影响的英语词**做 cross-check
+- 新规：法语词条新增「**英法交叉核对（受影响的英语词）**」小节（每词条必做）——分清**借入**（英 ← 法：路径、年代、拼写/读音漂移、词义异同）与**共祖**（同源非借入，勿混）；反向回借（法 ← 英）可留意；英语词库已收录则双向互链；无网络标「待验证」
+- 同步：`templates/vocab-fr.md`（新小节 + 闪卡背面「英法交叉」行）、`CLAUDE.md` §3.4 法语要求 + §7（v1.6.1）、hub [[french-vocabulary]]「概述」「结构约定」
+- 实装：[[gouvernement]] 新增该小节——英 government / govern / governor / governance ← 古法语本词族（拼写丢 u、词义更宽）；governess 为平行构词；cyber- 共祖非借入；另记「gouvernance 1990 年代从英语回借」待验证
+- 备注：英语词库暂未收录 government 等同源词——如后续收词，两页互链；核对债务（CNRTL / etymonline）仍待联网
+- 更新：`log.md` 本条；词条 `updated` 保持 2026-10-01（同日多次修订）
