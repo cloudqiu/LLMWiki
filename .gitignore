@@ -1,0 +1,8 @@
+# Obsidian 本地 UI 状态（个人化、频繁变动，不纳入版本管理）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# 系统文件
+Thumbs.db
+.DS_Store
+Desktop.ini
