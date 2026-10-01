@@ -252,3 +252,9 @@
 - 英法交叉亮点：**trove**（= 法语 trouvé）← treasure trove；**discover / cover / covert** ← 古法语 descovrir/covrir；**déjà vu** ← 法语（1903）；**view / voyeur** ← 法语 veoir/voir；**entrepreneur / surprise（-prise = 抓）**；**modern ← 法语 moderne**
 - 更新：[[french-vocabulary]]（进度 12→24、待回补 24 条、词族候选 ×3：prehendere「抓」、videre「看/知」、credere「信」）、`index.md`（Stats：fr 12→24，总 41）
 - **备注（环境限制）**：出网仍被 sinkhole（复测 cnrtl.fr 198.18.0.132、etymonline 198.18.0.112），法语词源核对债务累计 **24** 条
+
+## [2026-10-01] setup | .gitignore 忽略 Untitled.canvas（Obsidian 空白画布残留）
+
+- 成因：Obsidian 打开空白 canvas 会自动在仓库根目录生成 `Untitled.canvas`（此前数次出现，内容为 `{}` 空画布，非 wiki 内容，已多次手动删除）
+- 处理：`.gitignore` 增 `Untitled.canvas`（仅忽略默认空白名）；**不忽略 `*.canvas`**——canvas 是 schema §3.2 认可的合法产出形式，有意创建的画布仍应入库
+- 影响：仅版本管理层面，不涉及 wiki 页面与 index/log 计数
