@@ -20,10 +20,10 @@ sources: [raw/vocab-fr-inbox.md]
 
 ## 进度
 
-- 词条：**5**（new 5 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
-- 待处理：inbox 暂无积压（两批共 5 条已编译，均出自 Duolingo）
-- 词条（5）：[[gouvernement]]、[[cathedrale]]、[[patissier]]、[[chapitre]]、[[detective]]
-- **待回补（联网后）**：[[gouvernement]]、[[cathedrale]]、[[patissier]]、[[chapitre]]、[[detective]] 共 **5** 条未对照 CNRTL（年代与借入路径细节逐条标「待验证」）；法语词源一律以 CNRTL/TLFi 为准
+- 词条：**12**（new 12 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
+- 待处理：inbox 暂无积压（三批共 12 条已编译；前 5 条标注 Duolingo，本批 7 条 inbox **未标注来源**——推断 Duolingo，**待确认**）
+- 词条（12）：[[gouvernement]]、[[cathedrale]]、[[patissier]]、[[chapitre]]、[[detective]]、[[il-y-a]]、[[environ]]、[[mot]]、[[nouveau]]、[[auteur]]、[[connaitre]]、[[court]]
+- **待回补（联网后）**：共 **12** 条未对照 CNRTL（年代与借入路径细节逐条标「待验证」）——前 5：gouvernement、cathedrale、patissier、chapitre、detective；本批 7：il-y-a、environ、mot、nouveau、auteur、connaitre、court。法语词源一律以 CNRTL/TLFi 为准
 
 ## 怎么用
 
@@ -83,6 +83,9 @@ sources: [raw/vocab-fr-inbox.md]
 - **候选（2026-10-01）**：**cathedra「座」词族**（[[cathedrale]] · 英语 chair / chaise / cathedra）——chair 与 cathedral 同出拉丁 cathedra（双重借入），chairman 的 chair 也在这一线
 - **候选（2026-10-01）**：**pasta「面团」词族**（[[patissier]] · pâte · 英语 pastry / paste / pasta / pâté）——paste 与 pasta 双重借入、pâté 再借入；「一个词根多次进英语」的样本
 - **候选（2026-10-01）**：**英语回借簇（anglicismes）**（[[detective]] 起）——détective 之后若再收 week-end / email / marketing 等，可合并一页「法语里的英语借词」
+- **候选（2026-10-01）**：**connaître vs savoir**（认识 vs 知道）——法语动词辨析的头号易混对：connaître 认识（+ 名词，凭经验）／ savoir 知道（+ 从句 / 不定式）；由 [[connaitre]] 触发，待 savoir 收词后建辨析页
+- **候选（2026-10-01）**：**同音簇 court · cour · cours**（都读 /kuʁ/，另有 il court「他跑」）——短 / 院子·宫廷 / 课程，一个音四个义；由 [[court]] 触发
+- **候选（2026-10-01）**：**「新」三兄弟 nouveau · neuf · récent**＋英语 new / novel 的**借入 vs 共祖**样本——由 [[nouveau]] 触发（new 是 PIE 共祖、novel 是古法语借入，最佳对比例）
 
 ## 开放问题
 

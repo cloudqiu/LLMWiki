@@ -232,3 +232,13 @@
 - 规则细化：跨语言同名消歧改为「**后建页者**加语言后缀」（原规则只写法语 `-fr`；因 [[detective]] 先建、英语 detective 可能后建，补齐对称情形 `-en`）——同步 §3.4 与 hub 结构约定；[[detective]] 预登入 hub 命名消歧登记表
 - 更新：[[french-vocabulary]]（进度 1→5、待回补 5 条、词族候选 ×4：caput / cathedra / pasta / 英语回借簇）、`index.md`（Stats：fr 1→5，总 22）
 - **备注（环境限制）**：出网仍被 sinkhole（复测 cnrtl.fr 解析仍为 198.18.0.128），年代/路径细节逐条标「待验证」
+
+## [2026-10-01] ingest | vocab-fr: 第三批 7 条（il y a / environ / mot / nouveau / auteur / connaître / court）
+
+- 来源：`raw/vocab-fr-inbox.md` → src/duolingo（本批 7 条 inbox **未标注出处**——推断 Duolingo，**待确认**）；去重跳过 5 条（gouvernement / `cathedrate`→cathédrale / patissier / chapitre / detective）
+- 新建词条 7 条：[[il-y-a]]、[[environ]]、[[mot]]、[[nouveau]]、[[auteur]]、[[connaitre]]、[[court]]——含法语系统**首条多词单位**（il y a → `il-y-a.md`）
+- lemma / 异常处理：`neuveaux` 非法语词 → 判定为 nouveaux（nouveau 阳复）笔误、归并 [[nouveau]]；`connais`（je/tu 现在时）→ 不定式 [[connaitre]]；`court` 有歧义（形容词「短的」/ 网球场 / courir 第三人称）→ 按最可能教学词「短的」编译、另两义在易混中说明——均加「收录说明」并待用户确认
+- 词源要点：**il y a**＝il + y（拉丁 ibi「那里」）+ a（avoir ← habere）＝「那里有」——与英 there is 语法化路径同构；**mot**＝拉丁 muttum「嘟囔声」→ 法语把「一声嘀咕」抬成「词」，verbum 分化为 verbe/parole；**nouveau**＝拉丁 novellus（novus「新」指小）；**auteur**＝拉丁 auctor ← augere「增加」——「使作品生长出来的人」；**connaître**＝拉丁 cognoscere ← PIE \*gneh₃-（与英 know 同源）；**court**＝拉丁 curtus「截短」← PIE \*(s)ker-「切」
+- 英法交叉要点（本批亮点，借入 vs 共祖样本）：**new（共祖）vs novel（古法语借入）**；**know / can（共祖）vs connoisseur（法语借入，1714）**；**auteur / author 双重借入（doublet）**；**environs / environment ← 法语**；**bon mot / mot juste ← 法语**；**curt 拉丁直借 vs court 经古法语（借的是 cour，另一词源）**
+- 更新：[[french-vocabulary]]（进度 5→12、待回补 12 条、词族候选 ×3：connaître/savoir、court·cour·cours、nouveau·neuf·récent+new/novel）、`index.md`（Stats：fr 5→12，总 29）
+- **备注（环境限制）**：出网仍被 sinkhole（复测 cnrtl.fr 解析 198.18.0.132），法语词源核对债务累计 **12** 条，待联网一并清账

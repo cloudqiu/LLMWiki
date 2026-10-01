@@ -12,3 +12,10 @@ cathedrate -- Duolingo
 patissier -- Duolingo
 chapitre -- Duolingo
 detective -- Duolingo
+il y a
+environ
+mot
+neuveaux
+auteur
+connais
+court
