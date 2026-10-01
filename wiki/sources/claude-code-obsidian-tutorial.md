@@ -55,7 +55,7 @@ format: article
 ## 与既有知识的关系
 
 - **印证**：本教程是 [[llm-wiki-pattern]] 的忠实中文转述与操作化；对 [[llm-wiki]]、[[llm-wiki-vs-rag]] 均为支持性来源，无矛盾。
-- **实现差异**（非矛盾——gist 明言结构是示例性的）：教程的目录变体为 `raw/` 子目录化（articles / papers）、wiki 用 `synthesis/` 收综合页、另设 `output/` 放查询结果与 lint 报告；本库为 `raw/` 平铺 + wiki 六类目录（topics / comparisons / answers，无 output）。两种实例化并存，见讨论问题。
+- **实现差异**（非矛盾——gist 明言结构是示例性的）：教程的目录变体为 `raw/` 子目录化（articles / papers）、wiki 用 `synthesis/` 收综合页、另设 `output/` 放查询结果与 lint 报告；本库为 `raw/` 平铺 + wiki 六类目录——其中 **`output/` 落盘约定已于 2026-10-01 采纳**（schema v1.3），raw 子目录化仍待议。两种实例化并存且相互借鉴。
 - **传播证据**：模式已从英语 idea file（[[llm-wiki-pattern]]）进入中文社区教学；本库与该教程是同一模式的两次独立实例化。
 - **存疑 / 待验证**：
   - 「Karpathy 于 2026 年 4 月提出此模式」——教程说法（L12），未见一手日期，**待验证**（gist 本身未署日期；其 log 格式示例用的是 `2026-04-02`）。
@@ -72,10 +72,11 @@ format: article
 - 更新来源页：[[llm-wiki-pattern]]（后续实践回链）
 - 更新主题：[[personal-knowledge-management]]（传播期节点 + 页面地图）
 - 更新导航：index.md、log.md
+- 后续：`CLAUDE.md` v1.3（采纳 `output/` 落盘约定，源自本页讨论）
 
 ## 留给用户的讨论问题
 
 - 目录结构：本库 `raw/` 保持平铺，还是引入教程式 `articles/` `papers/` 子目录？（当前 3 份来源，尚无必要；可随规模再议）
 - 教程 15 张截图是否需要下载到 `raw/assets/` 本地留存？（文字层已自足；如需，在 Obsidian 中对本文件按 `Ctrl+Shift+D`）
 - 主题与插件：清单里哪些想启用？Dataview / Templater 已在 Backlog；Git 插件与本库「命令行 git」的取舍。
-- `output/`（查询结果、lint 报告落盘）是否值得引入？本库现以 `wiki/answers/` 承担「好答案沉淀」，可以吸收 output 的用途。
+- `output/`（查询结果、lint 报告落盘）是否值得引入？——**已决议（2026-10-01）：采纳**。lint 报告与查询产物落盘 `output/`；`wiki/answers/` 继续承担「有沉淀价值的问答回填」，分工见 `CLAUDE.md` §3.2 / §3.3。

@@ -59,3 +59,10 @@
 - 存疑（待验证）：Karpathy「2026-04 提出」与「OpenAI 联合创始人」（二手）；RUNOOB 与菜鸟教程关系；Claude Code「免费工具」说法
 - 待办：① raw 子目录化评估（已入 Backlog）；② 教程 15 张远程截图未下载本地（文字层自足）；③ 主题/插件启用选择（Dataview / Templater 已在 Backlog）
 - schema：无变更；index.md 已同步（来源 2→3、页面 12→15）
+
+## [2026-10-01] schema | 采纳 output/ 落盘约定（v1.3）
+
+- 决议（源自 [[claude-code-obsidian-tutorial]] 摄入时的讨论问题）：lint 报告与查询产物**落盘**到新建的 `output/`；`wiki/answers/` 继续承担「有沉淀价值的问答回填」，两者分工写入 schema
+- 修改 `CLAUDE.md`（v1.3）：§1 结构（+`output/`）、§2.1（frontmatter 适用范围）、§3.2（query 新增「产物落盘」步）、§3.3（lint 报告落盘至 `output/YYYY-MM-DD-lint.md`）、§4（index 新增 Outputs 区）、§5 规则 3（同步义务扩展到产物）、§7（v1.3 记录）
+- 新建 `output/README.md`（约定说明）；`index.md` 增加 Outputs 区、Backlog 调整（raw 子目录化仍待议）；来源页 [[claude-code-obsidian-tutorial]] 讨论问题同步决议
+- 待办：raw 子目录化评估仍开放；其余讨论问题（截图下载、主题/插件启用）未决

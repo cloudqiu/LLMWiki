@@ -27,12 +27,13 @@ LLMWiki/
 │   ├── topics/          # 主题总览（hub / synthesis，随来源积累持续演进）
 │   ├── comparisons/     # 对比页
 │   └── answers/         # 从查询中归档的优质问答
+├── output/              # 【产物区】lint 报告、查询产物（幻灯片/图表等）落盘处；非 wiki 页面
 └── templates/           # 页面模板（创建新页面前先读对应模板）
 ```
 
 ## 2. 页面规范
 
-### 2.1 Frontmatter（所有 wiki 页面必须有）
+### 2.1 Frontmatter（所有 `wiki/` 下的页面必须有；`output/` 产物与 `raw/` 不适用）
 
 ```yaml
 ---
@@ -80,7 +81,8 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 2. 读相关 wiki 页面；需要时回溯 `raw/` 原文核对。
 3. **带引用作答**：wiki 页面用 `[[链接]]`，原文注明 `raw/xxx.md` 的位置（行号或小节）。不确定的事实标注「待验证」，不编造。
 4. 输出形式按问题选择：markdown 页 / 对比表 / Marp 幻灯片 / matplotlib 图表 / canvas。
-5. **好答案回填**：有价值的分析、对比、发现的联系，归档为 `wiki/answers/<slug>.md`（依据 `templates/answer.md`），并更新 index（Answers 区）与 log（`query` 条目）。探索的成果也应当复利。
+5. **产物落盘**：文件型产物（幻灯片、图表、导出的表格/报告）写入 `output/YYYY-MM-DD-<slug>.<ext>`，对话中引用文件路径；并在 index 的 Outputs 区登记一行、记入 log。
+6. **好答案回填**：有价值的分析、对比、发现的联系，归档为 `wiki/answers/<slug>.md`（依据 `templates/answer.md`），并更新 index（Answers 区）与 log（`query` 条目）。探索的成果也应当复利。
 
 ### 3.3 Lint 巡检
 
@@ -93,13 +95,13 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 - [ ] **缺失的交叉引用**（相关页面之间未互链）
 - [ ] 可用网络搜索/新资料补齐的**数据缺口**（向用户建议新问题、新来源）
 
-报告在对话中给出（用户要留存时归档为 answers 页），修复动作完成后追加 log：`## [YYYY-MM-DD] lint | <摘要>`。
+报告落盘为 `output/YYYY-MM-DD-lint.md`，对话中给出摘要；修复动作完成后追加 log：`## [YYYY-MM-DD] lint | <摘要>`，并在 index 的 Outputs 区登记一行。有长期参考价值的结论可另行回填 `wiki/answers/`。
 
 ## 4. 导航文件规范
 
 ### index.md（内容目录，content-oriented）
 
-- 每个页面一行：链接 + 一句话摘要；按类型分区：Sources / Concepts / Entities / Topics / Comparisons / Answers。
+- 每个页面一行：链接 + 一句话摘要；按类型分区：Sources / Concepts / Entities / Topics / Comparisons / Answers / Outputs（output/ 产物，链接指向文件）。
 - 另设 **Backlog** 区：待建页面与待补事项。
 - 每次 ingest 后必须更新；查询时**先读本文件**。
 - 适用规模：约 100 份来源 / 数百页以内。
@@ -114,7 +116,7 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 
 1. `raw/` **永不修改**（不美化、不重排）；要批注，写到 wiki 页面里。
 2. 每个 wiki 页面必须有 frontmatter；派生页面的 `sources` 必须能追溯到 `raw/` 中的文件。
-3. 每次 ingest / 答案归档，必须同步更新 `index.md` 与 `log.md`。
+3. 每次 ingest / 答案或产物归档 / lint 报告落盘，必须同步更新 `index.md` 与 `log.md`。
 4. 不静默删页：废弃内容标 `status: archived` 并说明原因。
 5. 矛盾必须显式记录在两处，不允许静默覆盖或折中处理。
 6. 不确定的事实标注「待验证」，不编造来源。
@@ -133,3 +135,4 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 - **[2026-10-01]** 初始版本（v1）：三层结构（raw / wiki / schema）；wiki 分 6 类目录；确立 frontmatter 字段、kebab-case 命名、wikilink 约定；定义 ingest / query / lint 三个工作流；index / log 规范；6 个页面模板。实例化自 Karpathy 的 LLM Wiki gist（`raw/llm-wiki.md`）。
 - **[2026-10-01]** v1.1：PDF 资料在 `raw/` 中同时保存机器提取的同名 `.txt`（本机无 poppler 时的阅读/检索方案；原件仍为唯一权威）。
 - **[2026-10-01]** v1.2：安装 poppler（scoop 26.09.0），PDF 可直接渲染阅读；`.txt` 提取保留为检索层。
+- **[2026-10-01]** v1.3：新增 `output/` 产物区并确立落盘约定（lint 报告、查询产物；源自 [[claude-code-obsidian-tutorial]] 摄入时的讨论）；相应更新 §1（结构）、§2.1（frontmatter 适用范围）、§3.2（query 新增「产物落盘」）、§3.3（lint 报告落盘）、§4（index 新增 Outputs 区）、§5 规则 3。

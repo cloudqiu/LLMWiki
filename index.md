@@ -37,6 +37,10 @@
 
 （暂无——有值得留存的查询结果时归档到 `wiki/answers/`）
 
+## Outputs 产物（output/）
+
+（暂无——lint 报告与查询产物将落盘于此，并在此登记）
+
 ## Backlog 待建页面
 
 - （建议）Engelbart《Augmenting Human Intellect》(1962)：memex → 人机协同的直接后续
@@ -45,7 +49,7 @@
 - Obsidian Web Clipper 剪藏流程（方法页）
 - Marp 幻灯片 / Dataview 查询用法（工具用法页）
 - 搜索方案：qmd 集成评估（wiki 规模增长后再做）
-- （评估）raw/ 子目录化（articles / papers）与 output/ 落盘——教程变体 vs 本库现状（见 [[claude-code-obsidian-tutorial]]）
+- （评估）raw/ 子目录化（articles / papers）——待来源规模增长后再议（output/ 落盘已于 2026-10-01 采纳，见 schema v1.3）
 
 ## Stats
 
