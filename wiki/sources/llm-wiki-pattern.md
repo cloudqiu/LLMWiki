@@ -47,6 +47,7 @@ format: idea-document
 
 - 本资料是**本库的创世文档**：目录结构、页面类型、工作流与约定均由此实例化而来（见 `CLAUDE.md`、`log.md` 的 setup 条目）。
 - 与 RAG / NotebookLM / ChatGPT 文件上传等「检索式」做法形成对照 → [[retrieval-augmented-generation]]、[[llm-wiki-vs-rag]]。
+- 后续实践：中文社区已据本 gist 写成从零搭建教程（[[claude-code-obsidian-tutorial]]，RUNOOB）——本库与该教程是同一模式的两次独立实例化。
 
 ## 由本来源派生 / 更新的页面
 

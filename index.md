@@ -7,6 +7,7 @@
 
 - [[llm-wiki-pattern]] — Karpathy《LLM Wiki》gist：模式原始定义，本库创世文档。2026-10-01 摄入，派生 8 个页面。
 - [[as-we-may-think]] — Vannevar Bush《As We May Think》(The Atlantic, 1945-07)：memex 与关联索引的一手文献。2026-10-01 摄入，派生/更新 6 个页面。
+- [[claude-code-obsidian-tutorial]] — RUNOOB 中文教程：Claude Code + Obsidian 从零搭建 LLM Wiki；含主题/插件清单与目录结构变体。2026-10-01 摄入，新建 3 页、更新 6 页。
 
 ## Concepts 概念
 
@@ -21,6 +22,8 @@
 - [[vannevar-bush]] — OSRD 主任（1945）；memex 构想提出者。
 - [[obsidian]] — 本地优先的 markdown 知识管理应用；本库的浏览 IDE。
 - [[qmd]] — 本地 markdown 搜索引擎（BM25 + 向量 + LLM 重排）。（stub）
+- [[claude-code]] — Anthropic 的终端 agent；本库的维护者（「LLM 是程序员」中的程序员）。
+- [[runoob]] — 发布本库首份中文教程来源的公众号。（stub）
 
 ## Topics 主题
 
@@ -42,7 +45,8 @@
 - Obsidian Web Clipper 剪藏流程（方法页）
 - Marp 幻灯片 / Dataview 查询用法（工具用法页）
 - 搜索方案：qmd 集成评估（wiki 规模增长后再做）
+- （评估）raw/ 子目录化（articles / papers）与 output/ 落盘——教程变体 vs 本库现状（见 [[claude-code-obsidian-tutorial]]）
 
 ## Stats
 
-- 来源：**2** 份 ｜ wiki 页面：**12** ｜ 最近更新：2026-10-01
+- 来源：**3** 份 ｜ wiki 页面：**15** ｜ 最近更新：2026-10-01

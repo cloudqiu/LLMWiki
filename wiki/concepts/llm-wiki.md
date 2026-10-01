@@ -5,7 +5,7 @@ created: 2026-10-01
 updated: 2026-10-01
 tags: [knowledge-management, llm, pattern]
 status: growing
-sources: [raw/llm-wiki.md]
+sources: [raw/llm-wiki.md, raw/ClaudeCode-Obsidian-还能这么玩从零搭一套会自己整理的知识库.md]
 ---
 
 # LLM Wiki 模式
@@ -45,10 +45,11 @@ sources: [raw/llm-wiki.md]
 - **规模上限**：index.md 模式在约 100 份来源 / 数百页内有效，更大时需引入搜索（[[qmd]]）。
 - **质量风险**：LLM 维护的一致性需要人类抽查；来源未展开错误传播问题。本库的缓解手段：lint 巡检 + 矛盾在两处显式标注（见 `CLAUDE.md` §3.3、§5）。
 - **抽象性**：原文是 idea file，结构、约定、工具皆为示例；「一切可选、模块化」，应随实际需求裁剪（本库即一次实例化）。
+- **实例化空间**：社区实践已出现结构变体——RUNOOB 教程（[[claude-code-obsidian-tutorial]]）用 `raw/` 子目录（articles / papers）、`wiki/synthesis/` 与 `output/`；本库则 `raw/` 平铺 + wiki 六类目录。gist 明言结构示例性，两种并存成立。
 
 ## 相关页面
 
-- 来源：[[llm-wiki-pattern]]
+- 来源：[[llm-wiki-pattern]]；中文教程：[[claude-code-obsidian-tutorial]]
 - 对照：[[llm-wiki-vs-rag]]、[[retrieval-augmented-generation]]
 - 思想前身：[[memex]]（[[vannevar-bush]]）与其中的 [[associative-trails|关联路径]] 机制——「连接与文档本身同等重要」
 - 工具：[[obsidian]]、[[qmd]]
@@ -57,3 +58,4 @@ sources: [raw/llm-wiki.md]
 ## 来源
 
 - raw/llm-wiki.md（Karpathy, "LLM Wiki" gist）
+- raw/ClaudeCode-Obsidian-还能这么玩从零搭一套会自己整理的知识库.md（RUNOOB 教程：转述与实例化）

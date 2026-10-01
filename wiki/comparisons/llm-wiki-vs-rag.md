@@ -5,7 +5,7 @@ created: 2026-10-01
 updated: 2026-10-01
 tags: [knowledge-management, llm, retrieval]
 status: growing
-sources: [raw/llm-wiki.md]
+sources: [raw/llm-wiki.md, raw/ClaudeCode-Obsidian-还能这么玩从零搭一套会自己整理的知识库.md]
 ---
 
 # LLM Wiki vs RAG
@@ -40,3 +40,4 @@ sources: [raw/llm-wiki.md]
 ## 来源
 
 - raw/llm-wiki.md（对比维度提炼自原文 "The core idea"、"Indexing and logging"、"Optional: CLI tools" 各节）
+- raw/ClaudeCode-Obsidian-还能这么玩从零搭一套会自己整理的知识库.md（RUNOOB 教程对同一对比的复述，见其 L22）

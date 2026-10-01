@@ -5,7 +5,7 @@ created: 2026-10-01
 updated: 2026-10-01
 tags: [knowledge-management]
 status: growing
-sources: [raw/llm-wiki.md]
+sources: [raw/llm-wiki.md, raw/ClaudeCode-Obsidian-还能这么玩从零搭一套会自己整理的知识库.md]
 ---
 
 # 个人知识管理（PKM）
@@ -19,6 +19,7 @@ sources: [raw/llm-wiki.md]
 - **1945** — Vannevar Bush 发表《[[as-we-may-think]]》(The Atlantic)：提出 [[memex]]——桌面式私人「文件与图书馆」（微缩胶片 + 投影屏）；核心机制是 [[associative-trails|关联索引]]：连接任意两项成「路径」，可巡游、可分享；预言「trail blazers」新职业。**未解决**：路径的构建与维护仍靠用户本人。
 - **检索时代** — RAG / NotebookLM 等：查询时检索，无积累（[[retrieval-augmented-generation]]）。
 - **现在** — [[llm-wiki]]：LLM 充当维护者，知识编译一次、持续保鲜；人只做策展与提问。
+- **传播期** — 模式进入中文社区教学（[[claude-code-obsidian-tutorial]]，RUNOOB）并出现多种结构实例化；本库与之同期落地。
 
 ## 页面地图
 
@@ -34,6 +35,9 @@ sources: [raw/llm-wiki.md]
 | [[llm-wiki-pattern]] | 来源 | Karpathy 原文（本库创世文档） |
 | [[obsidian]] | 实体 | 人与 wiki 之间的界面 |
 | [[andrej-karpathy]] | 实体 | 模式作者 |
+| [[claude-code-obsidian-tutorial]] | 来源 | 中文教程：从零搭建（含结构变体） |
+| [[claude-code]] | 实体 | 执行维护的 agent（本库维护者） |
+| [[runoob]] | 实体 | 教程发布者（stub） |
 
 ## 开放问题
 
@@ -42,7 +46,9 @@ sources: [raw/llm-wiki.md]
 - 与「间隔重复 / 主动回忆」等记忆方法如何结合？
 - 谱系线：memex → Engelbart (1962) → 超文本（Nelson）→ wiki 反向链接，这条演变线如何逐段深化？
 - 与团队协作场景如何衔接（多人 + LLM 共同维护）？
+- 目录结构收敛：本库约定（raw 平铺 + 六类 wiki 目录）与教程变体（raw 子目录 / synthesis / output）保持并存，还是收敛其一？
 
 ## 来源
 
 - raw/llm-wiki.md
+- raw/ClaudeCode-Obsidian-还能这么玩从零搭一套会自己整理的知识库.md

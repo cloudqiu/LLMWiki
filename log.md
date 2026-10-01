@@ -49,3 +49,13 @@
 - `scoop install poppler`（26.09.0；`pdftoppm`/`pdftotext` 等 12 个工具已建 shim）；注册表验证：`scoop\shims` 在用户 PATH，新进程均可解析
 - 注意：**本会话**启动早于安装，Read 工具直接读 PDF 需重启 Claude Code 后生效；重启前变通：PowerShell 调 `pdftoppm -png` 转图后再读（已实测第 1 页）
 - 同步更新 `CLAUDE.md`（Schema v1.2）
+
+## [2026-10-01] ingest | Claude Code + Obsidian 还能这么玩（RUNOOB 教程）
+
+- 来源：`raw/ClaudeCode-Obsidian-还能这么玩从零搭一套会自己整理的知识库.md`（微信公众号 RUNOOB；原始链接 https://mp.weixin.qq.com/s/ySiAUMffzBDMgsqyMft_PA ）。首次剪藏因微信反爬仅得空壳文件，同日重剪修复；原文未署发布日期
+- 新建 3 页：[[claude-code-obsidian-tutorial]]（来源）、[[claude-code]]（实体）、[[runoob]]（实体，stub）
+- 更新 6 页：[[llm-wiki]]（实例化变体）、[[obsidian]]（主题 5 款 + 插件 11 款清单入库）、[[llm-wiki-pattern]]（后续实践回链）、[[llm-wiki-vs-rag]]（复述印证）、[[andrej-karpathy]]（二手头衔/日期主张，已标待验证）、[[personal-knowledge-management]]（传播期节点 + 页面地图）
+- 关键综合：本教程是 [[llm-wiki-pattern]] 的中文操作化版本；本库与教程为同一模式的两次独立实例化。教程结构变体（`raw/articles` 子目录、`wiki/synthesis`、`output/`）与本库约定（raw 平铺、六类 wiki 目录）差异已显式记录于来源页——**非矛盾**（gist 明言结构示例性）
+- 存疑（待验证）：Karpathy「2026-04 提出」与「OpenAI 联合创始人」（二手）；RUNOOB 与菜鸟教程关系；Claude Code「免费工具」说法
+- 待办：① raw 子目录化评估（已入 Backlog）；② 教程 15 张远程截图未下载本地（文字层自足）；③ 主题/插件启用选择（Dataview / Templater 已在 Backlog）
+- schema：无变更；index.md 已同步（来源 2→3、页面 12→15）
