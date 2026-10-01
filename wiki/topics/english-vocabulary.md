@@ -20,9 +20,10 @@ sources: [raw/vocab-inbox.md]
 
 ## 进度
 
-- 词条：**10**（new 10 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
-- 待处理：inbox 暂无积压（四批共 10 词已编译，均出自《Mattering》）
-- 词条（10）：[[deplete]]、[[off-kilter]]、[[unravel]]、[[turquoise]]、[[flurry]]、[[nook]]、[[counterweight]]、[[disconcert]]、[[hospice]]、[[decor]]
+- 词条：**11**（new 11 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
+- 待处理：inbox 暂无积压（五批共 11 词已编译，均出自《Mattering》）
+- 词条（11）：[[deplete]]、[[off-kilter]]、[[unravel]]、[[turquoise]]、[[flurry]]、[[nook]]、[[counterweight]]、[[disconcert]]、[[hospice]]、[[decor]]、[[unto]]
+- 待回补：[[unto]] 的词源细节未对照 etymonline（2026-10-01 会话网络受限，已标待验证）；其余 10 词编译时均已对照核实
 
 ## 怎么用
 
@@ -46,7 +47,9 @@ sources: [raw/vocab-inbox.md]
 
 ## 词族 / 综合页
 
-（暂无——出现值得综合的词族、易混对或主题簇时在此登记，并链到对应页面）
+（暂无已建页面——出现值得综合的词族、易混对或主题簇时在此登记，并链到对应页面）
+
+- **候选（2026-10-01）**：「直到 / 到」虚词簇 **unto · until · till**——三者同出日耳曼语「直到」义（un- ← 哥特语 und），中古英语中 unto 与 until 一度同义；待 until、till 收词后建一页对照（含 unto / onto 拼写易混）。当前已在 [[unto]] 词条内先行记录
 
 ## 开放问题
 

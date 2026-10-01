@@ -142,3 +142,12 @@
 - 词源要点：**hospice**＝1818「旅人招待所」→1879「临终机构」；拉丁 hospes（客人/主人），与 hospital / hotel / hostile 同出 PIE \*ghos-ti-「陌生人」家族；**decor**＝1897（原为剧场用语），法语 décor 逆构自 décorer ← 拉丁 decorare，英语恰好还原了拉丁名词 decor 本身；同根 \*dek-（decent / dignity / doctor / orthodox）
 - 更新：[[english-vocabulary]]（8→10）、`index.md`（Stats）
 - 备注：hospice 词条未采纳「运动始于 1960s 英国」作例句（无本批来源支撑），改用中性例句
+
+## [2026-10-01] ingest | vocab: 第五批 1 词（unto）
+
+- 来源：`raw/vocab-inbox.md`（《Mattering》）→ src/mattering；去重跳过 10 词（`unraveling` 归并至 lemma [[unravel]]）
+- 新建词条 1 个：[[unto]]（本批 inbox 仅新增 1 词，git diff 已确认）
+- 词源要点：**unto**＝「直到、及于」义的日耳曼语前缀（哥特语 und / 古诺斯语 unz / 古高地德语 unz）＋ 古英语 tō「到」，约 1300 年入英语；与 until / till 同族（中古英语中 unto 与 until 一度同义），早期现代英语兼作 to 的「与格」形式（KJV：spake unto Moses），19 世纪后退入文学/法律/宗教语体
+- 易混提示：unto / to / until / onto（unto↔onto 仅差一字母）
+- **备注（环境限制）**：本会话出网被整体 sinkhole（所有域名解析至保留段 198.18.0.0/15，`web_fetch` 全线失败），etymonline / Wiktionary **无法访问**——词源按既有知识撰写，「成词机制（un-+to 复合 vs. until 类推）」与「印欧语更早来源」已标**待验证**；恢复联网后应回补 etymonline 核对（词条与 hub 均已记该待办）
+- 更新：[[english-vocabulary]]（进度 10→11、新增待回补项、词族候选 unto/until/till）、`index.md`（Stats：vocab 10→11）
