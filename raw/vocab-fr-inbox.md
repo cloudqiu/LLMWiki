@@ -33,4 +33,20 @@ moderne
 autrice
 prendre
 ca
+mon
+frere
+cherche
+son
+deodorant
+peut
+jamais
+elle ne peut jamais y rester longtemps
+rester
+longtemps
+souffle
+bougie
+gateau
+sur
+inacceptable
+
 

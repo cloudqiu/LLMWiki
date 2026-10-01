@@ -20,10 +20,10 @@ sources: [raw/vocab-fr-inbox.md]
 
 ## 进度
 
-- 词条：**24**（new 24 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
-- 待处理：inbox 暂无积压（四批共 24 条已编译；前 5 条标注 Duolingo，第三、四批 inbox **未标注来源**——推断 Duolingo，**待确认**）
-- 词条（24）：[[gouvernement]]、[[cathedrale]]、[[patissier]]、[[chapitre]]、[[detective]]、[[il-y-a]]、[[environ]]、[[mot]]、[[nouveau]]、[[auteur]]、[[connaitre]]、[[court]]、[[presentateur]]、[[certain]]、[[trouver]]、[[emission]]、[[decouvrir]]、[[incroyable]]、[[deja]]、[[voir]]、[[litterature]]、[[moderne]]、[[prendre]]、[[ca]]
-- **待回补（联网后）**：共 **24** 条未对照 CNRTL（年代与借入路径细节逐条标「待验证」）。法语词源一律以 CNRTL/TLFi 为准
+- 词条：**38**（new 38 ｜ learning 0 ｜ known 0）；更新于 2026-10-01
+- 待处理：inbox 暂无积压（五批共 38 条已编译；前 5 条标注 Duolingo，第三至五批 inbox **未标注来源**——推断 Duolingo，**待确认**）
+- 词条（38）：[[gouvernement]]、[[cathedrale]]、[[patissier]]、[[chapitre]]、[[detective]]、[[il-y-a]]、[[environ]]、[[mot]]、[[nouveau]]、[[auteur]]、[[connaitre]]、[[court]]、[[presentateur]]、[[certain]]、[[trouver]]、[[emission]]、[[decouvrir]]、[[incroyable]]、[[deja]]、[[voir]]、[[litterature]]、[[moderne]]、[[prendre]]、[[ca]]、[[mon]]、[[frere]]、[[chercher]]、[[son]]、[[deodorant]]、[[pouvoir]]、[[jamais]]、[[rester]]、[[longtemps]]、[[souffle]]、[[bougie]]、[[gateau]]、[[sur-prep]]、[[inacceptable]]
+- **待回补（联网后）**：共 **38** 条未对照 CNRTL（年代与借入路径细节逐条标「待验证」）。法语词源一律以 CNRTL/TLFi 为准
 
 ## 怎么用
 
@@ -73,6 +73,7 @@ sources: [raw/vocab-fr-inbox.md]
 | 页面 | 原形 | 说明 |
 | --- | --- | --- |
 | [[detective]]（法语） | detective | 英语 detective 若日后收词建页，按「后建者加语言后缀」规则记为 `detective-en.md`，两页互链 |
+| [[sur-prep]]（法语） | sur | sur（介词）与 sûr（确定的，adj.）近形对——预置词性后缀 `sur-prep.md`；日后收 sûr 记为 `sur-adj.md` |
 
 ## 词族 / 综合页
 
@@ -89,6 +90,9 @@ sources: [raw/vocab-fr-inbox.md]
 - **候选（2026-10-01）**：**prehendere「抓」词族**（[[prendre]] · apprendre · comprendre · surprendre · entreprendre ＋ 英 entrepreneur / enterprise / surprise / prison）——surprise 的 -prise 即「抓」；由 [[prendre]] 触发，待收 comprendre / apprendre 后建页
 - **候选（2026-10-01）**：**videre「看/知」词族**（[[voir]] · revoir · prévoir ＋ 英 view / video / vision / wit / wise）——PIE \*weid- 的「看」与「知」一体两面；由 [[voir]] 触发
 - **候选（2026-10-01）**：**credere「信」词族**（croire · [[incroyable]] · croyance ＋ 英 credit / creed / credible / incredible 平行构词）——由 [[incroyable]] 触发
+- **候选（2026-10-01）**：**capere「拿」词族**（[[inacceptable]] · accepter · recevoir · concevoir ＋ 英 accept / receive / capture / perception）——「拿」串起接受/接收/构想；由 [[inacceptable]] 触发
+- **候选（2026-10-01）**：**主有词 mon · ton · son 系列**（[[mon]] · [[son]] · ma/ta/sa · mes/tes/ses）——性数配合 + 元音前阴名用 mon/son/ton 的规则；由 [[mon]] / [[son]] 触发
+- **候选（2026-10-01）**：**stare「站」词族**（[[rester]] · arrêter · être ＋ 英 rest / arrest / stand / stay / state）——rester 的「停留」＝「站住不走」；由 [[rester]] 触发
 
 ## 开放问题
 

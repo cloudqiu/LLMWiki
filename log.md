@@ -258,3 +258,14 @@
 - 成因：Obsidian 打开空白 canvas 会自动在仓库根目录生成 `Untitled.canvas`（此前数次出现，内容为 `{}` 空画布，非 wiki 内容，已多次手动删除）
 - 处理：`.gitignore` 增 `Untitled.canvas`（仅忽略默认空白名）；**不忽略 `*.canvas`**——canvas 是 schema §3.2 认可的合法产出形式，有意创建的画布仍应入库
 - 影响：仅版本管理层面，不涉及 wiki 页面与 index/log 计数
+
+## [2026-10-01] ingest | vocab-fr: 第五批 15 条 → 14 词条（mon / frère / chercher / son / déodorant / pouvoir / jamais / rester / longtemps / souffle / bougie / gâteau / sur / inacceptable）
+
+- 来源：`raw/vocab-fr-inbox.md` → src/duolingo（本批 inbox **未标注出处**——推断 Duolingo，**待确认**）；去重跳过 24 条
+- 新建词条 14 条：[[mon]]、[[frere]]、[[chercher]]、[[son]]、[[deodorant]]、[[pouvoir]]、[[jamais]]、[[rester]]、[[longtemps]]、[[souffle]]、[[bougie]]、[[gateau]]、[[sur-prep]]、[[inacceptable]]
+- **lemma / 归并**：`frere`/`gateau`/`deodorant` 补重音；`cherche`→[[chercher]]、`peut`→[[pouvoir]]（动词形式归不定式）；`son`（主有/声音）与 `souffle`（气息/动词形）为同形双义，各并一页；`sur` 按命名消歧规则记 `sur-prep.md`（与 sûr 近形对，登入命名登记表）
+- **句子处理**：inbox 出现整句 `elle ne peut jamais y rester longtemps`——非 headword，不建页，拆解为 pouvoir/jamais/y/rester/longtemps（均已收），并在 [[rester]] / [[longtemps]] 词条中作为例句复用
+- 词源亮点：**chercher**＝晚期拉丁 circare「绕行」← circum「环绕」——「找」＝绕圈巡视，英 search 即其借入；**bougie**＝地名 Béjaïa（蜡烛贸易港）→ 通名，英俚语 bougie（← bourgeois）与之**无关**（词源陷阱）；**gâteau**＝古法语 gastel ← 法兰克语（法语里少见的日耳曼词），与英 cake 不同源；**rester**＝re- + stare「站」→ 英 rest/arrest 借入；**pouvoir**＝拉丁 posse（pot- + esse）→ 英 power 借入；**son**（声音）→ 英 sound
+- 英法交叉亮点：**sound ← 古法语 son**；**friar ← 古法语 frere**（vs brother 共祖）；**search/research ← 古法语 cerchier**；**déodorant ← 英 deodorant（反向回借）**；**jamais vu ← 法语**（déjà vu 的反面）；**inacceptable（法 in-）vs unacceptable（英 un-）平行构词**；**soufflé / gateau / surface / power 各为其法语源词的英语借入**
+- 更新：[[french-vocabulary]]（进度 24→38、待回补 38 条、命名消歧登记表 +sur-prep、词族候选 ×3：capere「拿」、主有词 mon/ton/son、stare「站」）、`index.md`（Stats：fr 24→38，总 55）
+- **备注（环境限制）**：出网仍被 sinkhole（复测 cnrtl.fr 198.18.0.132），法语词源核对债务累计 **38** 条
