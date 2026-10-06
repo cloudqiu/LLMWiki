@@ -280,3 +280,18 @@
 - 历史保留：本 log 旧条目与 §7 旧记录原文不动——其中词条链接自此悬空（指向已迁出页面），属历史记录不追改；新库 log 已逐字继承 22 条词汇条目（含继承说明）
 - 新库侧：git 全新初始化（首次提交见其 log「setup | LLMLangWiki 建库」条目）；SRS `dataStore=NOTES` 无独立排程数据，Obsidian 打开新库即用
 - 待办：新库联网后清账两语「待回补」清单（en 7 条 etymonline ｜ fr 38 条 CNRTL）
+
+## [2026-10-06] ingest | Windows Terminal：把黑框变好看（光影紐扣）——本库首份非 PKM 来源
+
+- 来源：`raw/Windows Terminal：把黑框变好看.md`（用户剪藏入库，微信 mp.weixin.qq.com；原文署 Oct 4, 2026）
+- 内容：面向非技术读者的终端科普——[[windows-terminal]] 不替代 CMD/PowerShell/WSL，只做「统一外壳」；核心命题「不是新命令，是新窗口」（L162）；附快捷键「命令卡片」（含 🟢/🟡 危险等级）
+- 新建页面 8：来源 [[windows-terminal-tutorial]]；实体 [[windows-terminal]]、[[command-prompt]]、[[powershell]]、[[wsl]]、[[winget]]、[[guangying-niukou]]；概念 [[command-line-interface]]（终端 ≠ shell）；主题 [[ai-era-command-line]]（该中文连载的 hub）
+- 更新页面 1：[[claude-code]]（补「宿主环境」链接：终端 agent 运行在某个 shell / 外壳里），并把本来源计入其 `sources`
+- **联网核对（本机出网对 learn.microsoft.com 与 raw.githubusercontent.com 仍被拦截；经 WebSearch 索引间接核对）**：
+  - ✓「Windows 11 自带」与「设置 → 启动 → 默认终端应用程序」路径：与官方一致（Win11 22H2 起 WT 为默认命令行体验，需 WT ≥ 1.15）
+  - ⚠️ **矛盾（原文 vs 微软默认键位）**：原文记 `Alt+Shift++` 为「分屏（上下）」；当前默认为 `alt+shift+plus` → **向右**复制窗格、`alt+shift+-` → 向下、`alt+shift+d` → `DuplicatePaneAuto`（方向自动）。已在 [[windows-terminal]] 与来源页双方用 `> [!warning] 矛盾` 标注，不折中
+  - ➕ 原文未提但关键：`Ctrl+C` 仅在**有选中内容**时是复制，否则为中断信号（新手最易踩）
+  - 待验证项：`winget install Microsoft.WindowsTerminal` 简写 vs 官方 `--id … -e`；`Ctrl+V` 直接粘贴的启用版本；署名「凡哥哥」与公众号「光影紐扣」的对应关系
+- schema：**本次未改动**——新页均为既有六类目录内的常规增行，`index` 按类型分区无需新增结构；「主题边界是否扩张」属待用户决议事项，决议前不写入 schema
+- 派生：`index.md`（Sources/Concepts/Entities/Topics 各增行，Backlog +3，Stats：4 来源 / 24 页 / 0 产物）
+- **待用户决议**：① 本库主题边界是否扩到「OS / 开发环境层」（否则建议按词汇系统先例整体迁出）；② 是否回补该连载前几周文章（预告第三周为 Python 篇）
