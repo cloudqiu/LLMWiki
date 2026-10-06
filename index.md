@@ -57,7 +57,6 @@
 - （建议）「预测 vs 实现」对照页：memex 的技术预言哪些成真
 - （建议）Python / 解释器：「为什么 AI 都爱写 Python」——[[ai-era-command-line]] 系列预告篇（尚未剪藏）
 - （建议）Windows Terminal 美化配置：`settings.json`、字体与配色方案（可作 `output/` 产物）
-- （建议）该连载的前几周文章回补（[[ai-era-command-line]] 脉络目前是断的）
 - Obsidian Web Clipper 剪藏流程（方法页）
 - Marp 幻灯片 / Dataview 查询用法（工具用法页）
 - 搜索方案：qmd 集成评估（wiki 规模增长后再做）

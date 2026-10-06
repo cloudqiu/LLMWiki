@@ -295,3 +295,12 @@
 - schema：**本次未改动**——新页均为既有六类目录内的常规增行，`index` 按类型分区无需新增结构；「主题边界是否扩张」属待用户决议事项，决议前不写入 schema
 - 派生：`index.md`（Sources/Concepts/Entities/Topics 各增行，Backlog +3，Stats：4 来源 / 24 页 / 0 产物）
 - **待用户决议**：① 本库主题边界是否扩到「OS / 开发环境层」（否则建议按词汇系统先例整体迁出）；② 是否回补该连载前几周文章（预告第三周为 Python 篇）
+
+## [2026-10-06] query | 后续决议：不回补连载前文、不调整本机终端配置
+
+- 触发：ingest 后向用户提出三问，用户答「no need」
+- 决议（已回写各页，避免成为 lint 时的「过时开放问题」）：
+  - **不回补**该连载前几周文章——[[ai-era-command-line]] 脉络以本篇（「第二周末」）为起点，前史留白；[[windows-terminal-tutorial]] 同类「讨论问题」小节同步标为已决议
+  - **不做**本机默认终端 / settings.json 外观调整——[[windows-terminal]] 美化配置仍留在 Backlog，需要时再取
+  - 主题边界：用户**未要求迁出** → 本主题维持纳入本库（页面留存）；[[ai-era-command-line]] 的开放问题已注明触发再议的条件
+- 更新：`index.md`（Backlog 删「回补前文」一条，其余不变；Stats 不变）；[[windows-terminal-tutorial]]、[[ai-era-command-line]]（当日修订，`updated` 均为 2026-10-06）
