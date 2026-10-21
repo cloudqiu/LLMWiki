@@ -2,7 +2,7 @@
 title: "Claude Code + Obsidian 还能这么玩，从零搭一套会自己整理的知识库"
 type: source
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-21
 tags: [knowledge-management, llm, tutorial]
 status: growing
 author: RUNOOB
@@ -79,4 +79,4 @@ format: article
 - 目录结构：本库 `raw/` 保持平铺，还是引入教程式 `articles/` `papers/` 子目录？（当前 3 份来源，尚无必要；可随规模再议）
 - 教程 15 张截图是否需要下载到 `raw/assets/` 本地留存？（文字层已自足；如需，在 Obsidian 中对本文件按 `Ctrl+Shift+D`）
 - 主题与插件：清单里哪些想启用？Dataview / Templater 已在 Backlog；Git 插件与本库「命令行 git」的取舍。
-- `output/`（查询结果、lint 报告落盘）是否值得引入？——**已决议（2026-10-01）：采纳**。lint 报告与查询产物落盘 `output/`；`wiki/answers/` 继续承担「有沉淀价值的问答回填」，分工见 `CLAUDE.md` §3.2 / §3.3。
+- `output/`（查询结果、lint 报告落盘）是否值得引入？——**已决议（2026-10-01）：采纳**。lint 报告与查询产物落盘 `output/`；`wiki/answers/` 继续承担「有沉淀价值的问答回填」，分工见 `AGENTS.md` §3.2 / §3.3。

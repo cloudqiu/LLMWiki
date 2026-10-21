@@ -2,7 +2,7 @@
 title: "LLM Wiki: A pattern for building personal knowledge bases using LLMs"
 type: source
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-21
 tags: [knowledge-management, llm, pattern]
 status: mature
 author: Andrej Karpathy
@@ -38,14 +38,14 @@ format: idea-document
 ## 关键细节
 
 - 原文对「个人使用」的建议：**一次摄入一份、保持参与**（读摘要、检查更新、引导重点）；批量摄入也可以，但监督更少。工作流应写进 schema 供后续会话沿用。
-- 目录结构、schema 约定、页面格式、工具**全部是示例性的**：原文明确「一切可选、模块化」，应由 agent 与用户按需实例化。**本库即一次实例化**，具体约定见根目录 `CLAUDE.md`。
+- 目录结构、schema 约定、页面格式、工具**全部是示例性的**：原文明确「一切可选、模块化」，应由 agent 与用户按需实例化。**本库即一次实例化**，具体约定见根目录 `AGENTS.md`。
 - 查询的输出形式多样：markdown 页 / 对比表 / Marp 幻灯片 / matplotlib 图表 / canvas。
 - 可选工具：[[qmd]]（本地 markdown 混合搜索 + LLM 重排，有 CLI 与 MCP）；Obsidian Web Clipper 剪藏文章；图片下载到本地（附件目录设为 `raw/assets/`）；graph view 看结构；Marp 做幻灯片；Dataview 查 frontmatter；wiki 作为 git 仓库获得版本历史。
 - 图片注意：LLM 无法一次性阅读含内嵌图片的 markdown——先读文本，再单独查看引用的图片。
 
 ## 与既有知识的关系
 
-- 本资料是**本库的创世文档**：目录结构、页面类型、工作流与约定均由此实例化而来（见 `CLAUDE.md`、`log.md` 的 setup 条目）。
+- 本资料是**本库的创世文档**：目录结构、页面类型、工作流与约定均由此实例化而来（见 `AGENTS.md`、`log.md` 的 setup 条目）。
 - 与 RAG / NotebookLM / ChatGPT 文件上传等「检索式」做法形成对照 → [[retrieval-augmented-generation]]、[[llm-wiki-vs-rag]]。
 - 后续实践：中文社区已据本 gist 写成从零搭建教程（[[claude-code-obsidian-tutorial]]，RUNOOB）——本库与该教程是同一模式的两次独立实例化。
 

@@ -3,7 +3,7 @@ title: Obsidian
 type: entity
 entity_type: tool
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-21
 tags: [tool, knowledge-management]
 status: growing
 sources: [raw/llm-wiki.md, raw/ClaudeCode-Obsidian-还能这么玩从零搭一套会自己整理的知识库.md]
@@ -35,7 +35,7 @@ sources: [raw/llm-wiki.md, raw/ClaudeCode-Obsidian-还能这么玩从零搭一�
   - 图形与写作：Excalidraw（手绘/思维导图）、Kanban（看板）、Advanced Tables（表格增强）
   - 结构化：Templater（动态模板）、Dataview（frontmatter 查询出表，见 Backlog）、Tasks（跨笔记任务）
   - 导航与外观：Notebook Navigator（三栏浏览 + 日历）、Calendar（每日笔记）、Iconize（图标）、Style Settings（主题/字体自定义）
-  - 版本管理：Git（Vault 自动备份，github.com/Vinzent03/obsidian-git）——本库目前直接用命令行 git（`CLAUDE.md` §6），未装此插件
+  - 版本管理：Git（Vault 自动备份，github.com/Vinzent03/obsidian-git）——本库目前直接用命令行 git（`AGENTS.md` §6），未装此插件
 
 ## 在本库中的角色
 

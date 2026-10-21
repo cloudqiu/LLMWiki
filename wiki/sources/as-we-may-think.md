@@ -2,7 +2,7 @@
 title: "As We May Think"
 type: source
 created: 2026-10-01
-updated: 2026-10-01
+updated: 2026-10-21
 tags: [knowledge-management, history, hypertext]
 status: mature
 author: Vannevar Bush
@@ -58,5 +58,5 @@ format: essay
 ## 留给用户的讨论问题
 
 - 要不要把这条谱系做成专题线继续摄入：memex → Engelbart (1962) → 超文本（Nelson）→ wiki？
-- 「trail blazers」是否契合 LLM 在本库中的角色隐喻——值得写进 `CLAUDE.md` 吗？
+- 「trail blazers」是否契合 LLM 在本库中的角色隐喻——值得写进 `AGENTS.md` 吗？
 - memex 的技术路线（微缩胶片）已成历史；要不要做一张「预测 vs 实现」对照页（哪些猜中了、哪些跑偏了）？

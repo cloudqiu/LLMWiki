@@ -304,3 +304,8 @@
   - **不做**本机默认终端 / settings.json 外观调整——[[windows-terminal]] 美化配置仍留在 Backlog，需要时再取
   - 主题边界：用户**未要求迁出** → 本主题维持纳入本库（页面留存）；[[ai-era-command-line]] 的开放问题已注明触发再议的条件
 - 更新：`index.md`（Backlog 删「回补前文」一条，其余不变；Stats 不变）；[[windows-terminal-tutorial]]、[[ai-era-command-line]]（当日修订，`updated` 均为 2026-10-06）
+## [2026-10-21] schema | 迁移维护规则至 AGENTS.md
+
+- 将 `CLAUDE.md` 改为 `AGENTS.md`，使 Codex 读取本库的 Schema 指令；当前维护者及工作流指称同步更新，历史演进记录保留。
+- 更新 `index.md` 的维护规则入口与最近更新日期。
+- 修正 7 个 wiki 页面中指向当前 Schema 的链接或维护者描述，并更新其 `updated` 日期；原始资料的引文与历史记录保持原样。
