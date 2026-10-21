@@ -5,7 +5,7 @@
 
 ## 0. 角色与总原则
 
-- 维护者：Codex 是本 wiki 的**唯一维护者**——摘要、交叉引用、归档、记账全部由 Codex 完成；用户极少亲手写页面。
+- 维护者：在 Codex 会话中，Codex 负责本 wiki 的摘要、交叉引用、归档和记账；用户极少亲手写页面。Claude Code 会话仍可依据 `CLAUDE.md` 维护本库。
 - 用户负责：策划资料来源、提出好问题、决定方向与重点、在 Obsidian 中阅读与验证。
 - 核心原则：**知识编译一次、持续保鲜**（compile once, keep current），而不是每次查询重新推导。详见 [[llm-wiki-vs-rag]]。
 - 实践形态：LLM agent 与 Obsidian 分屏——「Obsidian 是 IDE；LLM 是程序员；wiki 是代码库」。
@@ -15,12 +15,13 @@
 ```
 LLMWiki/
 ├── AGENTS.md            # Schema 层：本文件
+├── CLAUDE.md            # Claude Code 使用的原有 Schema 文件
 ├── index.md             # 内容目录：所有页面的清单（每次 ingest 后更新）
 ├── log.md               # 时间线：追加式记录 ingest / query / lint
 ├── raw/                 # 【原始资料层】只读，永不修改，source of truth
 │   ├── assets/          # 图片等附件（Obsidian 附件目录已指向此处）
 │   └── llm-wiki.md      # 第一份资料：Karpathy 的 LLM Wiki gist
-├── wiki/                # 【wiki 层】Codex 全权创建与维护
+├── wiki/                # 【wiki 层】由当前 agent 创建与维护
 │   ├── sources/         # 每份资料一个摘要页
 │   ├── entities/        # 人物、组织、工具、项目
 │   ├── concepts/        # 概念、方法、模式
@@ -57,7 +58,7 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 - 文件名：小写 kebab-case、ASCII、全局唯一，如 `llm-wiki.md`；非 ASCII 字符一律转写（é/è/ê→e、à→a、ç→c、œ→oe、撇号→连字符）（`raw/` 不受此限）。
 - 链接统一用 wikilink：`[[llm-wiki]]`；需要中文显示名时 `[[llm-wiki|LLM Wiki 模式]]`。
 - 指向尚未创建页面的链接是**允许且有意义**的（待建信号），但必须同时登记到 `index.md` 的 Backlog。
-- `index.md` / `log.md` / `AGENTS.md` 用普通文本提及（不建 wikilink）。
+- `index.md` / `log.md` / `AGENTS.md` / `CLAUDE.md` 用普通文本提及（不建 wikilink）。
 
 ### 2.3 语言
 
@@ -145,3 +146,4 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 - **[2026-10-01]** v1.6.1：法语词条新增**「英法交叉核对（受影响的英语词）」**小节（每词条必做）——查明受该法语词影响的英语词：**借入**（英 ← 法：路径、年代、拼写/读音漂移、词义异同）与**共祖**（同源但非法语传入）须分清，反向回借（法 ← 英）可留意；英语词条已收录则双向互链；无网络标「待验证」并入 hub 待回补。同步：`templates/vocab-fr.md`（新小节 + 闪卡背面「英法交叉」行）、§3.4 法语要求、法语 hub「概述」与「结构约定」；[[gouvernement]] 实装（government / govern / governor / governance ← 古法语本词族；cyber- 共祖非借入）（源自用户请求：法语词条须列出受影响的英语词做 cross-check）。
 - **[2026-10-01]** v1.7：词汇系统整体迁出至独立库 **LLMLangWiki**（`C:\Users\zhenz\Documents\LLMLangWiki`）——单一维护点，避免双份分叉。迁出：55 词条（en 17 / fr 38）、hub english-vocabulary / french-vocabulary、`templates/vocab.md` / `vocab-fr.md`、`raw/vocab-inbox.md` / `vocab-fr-inbox.md`、测验产物与 SRS 配置（topic / answer 模板与 output/README 为复制副本，本库保留）；本文件 §3.4 移除，§1 / §2.1 / §2.2 / §4 相应回退；`index.md` 与 personal-knowledge-management 页同步。词汇今后只在新库维护；原库历史条目与 git 历史保留不动。
 - **[2026-10-21]** v1.8：将本库的 agent 指令文件从 `CLAUDE.md` 改为 Codex 可读取的 `AGENTS.md`；将当前维护者、目录说明及工作流中的指称改为 Codex，保留历史版本记录。
+- **[2026-10-21]** v1.8.1：应用户要求恢复原有 `CLAUDE.md`，与 `AGENTS.md` 并存；v1.8 所述「改为」现应理解为新增 Codex 入口，而非移除 Claude Code 入口。

@@ -309,3 +309,8 @@
 - 将 `CLAUDE.md` 改为 `AGENTS.md`，使 Codex 读取本库的 Schema 指令；当前维护者及工作流指称同步更新，历史演进记录保留。
 - 更新 `index.md` 的维护规则入口与最近更新日期。
 - 修正 7 个 wiki 页面中指向当前 Schema 的链接或维护者描述，并更新其 `updated` 日期；原始资料的引文与历史记录保持原样。
+
+## [2026-10-21] schema | 保留 Claude Code 的维护规则
+
+- 应用户要求，从迁移前的版本恢复 `CLAUDE.md`；该文件与 Codex 使用的 `AGENTS.md` 并存。
+- 修正 `AGENTS.md` 的维护者与目录说明、`index.md` 的规则入口，以及 [[claude-code]] 的当前角色描述。前一条 schema 记录中的「改为」不再表示删除原文件。

@@ -13,7 +13,7 @@ sources: [raw/llm-wiki.md, raw/ClaudeCode-Obsidian-还能这么玩从零搭一�
 
 ## 简介
 
-Anthropic 的终端 AI 编程 agent；在 [[llm-wiki]] 模式中扮演「程序员」——直接读写 vault 中的 markdown 与 `CLAUDE.md`（schema 层），执行 ingest / query / lint 的日常维护。曾维护本库；2026-10-21 起，本库改由 Codex 按 `AGENTS.md` 维护。
+Anthropic 的终端 AI 编程 agent；在 [[llm-wiki]] 模式中扮演「程序员」——直接读写 vault 中的 markdown 与 `CLAUDE.md`（schema 层），执行 ingest / query / lint 的日常维护。本库同时保留 Claude Code 的 `CLAUDE.md` 与 Codex 的 `AGENTS.md`。
 
 ## 关键事实
 
@@ -25,7 +25,7 @@ Anthropic 的终端 AI 编程 agent；在 [[llm-wiki]] 模式中扮演「程序�
 
 ## 在本库中的角色
 
-- 曾担任本库的 wiki 维护者；当前维护规则见 `AGENTS.md` §0。
+- 可依据 `CLAUDE.md` 维护本库；Codex 会话依据 `AGENTS.md` §0。
 - 与 [[obsidian]] 分工：「Obsidian 是 IDE；LLM 是程序员；wiki 是代码库」。
 - **宿主环境**：作为终端 agent，它运行在某个 shell 里——Windows 上通常是 [[powershell]] 或 [[wsl]]，外壳多为 [[windows-terminal]]（→ [[command-line-interface]]、[[ai-era-command-line]]）。这是「环境层」第一次进入本库。
 
