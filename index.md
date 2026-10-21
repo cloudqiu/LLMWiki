@@ -9,6 +9,7 @@
 - [[as-we-may-think]] — Vannevar Bush《As We May Think》(The Atlantic, 1945-07)：memex 与关联索引的一手文献。2026-10-01 摄入，派生/更新 6 个页面。
 - [[claude-code-obsidian-tutorial]] — RUNOOB 中文教程：Claude Code + Obsidian 从零搭建 LLM Wiki；含主题/插件清单与目录结构变体。2026-10-01 摄入，新建 3 页、更新 6 页。
 - [[windows-terminal-tutorial]] — 光影紐扣科普连载：Windows Terminal 入门——「不是新命令，是新窗口」。**本库首份非 PKM 来源**（OS/开发环境层）。2026-10-06 摄入，新建 8 页、更新 1 页。
+- [[dissecting-penpot]] — Penpot 2.18 Docker Compose 安装与镜像检查快照：8 个服务、持久化卷及部署边界。2026-10-21 摄入，派生 2 页。
 
 ## Concepts 概念
 
@@ -32,11 +33,13 @@
 - [[wsl]] — Windows Subsystem for Linux：本地 AI 工具（`apt` / `python` / `ollama`）的栖息地。（stub）
 - [[winget]] — Windows 命令行包管理器：让「装个新外壳」变成一行可复制的命令。（stub）
 - [[guangying-niukou]] — 发布「AI 时代命令行」连载的公众号（署名「凡哥哥」）。（stub）
+- [[penpot]] — 可自托管的协作设计平台；本库目前记录其一次 Docker 部署快照。
 
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
 - [[ai-era-command-line]] — AI 时代的命令行：非技术用户如何搭起本地 AI 工具环境（本轮新开主题 / 连载教程 hub）。
+- [[penpot-self-hosting]] — Penpot 2.18 自托管实例的服务拓扑、数据卷与配置注意点。
 
 ## Comparisons 对比
 
@@ -57,6 +60,7 @@
 - （建议）「预测 vs 实现」对照页：memex 的技术预言哪些成真
 - （建议）Python / 解释器：「为什么 AI 都爱写 Python」——[[ai-era-command-line]] 系列预告篇（尚未剪藏）
 - （建议）Windows Terminal 美化配置：`settings.json`、字体与配色方案（可作 `output/` 产物）
+- （待验证）Penpot 实例的登录、文件创建、导出与 MCP 连接；以及其公网暴露、密钥和备份状态
 - Obsidian Web Clipper 剪藏流程（方法页）
 - Marp 幻灯片 / Dataview 查询用法（工具用法页）
 - 搜索方案：qmd 集成评估（wiki 规模增长后再做）
@@ -64,4 +68,4 @@
 
 ## Stats
 
-- 来源：**4** 份 ｜ wiki 页面：**24** ｜ Outputs：**0** ｜ 最近更新：2026-10-21
+- 来源：**5** 份 ｜ wiki 页面：**27** ｜ Outputs：**0** ｜ 最近更新：2026-10-21

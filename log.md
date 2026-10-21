@@ -314,3 +314,12 @@
 
 - 应用户要求，从迁移前的版本恢复 `CLAUDE.md`；该文件与 Codex 使用的 `AGENTS.md` 并存。
 - 修正 `AGENTS.md` 的维护者与目录说明、`index.md` 的规则入口，以及 [[claude-code]] 的当前角色描述。前一条 schema 记录中的「改为」不再表示删除原文件。
+
+## [2026-10-21] ingest | Dissecting Penpot：Docker 部署与镜像检查
+
+- 来源：`raw/Dissecting penpot.md`（原文件不改）；2026-10-21 摄入，记录 Penpot 2.18 Compose 配置、启动输出、Valkey Dockerfile 与各镜像检查元数据。
+- 新建 3 页：[[dissecting-penpot]]（来源摘要）、[[penpot]]（实体）、[[penpot-self-hosting]]（自托管拓扑与运维边界）。
+- 核对官方 Docker 安装与配置文档：确认 2.18 引入 admin-console、默认两份持久化卷需要备份、对外部署建议 HTTPS；页面将官方指南作为辅助核对，而非把个人笔记误称为官方原文。
+- 证据边界：原记录仅显示容器 Started / Healthy，应用层功能待验证；示例中关闭安全 Cookie 与邮件验证，使用示例密钥和数据库密码，尚不能据此推断实例已对外暴露。
+- 更新 `index.md`：来源 4→5，wiki 页面 24→27；Backlog 增加实例功能与部署状态核实事项。
+- 待办：由用户决定下一轮深入服务通信、镜像构成、MCP 集成或可复现的部署与备份流程。
