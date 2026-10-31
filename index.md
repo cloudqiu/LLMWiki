@@ -16,6 +16,27 @@
 - [[pgx-official-research]] — pgx v5.12.0 官方文档、变更记录与作者关联项目的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 - [[koanf-toml-v2-official-research]] — koanf TOML parser v2.2.2 的模块、源码与项目作者资料查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 
+- [[koanf-rawbytes-go-official-research]] — 把内存中的 []byte 作为 koanf 配置源；常与 JSON、TOML 等 parser 配合。 官方页面的 2026-10-31 查阅记录。
+- [[koanf-v2-go-official-research]] — 从多种 provider 与 parser 加载、合并和读取配置。 官方页面的 2026-10-31 查阅记录。
+- [[zerolog-go-official-research]] — 链式 API 输出结构化 JSON 日志，适合低分配的服务日志。 官方页面的 2026-10-31 查阅记录。
+- [[do-go-official-research]] — 使用泛型注册、解析服务及管理依赖注入生命周期。 官方页面的 2026-10-31 查阅记录。
+- [[etcd-client-pkg-v3-go-official-research]] — etcd 客户端共享基础包的模块集合，例如 types、fileutil。 官方页面的 2026-10-31 查阅记录。
+- [[etcd-server-v3-go-official-research]] — 运行 etcd 服务端及嵌入式服务的模块集合。 官方页面的 2026-10-31 查阅记录。
+- [[zap-go-official-research]] — Uber Go 的结构化日志库，以强类型字段记录日志。 官方页面的 2026-10-31 查阅记录。
+- [[protobuf-go-official-research]] — Protocol Buffers 的 Go 运行时、反射与代码生成生态。 官方页面的 2026-10-31 查阅记录。
+- [[perks-go-official-research]] — 提供流式近似分位数 quantile 等 Go 工具包。 官方页面的 2026-10-31 查阅记录。
+- [[xxhash-v2-go-official-research]] — 计算快速的 XXH64 非密码学哈希。 官方页面的 2026-10-31 查阅记录。
+- [[go-figure-go-official-research]] — 把文本渲染为终端 ASCII 字画。 官方页面的 2026-10-31 查阅记录。
+- [[go-semver-go-official-research]] — 解析和比较 SemVer 版本号。 官方页面的 2026-10-31 查阅记录。
+- [[huma-v2-go-official-research]] — 以 Go 类型定义 HTTP API 并生成 OpenAPI 文档与验证逻辑。 官方页面的 2026-10-31 查阅记录。
+- [[fsnotify-go-official-research]] — 跨平台文件系统变更通知。 官方页面的 2026-10-31 查阅记录。
+- [[mapstructure-v2-go-official-research]] — 将 map 解码到 Go struct，常用于配置处理。 官方页面的 2026-10-31 查阅记录。
+- [[pgerrcode-go-official-research]] — 给 PostgreSQL SQLSTATE 错误码提供命名常量。 官方页面的 2026-10-31 查阅记录。
+- [[pgpassfile-go-official-research]] — 解析 PostgreSQL .pgpass 密码文件并查找匹配密码。 官方页面的 2026-10-31 查阅记录。
+- [[pgservicefile-go-official-research]] — 解析 PostgreSQL .pg_service.conf 服务配置。 官方页面的 2026-10-31 查阅记录。
+- [[puddle-v2-go-official-research]] — 以泛型提供最小化的并发资源池。 官方页面的 2026-10-31 查阅记录。
+- [[koanf-maps-go-official-research]] — 供 koanf 使用的嵌套 map 复制、合并、展开等工具。 官方页面的 2026-10-31 查阅记录。
+
 ## Concepts 概念
 
 - [[llm-wiki]] — 核心模式：LLM 增量维护的持久化 wiki；三层架构 + ingest/query/lint 三操作。
@@ -48,6 +69,52 @@
 - [[jack-christensen]] — pgx 原始署名者和近期发布参与者；索引其关联的 PostgreSQL 工具。
 - [[koanf-toml-v2-go]] — koanf 的独立 TOML v2 parser 模块：安装、加载配置与关键边界。
 - [[kailash-nadh]] — koanf 原始版权署名者和近期发布参与者；索引其账号下的其他 Go 库。
+
+- [[koanf-rawbytes-go]] — 把内存中的 []byte 作为 koanf 配置源；常与 JSON、TOML 等 parser 配合。
+- [[koanf-v2-go]] — 从多种 provider 与 parser 加载、合并和读取配置。
+- [[zerolog-go]] — 链式 API 输出结构化 JSON 日志，适合低分配的服务日志。
+- [[do-go]] — 使用泛型注册、解析服务及管理依赖注入生命周期。
+- [[etcd-client-pkg-v3-go]] — etcd 客户端共享基础包的模块集合，例如 types、fileutil。
+- [[etcd-server-v3-go]] — 运行 etcd 服务端及嵌入式服务的模块集合。
+- [[zap-go]] — Uber Go 的结构化日志库，以强类型字段记录日志。
+- [[protobuf-go]] — Protocol Buffers 的 Go 运行时、反射与代码生成生态。
+- [[perks-go]] — 提供流式近似分位数 quantile 等 Go 工具包。
+- [[xxhash-v2-go]] — 计算快速的 XXH64 非密码学哈希。
+- [[go-figure-go]] — 把文本渲染为终端 ASCII 字画。
+- [[go-semver-go]] — 解析和比较 SemVer 版本号。
+- [[huma-v2-go]] — 以 Go 类型定义 HTTP API 并生成 OpenAPI 文档与验证逻辑。
+- [[fsnotify-go]] — 跨平台文件系统变更通知。
+- [[mapstructure-v2-go]] — 将 map 解码到 Go struct，常用于配置处理。
+- [[pgerrcode-go]] — 给 PostgreSQL SQLSTATE 错误码提供命名常量。
+- [[pgpassfile-go]] — 解析 PostgreSQL .pgpass 密码文件并查找匹配密码。
+- [[pgservicefile-go]] — 解析 PostgreSQL .pg_service.conf 服务配置。
+- [[puddle-v2-go]] — 以泛型提供最小化的并发资源池。
+- [[koanf-maps-go]] — 供 koanf 使用的嵌套 map 复制、合并、展开等工具。
+
+- [[olivier-poitrey]] — Olivier Poitrey 的身份、已摄入库和其他经官方账号核实的项目。
+
+- [[samuel-berthe]] — Samuel Berthe 的身份、已摄入库和其他经官方账号核实的项目。
+
+- [[caleb-spare]] — Caleb Spare 的身份、已摄入库和其他经官方账号核实的项目。
+
+- [[daniel-deutsch]] — Daniel Deutsch 的身份、已摄入库和其他经官方账号核实的项目。
+
+- [[daniel-g-taylor]] — Daniel G. Taylor 的身份、已摄入库和其他经官方账号核实的项目。
+
+- [[etcd-io]] — etcd-io 项目组织：本库模块及经官方账号核实的其他项目。
+
+- [[uber-go]] — uber-go 项目组织：本库模块及经官方账号核实的其他项目。
+
+- [[protocolbuffers]] — protocolbuffers 项目组织：本库模块及经官方账号核实的其他项目。
+
+- [[fsnotify-project]] — fsnotify 项目组织：本库模块及经官方账号核实的其他项目。
+
+- [[go-viper]] — go-viper 项目组织：本库模块及经官方账号核实的其他项目。
+
+- [[coreos]] — coreos 项目组织：本库模块及经官方账号核实的其他项目。
+
+- [[bjorn-rabenstein]] — perks 当前仓库账号的公开身份与已摄入库。
+- [[blake-mizerany]] — perks 原始版权署名者与已摄入库。
 
 ## Topics 主题
 
@@ -89,7 +156,8 @@
 - （待验证）google/uuid 的创始作者与当前维护者名单；Paul Borman 的具体角色已按官方证据限定。
 - （待验证）pgx 的完整当前维护者名单，以及用户项目版本与 v5.12.0 安全修复的相关性。
 - （待验证）koanf TOML parser v2 子模块的独立作者及完整当前维护者名单。
+- （待验证）本轮新增 Go 库中，仅能核实组织或仓库账号的项目，其个人创建者和当前维护者；作者索引区分账号关联与个人贡献。
 
 ## Stats
 
-- 来源：**10** 份 ｜ wiki 页面：**41** ｜ Outputs：**0** ｜ 最近更新：2026-10-31
+- 来源：**30** 份 ｜ wiki 页面：**94** ｜ Outputs：**0** ｜ 最近更新：2026-10-31

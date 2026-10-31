@@ -371,3 +371,12 @@
 - 查阅 Go Packages v2.2.2、对应 tag 的官方源码、koanf README 与 LICENSE、Kailash Nadh 账号及同账号下其他 Go 项目。直接下载官方原文受本机网络代理限制，建立 `raw/koanf-toml-v2-official-research-2026-10-31.md` 作为带链接的查阅笔记，明确不是原文快照。
 - 新建 [[koanf-toml-v2-official-research]]、[[koanf-toml-v2-go]]、[[kailash-nadh]]；区分 parser、koanf 核心和 provider 的模块边界，以及项目原始署名与子模块具体作者的不确定性。作者页列出尚未摄入的 koanf 核心、goyesql 和 stuffbin。
 - 更新 `index.md`：来源 9→10，wiki 页面 38→41；Backlog 增加 parser 子模块作者和维护者核实。示例依据官方 API 编写，未实际运行。
+
+## [2026-10-31] ingest | Go 收件箱余下 20 个模块
+
+- 新建 20 份官方资料查阅记录、20 个来源摘要页、20 个库实体页；每页记录用途、依赖、示例、作者归属和限制。
+- 将收件箱两处拼写错误映射到官方模块路径，但未修改用户的 raw 收件箱。etcd 模块根路径与 API 子包、do v1/v2 边界均显式注明。
+- 相关作者索引与 index.md 同步；示例未在本机执行，版本需按目标 go.mod 核对。
+- 新建 5 个可核实个人账号作者页和 6 个组织项目索引页；更新 Jack Christensen、Kailash Nadh 的已摄入库列表。
+- 尚不能从官方资料证明的个人创建者及维护者已列入 index Backlog，未把组织仓库归属写成唯一作者。
+- 补充 perks 的 Blake Mizerany 原始版权署名与 Björn Rabenstein 当前仓库账号索引，未推断其各自的维护范围。
