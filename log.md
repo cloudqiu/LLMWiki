@@ -350,3 +350,10 @@
 - 查阅 Go Packages v5.5.0、chi 官方 README、Peter Kieltyka 的 GitHub 资料及 webrpc 官方 README。直接下载官方原文受本机网络代理限制，建立 `raw/chi-official-research-2026-10-31.md` 作为带链接的查阅笔记，明确不是原文快照。
 - 新建 [[chi-official-research]]、[[chi-go]]、[[peter-kieltyka]]；作者页记录 chi 已摄入，以及尚未摄入的 webrpc、go-llm 线索，区分其可证实的角色。chi 当前维护者身份标为待验证。
 - 更新 `index.md`：来源 6→7，wiki 页面 29→32，Backlog 增加维护者核实事项。示例依据官方 API 编写，未实际运行。
+
+## [2026-10-31] ingest | google/uuid（Go）与贡献者 Paul Borman
+
+- 按 §3.4 默认一次一个规则处理 Go 收件箱下一项 `github.com/google/uuid`；收件箱本身未改动。
+- 查阅官方 README、Go Packages v1.6.0、CONTRIBUTORS、Releases，以及上游 `pborman/uuid` 和 `pborman/getopt`。直接下载官方原文受本机网络代理限制，建立 `raw/google-uuid-official-research-2026-10-31.md` 作为带链接的查阅笔记，明确不是原文快照。
+- 新建 [[google-uuid-official-research]]、[[google-uuid-go]]、[[paul-borman]]；人物页区分已摄入库与未摄入项目，Paul 的身份限定为官方列名贡献者及历史发布参与者，不推断唯一作者或当前维护者。
+- 更新 `index.md`：来源 7→8，wiki 页面 32→35；创始作者与当前维护者列入 Backlog。示例依据官方 API 编写，未实际运行。

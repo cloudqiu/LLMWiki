@@ -12,6 +12,7 @@
 - [[dissecting-penpot]] — Penpot 2.18 Docker Compose 安装与镜像检查快照：8 个服务、持久化卷及部署边界。2026-10-21 摄入，派生 2 页。
 - [[gophernotes-official-research]] — gophernotes 官方 README 与补全源码的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 - [[chi-official-research]] — chi v5.5.0 官方文档、仓库与作者项目资料的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
+- [[google-uuid-official-research]] — google/uuid v1.6.0 官方文档、项目沿革与贡献者资料的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 
 ## Concepts 概念
 
@@ -39,6 +40,8 @@
 - [[gophernotes-go]] — Jupyter 的 Go kernel：用途、两个典型代码单元、补全与 Windows 限制。
 - [[chi-go]] — Go `net/http` 路由库 chi v5：安装、路径参数、关键限制与作者。
 - [[peter-kieltyka]] — chi 作者；索引其在本库已摄入的库及官方资料可核实的其他项目。
+- [[google-uuid-go]] — Go UUID 库：生成、解析、格式与随机池的关键限制。
+- [[paul-borman]] — google/uuid 贡献者及历史版本发布参与者；索引其账号下的其他 Go 库。
 
 ## Topics 主题
 
@@ -77,7 +80,8 @@
 - 搜索方案：qmd 集成评估（wiki 规模增长后再做）
 - （评估）raw/ 子目录化（articles / papers）——待来源规模增长后再议（output/ 落盘已于 2026-10-01 采纳，见 schema v1.3）
 - （待验证）chi 的当前维护者名单及各自角色；仅凭仓库归属不能推断。
+- （待验证）google/uuid 的创始作者与当前维护者名单；Paul Borman 的具体角色已按官方证据限定。
 
 ## Stats
 
-- 来源：**7** 份 ｜ wiki 页面：**32** ｜ Outputs：**0** ｜ 最近更新：2026-10-31
+- 来源：**8** 份 ｜ wiki 页面：**35** ｜ Outputs：**0** ｜ 最近更新：2026-10-31
