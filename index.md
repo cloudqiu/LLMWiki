@@ -1,7 +1,7 @@
 # Index — 知识库目录
 
 > 内容目录（content-oriented）：本库所有页面的清单。每次 ingest 后更新；查询时**先读本文件**找候选页面，再深入具体页面。
-> 维护规则见 `AGENTS.md`（Codex）与 `CLAUDE.md`（Claude Code）。最近更新：2026-10-21。
+> 维护规则见 `AGENTS.md`（Codex）与 `CLAUDE.md`（Claude Code）。最近更新：2026-10-31。
 
 ## Sources 来源
 
@@ -53,6 +53,12 @@
 
 （暂无——有产物时登记）
 
+## Library inboxes 第三方库收件箱（raw/）
+
+- [Go 第三方库收件箱](raw/golang-libs-inbox.md) — 每行一个库名；用户要求时再摄入。
+- [Rust 第三方库收件箱](raw/rust-libs-inbox.md) — 每行一个库名；用户要求时再摄入。
+- [JVM 第三方库收件箱](raw/jvm-libs-inbox.md) — Java / Kotlin 共用；每行一个库名，用户要求时再摄入。
+
 ## Backlog 待建页面
 
 - （建议）Engelbart《Augmenting Human Intellect》(1962)：memex → 人机协同的直接后续
@@ -68,4 +74,4 @@
 
 ## Stats
 
-- 来源：**5** 份 ｜ wiki 页面：**27** ｜ Outputs：**0** ｜ 最近更新：2026-10-21
+- 来源：**5** 份 ｜ wiki 页面：**27** ｜ Outputs：**0** ｜ 最近更新：2026-10-31

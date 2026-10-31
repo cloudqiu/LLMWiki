@@ -20,6 +20,9 @@ LLMWiki/
 ├── log.md               # 时间线：追加式记录 ingest / query / lint
 ├── raw/                 # 【原始资料层】只读，永不修改，source of truth
 │   ├── assets/          # 图片等附件（Obsidian 附件目录已指向此处）
+│   ├── golang-libs-inbox.md # Go 第三方库收件箱（用户每行填一个库名）
+│   ├── rust-libs-inbox.md   # Rust 第三方库收件箱
+│   ├── jvm-libs-inbox.md    # JVM（Java / Kotlin）第三方库收件箱
 │   └── llm-wiki.md      # 第一份资料：Karpathy 的 LLM Wiki gist
 ├── wiki/                # 【wiki 层】由当前 agent 创建与维护
 │   ├── sources/         # 每份资料一个摘要页
@@ -98,6 +101,13 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 
 报告落盘为 `output/YYYY-MM-DD-lint.md`，对话中给出摘要；修复动作完成后追加 log：`## [YYYY-MM-DD] lint | <摘要>`，并在 index 的 Outputs 区登记一行。有长期参考价值的结论可另行回填 `wiki/answers/`。
 
+### 3.4 第三方库收件箱与摄入
+
+- `raw/golang-libs-inbox.md`、`raw/rust-libs-inbox.md`、`raw/jvm-libs-inbox.md` 是用户可编辑的输入页。用户在「待摄入」小节每行填一个库名；JVM 页同时收 Java 与 Kotlin 库。仅列名不触发自动摄入。除非用户明确要求，不改动或清空已填的行；摄入进度记在 wiki、index 与 log 中。
+- 用户要求摄入时，先按 §3.1 处理指定库；未指定范围时默认一次一个。若名称有歧义，先查官方项目与生态元数据，无法可靠辨认再请用户确认。优先项目官方 GitHub 仓库、官方文档、包注册表；记录查阅日期、版本或文档对应的版本。把实际使用的资料存入 `raw/`，作为可追溯来源；收件箱名称本身不能充当 API 用法证据。
+- 每个库的 wiki 实体页依 `templates/library.md` 写：一句话用途、适用场景、安装或依赖声明、1–3 个最重要的典型用法示例、关键限制与来源。Java 与 Kotlin 示例按库的主要使用语言选取；另一语言只有在确有必要时才补。示例应尽量最小、可运行，并核对官方文档；未实际运行须标明。不要为覆盖 API 而堆积示例。
+- 依据 §3.1 建来源摘要页并更新 `index.md`、`log.md`；只在有实际关联时补其他 wiki 页面。不同语言的同名库用文件名后缀 `-go`、`-rust`、`-jvm` 消歧。
+
 ## 4. 导航文件规范
 
 ### index.md（内容目录，content-oriented）
@@ -116,7 +126,7 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 
 ## 5. 硬性规则（不可违反）
 
-1. `raw/` **永不修改**（不美化、不重排）；要批注，写到 wiki 页面里。
+1. `raw/` 中的来源资料**永不修改**（不美化、不重排）；要批注，写到 wiki 页面里。§3.4 的三个收件箱是用户填写库名的例外，Codex 不擅自改动其条目。
 2. 每个 wiki 页面必须有 frontmatter；派生页面的 `sources` 必须能追溯到 `raw/` 中的文件。
 3. 每次 ingest / 答案或产物归档 / lint 报告落盘，必须同步更新 `index.md` 与 `log.md`。
 4. 不静默删页：废弃内容标 `status: archived` 并说明原因。
@@ -147,3 +157,4 @@ sources: []                # 派生页面必填：依据的 raw 文件，如 [ra
 - **[2026-10-01]** v1.7：词汇系统整体迁出至独立库 **LLMLangWiki**（`C:\Users\zhenz\Documents\LLMLangWiki`）——单一维护点，避免双份分叉。迁出：55 词条（en 17 / fr 38）、hub english-vocabulary / french-vocabulary、`templates/vocab.md` / `vocab-fr.md`、`raw/vocab-inbox.md` / `vocab-fr-inbox.md`、测验产物与 SRS 配置（topic / answer 模板与 output/README 为复制副本，本库保留）；本文件 §3.4 移除，§1 / §2.1 / §2.2 / §4 相应回退；`index.md` 与 personal-knowledge-management 页同步。词汇今后只在新库维护；原库历史条目与 git 历史保留不动。
 - **[2026-10-21]** v1.8：将本库的 agent 指令文件从 `CLAUDE.md` 改为 Codex 可读取的 `AGENTS.md`；将当前维护者、目录说明及工作流中的指称改为 Codex，保留历史版本记录。
 - **[2026-10-21]** v1.8.1：应用户要求恢复原有 `CLAUDE.md`，与 `AGENTS.md` 并存；v1.8 所述「改为」现应理解为新增 Codex 入口，而非移除 Claude Code 入口。
+- **[2026-10-31]** v1.9：新增 Go、Rust、JVM 三个第三方库收件箱与按需摄入流程；库页使用紧凑模板，要求官方来源、用途摘要及少量典型示例。收件箱是 `raw/` 只读来源规则的用户输入例外。
