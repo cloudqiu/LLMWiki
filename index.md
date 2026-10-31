@@ -13,6 +13,7 @@
 - [[gophernotes-official-research]] — gophernotes 官方 README 与补全源码的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 - [[chi-official-research]] — chi v5.5.0 官方文档、仓库与作者项目资料的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 - [[google-uuid-official-research]] — google/uuid v1.6.0 官方文档、项目沿革与贡献者资料的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
+- [[pgx-official-research]] — pgx v5.12.0 官方文档、变更记录与作者关联项目的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 
 ## Concepts 概念
 
@@ -42,6 +43,8 @@
 - [[peter-kieltyka]] — chi 作者；索引其在本库已摄入的库及官方资料可核实的其他项目。
 - [[google-uuid-go]] — Go UUID 库：生成、解析、格式与随机池的关键限制。
 - [[paul-borman]] — google/uuid 贡献者及历史版本发布参与者；索引其账号下的其他 Go 库。
+- [[pgx-go]] — PostgreSQL 的 Go 驱动与工具集：基础查询、连接池选用及 v5.12.0 修复。
+- [[jack-christensen]] — pgx 原始署名者和近期发布参与者；索引其关联的 PostgreSQL 工具。
 
 ## Topics 主题
 
@@ -81,7 +84,8 @@
 - （评估）raw/ 子目录化（articles / papers）——待来源规模增长后再议（output/ 落盘已于 2026-10-01 采纳，见 schema v1.3）
 - （待验证）chi 的当前维护者名单及各自角色；仅凭仓库归属不能推断。
 - （待验证）google/uuid 的创始作者与当前维护者名单；Paul Borman 的具体角色已按官方证据限定。
+- （待验证）pgx 的完整当前维护者名单，以及用户项目版本与 v5.12.0 安全修复的相关性。
 
 ## Stats
 
-- 来源：**8** 份 ｜ wiki 页面：**35** ｜ Outputs：**0** ｜ 最近更新：2026-10-31
+- 来源：**9** 份 ｜ wiki 页面：**38** ｜ Outputs：**0** ｜ 最近更新：2026-10-31
