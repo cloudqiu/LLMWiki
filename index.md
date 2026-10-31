@@ -14,6 +14,7 @@
 - [[chi-official-research]] — chi v5.5.0 官方文档、仓库与作者项目资料的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 - [[google-uuid-official-research]] — google/uuid v1.6.0 官方文档、项目沿革与贡献者资料的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 - [[pgx-official-research]] — pgx v5.12.0 官方文档、变更记录与作者关联项目的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
+- [[koanf-toml-v2-official-research]] — koanf TOML parser v2.2.2 的模块、源码与项目作者资料查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 
 ## Concepts 概念
 
@@ -45,6 +46,8 @@
 - [[paul-borman]] — google/uuid 贡献者及历史版本发布参与者；索引其账号下的其他 Go 库。
 - [[pgx-go]] — PostgreSQL 的 Go 驱动与工具集：基础查询、连接池选用及 v5.12.0 修复。
 - [[jack-christensen]] — pgx 原始署名者和近期发布参与者；索引其关联的 PostgreSQL 工具。
+- [[koanf-toml-v2-go]] — koanf 的独立 TOML v2 parser 模块：安装、加载配置与关键边界。
+- [[kailash-nadh]] — koanf 原始版权署名者和近期发布参与者；索引其账号下的其他 Go 库。
 
 ## Topics 主题
 
@@ -85,7 +88,8 @@
 - （待验证）chi 的当前维护者名单及各自角色；仅凭仓库归属不能推断。
 - （待验证）google/uuid 的创始作者与当前维护者名单；Paul Borman 的具体角色已按官方证据限定。
 - （待验证）pgx 的完整当前维护者名单，以及用户项目版本与 v5.12.0 安全修复的相关性。
+- （待验证）koanf TOML parser v2 子模块的独立作者及完整当前维护者名单。
 
 ## Stats
 
-- 来源：**9** 份 ｜ wiki 页面：**38** ｜ Outputs：**0** ｜ 最近更新：2026-10-31
+- 来源：**10** 份 ｜ wiki 页面：**41** ｜ Outputs：**0** ｜ 最近更新：2026-10-31

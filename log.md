@@ -364,3 +364,10 @@
 - 查阅 pgx 官方 README、Go Packages v5.12.0、v5.12.0 CHANGELOG、LICENSE、发布 tag 和 Jack Christensen 的项目主页；直接下载官方原文受本机网络代理限制，建立 `raw/pgx-official-research-2026-10-31.md` 作为带链接的查阅笔记，明确不是原文快照。
 - 新建 [[pgx-official-research]]、[[pgx-go]]、[[jack-christensen]]；库页记录连接、单连接并发边界与 v5.12.0 两项有条件的安全修复。作者页区分 pgx 已摄入与 tern、pglogrepl、pgerrcode 尚未摄入，并限定 Jack 的已证实角色。
 - 更新 `index.md`：来源 8→9，wiki 页面 35→38；Backlog 增加完整维护者名单及用户项目版本核实。示例依据官方 API 编写，未实际运行。
+
+## [2026-10-31] ingest | koanf TOML parser v2（Go）与 Kailash Nadh
+
+- 按 §3.4 默认一次一个规则处理 Go 收件箱下一项 `github.com/knadh/koanf/parsers/toml/v2`；未改动收件箱及其中其他条目。
+- 查阅 Go Packages v2.2.2、对应 tag 的官方源码、koanf README 与 LICENSE、Kailash Nadh 账号及同账号下其他 Go 项目。直接下载官方原文受本机网络代理限制，建立 `raw/koanf-toml-v2-official-research-2026-10-31.md` 作为带链接的查阅笔记，明确不是原文快照。
+- 新建 [[koanf-toml-v2-official-research]]、[[koanf-toml-v2-go]]、[[kailash-nadh]]；区分 parser、koanf 核心和 provider 的模块边界，以及项目原始署名与子模块具体作者的不确定性。作者页列出尚未摄入的 koanf 核心、goyesql 和 stuffbin。
+- 更新 `index.md`：来源 9→10，wiki 页面 38→41；Backlog 增加 parser 子模块作者和维护者核实。示例依据官方 API 编写，未实际运行。
