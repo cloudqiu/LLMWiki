@@ -10,6 +10,7 @@
 - [[claude-code-obsidian-tutorial]] — RUNOOB 中文教程：Claude Code + Obsidian 从零搭建 LLM Wiki；含主题/插件清单与目录结构变体。2026-10-01 摄入，新建 3 页、更新 6 页。
 - [[windows-terminal-tutorial]] — 光影紐扣科普连载：Windows Terminal 入门——「不是新命令，是新窗口」。**本库首份非 PKM 来源**（OS/开发环境层）。2026-10-06 摄入，新建 8 页、更新 1 页。
 - [[dissecting-penpot]] — Penpot 2.18 Docker Compose 安装与镜像检查快照：8 个服务、持久化卷及部署边界。2026-10-21 摄入，派生 2 页。
+- [[gophernotes-official-research]] — gophernotes 官方 README 与补全源码的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 
 ## Concepts 概念
 
@@ -34,6 +35,7 @@
 - [[winget]] — Windows 命令行包管理器：让「装个新外壳」变成一行可复制的命令。（stub）
 - [[guangying-niukou]] — 发布「AI 时代命令行」连载的公众号（署名「凡哥哥」）。（stub）
 - [[penpot]] — 可自托管的协作设计平台；本库目前记录其一次 Docker 部署快照。
+- [[gophernotes-go]] — Jupyter 的 Go kernel：用途、两个典型代码单元、补全与 Windows 限制。
 
 ## Topics 主题
 
@@ -74,4 +76,4 @@
 
 ## Stats
 
-- 来源：**5** 份 ｜ wiki 页面：**27** ｜ Outputs：**0** ｜ 最近更新：2026-10-31
+- 来源：**6** 份 ｜ wiki 页面：**29** ｜ Outputs：**0** ｜ 最近更新：2026-10-31

@@ -330,3 +330,10 @@
 - 更新 `AGENTS.md`：约定仅在用户要求时摄入，优先官方来源并存原始资料，库页只保留用途、依赖、1–3 个典型示例和关键限制；收件箱作为用户输入例外。
 - 新建 `templates/library.md`；更新 `index.md` 的收件箱导航，来源数与 wiki 页数不变。
 - 待办：用户填入库名并提出摄入请求后，按指定范围逐项核查与建页。
+
+## [2026-10-31] ingest | gophernotes（Go）
+
+- 用户说「ingest this」；三个库收件箱均为空。根据连续对话与其此前浏览的 gophernotes 官方仓库，将「this」解释为 gophernotes；未改动收件箱。
+- 核对官方 README 与 `complete.go`；本机通过网络代理直接下载 GitHub Raw 失败，因此新建 `raw/gophernotes-official-research-2026-10-31.md` 保存带链接和章节定位的查阅记录，明确它不是官方原文副本。沿用此前的 `raw/gophernotes-usage.md`。
+- 新建 [[gophernotes-official-research]]（来源页）与 [[gophernotes-go]]（库页）：记录用途、两个最小示例、补全实现与原生 Windows 导入第三方包的限制；示例和本地补全表现尚未在用户环境验证。
+- 更新 `index.md`：来源 5→6，wiki 页面 27→29；待办为用户实际环境的版本、前端与示例验证。
