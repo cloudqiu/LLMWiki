@@ -11,6 +11,7 @@
 - [[windows-terminal-tutorial]] — 光影紐扣科普连载：Windows Terminal 入门——「不是新命令，是新窗口」。**本库首份非 PKM 来源**（OS/开发环境层）。2026-10-06 摄入，新建 8 页、更新 1 页。
 - [[dissecting-penpot]] — Penpot 2.18 Docker Compose 安装与镜像检查快照：8 个服务、持久化卷及部署边界。2026-10-21 摄入，派生 2 页。
 - [[gophernotes-official-research]] — gophernotes 官方 README 与补全源码的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
+- [[chi-official-research]] — chi v5.5.0 官方文档、仓库与作者项目资料的查阅记录；本地未取得官方原文副本。2026-10-31 摄入。
 
 ## Concepts 概念
 
@@ -36,6 +37,8 @@
 - [[guangying-niukou]] — 发布「AI 时代命令行」连载的公众号（署名「凡哥哥」）。（stub）
 - [[penpot]] — 可自托管的协作设计平台；本库目前记录其一次 Docker 部署快照。
 - [[gophernotes-go]] — Jupyter 的 Go kernel：用途、两个典型代码单元、补全与 Windows 限制。
+- [[chi-go]] — Go `net/http` 路由库 chi v5：安装、路径参数、关键限制与作者。
+- [[peter-kieltyka]] — chi 作者；索引其在本库已摄入的库及官方资料可核实的其他项目。
 
 ## Topics 主题
 
@@ -73,7 +76,8 @@
 - Marp 幻灯片 / Dataview 查询用法（工具用法页）
 - 搜索方案：qmd 集成评估（wiki 规模增长后再做）
 - （评估）raw/ 子目录化（articles / papers）——待来源规模增长后再议（output/ 落盘已于 2026-10-01 采纳，见 schema v1.3）
+- （待验证）chi 的当前维护者名单及各自角色；仅凭仓库归属不能推断。
 
 ## Stats
 
-- 来源：**6** 份 ｜ wiki 页面：**29** ｜ Outputs：**0** ｜ 最近更新：2026-10-31
+- 来源：**7** 份 ｜ wiki 页面：**32** ｜ Outputs：**0** ｜ 最近更新：2026-10-31
