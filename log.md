@@ -337,3 +337,9 @@
 - 核对官方 README 与 `complete.go`；本机通过网络代理直接下载 GitHub Raw 失败，因此新建 `raw/gophernotes-official-research-2026-10-31.md` 保存带链接和章节定位的查阅记录，明确它不是官方原文副本。沿用此前的 `raw/gophernotes-usage.md`。
 - 新建 [[gophernotes-official-research]]（来源页）与 [[gophernotes-go]]（库页）：记录用途、两个最小示例、补全实现与原生 Windows 导入第三方包的限制；示例和本地补全表现尚未在用户环境验证。
 - 更新 `index.md`：来源 5→6，wiki 页面 27→29；待办为用户实际环境的版本、前端与示例验证。
+
+## [2026-10-31] schema | 第三方库摄入增加作者索引
+
+- 更新 `AGENTS.md`：摄入 Go、Rust、JVM 库时核实创建者与当前维护者，建立作者实体页与库页双向链接，并区分本库已摄入的库及有官方依据的其他库。
+- 更新 `templates/library.md`，新建 `templates/library-author.md`；身份不明时标待验证并登记 Backlog，其他库的发现不等于摄入。
+- 本次未摄入收件箱条目，未改动用户填写的收件箱；`index.md` 的页面清单和计数不变。
