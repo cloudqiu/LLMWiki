@@ -387,3 +387,10 @@
 - 查阅 Go Packages、koanf README、file provider 源码与 go.mod、LICENSE 和 Kailash Nadh 资料；新建 `raw/koanf-file-go-official-research-2026-11-01.md`（查阅笔记，非官方原文副本）、[[koanf-file-go-official-research]]、[[koanf-file-go]]；更新 [[kailash-nadh]]。
 - 明确 file provider 只读取原始字节，需配合 parser；README 与当前源码对监听回调事件有差异，目标版本待核。示例未运行；子模块具体作者和完整维护者名单待验证。
 - 更新 `index.md`：来源 30→31，wiki 页面 94→96；其余收件箱条目继续待摄入。
+
+## [2026-11-01] ingest | Go 收件箱剩余 18 个模块
+
+- 用户明确要求批量摄入所有 Go 库；此前 25 项已在库中，本次处理收件箱剩余 18 项。收件箱和 Obsidian 状态文件未改动。
+- 新建 18 份 `raw/` 官方资料查阅笔记、18 个来源页、18 个库页；核对官方模块路径、典型 API、重要限制，示例均未在目标环境运行。
+- 将收件箱 `pelleiter/go-toml/v2` 映射到官方 `pelletier/go-toml/v2`；goautoneg 记录为原项目镜像；Go YAML v2 记录官方停止维护与仓库归档；mitchellh 两个仓库记录归档状态。
+- 新建 5 个可核实人物或项目组织索引，更新 [[etcd-io]]、`index.md`；来源 31→49，wiki 页面 96→137。个人作者与完整当前维护者缺乏可靠证据者保留待验证。

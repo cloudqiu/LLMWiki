@@ -38,6 +38,25 @@
 - [[koanf-maps-go-official-research]] — 供 koanf 使用的嵌套 map 复制、合并、展开等工具。 官方页面的 2026-10-31 查阅记录。
 - [[koanf-file-go-official-research]] — koanf 文件 provider 的官方包文档、README 与源码查阅记录；版本和监听事件差异已标注。
 
+- [[go-colorable-go-official-research]] — 在 Windows 终端处理 ANSI 色彩输出；适合需要跨平台彩色日志的程序。 2026-11-01 官方资料查阅记录。
+- [[go-isatty-go-official-research]] — 检测文件描述符是否连接终端，用于决定颜色、交互提示等输出。 2026-11-01 官方资料查阅记录。
+- [[copystructure-go-official-research]] — 递归复制包含 map、slice、指针等引用值的 Go 数据。 2026-11-01 官方资料查阅记录。
+- [[reflectwalk-go-official-research]] — 按反射方式遍历复杂 Go 值，并通过 walker 接口处理节点。 2026-11-01 官方资料查阅记录。
+- [[goautoneg-go-official-research]] — 根据 HTTP Accept 请求头从候选媒体类型中选择响应 Content-Type。 2026-11-01 官方资料查阅记录。
+- [[go-toml-v2-go-official-research]] — 把 TOML 文本解码为 Go 结构，也可将结构编码为 TOML。 2026-11-01 官方资料查阅记录。
+- [[prometheus-client-golang-go-official-research]] — 在 Go 服务中创建和收集 Prometheus 指标。 2026-11-01 官方资料查阅记录。
+- [[prometheus-client-model-go-official-research]] — Prometheus Go 指标数据模型的 protobuf 类型；供 client_golang 等组件交换指标。 2026-11-01 官方资料查阅记录。
+- [[prometheus-common-go-official-research]] — Prometheus 组件共享的 Go 包；expfmt 处理指标文本与格式协商。 2026-11-01 官方资料查阅记录。
+- [[prometheus-procfs-go-official-research]] — 读取 Linux /proc 的进程和内核统计数据。 2026-11-01 官方资料查阅记录。
+- [[probing-go-official-research]] — 通过 HTTP 健康端点持续探测目标，统计丢包和往返时间。 2026-11-01 官方资料查阅记录。
+- [[etcd-api-v3-go-official-research]] — etcd v3 的协议和数据模型包，供客户端、服务端共享。 2026-11-01 官方资料查阅记录。
+- [[etcd-pkg-v3-go-official-research]] — etcd 内部和周边使用的通用工具包集合。 2026-11-01 官方资料查阅记录。
+- [[yaml-v2-go-official-research]] — 将 YAML 编解码为 Go 值，提供严格解码以发现未知字段和重复键。 2026-11-01 官方资料查阅记录。
+- [[x-sync-go-official-research]] — 补充 Go 并发原语；errgroup 汇聚 goroutine 错误并传播取消。 2026-11-01 官方资料查阅记录。
+- [[x-sys-go-official-research]] — 提供 Go 标准库之外的系统调用绑定，按操作系统分子包。 2026-11-01 官方资料查阅记录。
+- [[x-text-go-official-research]] — 提供国际化、Unicode、字符编码、语言区域等文本处理子包。 2026-11-01 官方资料查阅记录。
+- [[x-time-go-official-research]] — 提供时间相关辅助包；rate 用 token bucket 限制事件速率。 2026-11-01 官方资料查阅记录。
+
 ## Concepts 概念
 
 - [[llm-wiki]] — 核心模式：LLM 增量维护的持久化 wiki；三层架构 + ingest/query/lint 三操作。
@@ -118,6 +137,31 @@
 - [[bjorn-rabenstein]] — perks 当前仓库账号的公开身份与已摄入库。
 - [[blake-mizerany]] — perks 原始版权署名者与已摄入库。
 
+- [[go-colorable-go]] — 在 Windows 终端处理 ANSI 色彩输出；适合需要跨平台彩色日志的程序。
+- [[go-isatty-go]] — 检测文件描述符是否连接终端，用于决定颜色、交互提示等输出。
+- [[copystructure-go]] — 递归复制包含 map、slice、指针等引用值的 Go 数据。
+- [[reflectwalk-go]] — 按反射方式遍历复杂 Go 值，并通过 walker 接口处理节点。
+- [[goautoneg-go]] — 根据 HTTP Accept 请求头从候选媒体类型中选择响应 Content-Type。
+- [[go-toml-v2-go]] — 把 TOML 文本解码为 Go 结构，也可将结构编码为 TOML。
+- [[prometheus-client-golang-go]] — 在 Go 服务中创建和收集 Prometheus 指标。
+- [[prometheus-client-model-go]] — Prometheus Go 指标数据模型的 protobuf 类型；供 client_golang 等组件交换指标。
+- [[prometheus-common-go]] — Prometheus 组件共享的 Go 包；expfmt 处理指标文本与格式协商。
+- [[prometheus-procfs-go]] — 读取 Linux /proc 的进程和内核统计数据。
+- [[probing-go]] — 通过 HTTP 健康端点持续探测目标，统计丢包和往返时间。
+- [[etcd-api-v3-go]] — etcd v3 的协议和数据模型包，供客户端、服务端共享。
+- [[etcd-pkg-v3-go]] — etcd 内部和周边使用的通用工具包集合。
+- [[yaml-v2-go]] — 将 YAML 编解码为 Go 值，提供严格解码以发现未知字段和重复键。
+- [[x-sync-go]] — 补充 Go 并发原语；errgroup 汇聚 goroutine 错误并传播取消。
+- [[x-sys-go]] — 提供 Go 标准库之外的系统调用绑定，按操作系统分子包。
+- [[x-text-go]] — 提供国际化、Unicode、字符编码、语言区域等文本处理子包。
+- [[x-time-go]] — 提供时间相关辅助包；rate 用 token bucket 限制事件速率。
+
+- [[yasuhiro-matsumoto]] — go-colorable 与 go-isatty README 署名作者及其他项目线索。
+- [[mitchell-hashimoto]] — copystructure、reflectwalk 账号关联及归档状态。
+- [[thomas-pelletier]] — go-toml 项目账号身份及 v1/v2 模块关系。
+- [[prometheus-project]] — 本库四个 Prometheus Go 模块的项目组织索引。
+- [[gustavo-niemeyer]] — go-yaml 原始开发者及项目停止维护声明。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -159,8 +203,9 @@
 - （待验证）pgx 的完整当前维护者名单，以及用户项目版本与 v5.12.0 安全修复的相关性。
 - （待验证）koanf TOML parser v2 子模块的独立作者及完整当前维护者名单。
 - （待验证）koanf file provider 子模块的具体创建者及完整当前维护者名单；监听回调事件行为按目标版本核对。
+- （待验证）本批次剩余 Go 模块的个人创建者及当前维护者；Prometheus、etcd、Go x 包按项目归属记录，不能视为个人作者。
 - （待验证）本轮新增 Go 库中，仅能核实组织或仓库账号的项目，其个人创建者和当前维护者；作者索引区分账号关联与个人贡献。
 
 ## Stats
 
-- 来源：**31** 份 ｜ wiki 页面：**96** ｜ Outputs：**0** ｜ 最近更新：2026-11-01
+- 来源：**49** 份 ｜ wiki 页面：**137** ｜ Outputs：**0** ｜ 最近更新：2026-11-01
