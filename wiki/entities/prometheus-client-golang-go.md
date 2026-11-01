@@ -6,7 +6,7 @@ created: 2026-11-01
 updated: 2026-11-01
 tags: [go, library]
 status: growing
-sources: [raw/prometheus-client-golang-go-official-research-2026-11-01.md]
+sources: [raw/prometheus-client-golang-go-official-research-2026-11-01.md, raw/多实例P99例子.md]
 ---
 
 # github.com/prometheus/client_golang
@@ -38,6 +38,7 @@ requests.Inc()
 ## 关键限制
 
 - 注册同名指标会失败；label 基数应控制。模块根路径包含多个包，此例使用 prometheus 子包。
+- 跨实例求全局延迟分位时，应使用可聚合的 Histogram 桶并按官方查询格式聚合；本页的 Counter 示例不处理延迟分布。详见 [[distributed-quantiles]]（`raw/多实例P99例子.md` 第 273–290 行的方案及其中的查询缺口）。
 
 ## 来源
 

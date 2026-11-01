@@ -401,3 +401,9 @@
 - 新建 3 个来源页 [[latency-percentiles-notes]]、[[single-instance-p99-simulation]]、[[multi-instance-p99-examples]]，以及 2 个概念页 [[latency-percentiles]]、[[distributed-quantiles]]；更新 [[perks-go]]、`index.md`。
 - 核对官方包文档：perks `Count()` 存在、targeted epsilon 为分位位置绝对误差、`Merge` 明确损坏；caio/go-tdigest 示例所用构造 API 不符；Prometheus Histogram 跨实例查询须聚合桶。原资料“完整可运行”及数值输出均未在本机验证。
 - 目录计数：来源 49→52，wiki 页面 137→142。待办：按用户目标环境另行编写和运行修正版示例。
+
+## [2026-11-01] lint | 结构、来源与 P99 交叉引用巡检
+
+- 新建 `output/2026-11-01-lint.md`：检查 142 个 wiki 页面、52 个来源页及 57 个 raw Markdown 文件；未发现缺页 wikilink、孤立页、缺失来源文件或未登记 wiki 页。
+- 标出 2 份未摄入的 raw 资料及 43 个未运行的 Go 库示例；近期 P99 的 `perks.Merge` 冲突已在多处显式标注。本轮未重新验证全部外部网页或编译示例。
+- 更新 [[prometheus-client-golang-go]] 的 `[[distributed-quantiles]]` 反向链接与来源；`index.md` 登记报告、Backlog 候选，Outputs 0→1；raw 和用户收件箱未改。
