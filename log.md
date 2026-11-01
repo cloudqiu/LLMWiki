@@ -443,3 +443,10 @@
 - 将收件箱的 `go-toolsmith/astformat` 对应到官方 `go-toolsmith/astfmt`，并将 `hashicorp/hcl` 的依赖路径核对为 `/v2`；收件箱原文不变。
 - 示例未在本机编译或运行；缺少可确认独立 API 示例的页面标为 stub，个人作者及现任维护者待验证。用户已有 wiki 页面和 Obsidian 状态修改未纳入本批。
 - 来源 112→157，wiki 页面 280→377，Outputs 保持 1。
+
+## [2026-11-01] ingest | Go 收件箱后续 42 个可核实库
+
+- 本轮收件箱在上一批后新增 43 行；42 项找到可靠官方仓库或包文档，新增 42 份 raw 查阅笔记、42 个来源页、42 个库页及 5 个账号索引，并更新 [[mitchell-hashimoto]]、`index.md` 与本日志。原收件箱未修改。
+- 将 `copyloader`→`copyloopvar`、`testableexemples`→`testableexamples`、`predecalred`→`predeclared`、`rogpeople`→`rogpeppe` 显式映射；两个 quasilyte 子包按所属模块记录。
+- `github.com/ldez/girgnotin` 无法可靠辨认，保留在 Backlog，不作为已摄入库。部分库缺少可确认最小 API 示例而标 stub；其余示例未在本机运行。个人创建者及现任维护者待核实。
+- 来源 157→199，wiki 页面 377→466，Outputs 保持 1。

@@ -169,6 +169,49 @@
 - [[hashicorp-golang-lru-go-official-research]] — 提供线程安全的泛型 LRU 缓存：2026-11-01 官方仓库查阅记录。
 - [[hashicorp-hcl-go-official-research]] — 解析和生成结构化配置语言：2026-11-01 官方仓库查阅记录。
 
+- [[hexops-gotextdiff-go-official-research]] — 用 Go 生成统一格式文本差异；2026-11-01 官方仓库或包文档查阅。
+- [[inconshreveable-mousetrap-go-official-research]] — 检测 Windows 程序是否由 Explorer 双击启动；2026-11-01 官方仓库或包文档查阅。
+- [[jgautheron-goconst-go-official-research]] — 找出适合抽成常量的重复字符串；2026-11-01 官方仓库或包文档查阅。
+- [[jjti-go-spancheck-go-official-research]] — 检查追踪 span 是否正确结束及设置状态；2026-11-01 官方仓库或包文档查阅。
+- [[joho-godotenv-go-official-research]] — 从 .env 文件加载环境变量；2026-11-01 官方仓库或包文档查阅。
+- [[julz-importas-go-official-research]] — 统一 Go import 别名规则；2026-11-01 官方仓库或包文档查阅。
+- [[karamaru-alpha-copyloopvar-go-official-research]] — 检查 Go 1.22 后多余的循环变量复制；2026-11-01 官方仓库或包文档查阅。
+- [[kisielk-errcheck-go-official-research]] — 检查被忽略的 Go error 返回值；2026-11-01 官方仓库或包文档查阅。
+- [[kkHAIKE-contextcheck-go-official-research]] — 检查 context 是否沿调用链继承和传递；2026-11-01 官方仓库或包文档查阅。
+- [[kulti-thelper-go-official-research]] — 检查测试辅助函数是否调用 t.Helper；2026-11-01 官方仓库或包文档查阅。
+- [[kunwardeep-paralleltest-go-official-research]] — 检查测试及子测试对 t.Parallel 的使用；2026-11-01 官方仓库或包文档查阅。
+- [[ldez-exptostd-go-official-research]] — 检测可由标准库替代的 x/exp API；2026-11-01 官方仓库或包文档查阅。
+- [[ldez-gomodirectives-go-official-research]] — 检查 go.mod 中的模块指令；2026-11-01 官方仓库或包文档查阅。
+- [[ldez-structtags-go-official-research]] — 解析和操作 Go struct 标签；2026-11-01 官方仓库或包文档查阅。
+- [[ldez-tagliatelle-go-official-research]] — 检查 struct 标签命名风格；2026-11-01 官方仓库或包文档查阅。
+- [[ldez-usetesting-go-official-research]] — 提示用 testing 包新 API 替换旧调用；2026-11-01 官方仓库或包文档查阅。
+- [[leonklingele-grouper-go-official-research]] — 检查 import、const、var 声明分组；2026-11-01 官方仓库或包文档查阅。
+- [[lucasb-eyer-go-colorful-go-official-research]] — 在 Go 中操作和转换颜色空间；2026-11-01 官方仓库或包文档查阅。
+- [[macabu-inamedparam-go-official-research]] — 检查接口方法参数名称的一致性；2026-11-01 官方仓库或包文档查阅。
+- [[magiconair-properties-go-official-research]] — 加载和展开 Java 风格 properties 配置；2026-11-01 官方仓库或包文档查阅。
+- [[manuelarte-embeddedstructfieldcheck-go-official-research]] — 检查嵌入结构体字段的使用规则；2026-11-01 官方仓库或包文档查阅。
+- [[manuelarte-funcorder-go-official-research]] — 检查 Go 类型方法和构造函数的顺序；2026-11-01 官方仓库或包文档查阅。
+- [[maratori-testableexamples-go-official-research]] — 检查 Go Example 是否声明可验证输出；2026-11-01 官方仓库或包文档查阅。
+- [[maratori-testpackage-go-official-research]] — 检查测试是否使用外部 _test 包；2026-11-01 官方仓库或包文档查阅。
+- [[mattn-go-runewidth-go-official-research]] — 计算终端中的 Unicode 字符显示宽度；2026-11-01 官方仓库或包文档查阅。
+- [[matttpround-golang_protobuf_extensions-go-official-research]] — 提供旧版 Go protobuf 的扩展辅助包；2026-11-01 官方仓库或包文档查阅。
+- [[mgechev-revive-go-official-research]] — 运行可配置的 Go lint 规则；2026-11-01 官方仓库或包文档查阅。
+- [[mitchellh-go-homedir-go-official-research]] — 在无 cgo 情况下获取和展开当前用户主目录；2026-11-01 官方仓库或包文档查阅。
+- [[mitchellh-mapstructure-go-official-research]] — 将通用 map 解码为 Go struct；2026-11-01 官方仓库或包文档查阅。
+- [[moricho-tparallel-go-official-research]] — 检查不恰当的 t.Parallel 使用；2026-11-01 官方仓库或包文档查阅。
+- [[muesli-cancelreader-go-official-research]] — 为 io.Reader 提供可取消读取包装；2026-11-01 官方仓库或包文档查阅。
+- [[nishanths-exhaustive-go-official-research]] — 检查枚举型 switch 是否穷尽；2026-11-01 官方仓库或包文档查阅。
+- [[nishanths-predeclared-go-official-research]] — 查找遮蔽 Go 预定义标识符的声明；2026-11-01 官方仓库或包文档查阅。
+- [[nunnatsa-ginkgolinter-go-official-research]] — 检查 Ginkgo/Gomega 测试代码用法；2026-11-01 官方仓库或包文档查阅。
+- [[quasilyte-go-ruleguard-go-official-research]] — 运行用户编写的 Go 代码匹配规则；2026-11-01 官方仓库或包文档查阅。
+- [[quasilyte-go-ruleguard-dsl-go-official-research]] — 为 ruleguard 编写声明式匹配规则；2026-11-01 官方仓库或包文档查阅。
+- [[quasilyte-gogrep-go-official-research]] — 按 Go 语法结构搜索代码；2026-11-01 官方仓库或包文档查阅。
+- [[quasilyte-regex-syntax-go-official-research]] — 提供正则解析器及 AST 定义；2026-11-01 官方仓库或包文档查阅。
+- [[quasilyte-stdinfo-go-official-research]] — 提供 Go 标准库信息元数据；2026-11-01 官方仓库或包文档查阅。
+- [[raeperd-recvcheck-go-official-research]] — 检查 Go 方法是否混用指针和值接收者；2026-11-01 官方仓库或包文档查阅。
+- [[rivo-uniseg-go-official-research]] — 处理 Unicode 字素簇、换行和终端宽度；2026-11-01 官方仓库或包文档查阅。
+- [[rogpeppe-go-internal-go-official-research]] — 提供从 Go 工具链抽出的辅助包；2026-11-01 官方仓库或包文档查阅。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -410,6 +453,54 @@
 - [[golang-org]] — golang 官方仓库账号及本库已摄入项目的索引；个人角色待核实。
 - [[google-org]] — google 官方仓库账号及本库已摄入项目的索引；个人角色待核实。
 
+- [[hexops-gotextdiff-go]] — 用 Go 生成统一格式文本差异；用法、限制和待验证项见库页。
+- [[inconshreveable-mousetrap-go]] — 检测 Windows 程序是否由 Explorer 双击启动；用法、限制和待验证项见库页。
+- [[jgautheron-goconst-go]] — 找出适合抽成常量的重复字符串；用法、限制和待验证项见库页。
+- [[jjti-go-spancheck-go]] — 检查追踪 span 是否正确结束及设置状态；用法、限制和待验证项见库页。
+- [[joho-godotenv-go]] — 从 .env 文件加载环境变量；用法、限制和待验证项见库页。
+- [[julz-importas-go]] — 统一 Go import 别名规则；用法、限制和待验证项见库页。
+- [[karamaru-alpha-copyloopvar-go]] — 检查 Go 1.22 后多余的循环变量复制；用法、限制和待验证项见库页。
+- [[kisielk-errcheck-go]] — 检查被忽略的 Go error 返回值；用法、限制和待验证项见库页。
+- [[kkHAIKE-contextcheck-go]] — 检查 context 是否沿调用链继承和传递；用法、限制和待验证项见库页。
+- [[kulti-thelper-go]] — 检查测试辅助函数是否调用 t.Helper；用法、限制和待验证项见库页。
+- [[kunwardeep-paralleltest-go]] — 检查测试及子测试对 t.Parallel 的使用；用法、限制和待验证项见库页。
+- [[ldez-exptostd-go]] — 检测可由标准库替代的 x/exp API；用法、限制和待验证项见库页。
+- [[ldez-gomodirectives-go]] — 检查 go.mod 中的模块指令；用法、限制和待验证项见库页。
+- [[ldez-structtags-go]] — 解析和操作 Go struct 标签；用法、限制和待验证项见库页。
+- [[ldez-tagliatelle-go]] — 检查 struct 标签命名风格；用法、限制和待验证项见库页。
+- [[ldez-usetesting-go]] — 提示用 testing 包新 API 替换旧调用；用法、限制和待验证项见库页。
+- [[leonklingele-grouper-go]] — 检查 import、const、var 声明分组；用法、限制和待验证项见库页。
+- [[lucasb-eyer-go-colorful-go]] — 在 Go 中操作和转换颜色空间；用法、限制和待验证项见库页。
+- [[macabu-inamedparam-go]] — 检查接口方法参数名称的一致性；用法、限制和待验证项见库页。
+- [[magiconair-properties-go]] — 加载和展开 Java 风格 properties 配置；用法、限制和待验证项见库页。
+- [[manuelarte-embeddedstructfieldcheck-go]] — 检查嵌入结构体字段的使用规则；用法、限制和待验证项见库页。
+- [[manuelarte-funcorder-go]] — 检查 Go 类型方法和构造函数的顺序；用法、限制和待验证项见库页。
+- [[maratori-testableexamples-go]] — 检查 Go Example 是否声明可验证输出；用法、限制和待验证项见库页。
+- [[maratori-testpackage-go]] — 检查测试是否使用外部 _test 包；用法、限制和待验证项见库页。
+- [[mattn-go-runewidth-go]] — 计算终端中的 Unicode 字符显示宽度；用法、限制和待验证项见库页。
+- [[matttpround-golang_protobuf_extensions-go]] — 提供旧版 Go protobuf 的扩展辅助包；用法、限制和待验证项见库页。
+- [[mgechev-revive-go]] — 运行可配置的 Go lint 规则；用法、限制和待验证项见库页。
+- [[mitchellh-go-homedir-go]] — 在无 cgo 情况下获取和展开当前用户主目录；用法、限制和待验证项见库页。
+- [[mitchellh-mapstructure-go]] — 将通用 map 解码为 Go struct；用法、限制和待验证项见库页。
+- [[moricho-tparallel-go]] — 检查不恰当的 t.Parallel 使用；用法、限制和待验证项见库页。
+- [[muesli-cancelreader-go]] — 为 io.Reader 提供可取消读取包装；用法、限制和待验证项见库页。
+- [[nishanths-exhaustive-go]] — 检查枚举型 switch 是否穷尽；用法、限制和待验证项见库页。
+- [[nishanths-predeclared-go]] — 查找遮蔽 Go 预定义标识符的声明；用法、限制和待验证项见库页。
+- [[nunnatsa-ginkgolinter-go]] — 检查 Ginkgo/Gomega 测试代码用法；用法、限制和待验证项见库页。
+- [[quasilyte-go-ruleguard-go]] — 运行用户编写的 Go 代码匹配规则；用法、限制和待验证项见库页。
+- [[quasilyte-go-ruleguard-dsl-go]] — 为 ruleguard 编写声明式匹配规则；用法、限制和待验证项见库页。
+- [[quasilyte-gogrep-go]] — 按 Go 语法结构搜索代码；用法、限制和待验证项见库页。
+- [[quasilyte-regex-syntax-go]] — 提供正则解析器及 AST 定义；用法、限制和待验证项见库页。
+- [[quasilyte-stdinfo-go]] — 提供 Go 标准库信息元数据；用法、限制和待验证项见库页。
+- [[raeperd-recvcheck-go]] — 检查 Go 方法是否混用指针和值接收者；用法、限制和待验证项见库页。
+- [[rivo-uniseg-go]] — 处理 Unicode 字素簇、换行和终端宽度；用法、限制和待验证项见库页。
+- [[rogpeppe-go-internal-go]] — 提供从 Go 工具链抽出的辅助包；用法、限制和待验证项见库页。
+- [[ldez-account]] — ldez 仓库账号与本库已摄入项目索引；具体个人角色待核实。
+- [[manuelarte-account]] — manuelarte 仓库账号与本库已摄入项目索引；具体个人角色待核实。
+- [[maratori-account]] — maratori 仓库账号与本库已摄入项目索引；具体个人角色待核实。
+- [[nishanths-account]] — nishanths 仓库账号与本库已摄入项目索引；具体个人角色待核实。
+- [[quasilyte-account]] — quasilyte 仓库账号与本库已摄入项目索引；具体个人角色待核实。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -490,6 +581,10 @@
 - （待验证）[[golangci-plugin-module-register-go]]、[[golangci-swaggoswag-go]]、[[gostaticanalysis-analysisutil-go]] 与 [[gostaticanalysis-comment-go]] 的独立最小 API 示例。
 - （待验证）本批 CLI 及 Go 示例在目标版本的实际编译和运行；尤其核对 golangci-lint v2 参数与 fork 模块路径。
 
+- （待确认）收件箱 `github.com/ldez/girgnotin` 未找到可靠官方项目；需用户提供准确路径或来源，未记为已摄入。
+- （待验证）本批新库的个人创建者和现任维护者；仓库账号索引仅证明项目关联。
+- （待验证）本批标为 stub 的库页需要官方 API 最小示例；其余示例尚未在本机编译或运行。
+
 ## Stats
 
-- 来源：**157** 份 ｜ wiki 页面：**377** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**199** 份 ｜ wiki 页面：**466** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
