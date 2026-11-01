@@ -104,6 +104,25 @@
 - [[rust-cell-family-clipping]] — Rust Cell 家族的内部可变性梳理，并按官方文档核对借用与初始化边界。
 - [[sqlite-2018-dialect-clipping]] — SQLite 2018 SQL 特性转载；剪藏标题与正文不符，FILTER 结论已过时。
 
+- [[cyclop-go-official-research]] — 检测 Go 函数和包的圈复杂度。 2026-11-01 官方资料查阅记录。
+- [[wsl-v5-go-official-research]] — 检查 Go 语句间的空行和分组风格。 2026-11-01 官方资料查阅记录。
+- [[bidichk-go-official-research]] — 检测源码中可能改变显示顺序的危险双向 Unicode 控制符。 2026-11-01 官方资料查阅记录。
+- [[errchkjson-go-official-research]] — 检查 JSON 编码的不可支持类型与可省略的错误处理。 2026-11-01 官方资料查阅记录。
+- [[ireturn-go-official-research]] — 提示函数返回接口类型的设计选择。 2026-11-01 官方资料查阅记录。
+- [[mirror-go-official-research]] — 提示可避免 string 与 []byte 转换的对应标准库调用。 2026-11-01 官方资料查阅记录。
+- [[perfsprint-go-official-research]] — 找出可用 strconv 等更直接操作替代的 fmt 格式化调用。 2026-11-01 官方资料查阅记录。
+- [[zxcvbn-go-official-research]] — 估计密码强度并识别常见词和模式。 2026-11-01 官方资料查阅记录。
+- [[durationcheck-go-official-research]] — 检查两个 time.Duration 相乘的可疑写法。 2026-11-01 官方资料查阅记录。
+- [[colorprofile-go-official-research]] — 检测终端色彩能力并自动降级颜色输出。 2026-11-01 官方资料查阅记录。
+- [[ultraviolet-go-official-research]] — 提供终端 UI 的 cell 绘制、输入和差量渲染原语。 2026-11-01 官方资料查阅记录。
+- [[charm-x-ansi-go-official-research]] — 解析、生成和清理 ANSI 终端控制序列。 2026-11-01 官方资料查阅记录。
+- [[charm-x-term-go-official-research]] — 跨平台查询终端大小、TTY 状态及原始模式。 2026-11-01 官方资料查阅记录。
+- [[charm-x-termios-go-official-research]] — 在 Unix 终端读取或设置 termios 与窗口尺寸。 2026-11-01 官方资料查阅记录。
+- [[charm-x-windows-go-official-research]] — 封装 Charm 所需的 Windows Console 输入记录与系统调用。 2026-11-01 官方资料查阅记录。
+- [[intrange-go-official-research]] — 找出可改用 Go 1.22 整数 range 的循环。 2026-11-01 官方资料查阅记录。
+- [[displaywidth-go-official-research]] — 按 Unicode 字素簇计算等宽终端显示列宽。 2026-11-01 官方资料查阅记录。
+- [[uax29-v2-go-official-research]] — 按 Unicode UAX #29 分割字素、单词和句子。 2026-11-01 官方资料查阅记录。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -264,6 +283,34 @@
 - [[bjorn-erik-pedersen]] — Bjørn Erik Pedersen 的身份及 Go 项目索引。
 - [[clickhouse]] — ClickHouse 的身份及 Go 项目索引。
 
+- [[cyclop-go]] — 检测 Go 函数和包的圈复杂度。
+- [[wsl-v5-go]] — 检查 Go 语句间的空行和分组风格。
+- [[bidichk-go]] — 检测源码中可能改变显示顺序的危险双向 Unicode 控制符。
+- [[errchkjson-go]] — 检查 JSON 编码的不可支持类型与可省略的错误处理。
+- [[ireturn-go]] — 提示函数返回接口类型的设计选择。
+- [[mirror-go]] — 提示可避免 string 与 []byte 转换的对应标准库调用。
+- [[perfsprint-go]] — 找出可用 strconv 等更直接操作替代的 fmt 格式化调用。
+- [[zxcvbn-go]] — 估计密码强度并识别常见词和模式。
+- [[durationcheck-go]] — 检查两个 time.Duration 相乘的可疑写法。
+- [[colorprofile-go]] — 检测终端色彩能力并自动降级颜色输出。
+- [[ultraviolet-go]] — 提供终端 UI 的 cell 绘制、输入和差量渲染原语。
+- [[charm-x-ansi-go]] — 解析、生成和清理 ANSI 终端控制序列。
+- [[charm-x-term-go]] — 跨平台查询终端大小、TTY 状态及原始模式。
+- [[charm-x-termios-go]] — 在 Unix 终端读取或设置 termios 与窗口尺寸。
+- [[charm-x-windows-go]] — 封装 Charm 所需的 Windows Console 输入记录与系统调用。
+- [[intrange-go]] — 找出可改用 Go 1.22 整数 range 的循环。
+- [[displaywidth-go]] — 按 Unicode 字素簇计算等宽终端显示列宽。
+- [[uax29-v2-go]] — 按 Unicode UAX #29 分割字素、单词和句子。
+- [[bartlomiej-klimczak]] — Bartłomiej Klimczak 的已摄入 Go 项目索引。
+- [[simon-sawert]] — Simon Sawert 的已摄入 Go 项目索引。
+- [[lucas-bremgartner]] — Lucas Bremgartner 的已摄入 Go 项目索引。
+- [[oleg-butuzov]] — Oleg Butuzov 的已摄入 Go 项目索引。
+- [[catena-cyber]] — Catena cyber 的已摄入 Go 项目索引。
+- [[cosmin-cojocar]] — Cosmin Cojocar 的已摄入 Go 项目索引。
+- [[charith-ellawala]] — Charith Ellawala 的已摄入 Go 项目索引。
+- [[clifton-kaznocha]] — Clifton Kaznocha 的已摄入 Go 项目索引。
+- [[matt-sherman]] — Matt Sherman 的已摄入 Go 项目索引。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -337,7 +384,9 @@
 - `github.com/ashanbrown/forbidigo/v2`：个人创建者及当前维护者待验证。
 - `github.com/ashanbrown/makezero/v2`：个人创建者及当前维护者待验证。
 - `github.com/bits-and-blooms/bitset`：个人创建者及当前维护者待验证。
+- （待验证）本批 18 个 Go 项目的个人创建与当前维护角色；已建身份页仅确认官方账号关联，不能据仓库所属推定唯一作者。
+- （待验证）`github.com/charmbracelet/x/windows` 的目标 Windows 版本与独立最小运行示例；Charm x 子模块的 API 稳定性按实际版本复核。
 
 ## Stats
 
-- 来源：**94** 份 ｜ wiki 页面：**235** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**112** 份 ｜ wiki 页面：**280** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
