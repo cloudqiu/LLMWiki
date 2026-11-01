@@ -421,3 +421,10 @@
 - 将 `github.com/alignse/ninnesser` 映射到官方 `github.com/alingse/nilnesserr`；对 /v2、CLI 安装路径和外部 Sass 运行时的边界做显式标注。
 - 用法示例均未在本机运行；不确定的个人作者或当前维护者保留待验证。
 - `index.md` 统计：来源 69→91；wiki 页面 180→229；Outputs 保持 1。
+
+## [2026-11-01] ingest | raw 中剩余 3 份正文资料
+
+- 摄入 `raw/为什么外企Leadership越来越看重员工的Emotional Control？.md`、`raw/告别混淆！Rust Cell 家族：从 UnsafeCell 到 Cell、RefCell、OnceCell、LazyCell.md` 和 `raw/微信为什么使用 SQLite 保存聊天记录？.md`；原件未修改。Rust/JVM 库收件箱暂无条目，Go 收件箱已在前两批处理。
+- 新建 3 个来源页和 3 个概念页；更新 `index.md`。来源 91→94、wiki 页面 229→235、Outputs 保持 1。
+- 关键决定：微信标题文章正文实际为 Markus Winand 的 SQLite 2018 SQL 功能转载，不把它当作微信存储实现证据；其普通聚合 FILTER 限制已被 SQLite 3.30.0 推翻，来源页与概念页双向标注。Rust Cell 家族以官方文档核对运行时借用和版本边界；Emotional Control 的因果推断保留为作者观点。
+- 待办：寻找微信存储的一手资料；补职场沟通的实证研究。剪藏文章的原始发表时间与部分作者身份待验证。

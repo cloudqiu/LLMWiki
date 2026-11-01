@@ -100,11 +100,17 @@
 - [[godartsass-v2-go-official-research]] — 通过 Dart Sass Embedded 协议从 Go 编译 Sass/SCSS。 2026-11-01 官方资料查阅记录。
 - [[golibsass-go-official-research]] — 从 Go 调用 LibSass 编译 SCSS。 2026-11-01 官方资料查阅记录。
 - [[bitset-go-official-research]] — 用可扩展位集合存储非负整数的布尔状态。 2026-11-01 官方资料查阅记录。
+- [[emotional-control-leadership-clipping]] — 职场压力和分歧中的表达建议；区分作者观点与实证结论。
+- [[rust-cell-family-clipping]] — Rust Cell 家族的内部可变性梳理，并按官方文档核对借用与初始化边界。
+- [[sqlite-2018-dialect-clipping]] — SQLite 2018 SQL 特性转载；剪藏标题与正文不符，FILTER 结论已过时。
 
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
 - [[distributed-quantiles]] — 全局 P99 不能平均各实例 P99；Histogram 聚合与可合并摘要的证据边界。
+- [[emotional-control-at-work]] — 压力和异议沟通的具体做法，以及文章观点的证据边界。
+- [[rust-interior-mutability]] — Cell、RefCell、OnceCell、LazyCell 和 UnsafeCell 的选择线索。
+- [[sqlite-filter-clause]] — SQLite 普通聚合 FILTER 自 3.30.0 起支持；与 2018 年资料的矛盾。
 - [[llm-wiki]] — 核心模式：LLM 增量维护的持久化 wiki；三层架构 + ingest/query/lint 三操作。
 - [[retrieval-augmented-generation]] — RAG：查询时检索切片生成答案，无知识积累。
 - [[memex]] — 桌面式私人「文件与图书馆」(1945)：微缩胶片 + 投影屏 + 关联路径。
@@ -302,7 +308,8 @@
 - （待验证）本批次剩余 Go 模块的个人创建者及当前维护者；Prometheus、etcd、Go x 包按项目归属记录，不能视为个人作者。
 - （待验证）本轮新增 Go 库中，仅能核实组织或仓库账号的项目，其个人创建者和当前维护者；作者索引区分账号关联与个人贡献。
 - （待验证）对 P99 单实例原始示例产出可编译修正版并实测；多实例场景按目标流量、窗口与精度要求验证 Histogram 或 t-digest 方案。
-- （待摄入）`raw/为什么外企Leadership越来越看重员工的Emotional Control？.md`、`raw/微信为什么使用 SQLite 保存聊天记录？.md`；原文尚未进入 wiki，先核对出处与事实。
+- （待验证）微信在指定平台与版本的聊天记录存储实现；现有 [[sqlite-2018-dialect-clipping]] 正文没有相关证据。
+- （待补）Emotional Control 与团队心理安全、晋升结果之间的实证研究；现有 [[emotional-control-leadership-clipping]] 为个人观点。
 
 - `github.com/daixiang0/gci`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
 - `github.com/golangci/golangci-lint/v2`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
@@ -333,4 +340,4 @@
 
 ## Stats
 
-- 来源：**91** 份 ｜ wiki 页面：**229** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**94** 份 ｜ wiki 页面：**235** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
