@@ -477,3 +477,10 @@
 - 用户已把先前的 `bracktrace` 改为 `backtrace`，因此更新 [[backtrace-rust]] 与其来源页，保留旧 raw 查阅记录作为历史。新条目 `jpeg-decorder` 暂按有正式文档的 `jpeg-decoder` 归档，在页面和 Backlog 标记待核对。
 - 研究笔记不是官方原文副本；示例未在本机编译运行。没有可靠身份依据的个人创建者和现任维护者标待验证；部分底层组件未找到可核实的独立最小示例，页面标 stub。
 - 来源 285→331，wiki 页面 642→734，Outputs 保持 1。
+
+## [2026-11-01] ingest | Rust 收件箱后续 110 项
+
+- 当前收件箱共 205 行；前两批 95 项已摄入，本次新增 110 项。按 docs.rs 发布文档核对名称、用途与显示版本，新建 110 份 raw 查阅笔记、110 个来源页、110 个库页，补同生态交叉链接，并更新 `index.md` 与本日志。收件箱原文未改，也未纳入提交。
+- `poetential_utf` 暂对应 `potential_utf`，`singal-hook-registry` 暂对应 `signal-hook-registry`，`sha1-1` 暂对应 `sha1`；上述映射待原始依赖清单确认。`rustls-webpki` 的包名与 Rust 模块名 `webpki` 已区分。`redox_syscall` 主要供 Redox 内核和 relibc 使用；SHA-1 仅宜作旧协议兼容。
+- 研究笔记不是官方原文副本；片段未在本机编译运行。个人创建者与现任维护者无可靠官方证据处标待验证；缺少可核实独立示例的底层组件标 stub。
+- 来源 331→441，wiki 页面 734→954，Outputs 保持 1。

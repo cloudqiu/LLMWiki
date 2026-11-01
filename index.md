@@ -348,6 +348,117 @@
 - [[jpeg-decoder-rust-official-research]] — 解码 JPEG 图像及读取元数据。 2026-11-01 发布文档查阅记录。
 - [[js-sys-rust-official-research]] — 在 wasm-bindgen 中调用 JavaScript 内建对象和 API。 2026-11-01 发布文档查阅记录。
 
+- [[lazy-static-rust-official-research]] — 以宏定义首次使用时初始化的静态值。 2026-11-01 发布文档查阅记录。
+- [[libc-rust-official-research]] — 提供操作系统 C 库的原始 FFI 类型、常量与函数绑定。 2026-11-01 发布文档查阅记录。
+- [[linux-raw-sys-rust-official-research]] — 提供 Linux 内核接口的原始系统调用类型与常量。 2026-11-01 发布文档查阅记录。
+- [[litemap-rust-official-research]] — 以扁平数组实现适合小规模键值数据的映射。 2026-11-01 发布文档查阅记录。
+- [[lock-api-rust-official-research]] — 提供可接入不同原始锁实现的同步锁 API。 2026-11-01 发布文档查阅记录。
+- [[log-rust-official-research]] — 为 Rust 库提供统一日志 facade，具体输出由 logger 实现。 2026-11-01 发布文档查阅记录。
+- [[lru-slab-rust-official-research]] — 预分配存储并按最近最少使用顺序跟踪条目。 2026-11-01 发布文档查阅记录。
+- [[matchit-rust-official-research]] — 高速匹配带参数的 URL 路由。 2026-11-01 发布文档查阅记录。
+- [[memchr-rust-official-research]] — 高效搜索字节、子串等文本原语。 2026-11-01 发布文档查阅记录。
+- [[mime-rust-official-research]] — 解析和表示 HTTP 媒体类型。 2026-11-01 发布文档查阅记录。
+- [[miniz-oxide-rust-official-research]] — 纯 Rust 实现 DEFLATE 与 zlib 压缩解压。 2026-11-01 发布文档查阅记录。
+- [[mio-rust-official-research]] — 提供非阻塞 I/O 事件轮询的低层接口。 2026-11-01 发布文档查阅记录。
+- [[nibble-vec-rust-official-research]] — 按半字节组织数据的容器，适合 radix trie 等结构。 2026-11-01 发布文档查阅记录。
+- [[nix-rust-official-research]] — 以 Rust 接口封装 Unix 系统调用。 2026-11-01 发布文档查阅记录。
+- [[num-conv-rust-official-research]] — 在整数类型之间做有检查的转换。 2026-11-01 发布文档查阅记录。
+- [[num-traits-rust-official-research]] — 定义数值类型的通用 trait。 2026-11-01 发布文档查阅记录。
+- [[num-threads-rust-official-research]] — 查询当前进程可用的 CPU 线程数量。 2026-11-01 发布文档查阅记录。
+- [[objc2-rust-official-research]] — 提供 Objective-C runtime 与消息发送的 Rust 绑定。 2026-11-01 发布文档查阅记录。
+- [[objc2-app-kit-rust-official-research]] — 提供 Apple AppKit 框架的 Rust 绑定。 2026-11-01 发布文档查阅记录。
+- [[objc2-core-foundation-rust-official-research]] — 提供 Apple Core Foundation 框架的 Rust 绑定。 2026-11-01 发布文档查阅记录。
+- [[objc2-core-graphics-rust-official-research]] — 提供 Apple Core Graphics 框架的 Rust 绑定。 2026-11-01 发布文档查阅记录。
+- [[objc2-encode-rust-official-research]] — 表示和解析 Objective-C 类型编码。 2026-11-01 发布文档查阅记录。
+- [[objc2-io-surface-rust-official-research]] — 提供 Apple IOSurface 框架的 Rust 绑定。 2026-11-01 发布文档查阅记录。
+- [[object-rust-official-research]] — 跨平台读取和写入目标文件格式。 2026-11-01 发布文档查阅记录。
+- [[once-cell-rust-official-research]] — 提供一次初始化的同步或非同步容器。 2026-11-01 发布文档查阅记录。
+- [[once-cell-polyfill-rust-official-research]] — 为旧版 Rust 提供标准库 OnceCell 功能的兼容层。 2026-11-01 发布文档查阅记录。
+- [[parking-lot-rust-official-research]] — 提供紧凑高效的 Mutex、RwLock 等同步原语。 2026-11-01 发布文档查阅记录。
+- [[parking-lot-core-rust-official-research]] — 提供自定义同步原语所需的底层等待队列。 2026-11-01 发布文档查阅记录。
+- [[percent-encoding-rust-official-research]] — 按 URL 百分号编码规则转换字节序列。 2026-11-01 发布文档查阅记录。
+- [[pin-project-lite-rust-official-research]] — 用轻量宏为结构体生成 Pin 投影。 2026-11-01 发布文档查阅记录。
+- [[pin-utils-rust-official-research]] — 提供处理 Pin 的辅助宏和函数。 2026-11-01 发布文档查阅记录。
+- [[pkg-config-rust-official-research]] — 在 Cargo 构建脚本中通过 pkg-config 查找系统库。 2026-11-01 发布文档查阅记录。
+- [[png-rust-official-research]] — 编码和解码 PNG 图像。 2026-11-01 发布文档查阅记录。
+- [[potential-utf-rust-official-research]] — 表示尚未验证的 UTF-8、UTF-16 字符串或码点。 2026-11-01 发布文档查阅记录。
+- [[powerfmt-rust-official-research]] — 提供可定制、低分配的格式化辅助类型。 2026-11-01 发布文档查阅记录。
+- [[ppv-lite86-rust-official-research]] — 提供适合 SIMD 的低层位运算向量原语。 2026-11-01 发布文档查阅记录。
+- [[proc-macro2-rust-official-research]] — 在过程宏之外复用 TokenStream 等宏语法类型。 2026-11-01 发布文档查阅记录。
+- [[quinn-rust-official-research]] — 用异步 API 建立 QUIC 连接与流。 2026-11-01 发布文档查阅记录。
+- [[quinn-proto-rust-official-research]] — 实现与传输 I/O 分离的 QUIC 协议状态机。 2026-11-01 发布文档查阅记录。
+- [[quinn-udp-rust-official-research]] — 封装 QUIC 所需的 UDP 发送和接收能力。 2026-11-01 发布文档查阅记录。
+- [[quote-rust-official-research]] — 把 Rust 语法树插值成过程宏输出 token。 2026-11-01 发布文档查阅记录。
+- [[r-efi-rust-official-research]] — 提供 UEFI 规范的协议、常量与类型定义。 2026-11-01 发布文档查阅记录。
+- [[radix-trie-rust-official-research]] — 提供基数树结构以按前缀组织键。 2026-11-01 发布文档查阅记录。
+- [[rand-rust-official-research]] — 生成随机值和采样随机分布。 2026-11-01 发布文档查阅记录。
+- [[rand-chacha-rust-official-research]] — 提供基于 ChaCha 算法的伪随机数生成器。 2026-11-01 发布文档查阅记录。
+- [[rand-core-rust-official-research]] — 定义随机数生成器的核心 trait。 2026-11-01 发布文档查阅记录。
+- [[redox-syscall-rust-official-research]] — 提供 Redox OS 系统调用号、类型与原始调用封装。 2026-11-01 发布文档查阅记录。
+- [[reqwest-rust-official-research]] — 发送高层 HTTP 请求，支持异步及可选阻塞 API。 2026-11-01 发布文档查阅记录。
+- [[ring-rust-official-research]] — 提供密码学原语，如签名、摘要与密钥派生。 2026-11-01 发布文档查阅记录。
+- [[rustc-demangle-rust-official-research]] — 将 Rust 编译器生成的符号名还原为可读名称。 2026-11-01 发布文档查阅记录。
+- [[rustc-hash-rust-official-research]] — 提供 rustc 使用的快速非密码学哈希器。 2026-11-01 发布文档查阅记录。
+- [[rustix-rust-official-research]] — 以安全包装访问 POSIX、Unix、Linux 等系统接口。 2026-11-01 发布文档查阅记录。
+- [[rustls-rust-official-research]] — 提供现代 TLS 客户端和服务端实现。 2026-11-01 发布文档查阅记录。
+- [[rustls-pki-types-rust-official-research]] — 表示 TLS 所需的 X.509 证书和私钥等 PKI 类型。 2026-11-01 发布文档查阅记录。
+- [[rustls-webpki-rust-official-research]] — 验证 Web PKI 的 X.509 证书与证书链。 2026-11-01 发布文档查阅记录。
+- [[rustversion-rust-official-research]] — 按 rustc 版本条件编译代码。 2026-11-01 发布文档查阅记录。
+- [[ryu-rust-official-research]] — 快速把浮点数转换为十进制字符串。 2026-11-01 发布文档查阅记录。
+- [[scopeguard-rust-official-research]] — 作用域结束时执行清理闭包。 2026-11-01 发布文档查阅记录。
+- [[sct-rust-official-research]] — 提供证书透明度相关类型与验证支持。 2026-11-01 发布文档查阅记录。
+- [[serde-rust-official-research]] — 定义 Rust 数据结构的序列化与反序列化框架。 2026-11-01 发布文档查阅记录。
+- [[serde-derive-rust-official-research]] — 为 Serialize 和 Deserialize trait 生成实现的过程宏。 2026-11-01 发布文档查阅记录。
+- [[serde-json-rust-official-research]] — 在 Rust 值与 JSON 文本之间编解码。 2026-11-01 发布文档查阅记录。
+- [[serde-path-to-error-rust-official-research]] — 在反序列化报错时指出出错字段路径。 2026-11-01 发布文档查阅记录。
+- [[serde-spanned-rust-official-research]] — 保留 TOML 等输入值在源文本中的位置范围。 2026-11-01 发布文档查阅记录。
+- [[serde-urlencoded-rust-official-research]] — 通过 Serde 编解码表单 URL 编码数据。 2026-11-01 发布文档查阅记录。
+- [[sha1-rust-official-research]] — 计算 SHA-1 摘要，主要用于旧协议兼容。 2026-11-01 发布文档查阅记录。
+- [[shlex-rust-official-research]] — 按 POSIX shell 规则拆分或转义命令行字符串。 2026-11-01 发布文档查阅记录。
+- [[signal-hook-registry-rust-official-research]] — 为 signal-hook 提供低层信号回调注册后端。 2026-11-01 发布文档查阅记录。
+- [[simd-adler32-rust-official-research]] — 利用 SIMD 加速 Adler-32 校验和。 2026-11-01 发布文档查阅记录。
+- [[simple-logger-rust-official-research]] — 把 log facade 的日志以简单格式输出。 2026-11-01 发布文档查阅记录。
+- [[slab-rust-official-research]] — 以稳定索引存放同类型值并复用空槽。 2026-11-01 发布文档查阅记录。
+- [[smallvec-rust-official-research]] — 在容量足够时把短向量元素存于栈上。 2026-11-01 发布文档查阅记录。
+- [[socket2-rust-official-research]] — 提供比标准库更细的 socket 创建与配置接口。 2026-11-01 发布文档查阅记录。
+- [[spin-rust-official-research]] — 提供基于自旋等待的 Mutex 等同步原语。 2026-11-01 发布文档查阅记录。
+- [[sqlite-rust-official-research]] — 以 Rust API 访问 SQLite 数据库。 2026-11-01 发布文档查阅记录。
+- [[sqlite3-src-rust-official-research]] — 提供 SQLite C 源码以供构建依赖使用。 2026-11-01 发布文档查阅记录。
+- [[sqlite3-sys-rust-official-research]] — 提供 SQLite C API 的底层 Rust 绑定。 2026-11-01 发布文档查阅记录。
+- [[stable-deref-trait-rust-official-research]] — 标记解引用目标地址稳定的容器类型。 2026-11-01 发布文档查阅记录。
+- [[strsim-rust-official-research]] — 计算字符串相似度与编辑距离。 2026-11-01 发布文档查阅记录。
+- [[subtle-rust-official-research]] — 提供用于密码实现的常数时间比较等原语。 2026-11-01 发布文档查阅记录。
+- [[syn-rust-official-research]] — 把 Rust token 流解析为语法树，供过程宏使用。 2026-11-01 发布文档查阅记录。
+- [[sync-wrapper-rust-official-research]] — 用静态类型约束包装不直接满足并发 trait 的值。 2026-11-01 发布文档查阅记录。
+- [[synstructure-rust-official-research]] — 辅助过程宏遍历枚举变体并生成代码。 2026-11-01 发布文档查阅记录。
+- [[thiserror-rust-official-research]] — 通过派生宏为错误类型生成 Display 与 Error 实现。 2026-11-01 发布文档查阅记录。
+- [[thiserror-impl-rust-official-research]] — thiserror 的过程宏实现组件。 2026-11-01 发布文档查阅记录。
+- [[time-rust-official-research]] — 处理日期、时间、时区偏移及格式化。 2026-11-01 发布文档查阅记录。
+- [[time-core-rust-official-research]] — time crate 的内部基础类型和辅助组件。 2026-11-01 发布文档查阅记录。
+- [[time-macros-rust-official-research]] — time crate 的编译期日期时间宏。 2026-11-01 发布文档查阅记录。
+- [[tinystr-rust-official-research]] — 为小型 ASCII/Unicode 标识符提供紧凑字符串类型。 2026-11-01 发布文档查阅记录。
+- [[tinyvec-rust-official-research]] — 提供无 unsafe 的小型向量容器。 2026-11-01 发布文档查阅记录。
+- [[tinyvec-macros-rust-official-research]] — tinyvec 所用宏的实现组件。 2026-11-01 发布文档查阅记录。
+- [[tokio-rust-official-research]] — 提供异步运行时、任务调度、I/O 与定时器。 2026-11-01 发布文档查阅记录。
+- [[tokio-macros-rust-official-research]] — 提供 Tokio 的 async main、test 等属性宏。 2026-11-01 发布文档查阅记录。
+- [[tokio-rustls-rust-official-research]] — 把 rustls TLS 流接入 Tokio 异步 I/O。 2026-11-01 发布文档查阅记录。
+- [[tokio-stream-rust-official-research]] — 为 Tokio 类型提供 Stream 适配与工具。 2026-11-01 发布文档查阅记录。
+- [[tokio-tungstenite-rust-official-research]] — 在 Tokio 上建立异步 WebSocket 连接。 2026-11-01 发布文档查阅记录。
+- [[tokio-util-rust-official-research]] — 提供 Tokio 的编解码、取消令牌等辅助工具。 2026-11-01 发布文档查阅记录。
+- [[toml-rust-official-research]] — 通过 Serde 等接口解析和序列化 TOML。 2026-11-01 发布文档查阅记录。
+- [[toml-datetime-rust-official-research]] — 表示 TOML 的日期时间值。 2026-11-01 发布文档查阅记录。
+- [[toml-parser-rust-official-research]] — 提供 TOML 的词法与语法解析。 2026-11-01 发布文档查阅记录。
+- [[toml-writer-rust-official-research]] — 提供低层 TOML 文本写入接口。 2026-11-01 发布文档查阅记录。
+- [[tower-rust-official-research]] — 以 Service 和 Layer 组合可复用的异步服务。 2026-11-01 发布文档查阅记录。
+- [[tower-http-rust-official-research]] — 提供 HTTP 专用的 Tower 中间件。 2026-11-01 发布文档查阅记录。
+- [[tower-layer-rust-official-research]] — 定义包装 Service 的 Layer trait。 2026-11-01 发布文档查阅记录。
+- [[tower-service-rust-official-research]] — 定义 Tower 生态的 Service 核心 trait。 2026-11-01 发布文档查阅记录。
+- [[tracing-rust-official-research]] — 记录带跨度的结构化诊断事件。 2026-11-01 发布文档查阅记录。
+- [[tracing-core-rust-official-research]] — 提供 tracing 的底层调用点、元数据和订阅者原语。 2026-11-01 发布文档查阅记录。
+- [[try-lock-rust-official-research]] — 提供低争用场景的轻量原子锁。 2026-11-01 发布文档查阅记录。
+- [[tungstenite-rust-official-research]] — 实现同步 WebSocket 协议握手与收发。 2026-11-01 发布文档查阅记录。
+- [[typenum-rust-official-research]] — 以类型级整数支持编译期数值计算。 2026-11-01 发布文档查阅记录。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -777,6 +888,117 @@
 - [[jpeg-decoder-rust]] — 解码 JPEG 图像及读取元数据。（收件箱 `jpeg-decorder` 映射）
 - [[js-sys-rust]] — 在 wasm-bindgen 中调用 JavaScript 内建对象和 API。
 
+- [[lazy-static-rust]] — 以宏定义首次使用时初始化的静态值。
+- [[libc-rust]] — 提供操作系统 C 库的原始 FFI 类型、常量与函数绑定。
+- [[linux-raw-sys-rust]] — 提供 Linux 内核接口的原始系统调用类型与常量。
+- [[litemap-rust]] — 以扁平数组实现适合小规模键值数据的映射。
+- [[lock-api-rust]] — 提供可接入不同原始锁实现的同步锁 API。
+- [[log-rust]] — 为 Rust 库提供统一日志 facade，具体输出由 logger 实现。
+- [[lru-slab-rust]] — 预分配存储并按最近最少使用顺序跟踪条目。
+- [[matchit-rust]] — 高速匹配带参数的 URL 路由。
+- [[memchr-rust]] — 高效搜索字节、子串等文本原语。
+- [[mime-rust]] — 解析和表示 HTTP 媒体类型。
+- [[miniz-oxide-rust]] — 纯 Rust 实现 DEFLATE 与 zlib 压缩解压。
+- [[mio-rust]] — 提供非阻塞 I/O 事件轮询的低层接口。
+- [[nibble-vec-rust]] — 按半字节组织数据的容器，适合 radix trie 等结构。
+- [[nix-rust]] — 以 Rust 接口封装 Unix 系统调用。
+- [[num-conv-rust]] — 在整数类型之间做有检查的转换。
+- [[num-traits-rust]] — 定义数值类型的通用 trait。
+- [[num-threads-rust]] — 查询当前进程可用的 CPU 线程数量。
+- [[objc2-rust]] — 提供 Objective-C runtime 与消息发送的 Rust 绑定。
+- [[objc2-app-kit-rust]] — 提供 Apple AppKit 框架的 Rust 绑定。
+- [[objc2-core-foundation-rust]] — 提供 Apple Core Foundation 框架的 Rust 绑定。
+- [[objc2-core-graphics-rust]] — 提供 Apple Core Graphics 框架的 Rust 绑定。
+- [[objc2-encode-rust]] — 表示和解析 Objective-C 类型编码。
+- [[objc2-io-surface-rust]] — 提供 Apple IOSurface 框架的 Rust 绑定。
+- [[object-rust]] — 跨平台读取和写入目标文件格式。
+- [[once-cell-rust]] — 提供一次初始化的同步或非同步容器。
+- [[once-cell-polyfill-rust]] — 为旧版 Rust 提供标准库 OnceCell 功能的兼容层。
+- [[parking-lot-rust]] — 提供紧凑高效的 Mutex、RwLock 等同步原语。
+- [[parking-lot-core-rust]] — 提供自定义同步原语所需的底层等待队列。
+- [[percent-encoding-rust]] — 按 URL 百分号编码规则转换字节序列。
+- [[pin-project-lite-rust]] — 用轻量宏为结构体生成 Pin 投影。
+- [[pin-utils-rust]] — 提供处理 Pin 的辅助宏和函数。
+- [[pkg-config-rust]] — 在 Cargo 构建脚本中通过 pkg-config 查找系统库。
+- [[png-rust]] — 编码和解码 PNG 图像。
+- [[potential-utf-rust]] — 表示尚未验证的 UTF-8、UTF-16 字符串或码点。（收件箱名称映射）
+- [[powerfmt-rust]] — 提供可定制、低分配的格式化辅助类型。
+- [[ppv-lite86-rust]] — 提供适合 SIMD 的低层位运算向量原语。
+- [[proc-macro2-rust]] — 在过程宏之外复用 TokenStream 等宏语法类型。
+- [[quinn-rust]] — 用异步 API 建立 QUIC 连接与流。
+- [[quinn-proto-rust]] — 实现与传输 I/O 分离的 QUIC 协议状态机。
+- [[quinn-udp-rust]] — 封装 QUIC 所需的 UDP 发送和接收能力。
+- [[quote-rust]] — 把 Rust 语法树插值成过程宏输出 token。
+- [[r-efi-rust]] — 提供 UEFI 规范的协议、常量与类型定义。
+- [[radix-trie-rust]] — 提供基数树结构以按前缀组织键。
+- [[rand-rust]] — 生成随机值和采样随机分布。
+- [[rand-chacha-rust]] — 提供基于 ChaCha 算法的伪随机数生成器。
+- [[rand-core-rust]] — 定义随机数生成器的核心 trait。
+- [[redox-syscall-rust]] — 提供 Redox OS 系统调用号、类型与原始调用封装。
+- [[reqwest-rust]] — 发送高层 HTTP 请求，支持异步及可选阻塞 API。
+- [[ring-rust]] — 提供密码学原语，如签名、摘要与密钥派生。
+- [[rustc-demangle-rust]] — 将 Rust 编译器生成的符号名还原为可读名称。
+- [[rustc-hash-rust]] — 提供 rustc 使用的快速非密码学哈希器。
+- [[rustix-rust]] — 以安全包装访问 POSIX、Unix、Linux 等系统接口。
+- [[rustls-rust]] — 提供现代 TLS 客户端和服务端实现。
+- [[rustls-pki-types-rust]] — 表示 TLS 所需的 X.509 证书和私钥等 PKI 类型。
+- [[rustls-webpki-rust]] — 验证 Web PKI 的 X.509 证书与证书链。
+- [[rustversion-rust]] — 按 rustc 版本条件编译代码。
+- [[ryu-rust]] — 快速把浮点数转换为十进制字符串。
+- [[scopeguard-rust]] — 作用域结束时执行清理闭包。
+- [[sct-rust]] — 提供证书透明度相关类型与验证支持。
+- [[serde-rust]] — 定义 Rust 数据结构的序列化与反序列化框架。
+- [[serde-derive-rust]] — 为 Serialize 和 Deserialize trait 生成实现的过程宏。
+- [[serde-json-rust]] — 在 Rust 值与 JSON 文本之间编解码。
+- [[serde-path-to-error-rust]] — 在反序列化报错时指出出错字段路径。
+- [[serde-spanned-rust]] — 保留 TOML 等输入值在源文本中的位置范围。
+- [[serde-urlencoded-rust]] — 通过 Serde 编解码表单 URL 编码数据。
+- [[sha1-rust]] — 计算 SHA-1 摘要，主要用于旧协议兼容。（收件箱名称映射）
+- [[shlex-rust]] — 按 POSIX shell 规则拆分或转义命令行字符串。
+- [[signal-hook-registry-rust]] — 为 signal-hook 提供低层信号回调注册后端。（收件箱名称映射）
+- [[simd-adler32-rust]] — 利用 SIMD 加速 Adler-32 校验和。
+- [[simple-logger-rust]] — 把 log facade 的日志以简单格式输出。
+- [[slab-rust]] — 以稳定索引存放同类型值并复用空槽。
+- [[smallvec-rust]] — 在容量足够时把短向量元素存于栈上。
+- [[socket2-rust]] — 提供比标准库更细的 socket 创建与配置接口。
+- [[spin-rust]] — 提供基于自旋等待的 Mutex 等同步原语。
+- [[sqlite-rust]] — 以 Rust API 访问 SQLite 数据库。
+- [[sqlite3-src-rust]] — 提供 SQLite C 源码以供构建依赖使用。
+- [[sqlite3-sys-rust]] — 提供 SQLite C API 的底层 Rust 绑定。
+- [[stable-deref-trait-rust]] — 标记解引用目标地址稳定的容器类型。
+- [[strsim-rust]] — 计算字符串相似度与编辑距离。
+- [[subtle-rust]] — 提供用于密码实现的常数时间比较等原语。
+- [[syn-rust]] — 把 Rust token 流解析为语法树，供过程宏使用。
+- [[sync-wrapper-rust]] — 用静态类型约束包装不直接满足并发 trait 的值。
+- [[synstructure-rust]] — 辅助过程宏遍历枚举变体并生成代码。
+- [[thiserror-rust]] — 通过派生宏为错误类型生成 Display 与 Error 实现。
+- [[thiserror-impl-rust]] — thiserror 的过程宏实现组件。
+- [[time-rust]] — 处理日期、时间、时区偏移及格式化。
+- [[time-core-rust]] — time crate 的内部基础类型和辅助组件。
+- [[time-macros-rust]] — time crate 的编译期日期时间宏。
+- [[tinystr-rust]] — 为小型 ASCII/Unicode 标识符提供紧凑字符串类型。
+- [[tinyvec-rust]] — 提供无 unsafe 的小型向量容器。
+- [[tinyvec-macros-rust]] — tinyvec 所用宏的实现组件。
+- [[tokio-rust]] — 提供异步运行时、任务调度、I/O 与定时器。
+- [[tokio-macros-rust]] — 提供 Tokio 的 async main、test 等属性宏。
+- [[tokio-rustls-rust]] — 把 rustls TLS 流接入 Tokio 异步 I/O。
+- [[tokio-stream-rust]] — 为 Tokio 类型提供 Stream 适配与工具。
+- [[tokio-tungstenite-rust]] — 在 Tokio 上建立异步 WebSocket 连接。
+- [[tokio-util-rust]] — 提供 Tokio 的编解码、取消令牌等辅助工具。
+- [[toml-rust]] — 通过 Serde 等接口解析和序列化 TOML。
+- [[toml-datetime-rust]] — 表示 TOML 的日期时间值。
+- [[toml-parser-rust]] — 提供 TOML 的词法与语法解析。
+- [[toml-writer-rust]] — 提供低层 TOML 文本写入接口。
+- [[tower-rust]] — 以 Service 和 Layer 组合可复用的异步服务。
+- [[tower-http-rust]] — 提供 HTTP 专用的 Tower 中间件。
+- [[tower-layer-rust]] — 定义包装 Service 的 Layer trait。
+- [[tower-service-rust]] — 定义 Tower 生态的 Service 核心 trait。
+- [[tracing-rust]] — 记录带跨度的结构化诊断事件。
+- [[tracing-core-rust]] — 提供 tracing 的底层调用点、元数据和订阅者原语。
+- [[try-lock-rust]] — 提供低争用场景的轻量原子锁。
+- [[tungstenite-rust]] — 实现同步 WebSocket 协议握手与收发。
+- [[typenum-rust]] — 以类型级整数支持编译期数值计算。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -803,8 +1025,9 @@
 
 ## Backlog 待建页面
 
-- Rust 库身份核实：已摄入 95 个 crate 的个人创建者与现任维护者尚缺可靠官方证据；逐库查仓库 README、组织主页和维护政策后补作者页与双向链接。
-- Rust 示例验证：两批按 docs.rs 公共 API 整理的片段均未在本机编译；低层组件的独立最小示例待从官方项目补齐。
+- Rust 库身份核实：已摄入 205 个收件箱条目对应的 crate；个人创建者与现任维护者尚缺可靠官方证据，逐库查仓库 README、组织主页和维护政策后补作者页与双向链接。
+- Rust 示例验证：三批按 docs.rs 公共 API 整理的片段均未在本机编译；低层组件的独立最小示例待从官方项目补齐。
+- `poetential_utf`、`singal-hook-registry`、`sha1-1`：分别暂映射 [[potential-utf-rust]]、[[signal-hook-registry-rust]]、[[sha1-rust]]；需由实际 Cargo.lock 或用户原始依赖清单确认。
 - `jpeg-decorder`：收件箱疑似拼写错误，暂映射 [[jpeg-decoder-rust]]；需由实际 Cargo.lock 或用户原始依赖清单确认。
 
 - （建议）Engelbart《Augmenting Human Intellect》(1962)：memex → 人机协同的直接后续
@@ -869,4 +1092,4 @@
 
 ## Stats
 
-- 来源：**331** 份 ｜ wiki 页面：**734** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**441** 份 ｜ wiki 页面：**954** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
