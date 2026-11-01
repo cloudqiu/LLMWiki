@@ -214,6 +214,43 @@
 
 - [[ldez-grignotin-go-official-research]] — Grignotin：Go proxy、模块信息、版本和环境变量辅助包的官方仓库查阅。2026-11-01 摄入。
 
+- [[ryancurrah-gomodguard-cmd-gomodguard-v2-go-official-research]] — 按允许和禁止清单检查 Go 模块依赖：2026-11-01 官方资料查阅。
+- [[ryanrolds-sqlclosecheck-go-official-research]] — 检查 SQL Rows 与 Stmt 是否关闭：2026-11-01 官方资料查阅。
+- [[sanposhiho-wastedassign-v2-go-official-research]] — 检测赋值后未使用就被覆盖的值：2026-11-01 官方资料查阅。
+- [[santhosh-tekuri-jsonschema-v6-go-official-research]] — 编译和验证 JSON Schema：2026-11-01 官方资料查阅。
+- [[sashamelentyev-interfacebloat-go-official-research]] — 检查接口方法数是否过多：2026-11-01 官方资料查阅。
+- [[sashamelentyev-usestdlibvars-go-official-research]] — 提示可替换为 Go 标准库变量或常量的写法：2026-11-01 官方资料查阅。
+- [[securego-gosec-v2-go-official-research]] — 扫描 Go 源码中的常见安全问题：2026-11-01 官方资料查阅。
+- [[sirupsen-logrus-go-official-research]] — 提供结构化 Go 日志输出：2026-11-01 官方资料查阅。
+- [[sivchari-containedctx-go-official-research]] — 检查 struct 字段中保存 context.Context 的做法：2026-11-01 官方资料查阅。
+- [[sonatard-noctx-go-official-research]] — 发现应传递 context.Context 的 API 调用：2026-11-01 官方资料查阅。
+- [[sourcegraph-go-diff-go-official-research]] — 解析与打印统一 diff 文本：2026-11-01 官方资料查阅。
+- [[spf13-afero-go-official-research]] — 抽象文件系统以便切换内存或本地后端：2026-11-01 官方资料查阅。
+- [[spf13-cast-go-official-research]] — 在常见 Go 类型间做显式转换：2026-11-01 官方资料查阅。
+- [[spf13-cobra-go-official-research]] — 构建带子命令的 Go CLI：2026-11-01 官方资料查阅。
+- [[spf13-jwalterweatherman-go-official-research]] — 同时控制终端输出与日志写入：2026-11-01 官方资料查阅。
+- [[spf13-pflag-go-official-research]] — 解析 POSIX/GNU 风格命令行标志：2026-11-01 官方资料查阅。
+- [[spf13-viper-go-official-research]] — 从文件、环境变量和标志读取配置：2026-11-01 官方资料查阅。
+- [[ssgreg-nlreturn-v2-go-official-research]] — 检查 return 前的空行风格：2026-11-01 官方资料查阅。
+- [[stbenjam-no-sprintf-host-port-go-official-research]] — 检测以 Sprintf 拼接 host:port 的写法：2026-11-01 官方资料查阅。
+- [[stretchr-objx-go-official-research]] — 为 map、slice、JSON 提供便捷访问封装：2026-11-01 官方资料查阅。
+- [[stretchr-testify-go-official-research]] — 提供 Go 测试断言、mock 与 suite：2026-11-01 官方资料查阅。
+- [[subosito-gotenv-go-official-research]] — 从 .env 或 io.Reader 加载环境变量：2026-11-01 官方资料查阅。
+- [[tdewolff-parse-v2-go-official-research]] — 解析 CSS、HTML、JS 等 Web 格式：2026-11-01 官方资料查阅。
+- [[tetafro-godot-go-official-research]] — 检查 Go 注释是否以句点结尾：2026-11-01 官方资料查阅。
+- [[timakin-bodyclose-go-official-research]] — 检查 HTTP 响应体是否关闭：2026-11-01 官方资料查阅。
+- [[timonwong-loggercheck-go-official-research]] — 检查 logr、klog、zap 等日志调用：2026-11-01 官方资料查阅。
+- [[tomarrell-wrapcheck-v2-go-official-research]] — 检查外部包错误返回时是否包装上下文：2026-11-01 官方资料查阅。
+- [[tommy-muehle-go-mnd-v2-go-official-research]] — 检测 Go 代码中的魔法数字：2026-11-01 官方资料查阅。
+- [[ultraware-funlen-go-official-research]] — 检查函数长度和语句数量：2026-11-01 官方资料查阅。
+- [[ultraware-whitespace-go-official-research]] — 检查多余的前后空行：2026-11-01 官方资料查阅。
+- [[uudashr-gocognit-go-official-research]] — 计算 Go 函数的认知复杂度：2026-11-01 官方资料查阅。
+- [[uudashr-iface-go-official-research]] — 检查接口滥用或未使用的方法：2026-11-01 官方资料查阅。
+- [[xen0n-gosmopolitan-go-official-research]] — 检查可能妨碍国际化和本地化的 Go 代码模式：2026-11-01 官方资料查阅。
+- [[xo-terminfo-go-official-research]] — 以纯 Go 读取终端 terminfo 数据：2026-11-01 官方资料查阅。
+- [[yagipy-maintidx-go-official-research]] — 计算 Go 函数的 maintainability index：2026-11-01 官方资料查阅。
+- [[ykadowak-zerologlint-go-official-research]] — 检查 zerolog 事件未调用 Send 或 Msg：2026-11-01 官方资料查阅。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -505,6 +542,47 @@
 
 - [[ldez-grignotin-go]] — 多个 Go 元信息辅助子包；收件箱及用户补充拼写已按官方路径消歧。
 
+- [[ryancurrah-gomodguard-cmd-gomodguard-v2-go]] — 按允许和禁止清单检查 Go 模块依赖；用法、版本与边界见库页。
+- [[ryanrolds-sqlclosecheck-go]] — 检查 SQL Rows 与 Stmt 是否关闭；用法、版本与边界见库页。
+- [[sanposhiho-wastedassign-v2-go]] — 检测赋值后未使用就被覆盖的值；用法、版本与边界见库页。
+- [[santhosh-tekuri-jsonschema-v6-go]] — 编译和验证 JSON Schema；用法、版本与边界见库页。
+- [[sashamelentyev-interfacebloat-go]] — 检查接口方法数是否过多；用法、版本与边界见库页。
+- [[sashamelentyev-usestdlibvars-go]] — 提示可替换为 Go 标准库变量或常量的写法；用法、版本与边界见库页。
+- [[securego-gosec-v2-go]] — 扫描 Go 源码中的常见安全问题；用法、版本与边界见库页。
+- [[sirupsen-logrus-go]] — 提供结构化 Go 日志输出；用法、版本与边界见库页。
+- [[sivchari-containedctx-go]] — 检查 struct 字段中保存 context.Context 的做法；用法、版本与边界见库页。
+- [[sonatard-noctx-go]] — 发现应传递 context.Context 的 API 调用；用法、版本与边界见库页。
+- [[sourcegraph-go-diff-go]] — 解析与打印统一 diff 文本；用法、版本与边界见库页。
+- [[spf13-afero-go]] — 抽象文件系统以便切换内存或本地后端；用法、版本与边界见库页。
+- [[spf13-cast-go]] — 在常见 Go 类型间做显式转换；用法、版本与边界见库页。
+- [[spf13-cobra-go]] — 构建带子命令的 Go CLI；用法、版本与边界见库页。
+- [[spf13-jwalterweatherman-go]] — 同时控制终端输出与日志写入；用法、版本与边界见库页。
+- [[spf13-pflag-go]] — 解析 POSIX/GNU 风格命令行标志；用法、版本与边界见库页。
+- [[spf13-viper-go]] — 从文件、环境变量和标志读取配置；用法、版本与边界见库页。
+- [[ssgreg-nlreturn-v2-go]] — 检查 return 前的空行风格；用法、版本与边界见库页。
+- [[stbenjam-no-sprintf-host-port-go]] — 检测以 Sprintf 拼接 host:port 的写法；用法、版本与边界见库页。
+- [[stretchr-objx-go]] — 为 map、slice、JSON 提供便捷访问封装；用法、版本与边界见库页。
+- [[stretchr-testify-go]] — 提供 Go 测试断言、mock 与 suite；用法、版本与边界见库页。
+- [[subosito-gotenv-go]] — 从 .env 或 io.Reader 加载环境变量；用法、版本与边界见库页。
+- [[tdewolff-parse-v2-go]] — 解析 CSS、HTML、JS 等 Web 格式；用法、版本与边界见库页。
+- [[tetafro-godot-go]] — 检查 Go 注释是否以句点结尾；用法、版本与边界见库页。
+- [[timakin-bodyclose-go]] — 检查 HTTP 响应体是否关闭；用法、版本与边界见库页。
+- [[timonwong-loggercheck-go]] — 检查 logr、klog、zap 等日志调用；用法、版本与边界见库页。
+- [[tomarrell-wrapcheck-v2-go]] — 检查外部包错误返回时是否包装上下文；用法、版本与边界见库页。
+- [[tommy-muehle-go-mnd-v2-go]] — 检测 Go 代码中的魔法数字；用法、版本与边界见库页。
+- [[ultraware-funlen-go]] — 检查函数长度和语句数量；用法、版本与边界见库页。
+- [[ultraware-whitespace-go]] — 检查多余的前后空行；用法、版本与边界见库页。
+- [[uudashr-gocognit-go]] — 计算 Go 函数的认知复杂度；用法、版本与边界见库页。
+- [[uudashr-iface-go]] — 检查接口滥用或未使用的方法；用法、版本与边界见库页。
+- [[xen0n-gosmopolitan-go]] — 检查可能妨碍国际化和本地化的 Go 代码模式；用法、版本与边界见库页。
+- [[xo-terminfo-go]] — 以纯 Go 读取终端 terminfo 数据；用法、版本与边界见库页。
+- [[yagipy-maintidx-go]] — 计算 Go 函数的 maintainability index；用法、版本与边界见库页。
+- [[ykadowak-zerologlint-go]] — 检查 zerolog 事件未调用 Send 或 Msg；用法、版本与边界见库页。
+- [[steve-francia]] — spf13 官方账号及本库相关项目索引，具体角色按来源限定。
+- [[stretchr-account]] — stretchr 官方账号及本库相关项目索引，具体角色按来源限定。
+- [[sashamelentyev-account]] — sashamelentyev 官方账号及本库相关项目索引，具体角色按来源限定。
+- [[ultraware-account]] — ultraware 官方账号及本库相关项目索引，具体角色按来源限定。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -588,6 +666,9 @@
 - （待验证）本批新库的个人创建者和现任维护者；仓库账号索引仅证明项目关联。
 - （待验证）本批标为 stub 的库页需要官方 API 最小示例；其余示例尚未在本机编译或运行。
 
+- （待验证）本批 Go 库个人创建者和现任维护者；账号归属不能替代身份核实。
+- （待验证）[[tdewolff-parse-v2-go]] 的具体解析器子包最小示例；其余代码或命令按目标版本编译与运行。
+
 ## Stats
 
-- 来源：**200** 份 ｜ wiki 页面：**468** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**236** 份 ｜ wiki 页面：**544** ｜ Outputs：**1** ｜ 最近更新：2026-11-01

@@ -456,3 +456,10 @@
 - 用户补充 `github.com/ldex/grignotin` 后核对官方仓库，确认实际路径为 `github.com/ldez/grignotin`；收件箱原条目 `github.com/ldez/girgnotin` 未修改。
 - 新增 `raw/ldez-grignotin-go-official-research-2026-11-01.md`、[[ldez-grignotin-go-official-research]]、[[ldez-grignotin-go]]；更新 [[ldez-account]]、`index.md` 和本日志。示例对照官方 README，未在本机运行；具体个人作者及维护角色待验证。
 - 来源 199→200，wiki 页面 466→468，Outputs 保持 1；本批 43 个新增收件箱条目均已归档或明确消歧。
+
+## [2026-11-01] ingest | Go 收件箱后续 36 项
+
+- 用户要求批量摄入；收件箱在上一批后新增 36 项。本次新建 36 份 raw 官方资料查阅笔记、36 个来源页、36 个库页及 4 个账号/作者索引，更新 `index.md` 与本日志；收件箱未修改。
+- 将 `ssgrep/nlreturn/v2` 对应到官方 `ssgreg/nlreturn/v2`，`ultraware/wihtespace` 对应到 `ultraware/whitespace`；`ryancurrah/gomodguard/v2` 按官方 v2 CLI 子模块 `ryancurrah/gomodguard/cmd/gomodguard/v2` 记录。
+- 版本边界：`jsonschema/v6` 使用 v6 包文档；Logrus 维护模式、Testify v1 维护策略按项目 README 记录。所有示例未在本机运行；个人创建及现任维护者未由仓库归属推断。
+- 来源 200→236，wiki 页面 468→544，Outputs 保持 1。
