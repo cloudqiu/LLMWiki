@@ -496,3 +496,9 @@
 
 - 新建 `raw/python-libs-inbox.md`、`raw/npm-libs-inbox.md` 两个空白用户输入页；更新 `AGENTS.md` §1、§3.4 与 Schema 演进记录，以及 `index.md` 的 Library inboxes 区。`CLAUDE.md` 作为保留的原有 Claude 入口未改。
 - Python 收件箱以 PyPI 发布名记录；npm 收件箱保留 scope 原写法。只有明确要求摄入时才研究与建页。来源、wiki 页面与 Outputs 数量未变。
+
+## [2026-11-01] ingest | Python 收件箱 30 项
+
+- 用户要求批量摄入 Python 收件箱全部 30 项；按 PyPI 项目发布页核对名称、用途与可取得的版本，新建 30 份 raw 查阅笔记、30 个来源页、30 个库页，补关联库交叉链接，并更新 `index.md` 与本日志。收件箱原文未改，也未纳入提交。
+- 用户已将 `colorma` 更正为 `colorama`，按正式发布名归档。记录了 PyPI 发布页版本，但实际项目版本仍待按依赖锁定文件核对；未从包 owner 或发布者推断创建者和现任维护团队。
+- 研究笔记不是官方原文副本，示例未在本机运行；缺少可核实独立最小示例的页面标 stub。另查 PyPI Credits 与作者个人主页，新增 1 份 raw 身份查阅笔记、1 个来源页及 [[alex-gronholm]]、[[sebastian-ramirez]] 两个作者页，并与对应库页双向链接。来源 479→510，wiki 页面 1030→1093，Outputs 保持 1。

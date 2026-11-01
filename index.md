@@ -498,6 +498,39 @@
 - [[zeroize-rust-official-research]] — 清除敏感内存并降低编译器优化掉清除操作的风险。 2026-11-01 发布文档查阅记录。
 - [[zerotrie-rust-official-research]] — 以零拷贝 trie 存储和查询字节字符串。 2026-11-01 发布文档查阅记录。
 
+- [[annotated-doc-python-official-research]] — 用 typing.Annotated 在参数和属性类型旁写文档说明。 2026-11-01 PyPI 发布页查阅记录。
+- [[annotated-types-python-official-research]] — 为 typing.Annotated 提供范围、长度等约束元数据。 2026-11-01 PyPI 发布页查阅记录。
+- [[anyio-python-official-research]] — 在 asyncio 或 Trio 上运行结构化异步并发代码。 2026-11-01 PyPI 发布页查阅记录。
+- [[certifi-python-official-research]] — 提供 Mozilla 根证书 CA bundle 的 Python 路径。 2026-11-01 PyPI 发布页查阅记录。
+- [[charset-normalizer-python-official-research]] — 从字节内容推断文本编码并解码。 2026-11-01 PyPI 发布页查阅记录。
+- [[click-python-official-research]] — 以装饰器构建命令行程序。 2026-11-01 PyPI 发布页查阅记录。
+- [[colorama-python-official-research]] — 在终端输出跨平台 ANSI 颜色。 2026-11-01 PyPI 发布页查阅记录。
+- [[deprecated-python-official-research]] — 为弃用的函数或类发出提醒。 2026-11-01 PyPI 发布页查阅记录。
+- [[fastapi-python-official-research]] — 用 Python 类型声明构建 HTTP API。 2026-11-01 PyPI 发布页查阅记录。
+- [[h11-python-official-research]] — 实现与网络 I/O 分离的 HTTP/1.1 协议状态机。 2026-11-01 PyPI 发布页查阅记录。
+- [[humanize-python-official-research]] — 把数字、日期和大小格式化为易读文字。 2026-11-01 PyPI 发布页查阅记录。
+- [[idna-python-official-research]] — 按 IDNA 规则编码和解码国际化域名。 2026-11-01 PyPI 发布页查阅记录。
+- [[jinja2-python-official-research]] — 用模板语法渲染文本和 HTML。 2026-11-01 PyPI 发布页查阅记录。
+- [[ldap3-python-official-research]] — 通过 Python API 连接并操作 LDAP 服务器。 2026-11-01 PyPI 发布页查阅记录。
+- [[limits-python-official-research]] — 提供固定窗口、滑动窗口等速率限制策略。 2026-11-01 PyPI 发布页查阅记录。
+- [[markupsafe-python-official-research]] — 为 HTML 文本做转义并标记安全内容。 2026-11-01 PyPI 发布页查阅记录。
+- [[orjson-python-official-research]] — 快速序列化和反序列化 JSON。 2026-11-01 PyPI 发布页查阅记录。
+- [[packaging-python-official-research]] — 解析和比较 Python 包版本、要求与标记。 2026-11-01 PyPI 发布页查阅记录。
+- [[pip-python-official-research]] — 安装和管理 Python 包的命令行工具。 2026-11-01 PyPI 发布页查阅记录。
+- [[pyasn1-python-official-research]] — 定义并编解码 ASN.1 数据类型。 2026-11-01 PyPI 发布页查阅记录。
+- [[pydantic-python-official-research]] — 按 Python 类型注解验证和序列化数据。 2026-11-01 PyPI 发布页查阅记录。
+- [[pydantic-core-python-official-research]] — 实现 Pydantic 的底层验证和序列化核心。 2026-11-01 PyPI 发布页查阅记录。
+- [[requests-python-official-research]] — 以同步 API 发送 HTTP 请求。 2026-11-01 PyPI 发布页查阅记录。
+- [[slowapi-python-official-research]] — 为 Starlette/FastAPI 路由增加速率限制。 2026-11-01 PyPI 发布页查阅记录。
+- [[starlette-python-official-research]] — 提供轻量 ASGI Web 框架及路由、中间件。 2026-11-01 PyPI 发布页查阅记录。
+- [[typing-extensions-python-official-research]] — 为较旧 Python 版本提供新 typing 功能。 2026-11-01 PyPI 发布页查阅记录。
+- [[typing-inspection-python-official-research]] — 检查和解析 Python 类型注解。 2026-11-01 PyPI 发布页查阅记录。
+- [[urllib3-python-official-research]] — 提供连接池、重试和 TLS 支持的 HTTP 客户端。 2026-11-01 PyPI 发布页查阅记录。
+- [[uvicorn-python-official-research]] — 运行 ASGI 应用的 Web 服务器。 2026-11-01 PyPI 发布页查阅记录。
+- [[wrapt-python-official-research]] — 构建透明的函数、对象包装和装饰器。 2026-11-01 PyPI 发布页查阅记录。
+
+- [[python-library-authors-official-research]] — PyPI Credits 与个人主页核实 AnyIO、FastAPI 作者及关联项目。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -1077,6 +1110,40 @@
 - [[zeroize-rust]] — 清除敏感内存并降低编译器优化掉清除操作的风险。
 - [[zerotrie-rust]] — 以零拷贝 trie 存储和查询字节字符串。
 
+- [[annotated-doc-python]] — 用 typing.Annotated 在参数和属性类型旁写文档说明。
+- [[annotated-types-python]] — 为 typing.Annotated 提供范围、长度等约束元数据。
+- [[anyio-python]] — 在 asyncio 或 Trio 上运行结构化异步并发代码。
+- [[certifi-python]] — 提供 Mozilla 根证书 CA bundle 的 Python 路径。
+- [[charset-normalizer-python]] — 从字节内容推断文本编码并解码。
+- [[click-python]] — 以装饰器构建命令行程序。
+- [[colorama-python]] — 在终端输出跨平台 ANSI 颜色。
+- [[deprecated-python]] — 为弃用的函数或类发出提醒。
+- [[fastapi-python]] — 用 Python 类型声明构建 HTTP API。
+- [[h11-python]] — 实现与网络 I/O 分离的 HTTP/1.1 协议状态机。
+- [[humanize-python]] — 把数字、日期和大小格式化为易读文字。
+- [[idna-python]] — 按 IDNA 规则编码和解码国际化域名。
+- [[jinja2-python]] — 用模板语法渲染文本和 HTML。
+- [[ldap3-python]] — 通过 Python API 连接并操作 LDAP 服务器。
+- [[limits-python]] — 提供固定窗口、滑动窗口等速率限制策略。
+- [[markupsafe-python]] — 为 HTML 文本做转义并标记安全内容。
+- [[orjson-python]] — 快速序列化和反序列化 JSON。
+- [[packaging-python]] — 解析和比较 Python 包版本、要求与标记。
+- [[pip-python]] — 安装和管理 Python 包的命令行工具。
+- [[pyasn1-python]] — 定义并编解码 ASN.1 数据类型。
+- [[pydantic-python]] — 按 Python 类型注解验证和序列化数据。
+- [[pydantic-core-python]] — 实现 Pydantic 的底层验证和序列化核心。
+- [[requests-python]] — 以同步 API 发送 HTTP 请求。
+- [[slowapi-python]] — 为 Starlette/FastAPI 路由增加速率限制。
+- [[starlette-python]] — 提供轻量 ASGI Web 框架及路由、中间件。
+- [[typing-extensions-python]] — 为较旧 Python 版本提供新 typing 功能。
+- [[typing-inspection-python]] — 检查和解析 Python 类型注解。
+- [[urllib3-python]] — 提供连接池、重试和 TLS 支持的 HTTP 客户端。
+- [[uvicorn-python]] — 运行 ASGI 应用的 Web 服务器。
+- [[wrapt-python]] — 构建透明的函数、对象包装和装饰器。
+
+- [[alex-gronholm]] — AnyIO 的 PyPI 所列作者；关联其他 Python 仓库待逐项核实角色。
+- [[sebastian-ramirez]] — FastAPI 创建者；其个人主页列出 Typer、SQLModel、Asyncer。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -1104,6 +1171,9 @@
 - [npm 第三方包收件箱](raw/npm-libs-inbox.md) — JavaScript / TypeScript 共用；保留 scoped 包名，用户要求时再摄入。
 
 ## Backlog 待建页面
+
+- Python 库身份核实：[[anyio-python]]、[[fastapi-python]] 已补可靠作者证据；其余库的创建者和现任维护团队需逐库以官方项目资料确认，不能仅凭 PyPI owner 或发布者推断。
+- Python 用法与版本验证：本批示例未在本机运行；发布页版本已记录，仍需按目标项目依赖锁定文件核对实际版本与 API。
 
 - Rust 库身份核实：已摄入 243 个收件箱条目对应的 crate；个人创建者与现任维护者尚缺可靠官方证据，逐库查仓库 README、组织主页和维护政策后补作者页与双向链接。
 - Rust 示例验证：四批按 docs.rs 公共 API 整理的片段均未在本机编译；低层组件的独立最小示例待从官方项目补齐。
@@ -1172,4 +1242,4 @@
 
 ## Stats
 
-- 来源：**479** 份 ｜ wiki 页面：**1030** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**510** 份 ｜ wiki 页面：**1093** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
