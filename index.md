@@ -123,6 +123,52 @@
 - [[displaywidth-go-official-research]] — 按 Unicode 字素簇计算等宽终端显示列宽。 2026-11-01 官方资料查阅记录。
 - [[uax29-v2-go-official-research]] — 按 Unicode UAX #29 分割字素、单词和句子。 2026-11-01 官方资料查阅记录。
 
+- [[curioswitch-go-reassign-go-official-research]] — 检查对其他包顶层变量的重新赋值：2026-11-01 官方仓库查阅记录。
+- [[dave-dst-go-official-research]] — 保留注释和间距地改写 Go 语法树：2026-11-01 官方仓库查阅记录。
+- [[denis-tingaikin-go-header-go-official-research]] — 检查 Go 源码的版权头：2026-11-01 官方仓库查阅记录。
+- [[dlclark-regexp2-go-official-research]] — 提供兼容 .NET 特性的回溯式正则引擎：2026-11-01 官方仓库查阅记录。
+- [[ettle-strcase-go-official-research]] — 转换 snake_case、camelCase 等命名形式：2026-11-01 官方仓库查阅记录。
+- [[fatih-color-go-official-research]] — 向终端输出 ANSI 颜色文本：2026-11-01 官方仓库查阅记录。
+- [[fatih-structtag-go-official-research]] — 解析和修改 Go struct 字段标签：2026-11-01 官方仓库查阅记录。
+- [[firefart-nonamedreturns-go-official-research]] — 检查函数签名中的命名返回值：2026-11-01 官方仓库查阅记录。
+- [[fzipp-gocyclo-go-official-research]] — 计算 Go 函数的圈复杂度：2026-11-01 官方仓库查阅记录。
+- [[ghostiam-protogetter-go-official-research]] — 检查 protobuf 嵌套字段的直接访问：2026-11-01 官方仓库查阅记录。
+- [[go-critic-go-critic-go-official-research]] — 运行可扩展的 Go 代码审查规则：2026-11-01 官方仓库查阅记录。
+- [[go-toolsmith-astcast-go-official-research]] — 安全地将 AST 节点转换为具体类型：2026-11-01 官方仓库查阅记录。
+- [[go-toolsmith-astequal-go-official-research]] — 比较 Go AST 结构是否相等：2026-11-01 官方仓库查阅记录。
+- [[go-toolsmith-astfmt-go-official-research]] — 以 fmt 风格格式化 Go AST 节点：2026-11-01 官方仓库查阅记录。
+- [[go-toolsmith-astp-go-official-research]] — 测试 AST 节点类型：2026-11-01 官方仓库查阅记录。
+- [[go-toolsmith-strparse-go-official-research]] — 将短字符串解析为 Go 表达式、语句或声明：2026-11-01 官方仓库查阅记录。
+- [[go-toolsmith-typep-go-official-research]] — 判断 go/types 类型的性质：2026-11-01 官方仓库查阅记录。
+- [[gobwas-glob-go-official-research]] — 编译并匹配 glob 模式：2026-11-01 官方仓库查阅记录。
+- [[godoc-lint-godoc-lint-go-official-research]] — 检查 Go 文档注释规范：2026-11-01 官方仓库查阅记录。
+- [[gofrs-flock-go-official-research]] — 提供文件锁及非阻塞获取：2026-11-01 官方仓库查阅记录。
+- [[gohugoio-hashstructure-go-official-research]] — 为 Go 值生成结构哈希：2026-11-01 官方仓库查阅记录。
+- [[gohugoio-hugo-go-official-research]] — 从内容和模板生成静态网站：2026-11-01 官方仓库查阅记录。
+- [[golang-protobuf-go-official-research]] — 旧版 Go Protocol Buffers 绑定：2026-11-01 官方仓库查阅记录。
+- [[golangci-asciicheck-go-official-research]] — 检查 Go 标识符中的非 ASCII 字符：2026-11-01 官方仓库查阅记录。
+- [[golangci-canonicalheader-go-official-research]] — 检查 HTTP header 名称的规范大小写：2026-11-01 官方仓库查阅记录。
+- [[golangci-dupl-go-official-research]] — 检测重复的 Go 代码片段：2026-11-01 官方仓库查阅记录。
+- [[golangci-go-printf-func-name-go-official-research]] — 检查 printf 风格函数名称：2026-11-01 官方仓库查阅记录。
+- [[golangci-gofmt-go-official-research]] — 将 gofmt 检查集成到 golangci 工具链：2026-11-01 官方仓库查阅记录。
+- [[golangci-golines-go-official-research]] — 格式化过长的 Go 源码行：2026-11-01 官方仓库查阅记录。
+- [[golangci-misspell-go-official-research]] — 检查英文拼写错误：2026-11-01 官方仓库查阅记录。
+- [[golangci-plugin-module-register-go-official-research]] — 提供 golangci 插件模块的注册包：2026-11-01 官方仓库查阅记录。
+- [[golangci-revgrep-go-official-research]] — 只显示变更行上的静态分析结果：2026-11-01 官方仓库查阅记录。
+- [[golangci-rowserrcheck-go-official-research]] — 检查 SQL 查询循环后是否读取 Rows.Err：2026-11-01 官方仓库查阅记录。
+- [[golangci-swaggoswag-go-official-research]] — 供 golangci 集成的 swaggo/swag 维护分支：2026-11-01 官方仓库查阅记录。
+- [[golangci-unconvert-go-official-research]] — 检查不必要的 Go 类型转换：2026-11-01 官方仓库查阅记录。
+- [[google-go-cmp-go-official-research]] — 比较 Go 值并给出结构化差异：2026-11-01 官方仓库查阅记录。
+- [[gordonklaus-ineffassign-go-official-research]] — 检测无效赋值：2026-11-01 官方仓库查阅记录。
+- [[gostaticanalysis-analysisutil-go-official-research]] — 为 go/analysis 分析器提供辅助函数：2026-11-01 官方仓库查阅记录。
+- [[gostaticanalysis-comment-go-official-research]] — 为静态分析提供 ast.CommentMap 辅助工具：2026-11-01 官方仓库查阅记录。
+- [[gostaticanalysis-forcetypeassert-go-official-research]] — 检测未检查的 Go 类型断言：2026-11-01 官方仓库查阅记录。
+- [[gostaticanalysis-nilerr-go-official-research]] — 检测检查 error 后仍返回 nil 的错误分支：2026-11-01 官方仓库查阅记录。
+- [[hashicorp-go-immutable-radix-go-official-research]] — 提供泛型不可变 radix tree：2026-11-01 官方仓库查阅记录。
+- [[hashicorp-go-version-go-official-research]] — 解析和比较语义版本及约束：2026-11-01 官方仓库查阅记录。
+- [[hashicorp-golang-lru-go-official-research]] — 提供线程安全的泛型 LRU 缓存：2026-11-01 官方仓库查阅记录。
+- [[hashicorp-hcl-go-official-research]] — 解析和生成结构化配置语言：2026-11-01 官方仓库查阅记录。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -311,6 +357,59 @@
 - [[clifton-kaznocha]] — Clifton Kaznocha 的已摄入 Go 项目索引。
 - [[matt-sherman]] — Matt Sherman 的已摄入 Go 项目索引。
 
+- [[curioswitch-go-reassign-go]] — 检查对其他包顶层变量的重新赋值；用法、限制与待验证角色见库页。
+- [[dave-dst-go]] — 保留注释和间距地改写 Go 语法树；用法、限制与待验证角色见库页。
+- [[denis-tingaikin-go-header-go]] — 检查 Go 源码的版权头；用法、限制与待验证角色见库页。
+- [[dlclark-regexp2-go]] — 提供兼容 .NET 特性的回溯式正则引擎；用法、限制与待验证角色见库页。
+- [[ettle-strcase-go]] — 转换 snake_case、camelCase 等命名形式；用法、限制与待验证角色见库页。
+- [[fatih-color-go]] — 向终端输出 ANSI 颜色文本；用法、限制与待验证角色见库页。
+- [[fatih-structtag-go]] — 解析和修改 Go struct 字段标签；用法、限制与待验证角色见库页。
+- [[firefart-nonamedreturns-go]] — 检查函数签名中的命名返回值；用法、限制与待验证角色见库页。
+- [[fzipp-gocyclo-go]] — 计算 Go 函数的圈复杂度；用法、限制与待验证角色见库页。
+- [[ghostiam-protogetter-go]] — 检查 protobuf 嵌套字段的直接访问；用法、限制与待验证角色见库页。
+- [[go-critic-go-critic-go]] — 运行可扩展的 Go 代码审查规则；用法、限制与待验证角色见库页。
+- [[go-toolsmith-astcast-go]] — 安全地将 AST 节点转换为具体类型；用法、限制与待验证角色见库页。
+- [[go-toolsmith-astequal-go]] — 比较 Go AST 结构是否相等；用法、限制与待验证角色见库页。
+- [[go-toolsmith-astfmt-go]] — 以 fmt 风格格式化 Go AST 节点；用法、限制与待验证角色见库页。
+- [[go-toolsmith-astp-go]] — 测试 AST 节点类型；用法、限制与待验证角色见库页。
+- [[go-toolsmith-strparse-go]] — 将短字符串解析为 Go 表达式、语句或声明；用法、限制与待验证角色见库页。
+- [[go-toolsmith-typep-go]] — 判断 go/types 类型的性质；用法、限制与待验证角色见库页。
+- [[gobwas-glob-go]] — 编译并匹配 glob 模式；用法、限制与待验证角色见库页。
+- [[godoc-lint-godoc-lint-go]] — 检查 Go 文档注释规范；用法、限制与待验证角色见库页。
+- [[gofrs-flock-go]] — 提供文件锁及非阻塞获取；用法、限制与待验证角色见库页。
+- [[gohugoio-hashstructure-go]] — 为 Go 值生成结构哈希；用法、限制与待验证角色见库页。
+- [[gohugoio-hugo-go]] — 从内容和模板生成静态网站；用法、限制与待验证角色见库页。
+- [[golang-protobuf-go]] — 旧版 Go Protocol Buffers 绑定；用法、限制与待验证角色见库页。
+- [[golangci-asciicheck-go]] — 检查 Go 标识符中的非 ASCII 字符；用法、限制与待验证角色见库页。
+- [[golangci-canonicalheader-go]] — 检查 HTTP header 名称的规范大小写；用法、限制与待验证角色见库页。
+- [[golangci-dupl-go]] — 检测重复的 Go 代码片段；用法、限制与待验证角色见库页。
+- [[golangci-go-printf-func-name-go]] — 检查 printf 风格函数名称；用法、限制与待验证角色见库页。
+- [[golangci-gofmt-go]] — 将 gofmt 检查集成到 golangci 工具链；用法、限制与待验证角色见库页。
+- [[golangci-golines-go]] — 格式化过长的 Go 源码行；用法、限制与待验证角色见库页。
+- [[golangci-misspell-go]] — 检查英文拼写错误；用法、限制与待验证角色见库页。
+- [[golangci-plugin-module-register-go]] — 提供 golangci 插件模块的注册包；用法、限制与待验证角色见库页。
+- [[golangci-revgrep-go]] — 只显示变更行上的静态分析结果；用法、限制与待验证角色见库页。
+- [[golangci-rowserrcheck-go]] — 检查 SQL 查询循环后是否读取 Rows.Err；用法、限制与待验证角色见库页。
+- [[golangci-swaggoswag-go]] — 供 golangci 集成的 swaggo/swag 维护分支；用法、限制与待验证角色见库页。
+- [[golangci-unconvert-go]] — 检查不必要的 Go 类型转换；用法、限制与待验证角色见库页。
+- [[google-go-cmp-go]] — 比较 Go 值并给出结构化差异；用法、限制与待验证角色见库页。
+- [[gordonklaus-ineffassign-go]] — 检测无效赋值；用法、限制与待验证角色见库页。
+- [[gostaticanalysis-analysisutil-go]] — 为 go/analysis 分析器提供辅助函数；用法、限制与待验证角色见库页。
+- [[gostaticanalysis-comment-go]] — 为静态分析提供 ast.CommentMap 辅助工具；用法、限制与待验证角色见库页。
+- [[gostaticanalysis-forcetypeassert-go]] — 检测未检查的 Go 类型断言；用法、限制与待验证角色见库页。
+- [[gostaticanalysis-nilerr-go]] — 检测检查 error 后仍返回 nil 的错误分支；用法、限制与待验证角色见库页。
+- [[hashicorp-go-immutable-radix-go]] — 提供泛型不可变 radix tree；用法、限制与待验证角色见库页。
+- [[hashicorp-go-version-go]] — 解析和比较语义版本及约束；用法、限制与待验证角色见库页。
+- [[hashicorp-golang-lru-go]] — 提供线程安全的泛型 LRU 缓存；用法、限制与待验证角色见库页。
+- [[hashicorp-hcl-go]] — 解析和生成结构化配置语言；用法、限制与待验证角色见库页。
+- [[go-toolsmith]] — go-toolsmith 官方仓库账号及本库已摄入项目的索引；个人角色待核实。
+- [[gostaticanalysis]] — gostaticanalysis 官方仓库账号及本库已摄入项目的索引；个人角色待核实。
+- [[golangci]] — golangci 官方仓库账号及本库已摄入项目的索引；个人角色待核实。
+- [[hashicorp]] — hashicorp 官方仓库账号及本库已摄入项目的索引；个人角色待核实。
+- [[gohugoio]] — gohugoio 官方仓库账号及本库已摄入项目的索引；个人角色待核实。
+- [[golang-org]] — golang 官方仓库账号及本库已摄入项目的索引；个人角色待核实。
+- [[google-org]] — google 官方仓库账号及本库已摄入项目的索引；个人角色待核实。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -387,6 +486,10 @@
 - （待验证）本批 18 个 Go 项目的个人创建与当前维护角色；已建身份页仅确认官方账号关联，不能据仓库所属推定唯一作者。
 - （待验证）`github.com/charmbracelet/x/windows` 的目标 Windows 版本与独立最小运行示例；Charm x 子模块的 API 稳定性按实际版本复核。
 
+- （待验证）本批 45 个 Go 项目的个人创建者和现任维护者；仓库账号页只确认归属，不推断个人角色。
+- （待验证）[[golangci-plugin-module-register-go]]、[[golangci-swaggoswag-go]]、[[gostaticanalysis-analysisutil-go]] 与 [[gostaticanalysis-comment-go]] 的独立最小 API 示例。
+- （待验证）本批 CLI 及 Go 示例在目标版本的实际编译和运行；尤其核对 golangci-lint v2 参数与 fork 模块路径。
+
 ## Stats
 
-- 来源：**112** 份 ｜ wiki 页面：**280** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**157** 份 ｜ wiki 页面：**377** ｜ Outputs：**1** ｜ 最近更新：2026-11-01

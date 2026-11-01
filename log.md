@@ -435,3 +435,11 @@
 - Charm 的 5 个 x 子模块按独立 Go module 路径记录，并注明实验性与平台边界；zxcvbn-go 记录活跃 fork 与原仓库归档关系。
 - 所有示例未在目标环境编译或运行；作者/现任维护者无法由仓库归属单独推断，故保留待验证。收件箱与 Obsidian 状态文件未改。
 - 来源 94→112，wiki 页面 235→280，Outputs 保持 1。
+
+## [2026-11-01] ingest | Go 收件箱后续 45 个新库
+
+- 收件箱新增 46 行中，`github.com/go-viper/mapstructure/v2` 已摄入；本次为其余 45 项新增 45 份官方仓库查阅笔记、45 个来源页、45 个库页及 7 个官方仓库账号索引。更新 `index.md` 与本日志；收件箱原文未改。
+- 明确记录 `golang/protobuf` 被新模块取代、`golangci/golines` 的 fork 状态、`gohugoio/hashstructure` 的 fork 状态、HCL v2 不兼容 v1，以及若干 golangci 集成仓库的边界。
+- 将收件箱的 `go-toolsmith/astformat` 对应到官方 `go-toolsmith/astfmt`，并将 `hashicorp/hcl` 的依赖路径核对为 `/v2`；收件箱原文不变。
+- 示例未在本机编译或运行；缺少可确认独立 API 示例的页面标为 stub，个人作者及现任维护者待验证。用户已有 wiki 页面和 Obsidian 状态修改未纳入本批。
+- 来源 112→157，wiki 页面 280→377，Outputs 保持 1。
