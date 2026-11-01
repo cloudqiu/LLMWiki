@@ -484,3 +484,10 @@
 - `poetential_utf` 暂对应 `potential_utf`，`singal-hook-registry` 暂对应 `signal-hook-registry`，`sha1-1` 暂对应 `sha1`；上述映射待原始依赖清单确认。`rustls-webpki` 的包名与 Rust 模块名 `webpki` 已区分。`redox_syscall` 主要供 Redox 内核和 relibc 使用；SHA-1 仅宜作旧协议兼容。
 - 研究笔记不是官方原文副本；片段未在本机编译运行。个人创建者与现任维护者无可靠官方证据处标待验证；缺少可核实独立示例的底层组件标 stub。
 - 来源 331→441，wiki 页面 734→954，Outputs 保持 1。
+
+## [2026-11-01] ingest | Rust 收件箱后续 38 项
+
+- 当前收件箱共 243 行；前几批 205 项已摄入，本次新增 38 项。按 docs.rs 发布文档核对名称、用途与显示版本，新建 38 份 raw 查阅笔记、38 个来源页、38 个库页，补同生态交叉链接，并更新 `index.md` 与本日志。收件箱原文未改，也未纳入提交。
+- `utf-8` 的 Rust 模块名为 `utf8`；`webpki` 与 `rustls-webpki` 是不同发布包；`wasm-bindgen-shared` 由 crate 发布页核对。用户已把收件箱中的 `utf9_iter`、`utf9parse` 更正为 `utf8_iter`、`utf8parse`，故无需建立旧拼写页。
+- 研究笔记不是官方原文副本；片段未在本机编译运行。个人创建者与现任维护者无可靠官方证据处标待验证；缺少可核实独立示例的底层组件标 stub。
+- 来源 441→479，wiki 页面 954→1030，Outputs 保持 1。

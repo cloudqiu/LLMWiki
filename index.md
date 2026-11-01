@@ -459,6 +459,45 @@
 - [[tungstenite-rust-official-research]] — 实现同步 WebSocket 协议握手与收发。 2026-11-01 发布文档查阅记录。
 - [[typenum-rust-official-research]] — 以类型级整数支持编译期数值计算。 2026-11-01 发布文档查阅记录。
 
+- [[unicode-ident-rust-official-research]] — 按 Unicode 标准判断字符能否用于编程语言标识符。 2026-11-01 发布文档查阅记录。
+- [[unicode-segmentation-rust-official-research]] — 按 Unicode 规则分割字素簇、单词和句子。 2026-11-01 发布文档查阅记录。
+- [[unicode-width-rust-official-research]] — 计算字符或字符串在终端中的显示宽度。 2026-11-01 发布文档查阅记录。
+- [[untrusted-rust-official-research]] — 提供解析不可信字节输入的受限读取接口。 2026-11-01 发布文档查阅记录。
+- [[url-rust-official-research]] — 解析和构建符合 WHATWG URL 标准的 URL。 2026-11-01 发布文档查阅记录。
+- [[urlencoding-rust-official-research]] — 对字符串进行 URL 百分号编码与解码。 2026-11-01 发布文档查阅记录。
+- [[utf-8-rust-official-research]] — 提供 UTF-8 解码与有损解码辅助类型。 2026-11-01 发布文档查阅记录。
+- [[utf8-iter-rust-official-research]] — 按 WHATWG 规则迭代可能含无效字节的 UTF-8。 2026-11-01 发布文档查阅记录。
+- [[utf8parse-rust-official-research]] — 提供表驱动 UTF-8 解析器。 2026-11-01 发布文档查阅记录。
+- [[uuid-rust-official-research]] — 生成、解析和格式化 UUID。 2026-11-01 发布文档查阅记录。
+- [[version-check-rust-official-research]] — 在构建脚本中检查 rustc 的版本或能力。 2026-11-01 发布文档查阅记录。
+- [[want-rust-official-research]] — 在 Future 任务间传递下游需求信号。 2026-11-01 发布文档查阅记录。
+- [[wasi-rust-official-research]] — 提供 WebAssembly System Interface 的 Rust 绑定。 2026-11-01 发布文档查阅记录。
+- [[wasm-bindgen-rust-official-research]] — 连接 Rust/Wasm 与 JavaScript 值和函数。 2026-11-01 发布文档查阅记录。
+- [[wasm-bindgen-backend-rust-official-research]] — wasm-bindgen 的内部代码生成后端。 2026-11-01 发布文档查阅记录。
+- [[wasm-bindgen-futures-rust-official-research]] — 桥接 Rust Future 与 JavaScript Promise。 2026-11-01 发布文档查阅记录。
+- [[wasm-bindgen-macro-rust-official-research]] — 实现 wasm-bindgen 属性宏。 2026-11-01 发布文档查阅记录。
+- [[wasm-bindgen-macro-support-rust-official-research]] — 提供 wasm-bindgen 属性宏的展开支持。 2026-11-01 发布文档查阅记录。
+- [[wasm-bindgen-shared-rust-official-research]] — 在 wasm-bindgen 与其 CLI 之间共享内部定义。 2026-11-01 发布文档查阅记录。
+- [[wasm-streams-rust-official-research]] — 在 Rust 中使用浏览器 Web Streams API。 2026-11-01 发布文档查阅记录。
+- [[web-sys-rust-official-research]] — 提供浏览器 Web API 的 WebIDL 生成绑定。 2026-11-01 发布文档查阅记录。
+- [[web-time-rust-official-research]] — 为浏览器 Wasm 环境提供 std::time 风格接口。 2026-11-01 发布文档查阅记录。
+- [[webpki-rust-official-research]] — 验证 Web PKI X.509 证书。 2026-11-01 发布文档查阅记录。
+- [[webpki-roots-rust-official-research]] — 提供内置的 Mozilla 可信根证书集合。 2026-11-01 发布文档查阅记录。
+- [[weezl-rust-official-research]] — 编码和解码 LZW 数据流。 2026-11-01 发布文档查阅记录。
+- [[writeable-rust-official-research]] — 定义可写入 fmt::Write 目标的 Writeable trait。 2026-11-01 发布文档查阅记录。
+- [[x11rb-rust-official-research]] — 从 Rust 客户端连接并操作 X11 服务器。 2026-11-01 发布文档查阅记录。
+- [[x11rb-protocol-rust-official-research]] — 表示和解析 X11 协议消息，不负责 I/O。 2026-11-01 发布文档查阅记录。
+- [[yoke-rust-official-research]] — 将零拷贝反序列化值与其拥有的底层数据绑定。 2026-11-01 发布文档查阅记录。
+- [[yoke-derive-rust-official-research]] — 为 yoke 的 Yokeable trait 生成派生实现。 2026-11-01 发布文档查阅记录。
+- [[zerocopy-rust-official-research]] — 以类型布局约束支持安全的零拷贝内存操作。 2026-11-01 发布文档查阅记录。
+- [[zerocopy-derive-rust-official-research]] — 为 zerocopy 的布局 trait 生成派生实现。 2026-11-01 发布文档查阅记录。
+- [[zerofrom-rust-official-research]] — 以零拷贝方式从借用数据构造目标类型。 2026-11-01 发布文档查阅记录。
+- [[zerofrom-derive-rust-official-research]] — 为 ZeroFrom trait 生成派生实现。 2026-11-01 发布文档查阅记录。
+- [[zerovec-rust-official-research]] — 把结构化数据以零拷贝方式存于字节切片。 2026-11-01 发布文档查阅记录。
+- [[zerovec-derive-rust-official-research]] — 生成 zerovec 所需的 ULE 与 VarULE 实现。 2026-11-01 发布文档查阅记录。
+- [[zeroize-rust-official-research]] — 清除敏感内存并降低编译器优化掉清除操作的风险。 2026-11-01 发布文档查阅记录。
+- [[zerotrie-rust-official-research]] — 以零拷贝 trie 存储和查询字节字符串。 2026-11-01 发布文档查阅记录。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -999,6 +1038,45 @@
 - [[tungstenite-rust]] — 实现同步 WebSocket 协议握手与收发。
 - [[typenum-rust]] — 以类型级整数支持编译期数值计算。
 
+- [[unicode-ident-rust]] — 按 Unicode 标准判断字符能否用于编程语言标识符。
+- [[unicode-segmentation-rust]] — 按 Unicode 规则分割字素簇、单词和句子。
+- [[unicode-width-rust]] — 计算字符或字符串在终端中的显示宽度。
+- [[untrusted-rust]] — 提供解析不可信字节输入的受限读取接口。
+- [[url-rust]] — 解析和构建符合 WHATWG URL 标准的 URL。
+- [[urlencoding-rust]] — 对字符串进行 URL 百分号编码与解码。
+- [[utf-8-rust]] — 提供 UTF-8 解码与有损解码辅助类型。
+- [[utf8-iter-rust]] — 按 WHATWG 规则迭代可能含无效字节的 UTF-8。
+- [[utf8parse-rust]] — 提供表驱动 UTF-8 解析器。
+- [[uuid-rust]] — 生成、解析和格式化 UUID。
+- [[version-check-rust]] — 在构建脚本中检查 rustc 的版本或能力。
+- [[want-rust]] — 在 Future 任务间传递下游需求信号。
+- [[wasi-rust]] — 提供 WebAssembly System Interface 的 Rust 绑定。
+- [[wasm-bindgen-rust]] — 连接 Rust/Wasm 与 JavaScript 值和函数。
+- [[wasm-bindgen-backend-rust]] — wasm-bindgen 的内部代码生成后端。
+- [[wasm-bindgen-futures-rust]] — 桥接 Rust Future 与 JavaScript Promise。
+- [[wasm-bindgen-macro-rust]] — 实现 wasm-bindgen 属性宏。
+- [[wasm-bindgen-macro-support-rust]] — 提供 wasm-bindgen 属性宏的展开支持。
+- [[wasm-bindgen-shared-rust]] — 在 wasm-bindgen 与其 CLI 之间共享内部定义。
+- [[wasm-streams-rust]] — 在 Rust 中使用浏览器 Web Streams API。
+- [[web-sys-rust]] — 提供浏览器 Web API 的 WebIDL 生成绑定。
+- [[web-time-rust]] — 为浏览器 Wasm 环境提供 std::time 风格接口。
+- [[webpki-rust]] — 验证 Web PKI X.509 证书。
+- [[webpki-roots-rust]] — 提供内置的 Mozilla 可信根证书集合。
+- [[weezl-rust]] — 编码和解码 LZW 数据流。
+- [[writeable-rust]] — 定义可写入 fmt::Write 目标的 Writeable trait。
+- [[x11rb-rust]] — 从 Rust 客户端连接并操作 X11 服务器。
+- [[x11rb-protocol-rust]] — 表示和解析 X11 协议消息，不负责 I/O。
+- [[yoke-rust]] — 将零拷贝反序列化值与其拥有的底层数据绑定。
+- [[yoke-derive-rust]] — 为 yoke 的 Yokeable trait 生成派生实现。
+- [[zerocopy-rust]] — 以类型布局约束支持安全的零拷贝内存操作。
+- [[zerocopy-derive-rust]] — 为 zerocopy 的布局 trait 生成派生实现。
+- [[zerofrom-rust]] — 以零拷贝方式从借用数据构造目标类型。
+- [[zerofrom-derive-rust]] — 为 ZeroFrom trait 生成派生实现。
+- [[zerovec-rust]] — 把结构化数据以零拷贝方式存于字节切片。
+- [[zerovec-derive-rust]] — 生成 zerovec 所需的 ULE 与 VarULE 实现。
+- [[zeroize-rust]] — 清除敏感内存并降低编译器优化掉清除操作的风险。
+- [[zerotrie-rust]] — 以零拷贝 trie 存储和查询字节字符串。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -1025,8 +1103,8 @@
 
 ## Backlog 待建页面
 
-- Rust 库身份核实：已摄入 205 个收件箱条目对应的 crate；个人创建者与现任维护者尚缺可靠官方证据，逐库查仓库 README、组织主页和维护政策后补作者页与双向链接。
-- Rust 示例验证：三批按 docs.rs 公共 API 整理的片段均未在本机编译；低层组件的独立最小示例待从官方项目补齐。
+- Rust 库身份核实：已摄入 243 个收件箱条目对应的 crate；个人创建者与现任维护者尚缺可靠官方证据，逐库查仓库 README、组织主页和维护政策后补作者页与双向链接。
+- Rust 示例验证：四批按 docs.rs 公共 API 整理的片段均未在本机编译；低层组件的独立最小示例待从官方项目补齐。
 - `poetential_utf`、`singal-hook-registry`、`sha1-1`：分别暂映射 [[potential-utf-rust]]、[[signal-hook-registry-rust]]、[[sha1-rust]]；需由实际 Cargo.lock 或用户原始依赖清单确认。
 - `jpeg-decorder`：收件箱疑似拼写错误，暂映射 [[jpeg-decoder-rust]]；需由实际 Cargo.lock 或用户原始依赖清单确认。
 
@@ -1092,4 +1170,4 @@
 
 ## Stats
 
-- 来源：**441** 份 ｜ wiki 页面：**954** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**479** 份 ｜ wiki 页面：**1030** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
