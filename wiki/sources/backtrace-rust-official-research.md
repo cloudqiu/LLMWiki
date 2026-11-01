@@ -30,7 +30,7 @@ format: notes
 
 ## 与既有知识的关系
 
-- 收件箱 `bracktrace` 暂按 `backtrace` 消歧。
+- 当前收件箱已由用户更正为 `backtrace`；raw 查阅笔记中的 `bracktrace` 是更正前的历史记录。
 
 ## 由本来源派生 / 更新的页面
 

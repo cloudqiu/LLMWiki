@@ -301,6 +301,53 @@
 - [[errno-rust-official-research]] — 跨平台读取和设置线程局部 errno。 2026-11-01 官方发布文档查阅记录。
 - [[error-code-rust-official-research]] — 封装 POSIX/Windows 系统错误码和错误类别。 2026-11-01 官方发布文档查阅记录。
 
+- [[fd-lock-rust-official-research]] — 为文件提供建议式读写锁，适合多进程协调访问。 2026-11-01 发布文档查阅记录。
+- [[fdeflate-rust-official-research]] — 实现 DEFLATE 压缩算法，常供 PNG 等格式使用。 2026-11-01 发布文档查阅记录。
+- [[flate2-rust-official-research]] — 读写 DEFLATE、zlib 和 gzip 压缩流。 2026-11-01 发布文档查阅记录。
+- [[fnv-rust-official-research]] — 提供 FNV 非密码学哈希器。 2026-11-01 发布文档查阅记录。
+- [[form-urlencoded-rust-official-research]] — 解析和序列化 application/x-www-form-urlencoded 表单数据。 2026-11-01 发布文档查阅记录。
+- [[futures-rust-official-research]] — 提供异步编程的 Future、Stream 与组合工具。 2026-11-01 发布文档查阅记录。
+- [[futures-channel-rust-official-research]] — 为异步任务提供 oneshot、mpsc 等通道。 2026-11-01 发布文档查阅记录。
+- [[futures-core-rust-official-research]] — 定义 Future 与 Stream 等异步核心 trait。 2026-11-01 发布文档查阅记录。
+- [[futures-executor-rust-official-research]] — 提供 block_on 等 Future 执行器。 2026-11-01 发布文档查阅记录。
+- [[futures-io-rust-official-research]] — 定义 AsyncRead、AsyncWrite 等异步 I/O trait。 2026-11-01 发布文档查阅记录。
+- [[futures-macro-rust-official-research]] — futures-rs 的过程宏实现组件。 2026-11-01 发布文档查阅记录。
+- [[futures-sink-rust-official-research]] — 定义异步发送值的 Sink trait。 2026-11-01 发布文档查阅记录。
+- [[futures-task-rust-official-research]] — 提供任务唤醒与上下文相关的工具。 2026-11-01 发布文档查阅记录。
+- [[futures-util-rust-official-research]] — 提供 Future、Stream、Sink 的组合器和扩展 trait。 2026-11-01 发布文档查阅记录。
+- [[generic-array-rust-official-research]] — 提供长度由类型参数指定的数组结构。 2026-11-01 发布文档查阅记录。
+- [[gethostname-rust-official-research]] — 跨平台读取当前主机名。 2026-11-01 发布文档查阅记录。
+- [[getrandom-rust-official-research]] — 从操作系统获取安全随机字节。 2026-11-01 发布文档查阅记录。
+- [[gimli-rust-official-research]] — 读取和写入 DWARF 调试信息。 2026-11-01 发布文档查阅记录。
+- [[h2-rust-official-research]] — 实现异步 HTTP/2 客户端和服务端协议层。 2026-11-01 发布文档查阅记录。
+- [[hashbrown-rust-official-research]] — 提供高性能 HashMap 与 HashSet 实现。 2026-11-01 发布文档查阅记录。
+- [[heck-rust-official-research]] — 在 snake_case、CamelCase 等命名格式之间转换。 2026-11-01 发布文档查阅记录。
+- [[home-rust-official-research]] — 查找用户主目录、Cargo 目录与 rustup 目录。 2026-11-01 发布文档查阅记录。
+- [[http-rust-official-research]] — 定义 HTTP 请求、响应、头部和状态码等通用类型。 2026-11-01 发布文档查阅记录。
+- [[http-body-rust-official-research]] — 定义异步 HTTP 消息体 Body trait。 2026-11-01 发布文档查阅记录。
+- [[http-body-util-rust-official-research]] — 为 http-body 提供组合器及常用 Body 实现。 2026-11-01 发布文档查阅记录。
+- [[httparse-rust-official-research]] — 快速解析 HTTP/1.x 请求与响应头。 2026-11-01 发布文档查阅记录。
+- [[httpdate-rust-official-research]] — 解析和格式化 HTTP 日期头。 2026-11-01 发布文档查阅记录。
+- [[hyper-rust-official-research]] — 提供 HTTP 客户端和服务端的底层实现。 2026-11-01 发布文档查阅记录。
+- [[hyper-rustls-rust-official-research]] — 为 hyper 客户端提供基于 rustls 的 HTTPS 连接器。 2026-11-01 发布文档查阅记录。
+- [[hyper-util-rust-official-research]] — 提供与 hyper 配套的客户端、服务端与运行时工具。 2026-11-01 发布文档查阅记录。
+- [[icu-collections-rust-official-research]] — 提供 ICU4X Unicode 数据使用的高效集合。 2026-11-01 发布文档查阅记录。
+- [[icu-locale-core-rust-official-research]] — 解析和操作 Unicode 语言及区域标识符。 2026-11-01 发布文档查阅记录。
+- [[icu-normalizer-rust-official-research]] — 按 Unicode 标准对文本进行规范化。 2026-11-01 发布文档查阅记录。
+- [[icu-normalizer-data-rust-official-research]] — 为 icu_normalizer 提供生成的 Unicode/CLDR 数据。 2026-11-01 发布文档查阅记录。
+- [[icu-properties-data-rust-official-research]] — 为 ICU4X Unicode 属性组件提供生成数据。 2026-11-01 发布文档查阅记录。
+- [[icu-provider-rust-official-research]] — 定义 ICU4X 本地化数据的提供与加载接口。 2026-11-01 发布文档查阅记录。
+- [[idna-rust-official-research]] — 按 IDNA 规则处理国际化域名。 2026-11-01 发布文档查阅记录。
+- [[idna-adapter-rust-official-research]] — 为 idna 抽象 Unicode 后端。 2026-11-01 发布文档查阅记录。
+- [[image-rust-official-research]] — 以纯 Rust 编解码常见图像格式并处理图像缓冲。 2026-11-01 发布文档查阅记录。
+- [[indexmap-rust-official-research]] — 提供保留插入顺序的映射和集合。 2026-11-01 发布文档查阅记录。
+- [[io-uring-rust-official-research]] — 封装 Linux io_uring 异步 I/O 接口。 2026-11-01 发布文档查阅记录。
+- [[ipnet-rust-official-research]] — 解析和操作 IPv4/IPv6 网络前缀。 2026-11-01 发布文档查阅记录。
+- [[is-terminal-polyfill-rust-official-research]] — 为旧 Rust 最低版本提供 IsTerminal 检测能力。 2026-11-01 发布文档查阅记录。
+- [[itoa-rust-official-research]] — 快速将整数格式化为十进制字符串。 2026-11-01 发布文档查阅记录。
+- [[jpeg-decoder-rust-official-research]] — 解码 JPEG 图像及读取元数据。 2026-11-01 发布文档查阅记录。
+- [[js-sys-rust-official-research]] — 在 wasm-bindgen 中调用 JavaScript 内建对象和 API。 2026-11-01 发布文档查阅记录。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -683,6 +730,53 @@
 - [[errno-rust]] — 跨平台读取和设置线程局部 errno。
 - [[error-code-rust]] — 封装 POSIX/Windows 系统错误码和错误类别。
 
+- [[fd-lock-rust]] — 为文件提供建议式读写锁，适合多进程协调访问。
+- [[fdeflate-rust]] — 实现 DEFLATE 压缩算法，常供 PNG 等格式使用。
+- [[flate2-rust]] — 读写 DEFLATE、zlib 和 gzip 压缩流。
+- [[fnv-rust]] — 提供 FNV 非密码学哈希器。
+- [[form-urlencoded-rust]] — 解析和序列化 application/x-www-form-urlencoded 表单数据。
+- [[futures-rust]] — 提供异步编程的 Future、Stream 与组合工具。
+- [[futures-channel-rust]] — 为异步任务提供 oneshot、mpsc 等通道。
+- [[futures-core-rust]] — 定义 Future 与 Stream 等异步核心 trait。
+- [[futures-executor-rust]] — 提供 block_on 等 Future 执行器。
+- [[futures-io-rust]] — 定义 AsyncRead、AsyncWrite 等异步 I/O trait。
+- [[futures-macro-rust]] — futures-rs 的过程宏实现组件。
+- [[futures-sink-rust]] — 定义异步发送值的 Sink trait。
+- [[futures-task-rust]] — 提供任务唤醒与上下文相关的工具。
+- [[futures-util-rust]] — 提供 Future、Stream、Sink 的组合器和扩展 trait。
+- [[generic-array-rust]] — 提供长度由类型参数指定的数组结构。
+- [[gethostname-rust]] — 跨平台读取当前主机名。
+- [[getrandom-rust]] — 从操作系统获取安全随机字节。
+- [[gimli-rust]] — 读取和写入 DWARF 调试信息。
+- [[h2-rust]] — 实现异步 HTTP/2 客户端和服务端协议层。
+- [[hashbrown-rust]] — 提供高性能 HashMap 与 HashSet 实现。
+- [[heck-rust]] — 在 snake_case、CamelCase 等命名格式之间转换。
+- [[home-rust]] — 查找用户主目录、Cargo 目录与 rustup 目录。
+- [[http-rust]] — 定义 HTTP 请求、响应、头部和状态码等通用类型。
+- [[http-body-rust]] — 定义异步 HTTP 消息体 Body trait。
+- [[http-body-util-rust]] — 为 http-body 提供组合器及常用 Body 实现。
+- [[httparse-rust]] — 快速解析 HTTP/1.x 请求与响应头。
+- [[httpdate-rust]] — 解析和格式化 HTTP 日期头。
+- [[hyper-rust]] — 提供 HTTP 客户端和服务端的底层实现。
+- [[hyper-rustls-rust]] — 为 hyper 客户端提供基于 rustls 的 HTTPS 连接器。
+- [[hyper-util-rust]] — 提供与 hyper 配套的客户端、服务端与运行时工具。
+- [[icu-collections-rust]] — 提供 ICU4X Unicode 数据使用的高效集合。
+- [[icu-locale-core-rust]] — 解析和操作 Unicode 语言及区域标识符。
+- [[icu-normalizer-rust]] — 按 Unicode 标准对文本进行规范化。
+- [[icu-normalizer-data-rust]] — 为 icu_normalizer 提供生成的 Unicode/CLDR 数据。
+- [[icu-properties-data-rust]] — 为 ICU4X Unicode 属性组件提供生成数据。
+- [[icu-provider-rust]] — 定义 ICU4X 本地化数据的提供与加载接口。
+- [[idna-rust]] — 按 IDNA 规则处理国际化域名。
+- [[idna-adapter-rust]] — 为 idna 抽象 Unicode 后端。
+- [[image-rust]] — 以纯 Rust 编解码常见图像格式并处理图像缓冲。
+- [[indexmap-rust]] — 提供保留插入顺序的映射和集合。
+- [[io-uring-rust]] — 封装 Linux io_uring 异步 I/O 接口。
+- [[ipnet-rust]] — 解析和操作 IPv4/IPv6 网络前缀。
+- [[is-terminal-polyfill-rust]] — 为旧 Rust 最低版本提供 IsTerminal 检测能力。
+- [[itoa-rust]] — 快速将整数格式化为十进制字符串。
+- [[jpeg-decoder-rust]] — 解码 JPEG 图像及读取元数据。（收件箱 `jpeg-decorder` 映射）
+- [[js-sys-rust]] — 在 wasm-bindgen 中调用 JavaScript 内建对象和 API。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -709,9 +803,9 @@
 
 ## Backlog 待建页面
 
-- Rust 库身份核实：本批 49 个 crate 的个人创建者与现任维护者尚缺可靠官方证据；逐库查仓库 README、组织主页和维护政策后补作者页与双向链接。
-- Rust 示例验证：本批按 docs.rs 公共 API 整理的片段均未在本机编译；低层组件的独立最小示例待从官方项目补齐。
-- `bracktrace`：收件箱疑似拼写错误，暂映射 [[backtrace-rust]]；需由实际 Cargo.lock 或用户原始依赖清单确认。
+- Rust 库身份核实：已摄入 95 个 crate 的个人创建者与现任维护者尚缺可靠官方证据；逐库查仓库 README、组织主页和维护政策后补作者页与双向链接。
+- Rust 示例验证：两批按 docs.rs 公共 API 整理的片段均未在本机编译；低层组件的独立最小示例待从官方项目补齐。
+- `jpeg-decorder`：收件箱疑似拼写错误，暂映射 [[jpeg-decoder-rust]]；需由实际 Cargo.lock 或用户原始依赖清单确认。
 
 - （建议）Engelbart《Augmenting Human Intellect》(1962)：memex → 人机协同的直接后续
 - （建议）超文本谱系：Nelson/Xanadu、H.G. Wells《World Brain》(1938)
@@ -775,4 +869,4 @@
 
 ## Stats
 
-- 来源：**285** 份 ｜ wiki 页面：**642** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**331** 份 ｜ wiki 页面：**734** ｜ Outputs：**1** ｜ 最近更新：2026-11-01

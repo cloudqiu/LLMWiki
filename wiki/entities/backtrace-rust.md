@@ -36,7 +36,7 @@ println!("{trace:?}");
 
 ## 关键限制
 
-- 收件箱写作 `bracktrace`；按正式 crate `backtrace` 建页，实际依赖名待核对。
+- 当前收件箱已由用户更正为 `backtrace`；先前 raw 查阅笔记保留了旧拼写 `bracktrace` 的历史记录。
 
 ## 来源
 
