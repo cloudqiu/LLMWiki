@@ -394,3 +394,10 @@
 - 新建 18 份 `raw/` 官方资料查阅笔记、18 个来源页、18 个库页；核对官方模块路径、典型 API、重要限制，示例均未在目标环境运行。
 - 将收件箱 `pelleiter/go-toml/v2` 映射到官方 `pelletier/go-toml/v2`；goautoneg 记录为原项目镜像；Go YAML v2 记录官方停止维护与仓库归档；mitchellh 两个仓库记录归档状态。
 - 新建 5 个可核实人物或项目组织索引，更新 [[etcd-io]]、`index.md`；来源 31→49，wiki 页面 96→137。个人作者与完整当前维护者缺乏可靠证据者保留待验证。
+
+## [2026-11-01] ingest | 延迟分位数与单、多实例 P99 示例
+
+- 摄入用户新放入 `raw/为什么只关心p50 p90 p99.md`、`raw/单实例模拟P99.md`、`raw/多实例P99例子.md`；原文未修改，作者和原始发表时间未标注。
+- 新建 3 个来源页 [[latency-percentiles-notes]]、[[single-instance-p99-simulation]]、[[multi-instance-p99-examples]]，以及 2 个概念页 [[latency-percentiles]]、[[distributed-quantiles]]；更新 [[perks-go]]、`index.md`。
+- 核对官方包文档：perks `Count()` 存在、targeted epsilon 为分位位置绝对误差、`Merge` 明确损坏；caio/go-tdigest 示例所用构造 API 不符；Prometheus Histogram 跨实例查询须聚合桶。原资料“完整可运行”及数值输出均未在本机验证。
+- 目录计数：来源 49→52，wiki 页面 137→142。待办：按用户目标环境另行编写和运行修正版示例。

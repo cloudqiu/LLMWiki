@@ -56,9 +56,14 @@
 - [[x-sys-go-official-research]] — 提供 Go 标准库之外的系统调用绑定，按操作系统分子包。 2026-11-01 官方资料查阅记录。
 - [[x-text-go-official-research]] — 提供国际化、Unicode、字符编码、语言区域等文本处理子包。 2026-11-01 官方资料查阅记录。
 - [[x-time-go-official-research]] — 提供时间相关辅助包；rate 用 token bucket 限制事件速率。 2026-11-01 官方资料查阅记录。
+- [[latency-percentiles-notes]] — P50/P90/P99 原始说明及完整分布、SLO、类比表述的核对。
+- [[single-instance-p99-simulation]] — Go 单实例模拟原文；核对 `Count()`、格式化输出和误差定义。
+- [[multi-instance-p99-examples]] — 多实例 P99 原始方案；标注 perks Merge 损坏、t-digest API 不符与 Histogram 查询要求。
 
 ## Concepts 概念
 
+- [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
+- [[distributed-quantiles]] — 全局 P99 不能平均各实例 P99；Histogram 聚合与可合并摘要的证据边界。
 - [[llm-wiki]] — 核心模式：LLM 增量维护的持久化 wiki；三层架构 + ingest/query/lint 三操作。
 - [[retrieval-augmented-generation]] — RAG：查询时检索切片生成答案，无知识积累。
 - [[memex]] — 桌面式私人「文件与图书馆」(1945)：微缩胶片 + 投影屏 + 关联路径。
@@ -205,7 +210,8 @@
 - （待验证）koanf file provider 子模块的具体创建者及完整当前维护者名单；监听回调事件行为按目标版本核对。
 - （待验证）本批次剩余 Go 模块的个人创建者及当前维护者；Prometheus、etcd、Go x 包按项目归属记录，不能视为个人作者。
 - （待验证）本轮新增 Go 库中，仅能核实组织或仓库账号的项目，其个人创建者和当前维护者；作者索引区分账号关联与个人贡献。
+- （待验证）对 P99 单实例原始示例产出可编译修正版并实测；多实例场景按目标流量、窗口与精度要求验证 Histogram 或 t-digest 方案。
 
 ## Stats
 
-- 来源：**49** 份 ｜ wiki 页面：**137** ｜ Outputs：**0** ｜ 最近更新：2026-11-01
+- 来源：**52** 份 ｜ wiki 页面：**142** ｜ Outputs：**0** ｜ 最近更新：2026-11-01

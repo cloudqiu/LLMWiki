@@ -3,10 +3,10 @@ title: "github.com/beorn7/perks"
 type: entity
 entity_type: tool
 created: 2026-10-31
-updated: 2026-10-31
+updated: 2026-11-01
 tags: [go, library]
 status: growing
-sources: [raw/perks-go-official-research-2026-10-31.md]
+sources: [raw/perks-go-official-research-2026-10-31.md, raw/单实例模拟P99.md, raw/多实例P99例子.md]
 ---
 
 # github.com/beorn7/perks
@@ -39,9 +39,14 @@ fmt.Println(q.Query(0.9))
 ## 关键限制
 
 - 根模块不是 quantile 包；Stream 文档称非线程安全。原始 README 版权署名 Blake Mizerany，当前 beorn7 仓库维护角色待验证。
+- `Stream.Count()` 返回已观察样本数；`NewTargeted` 的 epsilon 限制分位位置的绝对误差，不是延迟值的百分比。并发 `Insert`/`Query`/`Count` 需同步。（[[single-instance-p99-simulation]]）
+
+> [!warning] 原始多实例示例与官方文档矛盾
+> `raw/多实例P99例子.md` 第 5–7、78–103、183–189、254–271、312–319 行把 `Stream.Merge` 当作少量实例可用的全局 P99 方案；[官方包文档](https://pkg.go.dev/github.com/beorn7/perks/quantile)明确标注该方法损坏且不产生正确结果。不要用于跨实例分位数聚合；详见 [[distributed-quantiles]]。
 
 ## 来源
 
 - [[perks-go-official-research]]
 - [官方仓库](https://github.com/beorn7/perks)；[Go Packages](https://pkg.go.dev/github.com/beorn7/perks)；[示例 API](https://pkg.go.dev/github.com/beorn7/perks/quantile)。
 - 本地查阅记录：`raw/perks-go-official-research-2026-10-31.md`。
+- 新摄入材料：`raw/单实例模拟P99.md`、`raw/多实例P99例子.md`；[[single-instance-p99-simulation]]、[[multi-instance-p99-examples]]。
