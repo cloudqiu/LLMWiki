@@ -491,3 +491,8 @@
 - `utf-8` 的 Rust 模块名为 `utf8`；`webpki` 与 `rustls-webpki` 是不同发布包；`wasm-bindgen-shared` 由 crate 发布页核对。用户已把收件箱中的 `utf9_iter`、`utf9parse` 更正为 `utf8_iter`、`utf8parse`，故无需建立旧拼写页。
 - 研究笔记不是官方原文副本；片段未在本机编译运行。个人创建者与现任维护者无可靠官方证据处标待验证；缺少可核实独立示例的底层组件标 stub。
 - 来源 441→479，wiki 页面 954→1030，Outputs 保持 1。
+
+## [2026-11-01] schema | 新增 Python 与 npm 第三方包收件箱
+
+- 新建 `raw/python-libs-inbox.md`、`raw/npm-libs-inbox.md` 两个空白用户输入页；更新 `AGENTS.md` §1、§3.4 与 Schema 演进记录，以及 `index.md` 的 Library inboxes 区。`CLAUDE.md` 作为保留的原有 Claude 入口未改。
+- Python 收件箱以 PyPI 发布名记录；npm 收件箱保留 scope 原写法。只有明确要求摄入时才研究与建页。来源、wiki 页面与 Outputs 数量未变。

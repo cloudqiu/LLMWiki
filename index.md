@@ -1100,6 +1100,8 @@
 - [Go 第三方库收件箱](raw/golang-libs-inbox.md) — 每行一个库名；用户要求时再摄入。
 - [Rust 第三方库收件箱](raw/rust-libs-inbox.md) — 每行一个库名；用户要求时再摄入。
 - [JVM 第三方库收件箱](raw/jvm-libs-inbox.md) — Java / Kotlin 共用；每行一个库名，用户要求时再摄入。
+- [Python 第三方库收件箱](raw/python-libs-inbox.md) — 每行一个 PyPI 发布名；用户要求时再摄入。
+- [npm 第三方包收件箱](raw/npm-libs-inbox.md) — JavaScript / TypeScript 共用；保留 scoped 包名，用户要求时再摄入。
 
 ## Backlog 待建页面
 
