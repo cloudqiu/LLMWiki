@@ -1,7 +1,7 @@
 # Index — 知识库目录
 
 > 内容目录（content-oriented）：本库所有页面的清单。每次 ingest 后更新；查询时**先读本文件**找候选页面，再深入具体页面。
-> 维护规则见 `AGENTS.md`（Codex）与 `CLAUDE.md`（Claude Code）。最近更新：2026-10-31。
+> 维护规则见 `AGENTS.md`（Codex）与 `CLAUDE.md`（Claude Code）。最近更新：2026-11-01。
 
 ## Sources 来源
 
@@ -36,6 +36,7 @@
 - [[pgservicefile-go-official-research]] — 解析 PostgreSQL .pg_service.conf 服务配置。 官方页面的 2026-10-31 查阅记录。
 - [[puddle-v2-go-official-research]] — 以泛型提供最小化的并发资源池。 官方页面的 2026-10-31 查阅记录。
 - [[koanf-maps-go-official-research]] — 供 koanf 使用的嵌套 map 复制、合并、展开等工具。 官方页面的 2026-10-31 查阅记录。
+- [[koanf-file-go-official-research]] — koanf 文件 provider 的官方包文档、README 与源码查阅记录；版本和监听事件差异已标注。
 
 ## Concepts 概念
 
@@ -90,6 +91,7 @@
 - [[pgservicefile-go]] — 解析 PostgreSQL .pg_service.conf 服务配置。
 - [[puddle-v2-go]] — 以泛型提供最小化的并发资源池。
 - [[koanf-maps-go]] — 供 koanf 使用的嵌套 map 复制、合并、展开等工具。
+- [[koanf-file-go]] — 从磁盘读取配置文件原始字节，配合 parser 加载并可监听变更。
 
 - [[olivier-poitrey]] — Olivier Poitrey 的身份、已摄入库和其他经官方账号核实的项目。
 
@@ -156,8 +158,9 @@
 - （待验证）google/uuid 的创始作者与当前维护者名单；Paul Borman 的具体角色已按官方证据限定。
 - （待验证）pgx 的完整当前维护者名单，以及用户项目版本与 v5.12.0 安全修复的相关性。
 - （待验证）koanf TOML parser v2 子模块的独立作者及完整当前维护者名单。
+- （待验证）koanf file provider 子模块的具体创建者及完整当前维护者名单；监听回调事件行为按目标版本核对。
 - （待验证）本轮新增 Go 库中，仅能核实组织或仓库账号的项目，其个人创建者和当前维护者；作者索引区分账号关联与个人贡献。
 
 ## Stats
 
-- 来源：**30** 份 ｜ wiki 页面：**94** ｜ Outputs：**0** ｜ 最近更新：2026-10-31
+- 来源：**31** 份 ｜ wiki 页面：**96** ｜ Outputs：**0** ｜ 最近更新：2026-11-01

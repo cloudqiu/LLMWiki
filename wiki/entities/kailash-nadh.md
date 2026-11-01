@@ -3,10 +3,10 @@ title: "Kailash Nadh"
 type: entity
 entity_type: person
 created: 2026-10-31
-updated: 2026-10-31
+updated: 2026-11-01
 tags: [go, koanf, author]
 status: growing
-sources: [raw/koanf-toml-v2-official-research-2026-10-31.md, raw/koanf-rawbytes-go-official-research-2026-10-31.md, raw/koanf-v2-go-official-research-2026-10-31.md, raw/koanf-maps-go-official-research-2026-10-31.md]
+sources: [raw/koanf-toml-v2-official-research-2026-10-31.md, raw/koanf-rawbytes-go-official-research-2026-10-31.md, raw/koanf-v2-go-official-research-2026-10-31.md, raw/koanf-maps-go-official-research-2026-10-31.md, raw/koanf-file-go-official-research-2026-11-01.md]
 ---
 
 # Kailash Nadh
@@ -20,6 +20,7 @@ GitHub 账号 `knadh` 的主页显示姓名 Kailash Nadh。koanf 官方 LICENSE 
 - [[koanf-toml-v2-go]] — 所属 koanf 项目的原始版权署名者、近期发布参与者；子模块具体作者待验证。查阅日期：2026-10-31。（raw 第 2–3 节）
 
 - [[koanf-v2-go]]、[[koanf-rawbytes-go]]、[[koanf-maps-go]] — koanf 家族模块；项目原始署名可核实，子模块独立作者待验证。
+- [[koanf-file-go]] — 文件 provider；koanf 项目原始版权署名和发布参与可核实，file 子模块具体作者待验证。查阅日期：2026-11-01。（raw「作者与关联」）
 
 ## 其他已核实的库
 

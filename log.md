@@ -380,3 +380,10 @@
 - 新建 5 个可核实个人账号作者页和 6 个组织项目索引页；更新 Jack Christensen、Kailash Nadh 的已摄入库列表。
 - 尚不能从官方资料证明的个人创建者及维护者已列入 index Backlog，未把组织仓库归属写成唯一作者。
 - 补充 perks 的 Blake Mizerany 原始版权署名与 Björn Rabenstein 当前仓库账号索引，未推断其各自的维护范围。
+
+## [2026-11-01] ingest | koanf file provider（Go）
+
+- 按收件箱默认一次一个规则处理下一项 `github.com/knadh/koanf/providers/file`；未改动用户收件箱或 Obsidian 状态文件。
+- 查阅 Go Packages、koanf README、file provider 源码与 go.mod、LICENSE 和 Kailash Nadh 资料；新建 `raw/koanf-file-go-official-research-2026-11-01.md`（查阅笔记，非官方原文副本）、[[koanf-file-go-official-research]]、[[koanf-file-go]]；更新 [[kailash-nadh]]。
+- 明确 file provider 只读取原始字节，需配合 parser；README 与当前源码对监听回调事件有差异，目标版本待核。示例未运行；子模块具体作者和完整维护者名单待验证。
+- 更新 `index.md`：来源 30→31，wiki 页面 94→96；其余收件箱条目继续待摄入。
