@@ -212,6 +212,8 @@
 - [[rivo-uniseg-go-official-research]] — 处理 Unicode 字素簇、换行和终端宽度；2026-11-01 官方仓库或包文档查阅。
 - [[rogpeppe-go-internal-go-official-research]] — 提供从 Go 工具链抽出的辅助包；2026-11-01 官方仓库或包文档查阅。
 
+- [[ldez-grignotin-go-official-research]] — Grignotin：Go proxy、模块信息、版本和环境变量辅助包的官方仓库查阅。2026-11-01 摄入。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -501,6 +503,8 @@
 - [[nishanths-account]] — nishanths 仓库账号与本库已摄入项目索引；具体个人角色待核实。
 - [[quasilyte-account]] — quasilyte 仓库账号与本库已摄入项目索引；具体个人角色待核实。
 
+- [[ldez-grignotin-go]] — 多个 Go 元信息辅助子包；收件箱及用户补充拼写已按官方路径消歧。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -581,10 +585,9 @@
 - （待验证）[[golangci-plugin-module-register-go]]、[[golangci-swaggoswag-go]]、[[gostaticanalysis-analysisutil-go]] 与 [[gostaticanalysis-comment-go]] 的独立最小 API 示例。
 - （待验证）本批 CLI 及 Go 示例在目标版本的实际编译和运行；尤其核对 golangci-lint v2 参数与 fork 模块路径。
 
-- （待确认）收件箱 `github.com/ldez/girgnotin` 未找到可靠官方项目；需用户提供准确路径或来源，未记为已摄入。
 - （待验证）本批新库的个人创建者和现任维护者；仓库账号索引仅证明项目关联。
 - （待验证）本批标为 stub 的库页需要官方 API 最小示例；其余示例尚未在本机编译或运行。
 
 ## Stats
 
-- 来源：**199** 份 ｜ wiki 页面：**466** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**200** 份 ｜ wiki 页面：**468** ｜ Outputs：**1** ｜ 最近更新：2026-11-01

@@ -6,7 +6,7 @@ created: 2026-11-01
 updated: 2026-11-01
 tags: [go, author-index]
 status: growing
-sources: [raw/ldez-exptostd-go-official-research-2026-11-01.md, raw/ldez-gomodirectives-go-official-research-2026-11-01.md, raw/ldez-structtags-go-official-research-2026-11-01.md, raw/ldez-tagliatelle-go-official-research-2026-11-01.md, raw/ldez-usetesting-go-official-research-2026-11-01.md]
+sources: [raw/ldez-exptostd-go-official-research-2026-11-01.md, raw/ldez-gomodirectives-go-official-research-2026-11-01.md, raw/ldez-grignotin-go-official-research-2026-11-01.md, raw/ldez-structtags-go-official-research-2026-11-01.md, raw/ldez-tagliatelle-go-official-research-2026-11-01.md, raw/ldez-usetesting-go-official-research-2026-11-01.md]
 ---
 
 # ldez GitHub 账号
@@ -19,6 +19,7 @@ sources: [raw/ldez-exptostd-go-official-research-2026-11-01.md, raw/ldez-gomodir
 
 - [[ldez-exptostd-go]]：仓库账号关联；创建和现任维护角色待验证。
 - [[ldez-gomodirectives-go]]：仓库账号关联；创建和现任维护角色待验证。
+- [[ldez-grignotin-go]]：仓库账号关联；创建和现任维护角色待验证。
 - [[ldez-structtags-go]]：仓库账号关联；创建和现任维护角色待验证。
 - [[ldez-tagliatelle-go]]：仓库账号关联；创建和现任维护角色待验证。
 - [[ldez-usetesting-go]]：仓库账号关联；创建和现任维护角色待验证。

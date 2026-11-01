@@ -450,3 +450,9 @@
 - 将 `copyloader`→`copyloopvar`、`testableexemples`→`testableexamples`、`predecalred`→`predeclared`、`rogpeople`→`rogpeppe` 显式映射；两个 quasilyte 子包按所属模块记录。
 - `github.com/ldez/girgnotin` 无法可靠辨认，保留在 Backlog，不作为已摄入库。部分库缺少可确认最小 API 示例而标 stub；其余示例未在本机运行。个人创建者及现任维护者待核实。
 - 来源 157→199，wiki 页面 377→466，Outputs 保持 1。
+
+## [2026-11-01] ingest | Grignotin 路径消歧与补摄入
+
+- 用户补充 `github.com/ldex/grignotin` 后核对官方仓库，确认实际路径为 `github.com/ldez/grignotin`；收件箱原条目 `github.com/ldez/girgnotin` 未修改。
+- 新增 `raw/ldez-grignotin-go-official-research-2026-11-01.md`、[[ldez-grignotin-go-official-research]]、[[ldez-grignotin-go]]；更新 [[ldez-account]]、`index.md` 和本日志。示例对照官方 README，未在本机运行；具体个人作者及维护角色待验证。
+- 来源 199→200，wiki 页面 466→468，Outputs 保持 1；本批 43 个新增收件箱条目均已归档或明确消歧。
