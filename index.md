@@ -251,6 +251,56 @@
 - [[yagipy-maintidx-go-official-research]] — 计算 Go 函数的 maintainability index：2026-11-01 官方资料查阅。
 - [[ykadowak-zerologlint-go-official-research]] — 检查 zerolog 事件未调用 Send 或 Msg：2026-11-01 官方资料查阅。
 
+- [[addr2line-rust-official-research]] — 从 DWARF 调试信息按地址查源文件、行号和函数名。 2026-11-01 官方发布文档查阅记录。
+- [[adler2-rust-official-research]] — 计算 Adler-32 校验和，支持字节切片与流。 2026-11-01 官方发布文档查阅记录。
+- [[anstream-rust-official-research]] — 让 ANSI 彩色输出适应终端能力的 stdout/stderr 流。 2026-11-01 官方发布文档查阅记录。
+- [[anstyle-rust-official-research]] — 提供可跨 crate 共享的 ANSI 文本样式类型。 2026-11-01 官方发布文档查阅记录。
+- [[anstyle-parse-rust-official-research]] — 解析 ANSI 转义序列的状态机，供终端模拟器使用。 2026-11-01 官方发布文档查阅记录。
+- [[anstyle-query-rust-official-research]] — 查询终端颜色与样式能力。 2026-11-01 官方发布文档查阅记录。
+- [[anstyle-wincon-rust-official-research]] — 在旧版 Windows 控制台上呈现 ANSI 样式。 2026-11-01 官方发布文档查阅记录。
+- [[anyhow-rust-official-research]] — 用统一的 Error 与 Context 处理应用层错误。 2026-11-01 官方发布文档查阅记录。
+- [[anyhow-ext-rust-official-research]] — 在 anyhow 错误链中添加源码位置与简短回溯。 2026-11-01 官方发布文档查阅记录。
+- [[arboard-rust-official-research]] — 跨平台读取与写入系统剪贴板。 2026-11-01 官方发布文档查阅记录。
+- [[async-stream-rust-official-research]] — 用 stream! 与 try_stream! 宏创建异步流。 2026-11-01 官方发布文档查阅记录。
+- [[async-stream-impl-rust-official-research]] — async-stream 的过程宏实现组件，通常不直接依赖。 2026-11-01 官方发布文档查阅记录。
+- [[atomic-waker-rust-official-research]] — 提供可跨线程注册和唤醒任务的 AtomicWaker。 2026-11-01 官方发布文档查阅记录。
+- [[autocfg-rust-official-research]] — 在 build.rs 中检测 rustc 功能并发出 cfg。 2026-11-01 官方发布文档查阅记录。
+- [[axum-rust-official-research]] — 以路由、提取器和 Tower 中间件构建 HTTP 服务。 2026-11-01 官方发布文档查阅记录。
+- [[axum-core-rust-official-research]] — 供 axum 扩展作者实现请求提取与响应转换的核心类型。 2026-11-01 官方发布文档查阅记录。
+- [[backtrace-rust-official-research]] — 在运行时采集并解析调用栈。 2026-11-01 官方发布文档查阅记录。
+- [[base64-rust-official-research]] — 按可配置字母表和填充规则编码、解码 Base64。 2026-11-01 官方发布文档查阅记录。
+- [[bitflags-rust-official-research]] — 用宏声明位标志类型及其运算。 2026-11-01 官方发布文档查阅记录。
+- [[block-buffer-rust-official-research]] — 为哈希等分块算法提供定长块缓冲。 2026-11-01 官方发布文档查阅记录。
+- [[bumpalo-rust-official-research]] — 提供分阶段批量释放的 bump arena 分配器。 2026-11-01 官方发布文档查阅记录。
+- [[bytemuck-rust-official-research]] — 在满足数据布局约束时安全地转换普通数据类型。 2026-11-01 官方发布文档查阅记录。
+- [[byteorder-rust-official-research]] — 按大端或小端编码、解码数值。 2026-11-01 官方发布文档查阅记录。
+- [[byteorder-lite-rust-official-research]] — byteorder 的禁止 unsafe 变体，删去部分需要 unsafe 的方法。 2026-11-01 官方发布文档查阅记录。
+- [[bytes-rust-official-research]] — 提供高效字节缓冲 Bytes、BytesMut 与 Buf 接口。 2026-11-01 官方发布文档查阅记录。
+- [[cc-rust-official-research]] — 在 Cargo 构建脚本中编译 C/C++ 等源码。 2026-11-01 官方发布文档查阅记录。
+- [[cfg-if-rust-official-research]] — 按 cfg 条件选择首个匹配的代码块。 2026-11-01 官方发布文档查阅记录。
+- [[cfg-aliases-rust-official-research]] — 在 build.rs 中定义可复用的 cfg 条件别名。 2026-11-01 官方发布文档查阅记录。
+- [[clap-rust-official-research]] — 解析命令行参数并生成帮助信息。 2026-11-01 官方发布文档查阅记录。
+- [[clap-cargo-rust-official-research]] — 为 Cargo 插件复用 manifest、workspace 等 CLI 参数。 2026-11-01 官方发布文档查阅记录。
+- [[clap-builder-rust-official-research]] — clap 的 builder API 实现组件。 2026-11-01 官方发布文档查阅记录。
+- [[clap-derive-rust-official-research]] — clap 的派生宏实现组件。 2026-11-01 官方发布文档查阅记录。
+- [[clap-lex-rust-official-research]] — 低层命令行 token 解析器。 2026-11-01 官方发布文档查阅记录。
+- [[clipboard-win-rust-official-research]] — 访问 Windows 剪贴板。 2026-11-01 官方发布文档查阅记录。
+- [[colorchoice-rust-official-research]] — 提供进程级终端颜色输出控制。 2026-11-01 官方发布文档查阅记录。
+- [[colored-rust-official-research]] — 用 Colorize trait 给终端文本着色。 2026-11-01 官方发布文档查阅记录。
+- [[cpufeatures-rust-official-research]] — 在运行时检测 CPU 指令集功能。 2026-11-01 官方发布文档查阅记录。
+- [[crc32fast-rust-official-research]] — 快速计算 IEEE CRC32 校验和。 2026-11-01 官方发布文档查阅记录。
+- [[crypto-common-rust-official-research]] — 提供密码算法共用的底层 trait，通常由高层库封装。 2026-11-01 官方发布文档查阅记录。
+- [[dashmap-rust-official-research]] — 提供可并发访问的哈希映射。 2026-11-01 官方发布文档查阅记录。
+- [[deranged-rust-official-research]] — 提供有范围约束的整数类型。 2026-11-01 官方发布文档查阅记录。
+- [[digest-rust-official-research]] — 定义密码学摘要算法的共用 trait。 2026-11-01 官方发布文档查阅记录。
+- [[dispatch2-rust-official-research]] — 安全访问 Apple Grand Central Dispatch 队列。 2026-11-01 官方发布文档查阅记录。
+- [[displaydoc-rust-official-research]] — 从文档注释派生 Display 实现。 2026-11-01 官方发布文档查阅记录。
+- [[dns-lookup-rust-official-research]] — 执行正向和反向 DNS 查询。 2026-11-01 官方发布文档查阅记录。
+- [[endian-type-rust-official-research]] — 用类型表示数值的字节序。 2026-11-01 官方发布文档查阅记录。
+- [[equivalent-rust-official-research]] — 为映射查找定义跨类型键等价和比较 trait。 2026-11-01 官方发布文档查阅记录。
+- [[errno-rust-official-research]] — 跨平台读取和设置线程局部 errno。 2026-11-01 官方发布文档查阅记录。
+- [[error-code-rust-official-research]] — 封装 POSIX/Windows 系统错误码和错误类别。 2026-11-01 官方发布文档查阅记录。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -583,6 +633,56 @@
 - [[sashamelentyev-account]] — sashamelentyev 官方账号及本库相关项目索引，具体角色按来源限定。
 - [[ultraware-account]] — ultraware 官方账号及本库相关项目索引，具体角色按来源限定。
 
+- [[addr2line-rust]] — 从 DWARF 调试信息按地址查源文件、行号和函数名。
+- [[adler2-rust]] — 计算 Adler-32 校验和，支持字节切片与流。
+- [[anstream-rust]] — 让 ANSI 彩色输出适应终端能力的 stdout/stderr 流。
+- [[anstyle-rust]] — 提供可跨 crate 共享的 ANSI 文本样式类型。
+- [[anstyle-parse-rust]] — 解析 ANSI 转义序列的状态机，供终端模拟器使用。
+- [[anstyle-query-rust]] — 查询终端颜色与样式能力。
+- [[anstyle-wincon-rust]] — 在旧版 Windows 控制台上呈现 ANSI 样式。
+- [[anyhow-rust]] — 用统一的 Error 与 Context 处理应用层错误。
+- [[anyhow-ext-rust]] — 在 anyhow 错误链中添加源码位置与简短回溯。
+- [[arboard-rust]] — 跨平台读取与写入系统剪贴板。
+- [[async-stream-rust]] — 用 stream! 与 try_stream! 宏创建异步流。
+- [[async-stream-impl-rust]] — async-stream 的过程宏实现组件，通常不直接依赖。
+- [[atomic-waker-rust]] — 提供可跨线程注册和唤醒任务的 AtomicWaker。
+- [[autocfg-rust]] — 在 build.rs 中检测 rustc 功能并发出 cfg。
+- [[axum-rust]] — 以路由、提取器和 Tower 中间件构建 HTTP 服务。
+- [[axum-core-rust]] — 供 axum 扩展作者实现请求提取与响应转换的核心类型。
+- [[backtrace-rust]] — 在运行时采集并解析调用栈。（收件箱 `bracktrace` 映射）
+- [[base64-rust]] — 按可配置字母表和填充规则编码、解码 Base64。
+- [[bitflags-rust]] — 用宏声明位标志类型及其运算。
+- [[block-buffer-rust]] — 为哈希等分块算法提供定长块缓冲。
+- [[bumpalo-rust]] — 提供分阶段批量释放的 bump arena 分配器。
+- [[bytemuck-rust]] — 在满足数据布局约束时安全地转换普通数据类型。
+- [[byteorder-rust]] — 按大端或小端编码、解码数值。
+- [[byteorder-lite-rust]] — byteorder 的禁止 unsafe 变体，删去部分需要 unsafe 的方法。
+- [[bytes-rust]] — 提供高效字节缓冲 Bytes、BytesMut 与 Buf 接口。
+- [[cc-rust]] — 在 Cargo 构建脚本中编译 C/C++ 等源码。
+- [[cfg-if-rust]] — 按 cfg 条件选择首个匹配的代码块。
+- [[cfg-aliases-rust]] — 在 build.rs 中定义可复用的 cfg 条件别名。
+- [[clap-rust]] — 解析命令行参数并生成帮助信息。
+- [[clap-cargo-rust]] — 为 Cargo 插件复用 manifest、workspace 等 CLI 参数。
+- [[clap-builder-rust]] — clap 的 builder API 实现组件。
+- [[clap-derive-rust]] — clap 的派生宏实现组件。
+- [[clap-lex-rust]] — 低层命令行 token 解析器。
+- [[clipboard-win-rust]] — 访问 Windows 剪贴板。
+- [[colorchoice-rust]] — 提供进程级终端颜色输出控制。
+- [[colored-rust]] — 用 Colorize trait 给终端文本着色。
+- [[cpufeatures-rust]] — 在运行时检测 CPU 指令集功能。
+- [[crc32fast-rust]] — 快速计算 IEEE CRC32 校验和。
+- [[crypto-common-rust]] — 提供密码算法共用的底层 trait，通常由高层库封装。
+- [[dashmap-rust]] — 提供可并发访问的哈希映射。
+- [[deranged-rust]] — 提供有范围约束的整数类型。
+- [[digest-rust]] — 定义密码学摘要算法的共用 trait。
+- [[dispatch2-rust]] — 安全访问 Apple Grand Central Dispatch 队列。
+- [[displaydoc-rust]] — 从文档注释派生 Display 实现。
+- [[dns-lookup-rust]] — 执行正向和反向 DNS 查询。
+- [[endian-type-rust]] — 用类型表示数值的字节序。
+- [[equivalent-rust]] — 为映射查找定义跨类型键等价和比较 trait。
+- [[errno-rust]] — 跨平台读取和设置线程局部 errno。
+- [[error-code-rust]] — 封装 POSIX/Windows 系统错误码和错误类别。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -608,6 +708,10 @@
 - [JVM 第三方库收件箱](raw/jvm-libs-inbox.md) — Java / Kotlin 共用；每行一个库名，用户要求时再摄入。
 
 ## Backlog 待建页面
+
+- Rust 库身份核实：本批 49 个 crate 的个人创建者与现任维护者尚缺可靠官方证据；逐库查仓库 README、组织主页和维护政策后补作者页与双向链接。
+- Rust 示例验证：本批按 docs.rs 公共 API 整理的片段均未在本机编译；低层组件的独立最小示例待从官方项目补齐。
+- `bracktrace`：收件箱疑似拼写错误，暂映射 [[backtrace-rust]]；需由实际 Cargo.lock 或用户原始依赖清单确认。
 
 - （建议）Engelbart《Augmenting Human Intellect》(1962)：memex → 人机协同的直接后续
 - （建议）超文本谱系：Nelson/Xanadu、H.G. Wells《World Brain》(1938)
@@ -671,4 +775,4 @@
 
 ## Stats
 
-- 来源：**236** 份 ｜ wiki 页面：**544** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**285** 份 ｜ wiki 页面：**642** ｜ Outputs：**1** ｜ 最近更新：2026-11-01

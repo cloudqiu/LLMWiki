@@ -1,0 +1,44 @@
+---
+title: "base64"
+type: entity
+entity_type: tool
+created: 2026-11-01
+updated: 2026-11-01
+tags: [rust, library]
+status: growing
+sources: [raw/base64-rust-official-research-2026-11-01.md]
+---
+
+# base64
+
+## 用途与适用场景
+
+按可配置字母表和填充规则编码、解码 Base64。（[[base64-rust-official-research]]）
+
+## 依赖与版本
+
+- Rust / Cargo；`cargo add base64`。实际版本以项目 Cargo.lock 为准。
+- 2026-11-01 查阅 docs.rs 的 0.23.1 文档；crate 名含连字符时，Rust import 通常将连字符写成下划线。
+
+## 作者与维护者
+
+- 创建者：待验证。
+- 当前维护者：待验证。包 owner 或仓库归属本身不等于个人作者身份或完整维护者名单。
+
+## 典型用法
+
+以下片段依据官方文档公开 API 整理，需补足调用上下文、启用适当 feature 并按实际锁定版本编译；**未在本机运行**。
+
+```rust
+use base64::Engine as _;
+let encoded = base64::engine::general_purpose::STANDARD.encode(b"hello");
+```
+
+## 关键限制
+
+- 平台、feature 与版本边界须按实际项目核对。
+
+## 来源
+
+- [[base64-rust-official-research]]；本地查阅记录：`raw/base64-rust-official-research-2026-11-01.md`。
+- [官方文档](https://docs.rs/base64/latest/base64/)；[crates.io](https://crates.io/crates/base64)。

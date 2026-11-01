@@ -463,3 +463,10 @@
 - 将 `ssgrep/nlreturn/v2` 对应到官方 `ssgreg/nlreturn/v2`，`ultraware/wihtespace` 对应到 `ultraware/whitespace`；`ryancurrah/gomodguard/v2` 按官方 v2 CLI 子模块 `ryancurrah/gomodguard/cmd/gomodguard/v2` 记录。
 - 版本边界：`jsonschema/v6` 使用 v6 包文档；Logrus 维护模式、Testify v1 维护策略按项目 README 记录。所有示例未在本机运行；个人创建及现任维护者未由仓库归属推断。
 - 来源 200→236，wiki 页面 468→544，Outputs 保持 1。
+
+## [2026-11-01] ingest | Rust 收件箱 49 项
+
+- 用户要求批量摄入 Rust 收件箱全部 49 项；按 docs.rs 发布文档核对 crate 名称、用途与显示版本，新建 49 份 `raw/*-rust-official-research-2026-11-01.md` 查阅笔记、49 个来源页、49 个库页，并更新 `index.md` 与本日志。收件箱原文未改，也未纳入提交。
+- `bracktrace` 没有可访问的正式文档，暂映射为有文档的 `backtrace`，在页面与 Backlog 保留待确认事项；`anyhow_ext`、`error-code` 等确有独立 crate，名称中的连字符与 import 下划线已区分。
+- 研究笔记是对官方发布文档的整理，不是官方原文副本。示例未在本机编译运行；个人创建者和现任维护者没有足够官方证据时一律标待验证，未凭包 owner 建作者页。低层实现组件缺少可靠独立示例的页面标 stub。
+- 来源 236→285，wiki 页面 544→642，Outputs 保持 1。
