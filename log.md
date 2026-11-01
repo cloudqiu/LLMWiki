@@ -414,3 +414,10 @@
 - 将收件箱 `github.com/AlwxSin/nolineerr` 映射至官方 `github.com/AlwxSin/noinlineerr`；记录 garif 文档中的旧 import、go-errorlint GitHub 仓库迁移与 golangci-lint v2 路径。
 - 示例未在本机编译或运行；无法可靠确认的个人创建者、现任维护者与部分独立 CLI 用法保留待验证。
 - 更新 `index.md`：来源 52→69，wiki 页面 142→180，Outputs 保持 1。
+
+## [2026-11-01] ingest | Go 收件箱新增 22 项
+
+- 按用户请求批量摄入收件箱新增 22 项：新建 22 份原始资料查阅记录、22 个来源页、22 个库页、5 个身份索引；原收件箱未修改。
+- 将 `github.com/alignse/ninnesser` 映射到官方 `github.com/alingse/nilnesserr`；对 /v2、CLI 安装路径和外部 Sass 运行时的边界做显式标注。
+- 用法示例均未在本机运行；不确定的个人作者或当前维护者保留待验证。
+- `index.md` 统计：来源 69→91；wiki 页面 180→229；Outputs 保持 1。

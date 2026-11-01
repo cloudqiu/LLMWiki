@@ -78,6 +78,29 @@
 - [[noinlineerr-go-official-research]] — 检查在 if 语句初始化部分内联声明 err 的写法。 2026-11-01 官方资料查阅记录。
 - [[errname-go-official-research]] — 检查哨兵错误 Err 前缀和错误类型 Error 后缀命名。 2026-11-01 官方资料查阅记录。
 
+- [[nilnil-go-official-research]] — 检查同时返回 nil 值和 nil error 的含糊结果。 2026-11-01 官方资料查阅记录。
+- [[testifylint-go-official-research]] — 检查 testify 测试断言写法，减少含糊或错误的断言。 2026-11-01 官方资料查阅记录。
+- [[burntsushi-toml-go-official-research]] — 把 TOML 文本解码到 Go 结构体并编码回 TOML。 2026-11-01 官方资料查阅记录。
+- [[clickhouse-go-linter-go-official-research]] — 检查 ClickHouse 原生 Go API 中 rows.Err 和 batch.Close 遗漏。 2026-11-01 官方资料查阅记录。
+- [[go-err113-go-official-research]] — 检查错误直接比较与动态新建错误等 Go 1.13 后错误处理风格。 2026-11-01 官方资料查阅记录。
+- [[masterminds-semver-v3-go-official-research]] — 解析 Semantic Version 并检验版本约束。 2026-11-01 官方资料查阅记录。
+- [[unqueryvet-go-official-research]] — 检查 SQL 查询中 SELECT * 等不显式选列的写法。 2026-11-01 官方资料查阅记录。
+- [[depguard-v2-go-official-research]] — 按 allow/deny 规则检查 Go import。 2026-11-01 官方资料查阅记录。
+- [[air-go-official-research]] — 开发时监听 Go 项目变更并自动重新构建、运行。 2026-11-01 官方资料查阅记录。
+- [[chroma-v2-go-official-research]] — 以纯 Go lexer 和 formatter 给代码做语法高亮。 2026-11-01 官方资料查阅记录。
+- [[go-check-sumtype-go-official-research]] — 检查 Go 模拟 sum type 的 switch 分支是否穷尽。 2026-11-01 官方资料查阅记录。
+- [[nakedret-v2-go-official-research]] — 找出超过长度阈值的函数里的裸 return。 2026-11-01 官方资料查阅记录。
+- [[prealloc-go-official-research]] — 提示可预分配容量的 slice 构造，减少扩容。 2026-11-01 官方资料查阅记录。
+- [[alfatraining-structtag-go-official-research]] — 解析和检查 Go 结构体字段 tag。 2026-11-01 官方资料查阅记录。
+- [[asasalint-go-official-research]] — 找出把 any slice 错误地作为单个 any 传入可变参数函数的情况。 2026-11-01 官方资料查阅记录。
+- [[nilnesserr-go-official-research]] — 组合 nilness 与 nilerr 检查，找出不一致的 nil/error 返回。 2026-11-01 官方资料查阅记录。
+- [[brotli-go-official-research]] — 纯 Go Brotli 编码与解码，适合 HTTP 压缩或文件流。 2026-11-01 官方资料查阅记录。
+- [[forbidigo-v2-go-official-research]] — 按规则禁止特定 Go 标识符或调用，例如调试输出。 2026-11-01 官方资料查阅记录。
+- [[makezero-v2-go-official-research]] — 检查先创建非零长度 slice 又 append 导致多出零值元素。 2026-11-01 官方资料查阅记录。
+- [[godartsass-v2-go-official-research]] — 通过 Dart Sass Embedded 协议从 Go 编译 Sass/SCSS。 2026-11-01 官方资料查阅记录。
+- [[golibsass-go-official-research]] — 从 Go 调用 LibSass 编译 SCSS。 2026-11-01 官方资料查阅记录。
+- [[bitset-go-official-research]] — 用可扩展位集合存储非负整数的布尔状态。 2026-11-01 官方资料查阅记录。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -207,6 +230,34 @@
 - [[dario-castane]] — Dario Castañé 的项目与角色索引；区分仓库归属与个人作者。
 - [[gaijin-entertainment]] — Gaijin Entertainment 的项目与角色索引；区分仓库归属与个人作者。
 
+- [[nilnil-go]] — 检查同时返回 nil 值和 nil error 的含糊结果。
+- [[testifylint-go]] — 检查 testify 测试断言写法，减少含糊或错误的断言。
+- [[burntsushi-toml-go]] — 把 TOML 文本解码到 Go 结构体并编码回 TOML。
+- [[clickhouse-go-linter-go]] — 检查 ClickHouse 原生 Go API 中 rows.Err 和 batch.Close 遗漏。
+- [[go-err113-go]] — 检查错误直接比较与动态新建错误等 Go 1.13 后错误处理风格。
+- [[masterminds-semver-v3-go]] — 解析 Semantic Version 并检验版本约束。
+- [[unqueryvet-go]] — 检查 SQL 查询中 SELECT * 等不显式选列的写法。
+- [[depguard-v2-go]] — 按 allow/deny 规则检查 Go import。
+- [[air-go]] — 开发时监听 Go 项目变更并自动重新构建、运行。
+- [[chroma-v2-go]] — 以纯 Go lexer 和 formatter 给代码做语法高亮。
+- [[go-check-sumtype-go]] — 检查 Go 模拟 sum type 的 switch 分支是否穷尽。
+- [[nakedret-v2-go]] — 找出超过长度阈值的函数里的裸 return。
+- [[prealloc-go]] — 提示可预分配容量的 slice 构造，减少扩容。
+- [[alfatraining-structtag-go]] — 解析和检查 Go 结构体字段 tag。
+- [[asasalint-go]] — 找出把 any slice 错误地作为单个 any 传入可变参数函数的情况。
+- [[nilnesserr-go]] — 组合 nilness 与 nilerr 检查，找出不一致的 nil/error 返回。
+- [[brotli-go]] — 纯 Go Brotli 编码与解码，适合 HTTP 压缩或文件流。
+- [[forbidigo-v2-go]] — 按规则禁止特定 Go 标识符或调用，例如调试输出。
+- [[makezero-v2-go]] — 检查先创建非零长度 slice 又 append 导致多出零值元素。
+- [[godartsass-v2-go]] — 通过 Dart Sass Embedded 协议从 Go 编译 Sass/SCSS。
+- [[golibsass-go]] — 从 Go 调用 LibSass 编译 SCSS。
+- [[bitset-go]] — 用可扩展位集合存储非负整数的布尔状态。
+- [[anton-telyshev]] — Anton Telyshev 的身份及 Go 项目索引。
+- [[andrew-gallant]] — Andrew Gallant 的身份及 Go 项目索引。
+- [[alec-thomas]] — Alec Thomas 的身份及 Go 项目索引。
+- [[bjorn-erik-pedersen]] — Bjørn Erik Pedersen 的身份及 Go 项目索引。
+- [[clickhouse]] — ClickHouse 的身份及 Go 项目索引。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -265,6 +316,21 @@
 - `github.com/AlwxSin/noinlineerr`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
 - `github.com/Antonboom/errname`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
 
+- `github.com/Djarvur/go-err113`：个人创建者及当前维护者待验证。
+- `github.com/Masterminds/semver/v3`：个人创建者及当前维护者待验证。
+- `github.com/MirrexOne/unqueryvet`：个人创建者及当前维护者待验证。
+- `github.com/OpenPeeDeeP/depguard/v2`：个人创建者及当前维护者待验证。
+- `github.com/air-verse/air`：个人创建者及当前维护者待验证。
+- `github.com/alexkohler/nakedret/v2`：个人创建者及当前维护者待验证。
+- `github.com/alexkohler/prealloc`：个人创建者及当前维护者待验证。
+- `github.com/alfatraining/structtag`：个人创建者及当前维护者待验证。
+- `github.com/alingse/asasalint`：个人创建者及当前维护者待验证。
+- `github.com/alingse/nilnesserr`：个人创建者及当前维护者待验证。
+- `github.com/andybalholm/brotli`：个人创建者及当前维护者待验证。
+- `github.com/ashanbrown/forbidigo/v2`：个人创建者及当前维护者待验证。
+- `github.com/ashanbrown/makezero/v2`：个人创建者及当前维护者待验证。
+- `github.com/bits-and-blooms/bitset`：个人创建者及当前维护者待验证。
+
 ## Stats
 
-- 来源：**69** 份 ｜ wiki 页面：**180** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**91** 份 ｜ wiki 页面：**229** ｜ Outputs：**1** ｜ 最近更新：2026-11-01

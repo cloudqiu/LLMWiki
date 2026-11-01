@@ -23,7 +23,7 @@ sources: [raw/errname-go-official-research-2026-11-01.md]
 
 ## 作者与维护者
 
-- Antonboom 账号仓库；个人创建者与当前维护者待验证。
+- [[anton-telyshev]] 对应 Antonboom 账号；个人独立创建者与当前维护者待验证。
 
 ## 典型用法
 
