@@ -407,3 +407,10 @@
 - 新建 `output/2026-11-01-lint.md`：检查 142 个 wiki 页面、52 个来源页及 57 个 raw Markdown 文件；未发现缺页 wikilink、孤立页、缺失来源文件或未登记 wiki 页。
 - 标出 2 份未摄入的 raw 资料及 43 个未运行的 Go 库示例；近期 P99 的 `perks.Merge` 冲突已在多处显式标注。本轮未重新验证全部外部网页或编译示例。
 - 更新 [[prometheus-client-golang-go]] 的 `[[distributed-quantiles]]` 反向链接与来源；`index.md` 登记报告、Backlog 候选，Outputs 0→1；raw 和用户收件箱未改。
+
+## [2026-11-01] ingest | Go 第三方库收件箱新增 17 项
+
+- 按用户明确请求批量摄入 17 项：新增 17 份 `raw/` 官方资料查阅笔记、17 个来源页、17 个库页、4 个作者或组织索引；收件箱与 Obsidian 状态文件未改。
+- 将收件箱 `github.com/AlwxSin/nolineerr` 映射至官方 `github.com/AlwxSin/noinlineerr`；记录 garif 文档中的旧 import、go-errorlint GitHub 仓库迁移与 golangci-lint v2 路径。
+- 示例未在本机编译或运行；无法可靠确认的个人创建者、现任维护者与部分独立 CLI 用法保留待验证。
+- 更新 `index.md`：来源 52→69，wiki 页面 142→180，Outputs 保持 1。

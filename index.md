@@ -60,6 +60,24 @@
 - [[single-instance-p99-simulation]] — Go 单实例模拟原文；核对 `Count()`、格式化输出和误差定义。
 - [[multi-instance-p99-examples]] — 多实例 P99 原始方案；标注 perks Merge 损坏、t-digest API 不符与 Histogram 查询要求。
 
+- [[gci-go-official-research]] — 按可配置分组确定性整理 Go import，适合代码风格检查。 2026-11-01 官方资料查阅记录。
+- [[golangci-lint-v2-go-official-research]] — 聚合多种 Go linter 并统一配置、运行，适合项目和 CI。 2026-11-01 官方资料查阅记录。
+- [[mage-go-official-research]] — 用 Go 函数定义项目构建任务，适合替代部分 Makefile 脚本。 2026-11-01 官方资料查阅记录。
+- [[gofumpt-go-official-research]] — 在 gofmt 基础上施加更严格的 Go 代码格式规则。 2026-11-01 官方资料查阅记录。
+- [[gocheckcompilerdirectives-go-official-research]] — 检查 //go: 编译器指令注释是否有效，适合静态检查。 2026-11-01 官方资料查阅记录。
+- [[gochecknoglobals-go-official-research]] — 检测 Go 包级全局变量，帮助限制可变全局状态。 2026-11-01 官方资料查阅记录。
+- [[lipgloss-v2-go-official-research]] — 为终端 UI 文本和布局声明样式，适合 Charm 生态 TUI。 2026-11-01 官方资料查阅记录。
+- [[garif-go-official-research]] — 构造、修改并输出 SARIF 2.1.0 静态分析结果日志。 2026-11-01 官方资料查阅记录。
+- [[go-errorlint-go-official-research]] — 检查 Go 错误比较、类型断言与包装等用法，适合迁移至 errors.Is/As。 2026-11-01 官方资料查阅记录。
+- [[mergo-go-official-research]] — 把源结构体或 map 的值合并到目标，常用于填入默认配置。 2026-11-01 官方资料查阅记录。
+- [[exhaustruct-v5-go-official-research]] — 检查结构体字面量是否显式初始化全部字段。 2026-11-01 官方资料查阅记录。
+- [[golib-gaijin-go-official-research]] — Gaijin 的通用 Go 子包集合，可按需使用构建信息等组件。 2026-11-01 官方资料查阅记录。
+- [[tagalign-go-official-research]] — 对齐和整理 Go struct tag，适合格式检查与修复。 2026-11-01 官方资料查阅记录。
+- [[dupword-go-official-research]] — 检查 Go 代码或注释中的重复单词。 2026-11-01 官方资料查阅记录。
+- [[iota-mixing-go-official-research]] — 识别同一 const 块内把无关常量与 iota 枚举混写的风险。 2026-11-01 官方资料查阅记录。
+- [[noinlineerr-go-official-research]] — 检查在 if 语句初始化部分内联声明 err 的写法。 2026-11-01 官方资料查阅记录。
+- [[errname-go-official-research]] — 检查哨兵错误 Err 前缀和错误类型 Error 后缀命名。 2026-11-01 官方资料查阅记录。
+
 ## Concepts 概念
 
 - [[latency-percentiles]] — 延迟分位数的定义、用途、样本窗口与三个点不能重建完整分布的边界。
@@ -167,6 +185,28 @@
 - [[prometheus-project]] — 本库四个 Prometheus Go 模块的项目组织索引。
 - [[gustavo-niemeyer]] — go-yaml 原始开发者及项目停止维护声明。
 
+- [[gci-go]] — 按可配置分组确定性整理 Go import，适合代码风格检查。
+- [[golangci-lint-v2-go]] — 聚合多种 Go linter 并统一配置、运行，适合项目和 CI。
+- [[mage-go]] — 用 Go 函数定义项目构建任务，适合替代部分 Makefile 脚本。
+- [[gofumpt-go]] — 在 gofmt 基础上施加更严格的 Go 代码格式规则。
+- [[gocheckcompilerdirectives-go]] — 检查 //go: 编译器指令注释是否有效，适合静态检查。
+- [[gochecknoglobals-go]] — 检测 Go 包级全局变量，帮助限制可变全局状态。
+- [[lipgloss-v2-go]] — 为终端 UI 文本和布局声明样式，适合 Charm 生态 TUI。
+- [[garif-go]] — 构造、修改并输出 SARIF 2.1.0 静态分析结果日志。
+- [[go-errorlint-go]] — 检查 Go 错误比较、类型断言与包装等用法，适合迁移至 errors.Is/As。
+- [[mergo-go]] — 把源结构体或 map 的值合并到目标，常用于填入默认配置。
+- [[exhaustruct-v5-go]] — 检查结构体字面量是否显式初始化全部字段。
+- [[golib-gaijin-go]] — Gaijin 的通用 Go 子包集合，可按需使用构建信息等组件。
+- [[tagalign-go]] — 对齐和整理 Go struct tag，适合格式检查与修复。
+- [[dupword-go]] — 检查 Go 代码或注释中的重复单词。
+- [[iota-mixing-go]] — 识别同一 const 块内把无关常量与 iota 枚举混写的风险。
+- [[noinlineerr-go]] — 检查在 if 语句初始化部分内联声明 err 的写法。
+- [[errname-go]] — 检查哨兵错误 Err 前缀和错误类型 Error 后缀命名。
+- [[leigh-mcculloch]] — Leigh McCulloch 的项目与角色索引；区分仓库归属与个人作者。
+- [[charmbracelet]] — Charmbracelet 的项目与角色索引；区分仓库归属与个人作者。
+- [[dario-castane]] — Dario Castañé 的项目与角色索引；区分仓库归属与个人作者。
+- [[gaijin-entertainment]] — Gaijin Entertainment 的项目与角色索引；区分仓库归属与个人作者。
+
 ## Topics 主题
 
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
@@ -213,6 +253,18 @@
 - （待验证）对 P99 单实例原始示例产出可编译修正版并实测；多实例场景按目标流量、窗口与精度要求验证 Histogram 或 t-digest 方案。
 - （待摄入）`raw/为什么外企Leadership越来越看重员工的Emotional Control？.md`、`raw/微信为什么使用 SQLite 保存聊天记录？.md`；原文尚未进入 wiki，先核对出处与事实。
 
+- `github.com/daixiang0/gci`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+- `github.com/golangci/golangci-lint/v2`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+- `github.com/magefile/mage`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+- `mvdan.cc/gofumpt`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+- `codeberg.org/chavacava/garif`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+- `codeberg.org/polyfloyd/go-errorlint`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+- `github.com/4meepo/tagalign`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+- `github.com/Abirdcfly/dupword`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+- `github.com/AdminBenni/iota-mixing`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+- `github.com/AlwxSin/noinlineerr`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+- `github.com/Antonboom/errname`：个人创建者与当前维护者待验证；不得仅由仓库所属账号推断。
+
 ## Stats
 
-- 来源：**52** 份 ｜ wiki 页面：**142** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**69** 份 ｜ wiki 页面：**180** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
