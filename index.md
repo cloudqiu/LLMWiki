@@ -1454,7 +1454,7 @@
 - [[thiserror-rust]] — 通过派生宏为错误类型生成 Display 与 Error 实现。
 - [[thiserror-impl-rust]] — thiserror 的过程宏实现组件。
 - [[time-rust]] — 处理日期、时间、时区偏移及格式化。
-- [[time-core-rust]] — time crate 的内部基础类型和辅助组件。
+- [[time-core-rust]] — time 的内部单位换算与辅助函数；官方不建议应用直接依赖。
 - [[time-macros-rust]] — time crate 的编译期日期时间宏。
 - [[tinystr-rust]] — 为小型 ASCII/Unicode 标识符提供紧凑字符串类型。
 - [[tinyvec-rust]] — 提供无 unsafe 的小型向量容器。
@@ -1564,6 +1564,8 @@
 
 ## Answers 问答归档
 
+- [[rust-time-vs-time-core]] — 对照 time 与 time-core 的模块、公开类型及应用依赖方式。
+
 - [[rust-crate-core-split]] — 解释 Rust 项目为何拆出 `-core` crate，并以 time/time-core/time-macros 的依赖关系说明。
 
 （暂无——有值得留存的查询结果时归档到 `wiki/answers/`）
@@ -1654,4 +1656,4 @@
 
 ## Stats
 
-- 来源：**711** 份 ｜ wiki 页面：**1496** ｜ Outputs：**1** ｜ 最近更新：2026-11-02
+- 来源：**711** 份 ｜ wiki 页面：**1497** ｜ Outputs：**1** ｜ 最近更新：2026-11-02

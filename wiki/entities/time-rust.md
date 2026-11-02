@@ -6,7 +6,7 @@ created: 2026-11-01
 updated: 2026-11-02
 tags: [rust, library]
 status: growing
-sources: [raw/time-rust-official-research-2026-11-01.md, raw/rust-core-crate-split-official-research-2026-11-02.md]
+sources: [raw/time-rust-official-research-2026-11-01.md, raw/rust-core-crate-split-official-research-2026-11-02.md, raw/time-vs-time-core-official-research-2026-11-02.md]
 ---
 
 # time
@@ -14,6 +14,8 @@ sources: [raw/time-rust-official-research-2026-11-01.md, raw/rust-core-crate-spl
 ## 用途与适用场景
 
 处理日期、时间、时区偏移及格式化。（[[time-rust-official-research]]）
+
+公开类型包括 `Date`、`Time`、`PlainDateTime`、`OffsetDateTime`、`UtcOffset`、`SignedDuration`、`Month`、`Weekday`；宏、格式化、解析等功能需启用相应 feature。详见 [[rust-time-vs-time-core]]。
 
 ## 依赖与版本
 

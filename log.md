@@ -524,3 +524,8 @@
 
 - 核对 Rust Reference、Cargo Book、time 仓库 Cargo.toml 与 time-core 文档，新增 `raw/rust-core-crate-split-official-research-2026-11-02.md` 研究笔记和 [[rust-crate-core-split]] 答案页；更新 [[time-rust]]、[[time-core-rust]] 的交叉链接以及 `index.md`。
 - 区分一般命名惯例与 time 项目的实际依赖关系；time-core 官方明确标为内部实现细节，不把 `-core` 后缀解释成标准库 `core` 或 `no_std` 保证。来源保持 711，wiki 页面 1495→1496，Outputs 保持 1。
+
+## [2026-11-02] query | time 与 time-core 的具体内容和应用依赖
+
+- 核对 docs.rs 的公开类型、模块与 feature，以及 time 的 Cargo.toml；新增 `raw/time-vs-time-core-official-research-2026-11-02.md` 和 [[rust-time-vs-time-core]]，更新 [[time-rust]]、[[time-core-rust]]、`index.md`。
+- 明确应用直接使用 `time::...` 时只需声明 `time`；`time-core` 是其内部依赖，官方不建议直接使用。来源保持 711，wiki 页面 1496→1497，Outputs 保持 1。
