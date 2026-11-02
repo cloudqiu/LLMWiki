@@ -507,3 +507,9 @@
 - 按 docs.rs 发布文档核对 aead、aes、aes-gcm、ahash、aho-corasick、allocator-api2、arrayref、arrayvec、async-channel、async-executor 的用途与显示版本；新增各 10 份 raw 研究笔记、来源页、库实体页，并更新 `index.md`。
 - 这些页面是 stub：尚需逐项核实独立最小示例、创建者及当前维护者；示例未在本机运行。后续仍需处理 Rust 收件箱其余新增条目与 Go 收件箱末尾新增条目。收件箱条目未因摄入而删除。
 - 来源 510→520，wiki 页面 1093→1113，Outputs 保持 1。
+
+## [2026-11-02] ingest | Go 收件箱末尾 11 项
+
+- 按 Go Packages 发布页核对 Go 收件箱末尾 11 个模块的名称、用途和显示版本；各新增一份 raw 查阅笔记、来源页和库实体页，并更新 `index.md`。收件箱条目保留。
+- 可从包文档核对的调用入口已记录；其余页面标 stub，等待按具体子包补独立示例。示例未在本机运行；创建者和现任维护者待官方证据核实。
+- 来源 520→531，wiki 页面 1113→1135，Outputs 保持 1。Rust 收件箱新增条目仍待继续摄入。

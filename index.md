@@ -5,6 +5,18 @@
 
 ## Sources 来源
 
++- [[go-spew-go-official-research]] — 递归格式化并打印 Go 数据结构，常用于调试。 2026-11-02 Go Packages 查阅记录.
+- [[go-difflib-go-official-research]] — 比较字符串序列并生成面向人阅读的文本差异。 2026-11-02 Go Packages 查阅记录.
+- [[go-systemd-v22-go-official-research]] — 提供 Go 与 systemd 集成的子包，例如 dbus 和 daemon 通知。 2026-11-02 Go Packages 查阅记录.
+- [[godbus-dbus-v5-go-official-research]] — 连接 D-Bus 会话或系统总线并调用服务。 2026-11-02 Go Packages 查阅记录.
+- [[go-fuse-v2-go-official-research]] — 提供以 Go 实现 FUSE 文件系统的接口。 2026-11-02 Go Packages 查阅记录.
+- [[godebug-go-official-research]] — 为 Go 结构生成便于调试的格式化输出和文本 diff。 2026-11-02 Go Packages 查阅记录.
+- [[moby-mountinfo-go-official-research]] — 读取并解析 Linux 挂载信息。 2026-11-02 Go Packages 查阅记录.
+- [[pkg-errors-go-official-research]] — 包装错误并附加调用栈或上下文。 2026-11-02 Go Packages 查阅记录.
+- [[xid-go-official-research]] — 生成紧凑的全局唯一 ID。 2026-11-02 Go Packages 查阅记录.
+- [[lumberjack-v2-go-official-research]] — 提供可按大小轮转的日志文件写入器。 2026-11-02 Go Packages 查阅记录.
+- [[nhooyr-websocket-go-official-research]] — 提供 WebSocket 客户端与服务端连接 API。 2026-11-02 Go Packages 查阅记录.
+
 +- [[aead-rust-official-research]] — AEAD 加密算法的公共 trait 与类型，供具体算法实现使用。 2026-11-02 docs.rs 查阅记录.
 - [[aes-rust-official-research]] — AES 分组密码的纯 Rust 实现，用于构建更高层的加密方案。 2026-11-02 docs.rs 查阅记录.
 - [[aes-gcm-rust-official-research]] — AES-GCM 认证加密实现，提供机密性与完整性保护。 2026-11-02 docs.rs 查阅记录.
@@ -556,6 +568,18 @@
 - [[command-line-interface]] — 命令行界面（CLI）：终端（那扇窗）≠ shell（那个程序）；本地 AI 工具链的执行层。
 
 ## Entities 实体
+
++- [[go-spew-go]] — 递归格式化并打印 Go 数据结构，常用于调试。
+- [[go-difflib-go]] — 比较字符串序列并生成面向人阅读的文本差异。
+- [[go-systemd-v22-go]] — 提供 Go 与 systemd 集成的子包，例如 dbus 和 daemon 通知。
+- [[godbus-dbus-v5-go]] — 连接 D-Bus 会话或系统总线并调用服务。
+- [[go-fuse-v2-go]] — 提供以 Go 实现 FUSE 文件系统的接口。
+- [[godebug-go]] — 为 Go 结构生成便于调试的格式化输出和文本 diff。
+- [[moby-mountinfo-go]] — 读取并解析 Linux 挂载信息。
+- [[pkg-errors-go]] — 包装错误并附加调用栈或上下文。
+- [[xid-go]] — 生成紧凑的全局唯一 ID。
+- [[lumberjack-v2-go]] — 提供可按大小轮转的日志文件写入器。
+- [[nhooyr-websocket-go]] — 提供 WebSocket 客户端与服务端连接 API。
 
 +- [[aead-rust]] — AEAD 加密算法的公共 trait 与类型，供具体算法实现使用。 独立调用示例与维护者待验证.
 - [[aes-rust]] — AES 分组密码的纯 Rust 实现，用于构建更高层的加密方案。 独立调用示例与维护者待验证.
@@ -1194,7 +1218,7 @@
 
 ## Backlog 待建页面
 
-- Rust 与 Go 第三方库收件箱的新条目仍待继续摄入；本轮已处理 Rust 新增段首 10 项，见 2026-11-02 日志。
+- Rust 收件箱的新条目仍待继续摄入；Go 收件箱末尾 11 个模块已建页，其中标为 stub 的页面仍需按子包文档补独立用法示例。见 2026-11-02 日志。
 
 - Python 库身份核实：[[anyio-python]]、[[fastapi-python]] 已补可靠作者证据；其余库的创建者和现任维护团队需逐库以官方项目资料确认，不能仅凭 PyPI owner 或发布者推断。
 - Python 用法与版本验证：本批示例未在本机运行；发布页版本已记录，仍需按目标项目依赖锁定文件核对实际版本与 API。
@@ -1266,4 +1290,4 @@
 
 ## Stats
 
-- 来源：**520** 份 ｜ wiki 页面：**1113** ｜ Outputs：**1** ｜ 最近更新：2026-11-02
+- 来源：**531** 份 ｜ wiki 页面：**1135** ｜ Outputs：**1** ｜ 最近更新：2026-11-02
