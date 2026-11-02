@@ -513,3 +513,9 @@
 - 按 Go Packages 发布页核对 Go 收件箱末尾 11 个模块的名称、用途和显示版本；各新增一份 raw 查阅笔记、来源页和库实体页，并更新 `index.md`。收件箱条目保留。
 - 可从包文档核对的调用入口已记录；其余页面标 stub，等待按具体子包补独立示例。示例未在本机运行；创建者和现任维护者待官方证据核实。
 - 来源 520→531，wiki 页面 1113→1135，Outputs 保持 1。Rust 收件箱新增条目仍待继续摄入。
+
+## [2026-11-02] ingest | Rust 收件箱新增段 crates.io 元数据初编
+
+- 对 Rust 收件箱剩余名称逐一查询 crates.io 官方 API；180 个新 crate 建立 raw 研究笔记、来源页与库实体页，更新 `index.md`；原收件箱不删改。
+- `unicode-normalilzation` 暂映射为正式发布名 `unicode-normalization`，待按原始依赖清单复核；`tinyvec-macros` 与已有 `tinyvec_macros` 注册表指向同一 crate，沿用原页；`atomic-walker`、`stringgrep` 查询返回 404，留在 Backlog。
+- 本批页面均为 stub：已核实发布名称、显示稳定版本和官方摘要，独立 API 示例、创建者、当前维护者仍待补；代码未编译运行。来源 531→711，wiki 页面 1135→1495，Outputs 保持 1。

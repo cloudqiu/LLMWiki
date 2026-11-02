@@ -5,6 +5,187 @@
 
 ## Sources 来源
 
+- [[async-attributes-rust-official-research]] — async-attributes 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-dup-rust-official-research]] — async-dup 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-fs-rust-official-research]] — async-fs 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[aesni-rust-official-research]] — aesni 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-global-executor-rust-official-research]] — async-global-executor 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-h1-rust-official-research]] — async-h1 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-lock-rust-official-research]] — async-lock 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-io-rust-official-research]] — async-io 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-session-rust-official-research]] — async-session 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-sse-rust-official-research]] — async-sse 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-signal-rust-official-research]] — async-signal 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-task-rust-official-research]] — async-task 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-std-rust-official-research]] — async-std 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-tls-rust-official-research]] — async-tls 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-walkdir-rust-official-research]] — async-walkdir 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[async-trait-rust-official-research]] — async-trait 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[atoi-rust-official-research]] — atoi 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[base-x-rust-official-research]] — base-x 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[base64ct-rust-official-research]] — base64ct 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[base64-simd-rust-official-research]] — base64-simd 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[bincode-rust-official-research]] — bincode 3.0.0 停止维护且故意无法编译；历史版本用法待核实。
+- [[blocking-rust-official-research]] — blocking 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[blake3-rust-official-research]] — blake3 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[chrono-rust-official-research]] — chrono 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[const-oid-rust-official-research]] — const-oid 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[concurrent-queue-rust-official-research]] — concurrent-queue 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[cipher-rust-official-research]] — cipher 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[constant-time-eq-rust-official-research]] — constant_time_eq 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[const-fn-rust-official-research]] — const_fn 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[cookie-rust-official-research]] — cookie 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[core-foundation-sys-rust-official-research]] — core-foundation-sys 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[core-foundation-rust-official-research]] — core-foundation 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[cpuid-bool-rust-official-research]] — cpuid-bool 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[crossbeam-deque-rust-official-research]] — crossbeam-deque 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[crc-rust-official-research]] — crc 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[crc-catalog-rust-official-research]] — crc-catalog 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[crossbeam-epoch-rust-official-research]] — crossbeam-epoch 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[crossbeam-queue-rust-official-research]] — crossbeam-queue 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[crossbeam-utils-rust-official-research]] — crossbeam-utils 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[aes-soft-rust-official-research]] — aes-soft 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[crypto-mac-rust-official-research]] — crypto-mac 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[ctr-rust-official-research]] — ctr 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[darling-rust-official-research]] — darling 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[darling-macro-rust-official-research]] — darling_macro 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[darling-core-rust-official-research]] — darling_core 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[derive-builder-rust-official-research]] — derive_builder 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[discard-rust-official-research]] — discard 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[derive-builder-macro-rust-official-research]] — derive_builder_macro 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[dotenvy-rust-official-research]] — dotenvy 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[der-rust-official-research]] — der 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[either-rust-official-research]] — either 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[derive-builder-core-rust-official-research]] — derive_builder_core 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[event-listener-rust-official-research]] — event-listener 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[etcetera-rust-official-research]] — etcetera 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[erased-serde-rust-official-research]] — erased-serde 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[event-listener-strategy-rust-official-research]] — event-listener-strategy 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[encoding-rs-rust-official-research]] — encoding_rs 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[femme-rust-official-research]] — femme 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[fastrand-rust-official-research]] — fastrand 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[fern-rust-official-research]] — fern 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[flume-rust-official-research]] — flume 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[hashlink-rust-official-research]] — hashlink 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[ghash-rust-official-research]] — ghash 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[foldhash-rust-official-research]] — foldhash 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[gloo-timers-rust-official-research]] — gloo-timers 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[hex-rust-official-research]] — hex 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[hermit-abi-rust-official-research]] — hermit-abi 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[hkdf-rust-official-research]] — hkdf 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[http-client-rust-official-research]] — http-client 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[http-types-rust-official-research]] — http-types 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[hmac-rust-official-research]] — hmac 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[humantime-rust-official-research]] — humantime 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[iana-time-zone-rust-official-research]] — iana-time-zone 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[iana-time-zone-haiku-rust-official-research]] — iana-time-zone-haiku 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[instant-rust-official-research]] — instant 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[infer-rust-official-research]] — infer 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[ident-case-rust-official-research]] — ident_case 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[io-lifetimes-rust-official-research]] — io-lifetimes 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[kv-log-macro-rust-official-research]] — kv-log-macro 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[inherent-rust-official-research]] — inherent 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[libm-rust-official-research]] — libm 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[libredox-rust-official-research]] — libredox 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[matchers-rust-official-research]] — matchers 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[md-5-rust-official-research]] — md-5 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[minimal-lexical-rust-official-research]] — minimal-lexical 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[nu-ansi-term-rust-official-research]] — nu-ansi-term 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[num-bigint-dig-rust-official-research]] — num-bigint-dig 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[nom-rust-official-research]] — nom 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[num-integer-rust-official-research]] — num-integer 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[num-iter-rust-official-research]] — num-iter 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[opaque-debug-rust-official-research]] — opaque-debug 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[openssl-probe-rust-official-research]] — openssl-probe 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[overload-rust-official-research]] — overload 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[libsqlite3-sys-rust-official-research]] — libsqlite3-sys 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[outref-rust-official-research]] — outref 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[pem-rfc7468-rust-official-research]] — pem-rfc7468 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[paste-rust-official-research]] — paste 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[pin-project-rust-official-research]] — pin-project 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[pin-project-internal-rust-official-research]] — pin-project-internal 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[piper-rust-official-research]] — piper 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[parking-rust-official-research]] — parking 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[pkcs1-rust-official-research]] — pkcs1 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[polling-rust-official-research]] — polling 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[proc-macro-hack-rust-official-research]] — proc-macro-hack 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[rand-hc-rust-official-research]] — rand_hc 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[pkcs8-rust-official-research]] — pkcs8 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[rayon-core-rust-official-research]] — rayon-core 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[rayon-rust-official-research]] — rayon 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[regex-automata-rust-official-research]] — regex-automata 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[regex-rust-official-research]] — regex 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[route-recognizer-rust-official-research]] — route-recognizer 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[regex-syntax-rust-official-research]] — regex-syntax 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[rustls-native-certs-rust-official-research]] — rustls-native-certs 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[rustls-pemfile-rust-official-research]] — rustls-pemfile 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[rsa-rust-official-research]] — rsa 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[schannel-rust-official-research]] — schannel 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sea-query-attr-rust-official-research]] — sea-query-attr 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sea-query-derive-rust-official-research]] — sea-query-derive 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sea-query-rust-official-research]] — sea-query 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[security-framework-rust-official-research]] — security-framework 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[semver-rust-official-research]] — semver 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[semver-parser-rust-official-research]] — semver-parser 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[security-framework-sys-rust-official-research]] — security-framework-sys 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[serde-fmt-rust-official-research]] — serde_fmt 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sha1-smol-rust-official-research]] — sha1_smol 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[serde-qs-rust-official-research]] — serde_qs 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sha2-rust-official-research]] — sha2 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[shared-slab-rust-official-research]] — shared_slab 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[snafu-derive-rust-official-research]] — snafu-derive 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[snafu-rust-official-research]] — snafu 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[spki-rust-official-research]] — spki 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sqlformat-rust-official-research]] — sqlformat 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sqlx-core-rust-official-research]] — sqlx-core 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sqlx-macros-rust-official-research]] — sqlx-macros 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sqlx-rust-official-research]] — sqlx 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sqlx-macros-core-rust-official-research]] — sqlx-macros-core 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sqlx-mysql-rust-official-research]] — sqlx-mysql 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sqlx-postgres-rust-official-research]] — sqlx-postgres 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[standback-rust-official-research]] — standback 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sqlx-sqlite-rust-official-research]] — sqlx-sqlite 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[polyval-rust-official-research]] — polyval 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[stdweb-derive-rust-official-research]] — stdweb-derive 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[stdweb-rust-official-research]] — stdweb 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[stdweb-internal-macros-rust-official-research]] — stdweb-internal-macros 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[stdweb-internal-runtime-rust-official-research]] — stdweb-internal-runtime 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sval-buffer-rust-official-research]] — sval_buffer 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sval-rust-official-research]] — sval 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sval-fmt-rust-official-research]] — sval_fmt 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sval-ref-rust-official-research]] — sval_ref 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sval-nested-rust-official-research]] — sval_nested 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sval-json-rust-official-research]] — sval_json 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sval-serde-rust-official-research]] — sval_serde 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[tempfile-rust-official-research]] — tempfile 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[terminal-size-rust-official-research]] — terminal_size 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[thiserror-context-rust-official-research]] — thiserror-context 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[thread-local-rust-official-research]] — thread_local 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[tide-rust-official-research]] — tide 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[time-macros-impl-rust-official-research]] — time-macros-impl 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[toml-write-rust-official-research]] — toml_write 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[toml-edit-rust-official-research]] — toml_edit 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[tracing-attributes-rust-official-research]] — tracing-attributes 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[sval-dynamic-rust-official-research]] — sval_dynamic 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[tracing-log-rust-official-research]] — tracing-log 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[tracing-test-rust-official-research]] — tracing-test 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[tracing-subscriber-rust-official-research]] — tracing-subscriber 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[tracing-test-macro-rust-official-research]] — tracing-test-macro 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[typeid-rust-official-research]] — typeid 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[unicode-normalization-rust-official-research]] — unicode-normalization 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[unicode-bidi-rust-official-research]] — unicode-bidi 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[unicode-properties-rust-official-research]] — unicode-properties 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[unicode-categories-rust-official-research]] — unicode_categories 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[value-bag-rust-official-research]] — value-bag 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[value-bag-serde1-rust-official-research]] — value-bag-serde1 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[value-bag-sval2-rust-official-research]] — value-bag-sval2 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[waker-fn-rust-official-research]] — waker-fn 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[vsimd-rust-official-research]] — vsimd 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[wasite-rust-official-research]] — wasite 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[universal-hash-rust-official-research]] — universal-hash 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[zjhttpc-rust-official-research]] — zjhttpc 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+- [[whoami-rust-official-research]] — whoami 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
+
 +- [[go-spew-go-official-research]] — 递归格式化并打印 Go 数据结构，常用于调试。 2026-11-02 Go Packages 查阅记录.
 - [[go-difflib-go-official-research]] — 比较字符串序列并生成面向人阅读的文本差异。 2026-11-02 Go Packages 查阅记录.
 - [[go-systemd-v22-go-official-research]] — 提供 Go 与 systemd 集成的子包，例如 dbus 和 daemon 通知。 2026-11-02 Go Packages 查阅记录.
@@ -568,6 +749,187 @@
 - [[command-line-interface]] — 命令行界面（CLI）：终端（那扇窗）≠ shell（那个程序）；本地 AI 工具链的执行层。
 
 ## Entities 实体
+
+- [[async-attributes-rust]] — async-attributes：Experimental language-level polyfills for Async Rust.（stub，API 示例待补）
+- [[async-dup-rust]] — async-dup：Duplicate an async I/O handle（stub，API 示例待补）
+- [[async-fs-rust]] — async-fs：Async filesystem primitives（stub，API 示例待补）
+- [[aesni-rust]] — aesni：DEPRECATED: replaced by the `aes` crate（stub，API 示例待补）
+- [[async-global-executor-rust]] — async-global-executor：A global executor built on top of async-executor and async-io（stub，API 示例待补）
+- [[async-h1-rust]] — async-h1：Asynchronous HTTP 1.1 parser.（stub，API 示例待补）
+- [[async-lock-rust]] — async-lock：Async synchronization primitives（stub，API 示例待补）
+- [[async-io-rust]] — async-io：Async I/O and timers（stub，API 示例待补）
+- [[async-session-rust]] — async-session：Async session support with pluggable middleware（stub，API 示例待补）
+- [[async-sse-rust]] — async-sse：Async Server Sent Event parser and encoder（stub，API 示例待补）
+- [[async-signal-rust]] — async-signal：Async signal handling（stub，API 示例待补）
+- [[async-task-rust]] — async-task：Task abstraction for building executors（stub，API 示例待补）
+- [[async-std-rust]] — async-std：Deprecated in favor of `smol` - Async version of the Rust standard library（stub，API 示例待补）
+- [[async-tls-rust]] — async-tls：Asynchronous TLS/SSL streams using Rustls.（stub，API 示例待补）
+- [[async-walkdir-rust]] — async-walkdir：Asynchronous directory traversal for Rust.（stub，API 示例待补）
+- [[async-trait-rust]] — async-trait：Type erasure for async trait methods（stub，API 示例待补）
+- [[atoi-rust]] — atoi：Parse integers directly from `[u8]` slices in safe code（stub，API 示例待补）
+- [[base-x-rust]] — base-x：Encode/decode any base（stub，API 示例待补）
+- [[base64ct-rust]] — base64ct：Pure Rust implementation of Base64 (RFC 4648) which avoids any usages of data-dependent branches/LUTs and thereby provides portable "best effort" constant-time operation and embedded-friendly no_std support（stub，API 示例待补）
+- [[base64-simd-rust]] — base64-simd：SIMD-accelerated base64 encoding and decoding（stub，API 示例待补）
+- [[bincode-rust]] — 二进制序列化库；3.0.0 已停止维护且故意无法编译，历史版本用法待核实。
+- [[blocking-rust]] — blocking：A thread pool for isolating blocking I/O in async programs（stub，API 示例待补）
+- [[blake3-rust]] — blake3：the BLAKE3 hash function（stub，API 示例待补）
+- [[chrono-rust]] — chrono：Date and time library for Rust（stub，API 示例待补）
+- [[const-oid-rust]] — const-oid：Const-friendly implementation of the ISO/IEC Object Identifier (OID) standard as defined in ITU X.660, with support for BER/DER encoding/decoding as well as heapless no_std (i.e. embedded) support（stub，API 示例待补）
+- [[concurrent-queue-rust]] — concurrent-queue：Concurrent multi-producer multi-consumer queue（stub，API 示例待补）
+- [[cipher-rust]] — cipher：Traits for describing block ciphers and stream ciphers（stub，API 示例待补）
+- [[constant-time-eq-rust]] — constant_time_eq：Compares two equal-sized byte strings in constant time.（stub，API 示例待补）
+- [[const-fn-rust]] — const_fn：A lightweight attribute for easy generation of const functions with conditional compilations.（stub，API 示例待补）
+- [[cookie-rust]] — cookie：HTTP cookie parsing and cookie jar management. Supports signed and private (encrypted, authenticated) jars.（stub，API 示例待补）
+- [[core-foundation-sys-rust]] — core-foundation-sys：Bindings to Core Foundation for macOS（stub，API 示例待补）
+- [[core-foundation-rust]] — core-foundation：Bindings to Core Foundation for macOS（stub，API 示例待补）
+- [[cpuid-bool-rust]] — cpuid-bool：DEPRECATED: replaced by the `cpufeatures` crate（stub，API 示例待补）
+- [[crossbeam-deque-rust]] — crossbeam-deque：Concurrent work-stealing deque（stub，API 示例待补）
+- [[crc-rust]] — crc：Rust implementation of CRC with support of various standards（stub，API 示例待补）
+- [[crc-catalog-rust]] — crc-catalog：Catalog of CRC algorithms (generated from http://reveng.sourceforge.net/crc-catalogue) expressed as simple Rust structs.（stub，API 示例待补）
+- [[crossbeam-epoch-rust]] — crossbeam-epoch：Epoch-based garbage collection（stub，API 示例待补）
+- [[crossbeam-queue-rust]] — crossbeam-queue：Concurrent queues（stub，API 示例待补）
+- [[crossbeam-utils-rust]] — crossbeam-utils：Utilities for concurrent programming（stub，API 示例待补）
+- [[aes-soft-rust]] — aes-soft：DEPRECATED: replaced by the `aes` crate（stub，API 示例待补）
+- [[crypto-mac-rust]] — crypto-mac：Trait for Message Authentication Code (MAC) algorithms（stub，API 示例待补）
+- [[ctr-rust]] — ctr：CTR block modes of operation（stub，API 示例待补）
+- [[darling-rust]] — darling：A proc-macro library for reading attributes into structs when implementing custom derives.（stub，API 示例待补）
+- [[darling-macro-rust]] — darling_macro：Internal support for a proc-macro library for reading attributes into structs when implementing custom derives. Use https://crates.io/crates/darling in your code.（stub，API 示例待补）
+- [[darling-core-rust]] — darling_core：Helper crate for proc-macro library for reading attributes into structs when implementing custom derives. Use https://crates.io/crates/darling in your code.（stub，API 示例待补）
+- [[derive-builder-rust]] — derive_builder：Rust macro to automatically implement the builder pattern for arbitrary structs.（stub，API 示例待补）
+- [[discard-rust]] — discard：Discard trait which allows for intentionally leaking memory（stub，API 示例待补）
+- [[derive-builder-macro-rust]] — derive_builder_macro：Rust macro to automatically implement the builder pattern for arbitrary structs.（stub，API 示例待补）
+- [[dotenvy-rust]] — dotenvy：A well-maintained fork of the dotenv crate（stub，API 示例待补）
+- [[der-rust]] — der：Pure Rust embedded-friendly implementation of the Distinguished Encoding Rules (DER) for Abstract Syntax Notation One (ASN.1) as described in ITU X.690 with full support for heapless `no_std`/`no_alloc` targets（stub，API 示例待补）
+- [[either-rust]] — either：The enum `Either` with variants `Left` and `Right` is a general purpose sum type with two cases.（stub，API 示例待补）
+- [[derive-builder-core-rust]] — derive_builder_core：Internal helper library for the derive_builder crate.（stub，API 示例待补）
+- [[event-listener-rust]] — event-listener：Notify async tasks or threads（stub，API 示例待补）
+- [[etcetera-rust]] — etcetera：An unopinionated library for obtaining configuration, data, cache, & other directories（stub，API 示例待补）
+- [[erased-serde-rust]] — erased-serde：Type-erased Serialize and Serializer traits（stub，API 示例待补）
+- [[event-listener-strategy-rust]] — event-listener-strategy：Block or poll on event_listener easily（stub，API 示例待补）
+- [[encoding-rs-rust]] — encoding_rs：A Gecko-oriented implementation of the Encoding Standard（stub，API 示例待补）
+- [[femme-rust]] — femme：Not just a pretty (inter)face: pretty-printer and ndjson logger for log crate.（stub，API 示例待补）
+- [[fastrand-rust]] — fastrand：A simple and fast random number generator（stub，API 示例待补）
+- [[fern-rust]] — fern：Simple, efficient logging（stub，API 示例待补）
+- [[flume-rust]] — flume：A blazingly fast multi-producer channel（stub，API 示例待补）
+- [[hashlink-rust]] — hashlink：HashMap-like containers that hold their key-value pairs in a user controllable order（stub，API 示例待补）
+- [[ghash-rust]] — ghash：Universal hash over GF(2^128) useful for constructing a Message Authentication Code (MAC), as in the AES-GCM authenticated encryption cipher.（stub，API 示例待补）
+- [[foldhash-rust]] — foldhash：A fast, non-cryptographic, minimally DoS-resistant hashing algorithm.（stub，API 示例待补）
+- [[gloo-timers-rust]] — gloo-timers：Convenience crate for working with JavaScript timers（stub，API 示例待补）
+- [[hex-rust]] — hex：Encoding and decoding data into/from hexadecimal representation.（stub，API 示例待补）
+- [[hermit-abi-rust]] — hermit-abi：Hermit system calls definitions.（stub，API 示例待补）
+- [[hkdf-rust]] — hkdf：HMAC-based Extract-and-Expand Key Derivation Function (HKDF)（stub，API 示例待补）
+- [[http-client-rust]] — http-client：Types and traits for http clients.（stub，API 示例待补）
+- [[http-types-rust]] — http-types：Common types for HTTP operations.（stub，API 示例待补）
+- [[hmac-rust]] — hmac：Generic implementation of Hash-based Message Authentication Code (HMAC)（stub，API 示例待补）
+- [[humantime-rust]] — humantime：A parser and formatter for std::time::{Duration, SystemTime}（stub，API 示例待补）
+- [[iana-time-zone-rust]] — iana-time-zone：get the IANA time zone for the current system（stub，API 示例待补）
+- [[iana-time-zone-haiku-rust]] — iana-time-zone-haiku：iana-time-zone support crate for Haiku OS（stub，API 示例待补）
+- [[instant-rust]] — instant：Unmaintained, consider using web-time instead - A partial replacement for std::time::Instant that works on WASM to.（stub，API 示例待补）
+- [[infer-rust]] — infer：Small crate to infer file type based on magic number signatures（stub，API 示例待补）
+- [[ident-case-rust]] — ident_case：Utility for applying case rules to Rust identifiers.（stub，API 示例待补）
+- [[io-lifetimes-rust]] — io-lifetimes：A low-level I/O ownership and borrowing library（stub，API 示例待补）
+- [[kv-log-macro-rust]] — kv-log-macro：Log macro for log's kv-unstable backend.（stub，API 示例待补）
+- [[inherent-rust]] — inherent：Make trait methods callable without the trait in scope（stub，API 示例待补）
+- [[libm-rust]] — libm：libm in pure Rust（stub，API 示例待补）
+- [[libredox-rust]] — libredox：Redox stable ABI（stub，API 示例待补）
+- [[matchers-rust]] — matchers：Regex matching on character and byte streams.（stub，API 示例待补）
+- [[md-5-rust]] — md-5：MD5 hash function（stub，API 示例待补）
+- [[minimal-lexical-rust]] — minimal-lexical：Fast float parsing conversion routines.（stub，API 示例待补）
+- [[nu-ansi-term-rust]] — nu-ansi-term：Library for ANSI terminal colors and styles (bold, underline)（stub，API 示例待补）
+- [[num-bigint-dig-rust]] — num-bigint-dig：Big integer implementation for Rust（stub，API 示例待补）
+- [[nom-rust]] — nom：A byte-oriented, zero-copy, parser combinators library（stub，API 示例待补）
+- [[num-integer-rust]] — num-integer：Integer traits and functions（stub，API 示例待补）
+- [[num-iter-rust]] — num-iter：External iterators for generic mathematics（stub，API 示例待补）
+- [[opaque-debug-rust]] — opaque-debug：This crate is deprecated. Use explicit impl of `fmt::Debug` instead.（stub，API 示例待补）
+- [[openssl-probe-rust]] — openssl-probe：A library for helping to find system-wide trust anchor ("root") certificate locations based on paths typically used by `openssl`.（stub，API 示例待补）
+- [[overload-rust]] — overload：Provides a macro to simplify operator overloading.（stub，API 示例待补）
+- [[libsqlite3-sys-rust]] — libsqlite3-sys：Native bindings to the libsqlite3 library（stub，API 示例待补）
+- [[outref-rust]] — outref：Out reference（stub，API 示例待补）
+- [[pem-rfc7468-rust]] — pem-rfc7468：PEM Encoding (RFC 7468) for PKIX, PKCS, and CMS Structures, implementing a strict subset of the original Privacy-Enhanced Mail encoding intended specifically for use with cryptographic keys, certificates, and other messages. Provides a no_std-friendly, constant-time implementation suitable for use with cryptographic private keys.（stub，API 示例待补）
+- [[paste-rust]] — paste：Macros for all your token pasting needs（stub，API 示例待补）
+- [[pin-project-rust]] — pin-project：A crate for safe and ergonomic pin-projection.（stub，API 示例待补）
+- [[pin-project-internal-rust]] — pin-project-internal：Implementation detail of the `pin-project` crate.（stub，API 示例待补）
+- [[piper-rust]] — piper：An asynchronous single-consumer single-producer pipe for bytes.（stub，API 示例待补）
+- [[parking-rust]] — parking：Thread parking and unparking（stub，API 示例待补）
+- [[pkcs1-rust]] — pkcs1：Pure Rust implementation of Public-Key Cryptography Standards (PKCS) #1: RSA Cryptography Specifications Version 2.2 (RFC 8017)（stub，API 示例待补）
+- [[polling-rust]] — polling：Portable interface to epoll, kqueue, event ports, and IOCP（stub，API 示例待补）
+- [[proc-macro-hack-rust]] — proc-macro-hack：Procedural macros in expression position（stub，API 示例待补）
+- [[rand-hc-rust]] — rand_hc：HC128 random number generator（stub，API 示例待补）
+- [[pkcs8-rust]] — pkcs8：Pure Rust implementation of Public-Key Cryptography Standards (PKCS) #8: Private-Key Information Syntax Specification (RFC 5208), with additional support for PKCS#8v2 asymmetric key packages (RFC 5958)（stub，API 示例待补）
+- [[rayon-core-rust]] — rayon-core：Core APIs for Rayon（stub，API 示例待补）
+- [[rayon-rust]] — rayon：Simple work-stealing parallelism for Rust（stub，API 示例待补）
+- [[regex-automata-rust]] — regex-automata：Automata construction and matching using regular expressions.（stub，API 示例待补）
+- [[regex-rust]] — regex：An implementation of regular expressions for Rust. This implementation uses finite automata and guarantees linear time matching on all inputs.（stub，API 示例待补）
+- [[route-recognizer-rust]] — route-recognizer：Recognizes URL patterns with support for dynamic and wildcard segments（stub，API 示例待补）
+- [[regex-syntax-rust]] — regex-syntax：A regular expression parser.（stub，API 示例待补）
+- [[rustls-native-certs-rust]] — rustls-native-certs：rustls-native-certs allows rustls to use the platform native certificate store（stub，API 示例待补）
+- [[rustls-pemfile-rust]] — rustls-pemfile：Basic .pem file parser for keys and certificates（stub，API 示例待补）
+- [[rsa-rust]] — rsa：Pure Rust RSA implementation（stub，API 示例待补）
+- [[schannel-rust]] — schannel：Schannel bindings for rust, allowing SSL/TLS (e.g. https) without openssl（stub，API 示例待补）
+- [[sea-query-attr-rust]] — sea-query-attr：Proc macros for useful features in Sea Query（stub，API 示例待补）
+- [[sea-query-derive-rust]] — sea-query-derive：Derive macro for sea-query's Iden trait（stub，API 示例待补）
+- [[sea-query-rust]] — sea-query：🔱 A dynamic query builder for MySQL, Postgres and SQLite（stub，API 示例待补）
+- [[security-framework-rust]] — security-framework：Security.framework bindings for macOS and iOS（stub，API 示例待补）
+- [[semver-rust]] — semver：Parser and evaluator for Cargo's flavor of Semantic Versioning（stub，API 示例待补）
+- [[semver-parser-rust]] — semver-parser：Parsing of the semver spec.（stub，API 示例待补）
+- [[security-framework-sys-rust]] — security-framework-sys：Apple `Security.framework` low-level FFI bindings（stub，API 示例待补）
+- [[serde-fmt-rust]] — serde_fmt：Write any serde::Serialize using the standard formatting APIs（stub，API 示例待补）
+- [[sha1-smol-rust]] — sha1_smol：Minimal dependency-free implementation of SHA1 for Rust.（stub，API 示例待补）
+- [[serde-qs-rust]] — serde_qs：Querystrings for Serde（stub，API 示例待补）
+- [[sha2-rust]] — sha2：Pure Rust implementation of the SHA-2 hash function family including SHA-224, SHA-256, SHA-384, and SHA-512.（stub，API 示例待补）
+- [[shared-slab-rust]] — shared_slab：Data structure with shared insertion（stub，API 示例待补）
+- [[snafu-derive-rust]] — snafu-derive：An ergonomic error handling library（stub，API 示例待补）
+- [[snafu-rust]] — snafu：An ergonomic error handling library（stub，API 示例待补）
+- [[spki-rust]] — spki：X.509 Subject Public Key Info (RFC5280) describing public keys as well as their associated AlgorithmIdentifiers (i.e. OIDs)（stub，API 示例待补）
+- [[sqlformat-rust]] — sqlformat：Formats whitespace in a SQL string to make it easier to read（stub，API 示例待补）
+- [[sqlx-core-rust]] — sqlx-core：Core of SQLx, the rust SQL toolkit. Not intended to be used directly.（stub，API 示例待补）
+- [[sqlx-macros-rust]] — sqlx-macros：Macros for SQLx, the rust SQL toolkit. Not intended to be used directly.（stub，API 示例待补）
+- [[sqlx-rust]] — sqlx：🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite.（stub，API 示例待补）
+- [[sqlx-macros-core-rust]] — sqlx-macros-core：Macro support core for SQLx, the Rust SQL toolkit. Not intended to be used directly.（stub，API 示例待补）
+- [[sqlx-mysql-rust]] — sqlx-mysql：MySQL driver implementation for SQLx. Not for direct use; see the `sqlx` crate for details.（stub，API 示例待补）
+- [[sqlx-postgres-rust]] — sqlx-postgres：PostgreSQL driver implementation for SQLx. Not for direct use; see the `sqlx` crate for details.（stub，API 示例待补）
+- [[standback-rust]] — standback：New standard library, old compiler.（stub，API 示例待补）
+- [[sqlx-sqlite-rust]] — sqlx-sqlite：SQLite driver implementation for SQLx. Not for direct use; see the `sqlx` crate for details.（stub，API 示例待补）
+- [[polyval-rust]] — polyval：POLYVAL is a GHASH-like universal hash over GF(2^128) useful for constructing a Message Authentication Code (MAC)（stub，API 示例待补）
+- [[stdweb-derive-rust]] — stdweb-derive：Derive macros for the `stdweb` crate（stub，API 示例待补）
+- [[stdweb-rust]] — stdweb：A standard library for the client-side Web（stub，API 示例待补）
+- [[stdweb-internal-macros-rust]] — stdweb-internal-macros：Internal procedural macros for the `stdweb` crate（stub，API 示例待补）
+- [[stdweb-internal-runtime-rust]] — stdweb-internal-runtime：Internal runtime for the `stdweb` crate（stub，API 示例待补）
+- [[sval-buffer-rust]] — sval_buffer：Value buffering for sval（stub，API 示例待补）
+- [[sval-rust]] — sval：Streaming, structured value serialization（stub，API 示例待补）
+- [[sval-fmt-rust]] — sval_fmt：Integration between std::fmt::Debug and sval::Value（stub，API 示例待补）
+- [[sval-ref-rust]] — sval_ref：A variant of sval::Value for types with internal references（stub，API 示例待补）
+- [[sval-nested-rust]] — sval_nested：A recursive variant of sval（stub，API 示例待补）
+- [[sval-json-rust]] — sval_json：JSON support for sval（stub，API 示例待补）
+- [[sval-serde-rust]] — sval_serde：Integration between serde::Serialize and sval::Value（stub，API 示例待补）
+- [[tempfile-rust]] — tempfile：A library for managing temporary files and directories.（stub，API 示例待补）
+- [[terminal-size-rust]] — terminal_size：Gets the size of your Linux or Windows terminal（stub，API 示例待补）
+- [[thiserror-context-rust]] — thiserror-context：A wrapper around thiserror, giving you the ability to add context（stub，API 示例待补）
+- [[thread-local-rust]] — thread_local：Per-object thread-local storage（stub，API 示例待补）
+- [[tide-rust]] — tide：A minimal and pragmatic Rust web application framework built for rapid development（stub，API 示例待补）
+- [[time-macros-impl-rust]] — time-macros-impl：Procedural macros for the time crate.（stub，API 示例待补）
+- [[toml-write-rust]] — toml_write：A low-level interface for writing out TOML（stub，API 示例待补）
+- [[toml-edit-rust]] — toml_edit：Yet another format-preserving TOML parser.（stub，API 示例待补）
+- [[tracing-attributes-rust]] — tracing-attributes：Procedural macro attributes for automatically instrumenting functions.（stub，API 示例待补）
+- [[sval-dynamic-rust]] — sval_dynamic：Object-safe versions of sval::Stream and sval::Value（stub，API 示例待补）
+- [[tracing-log-rust]] — tracing-log：Provides compatibility between `tracing` and the `log` crate.（stub，API 示例待补）
+- [[tracing-test-rust]] — tracing-test：Helper functions and macros that allow for easier testing of crates that use `tracing`.（stub，API 示例待补）
+- [[tracing-subscriber-rust]] — tracing-subscriber：Utilities for implementing and composing `tracing` subscribers.（stub，API 示例待补）
+- [[tracing-test-macro-rust]] — tracing-test-macro：A procedural macro that allow for easier testing of crates that use `tracing`. Internal crate, should only be used through the `tracing-test` crate.（stub，API 示例待补）
+- [[typeid-rust]] — typeid：Const TypeId and non-'static TypeId（stub，API 示例待补）
+- [[unicode-normalization-rust]] — unicode-normalization：This crate provides functions for normalization of Unicode strings, including Canonical and Compatible Decomposition and Recomposition, as described in Unicode Standard Annex #15.（stub，API 示例待补）
+- [[unicode-bidi-rust]] — unicode-bidi：Implementation of the Unicode Bidirectional Algorithm（stub，API 示例待补）
+- [[unicode-properties-rust]] — unicode-properties：Query character Unicode properties according to UAX #44 and UTR #51.（stub，API 示例待补）
+- [[unicode-categories-rust]] — unicode_categories：Query Unicode category membership for chars（stub，API 示例待补）
+- [[value-bag-rust]] — value-bag：Anonymous structured values（stub，API 示例待补）
+- [[value-bag-serde1-rust]] — value-bag-serde1：Implementation detail for value-bag（stub，API 示例待补）
+- [[value-bag-sval2-rust]] — value-bag-sval2：Implementation detail for value-bag（stub，API 示例待补）
+- [[waker-fn-rust]] — waker-fn：Convert closures into wakers（stub，API 示例待补）
+- [[vsimd-rust]] — vsimd：SIMD utilities（stub，API 示例待补）
+- [[wasite-rust]] — wasite：WASI Terminal Environment API（stub，API 示例待补）
+- [[universal-hash-rust]] — universal-hash：Traits which describe the functionality of universal hash functions (UHFs)（stub，API 示例待补）
+- [[zjhttpc-rust]] — zjhttpc：HTTP client made by Jinhui ZHANG. Aims at easy to use, with special features I want（stub，API 示例待补）
+- [[whoami-rust]] — whoami：Rust library for getting information about the current user and environment（stub，API 示例待补）
 
 +- [[go-spew-go]] — 递归格式化并打印 Go 数据结构，常用于调试。
 - [[go-difflib-go]] — 比较字符串序列并生成面向人阅读的文本差异。
@@ -1218,7 +1580,7 @@
 
 ## Backlog 待建页面
 
-- Rust 收件箱的新条目仍待继续摄入；Go 收件箱末尾 11 个模块已建页，其中标为 stub 的页面仍需按子包文档补独立用法示例。见 2026-11-02 日志。
+- Rust 收件箱新增段已按 crates.io 元数据初步建页；atomic-walker 与 stringgrep 未在官方注册表找到，需按原始依赖清单核对。大量 stub 页仍需补官方 API 示例、作者与维护者证据；Go 收件箱末尾 11 个模块的 stub 页亦待补示例。
 
 - Python 库身份核实：[[anyio-python]]、[[fastapi-python]] 已补可靠作者证据；其余库的创建者和现任维护团队需逐库以官方项目资料确认，不能仅凭 PyPI owner 或发布者推断。
 - Python 用法与版本验证：本批示例未在本机运行；发布页版本已记录，仍需按目标项目依赖锁定文件核对实际版本与 API。
@@ -1290,4 +1652,4 @@
 
 ## Stats
 
-- 来源：**531** 份 ｜ wiki 页面：**1135** ｜ Outputs：**1** ｜ 最近更新：2026-11-02
+- 来源：**711** 份 ｜ wiki 页面：**1495** ｜ Outputs：**1** ｜ 最近更新：2026-11-02
