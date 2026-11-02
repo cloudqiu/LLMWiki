@@ -5,6 +5,17 @@
 
 ## Sources 来源
 
++- [[aead-rust-official-research]] — AEAD 加密算法的公共 trait 与类型，供具体算法实现使用。 2026-11-02 docs.rs 查阅记录.
+- [[aes-rust-official-research]] — AES 分组密码的纯 Rust 实现，用于构建更高层的加密方案。 2026-11-02 docs.rs 查阅记录.
+- [[aes-gcm-rust-official-research]] — AES-GCM 认证加密实现，提供机密性与完整性保护。 2026-11-02 docs.rs 查阅记录.
+- [[ahash-rust-official-research]] — 面向哈希表的快速非密码学哈希。 2026-11-02 docs.rs 查阅记录.
+- [[aho-corasick-rust-official-research]] — 用 Aho–Corasick 算法一次搜索多个字面模式。 2026-11-02 docs.rs 查阅记录.
+- [[allocator-api2-rust-official-research]] — 提供内存分配 API 及使用分配器的容器接口。 2026-11-02 docs.rs 查阅记录.
+- [[arrayref-rust-official-research]] — 通过宏从切片或数组取得固定长度的数组引用。 2026-11-02 docs.rs 查阅记录.
+- [[arrayvec-rust-official-research]] — 提供以内联数组存储内容的 ArrayVec 与 ArrayString。 2026-11-02 docs.rs 查阅记录.
+- [[async-channel-rust-official-research]] — 异步多生产者多消费者 channel，每条消息由一个接收者取得。 2026-11-02 docs.rs 查阅记录.
+- [[async-executor-rust-official-research]] — 提供异步任务执行器，运行由 future 构成的任务。 2026-11-02 docs.rs 查阅记录.
+
 - [[llm-wiki-pattern]] — Karpathy《LLM Wiki》gist：模式原始定义，本库创世文档。2026-10-01 摄入，派生 8 个页面。
 - [[as-we-may-think]] — Vannevar Bush《As We May Think》(The Atlantic, 1945-07)：memex 与关联索引的一手文献。2026-10-01 摄入，派生/更新 6 个页面。
 - [[claude-code-obsidian-tutorial]] — RUNOOB 中文教程：Claude Code + Obsidian 从零搭建 LLM Wiki；含主题/插件清单与目录结构变体。2026-10-01 摄入，新建 3 页、更新 6 页。
@@ -545,6 +556,17 @@
 - [[command-line-interface]] — 命令行界面（CLI）：终端（那扇窗）≠ shell（那个程序）；本地 AI 工具链的执行层。
 
 ## Entities 实体
+
++- [[aead-rust]] — AEAD 加密算法的公共 trait 与类型，供具体算法实现使用。 独立调用示例与维护者待验证.
+- [[aes-rust]] — AES 分组密码的纯 Rust 实现，用于构建更高层的加密方案。 独立调用示例与维护者待验证.
+- [[aes-gcm-rust]] — AES-GCM 认证加密实现，提供机密性与完整性保护。 独立调用示例与维护者待验证.
+- [[ahash-rust]] — 面向哈希表的快速非密码学哈希。 独立调用示例与维护者待验证.
+- [[aho-corasick-rust]] — 用 Aho–Corasick 算法一次搜索多个字面模式。 独立调用示例与维护者待验证.
+- [[allocator-api2-rust]] — 提供内存分配 API 及使用分配器的容器接口。 独立调用示例与维护者待验证.
+- [[arrayref-rust]] — 通过宏从切片或数组取得固定长度的数组引用。 独立调用示例与维护者待验证.
+- [[arrayvec-rust]] — 提供以内联数组存储内容的 ArrayVec 与 ArrayString。 独立调用示例与维护者待验证.
+- [[async-channel-rust]] — 异步多生产者多消费者 channel，每条消息由一个接收者取得。 独立调用示例与维护者待验证.
+- [[async-executor-rust]] — 提供异步任务执行器，运行由 future 构成的任务。 独立调用示例与维护者待验证.
 
 - [[andrej-karpathy]] — AI 研究者；LLM Wiki 模式作者。（stub）
 - [[vannevar-bush]] — OSRD 主任（1945）；memex 构想提出者。
@@ -1172,6 +1194,8 @@
 
 ## Backlog 待建页面
 
+- Rust 与 Go 第三方库收件箱的新条目仍待继续摄入；本轮已处理 Rust 新增段首 10 项，见 2026-11-02 日志。
+
 - Python 库身份核实：[[anyio-python]]、[[fastapi-python]] 已补可靠作者证据；其余库的创建者和现任维护团队需逐库以官方项目资料确认，不能仅凭 PyPI owner 或发布者推断。
 - Python 用法与版本验证：本批示例未在本机运行；发布页版本已记录，仍需按目标项目依赖锁定文件核对实际版本与 API。
 
@@ -1242,4 +1266,4 @@
 
 ## Stats
 
-- 来源：**510** 份 ｜ wiki 页面：**1093** ｜ Outputs：**1** ｜ 最近更新：2026-11-01
+- 来源：**520** 份 ｜ wiki 页面：**1113** ｜ Outputs：**1** ｜ 最近更新：2026-11-02

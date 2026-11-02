@@ -502,3 +502,8 @@
 - 用户要求批量摄入 Python 收件箱全部 30 项；按 PyPI 项目发布页核对名称、用途与可取得的版本，新建 30 份 raw 查阅笔记、30 个来源页、30 个库页，补关联库交叉链接，并更新 `index.md` 与本日志。收件箱原文未改，也未纳入提交。
 - 用户已将 `colorma` 更正为 `colorama`，按正式发布名归档。记录了 PyPI 发布页版本，但实际项目版本仍待按依赖锁定文件核对；未从包 owner 或发布者推断创建者和现任维护团队。
 - 研究笔记不是官方原文副本，示例未在本机运行；缺少可核实独立最小示例的页面标 stub。另查 PyPI Credits 与作者个人主页，新增 1 份 raw 身份查阅笔记、1 个来源页及 [[alex-gronholm]]、[[sebastian-ramirez]] 两个作者页，并与对应库页双向链接。来源 479→510，wiki 页面 1030→1093，Outputs 保持 1。
+## [2026-11-02] ingest | Rust 收件箱新批次 10 项（进行中）
+
+- 按 docs.rs 发布文档核对 aead、aes、aes-gcm、ahash、aho-corasick、allocator-api2、arrayref、arrayvec、async-channel、async-executor 的用途与显示版本；新增各 10 份 raw 研究笔记、来源页、库实体页，并更新 `index.md`。
+- 这些页面是 stub：尚需逐项核实独立最小示例、创建者及当前维护者；示例未在本机运行。后续仍需处理 Rust 收件箱其余新增条目与 Go 收件箱末尾新增条目。收件箱条目未因摄入而删除。
+- 来源 510→520，wiki 页面 1093→1113，Outputs 保持 1。
