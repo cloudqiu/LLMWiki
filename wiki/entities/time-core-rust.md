@@ -3,10 +3,10 @@ title: "time-core"
 type: entity
 entity_type: tool
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-02
 tags: [rust, library]
 status: stub
-sources: [raw/time-core-rust-official-research-2026-11-01.md]
+sources: [raw/time-core-rust-official-research-2026-11-01.md, raw/rust-core-crate-split-official-research-2026-11-02.md]
 ---
 
 # time-core
@@ -36,6 +36,8 @@ time crate 的内部基础类型和辅助组件。（[[time-core-rust-official-r
 ## 相关库
 
 [[time-rust]]、[[time-macros-rust]]、[[powerfmt-rust]]、[[num-conv-rust]]。
+
+官方文档将本 crate 定位为 `time` 的实现细节；拆分背景见 [[rust-crate-core-split]]。
 
 ## 来源
 

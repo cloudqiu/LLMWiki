@@ -3,10 +3,10 @@ title: "time"
 type: entity
 entity_type: tool
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-02
 tags: [rust, library]
 status: growing
-sources: [raw/time-rust-official-research-2026-11-01.md]
+sources: [raw/time-rust-official-research-2026-11-01.md, raw/rust-core-crate-split-official-research-2026-11-02.md]
 ---
 
 # time
@@ -40,6 +40,8 @@ let now = time::OffsetDateTime::now_utc();
 ## 相关库
 
 [[time-core-rust]]、[[time-macros-rust]]、[[powerfmt-rust]]、[[num-conv-rust]]。
+
+关于 `time-core` 的拆分原因与依赖关系，见 [[rust-crate-core-split]]。
 
 ## 来源
 

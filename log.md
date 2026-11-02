@@ -519,3 +519,8 @@
 - 对 Rust 收件箱剩余名称逐一查询 crates.io 官方 API；180 个新 crate 建立 raw 研究笔记、来源页与库实体页，更新 `index.md`；原收件箱不删改。
 - `unicode-normalilzation` 暂映射为正式发布名 `unicode-normalization`，待按原始依赖清单复核；`tinyvec-macros` 与已有 `tinyvec_macros` 注册表指向同一 crate，沿用原页；`atomic-walker`、`stringgrep` 查询返回 404，留在 Backlog。
 - 本批页面均为 stub：已核实发布名称、显示稳定版本和官方摘要，独立 API 示例、创建者、当前维护者仍待补；代码未编译运行。来源 531→711，wiki 页面 1135→1495，Outputs 保持 1。
+
+## [2026-11-02] query | Rust crate 的 -core 拆分与 time/time-core
+
+- 核对 Rust Reference、Cargo Book、time 仓库 Cargo.toml 与 time-core 文档，新增 `raw/rust-core-crate-split-official-research-2026-11-02.md` 研究笔记和 [[rust-crate-core-split]] 答案页；更新 [[time-rust]]、[[time-core-rust]] 的交叉链接以及 `index.md`。
+- 区分一般命名惯例与 time 项目的实际依赖关系；time-core 官方明确标为内部实现细节，不把 `-core` 后缀解释成标准库 `core` 或 `no_std` 保证。来源保持 711，wiki 页面 1495→1496，Outputs 保持 1。
