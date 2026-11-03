@@ -1,9 +1,19 @@
 # Index — 知识库目录
 
 > 内容目录（content-oriented）：本库所有页面的清单。每次 ingest 后更新；查询时**先读本文件**找候选页面，再深入具体页面。
-> 维护规则见 `AGENTS.md`（Codex）与 `CLAUDE.md`（Claude Code）。最近更新：2026-11-01。
+> 维护规则见 `AGENTS.md`（Codex）与 `CLAUDE.md`（Claude Code）。最近更新：2026-11-03。
 
 ## Sources 来源
+
+- [[why-learn-rust-clipping]] — 《Rust 编程实战》第 1 篇：学习动机、应用场景与系列路线。
+- [[rust-installation-clipping]] — 第 2 篇：rustup 安装、工具链管理和环境验证。
+- [[rust-hello-world-clipping]] — 第 3 篇：首个 Cargo 项目与 Hello World。
+- [[cargo-guide-clipping]] — 第 4 篇：Cargo 的项目、依赖、构建、测试和发布命令。
+- [[rust-project-layout-clipping]] — 第 5 篇：Cargo 项目文件与应用目录布局。
+- [[rust-variables-mutability-clipping]] — 第 6 篇：默认不可变、mut 与 shadowing。
+- [[rust-data-types-clipping]] — 第 7 篇：标量、元组、数组与类型转换。
+- [[rust-functions-return-values-clipping]] — 第 9 篇：函数参数、表达式返回与单元类型。
+- [[rust-comments-rustdoc-clipping]] — 第 10 篇：注释、rustdoc 与 doctest。
 
 - [[async-attributes-rust-official-research]] — async-attributes 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
 - [[async-dup-rust-official-research]] — async-dup 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
@@ -1554,6 +1564,7 @@
 
 ## Topics 主题
 
+- [[rust-programming-basics]] — 《Rust 编程实战》九篇入门教程的阅读路径、交叉引用与待核对处。
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
 - [[ai-era-command-line]] — AI 时代的命令行：非技术用户如何搭起本地 AI 工具环境（本轮新开主题 / 连载教程 hub）。
 - [[penpot-self-hosting]] — Penpot 2.18 自托管实例的服务拓扑、数据卷与配置注意点。
@@ -1584,6 +1595,7 @@
 
 ## Backlog 待建页面
 
+- 《Rust 编程实战》第 8 篇（常量与静态变量）尚无 raw 原文；补齐后再摄入。九篇剪藏中的安装与 Cargo 现行行为、部分代码示例及作者署名均待独立核对。
 - Rust 收件箱新增段已按 crates.io 元数据初步建页；atomic-walker 与 stringgrep 未在官方注册表找到，需按原始依赖清单核对。大量 stub 页仍需补官方 API 示例、作者与维护者证据；Go 收件箱末尾 11 个模块的 stub 页亦待补示例。
 
 - Python 库身份核实：[[anyio-python]]、[[fastapi-python]] 已补可靠作者证据；其余库的创建者和现任维护团队需逐库以官方项目资料确认，不能仅凭 PyPI owner 或发布者推断。
@@ -1656,4 +1668,4 @@
 
 ## Stats
 
-- 来源：**711** 份 ｜ wiki 页面：**1497** ｜ Outputs：**1** ｜ 最近更新：2026-11-02
+- 来源：**720** 份 ｜ wiki 页面：**1507** ｜ Outputs：**1** ｜ 最近更新：2026-11-03

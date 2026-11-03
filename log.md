@@ -529,3 +529,9 @@
 
 - 核对 docs.rs 的公开类型、模块与 feature，以及 time 的 Cargo.toml；新增 `raw/time-vs-time-core-official-research-2026-11-02.md` 和 [[rust-time-vs-time-core]]，更新 [[time-rust]]、[[time-core-rust]]、`index.md`。
 - 明确应用直接使用 `time::...` 时只需声明 `time`；`time-core` 是其内部依赖，官方不建议直接使用。来源保持 711，wiki 页面 1496→1497，Outputs 保持 1。
+
+## [2026-11-03] ingest | 《Rust 编程实战》九篇入门剪藏
+
+- 用户明确要求批量摄入九篇；将九份原始剪藏保留于 `raw/`，新建九个 `wiki/sources/` 摘要页与 [[rust-programming-basics]] 主题页，同步更新 `index.md`。未触碰工作区原有的 Obsidian 配置与其他未跟踪文件。
+- 剪藏覆盖系列第 1–7、9–10 篇；第 8 篇缺失，列入 Backlog。正文署名与发布日期取自剪藏内容，原 frontmatter 相应字段为空；网页未在线核对。
+- 各页保留了安装、Cargo 锁文件、线程安全、类型转换和代码示例的验证边界；教程里的命令与例子未在本次摄入时执行。来源 711→720，wiki 页面 1497→1507，Outputs 保持 1。
