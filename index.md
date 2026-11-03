@@ -14,6 +14,10 @@
 - [[rust-data-types-clipping]] — 第 7 篇：标量、元组、数组与类型转换。
 - [[rust-functions-return-values-clipping]] — 第 9 篇：函数参数、表达式返回与单元类型。
 - [[rust-comments-rustdoc-clipping]] — 第 10 篇：注释、rustdoc 与 doctest。
+- [[rust-if-control-flow-clipping]] — 第 11 篇：布尔条件、if 表达式与分支顺序。
+- [[rust-loops-clipping]] — 第 12 篇：loop、while、for、范围与循环控制。
+- [[rust-match-patterns-clipping]] — 第 13 篇：match 的穷尽性、解构与守卫。
+- [[rust-if-let-while-let-clipping]] — 第 14 篇：if let、let else、while let 与单分支匹配。
 
 - [[async-attributes-rust-official-research]] — async-attributes 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
 - [[async-dup-rust-official-research]] — async-dup 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
@@ -1564,7 +1568,7 @@
 
 ## Topics 主题
 
-- [[rust-programming-basics]] — 《Rust 编程实战》九篇入门教程的阅读路径、交叉引用与待核对处。
+- [[rust-programming-basics]] — 《Rust 编程实战》十三篇入门教程的阅读路径、交叉引用与待核对处。
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
 - [[ai-era-command-line]] — AI 时代的命令行：非技术用户如何搭起本地 AI 工具环境（本轮新开主题 / 连载教程 hub）。
 - [[penpot-self-hosting]] — Penpot 2.18 自托管实例的服务拓扑、数据卷与配置注意点。
@@ -1595,7 +1599,7 @@
 
 ## Backlog 待建页面
 
-- 《Rust 编程实战》第 8 篇（常量与静态变量）尚无 raw 原文；补齐后再摄入。九篇剪藏中的安装与 Cargo 现行行为、部分代码示例及作者署名均待独立核对。
+- 《Rust 编程实战》第 8 篇（常量与静态变量）尚无 raw 原文；补齐后再摄入。十三篇剪藏中的安装与 Cargo 现行行为、let chain 工具链要求、部分代码示例及作者署名均待独立核对。
 - Rust 收件箱新增段已按 crates.io 元数据初步建页；atomic-walker 与 stringgrep 未在官方注册表找到，需按原始依赖清单核对。大量 stub 页仍需补官方 API 示例、作者与维护者证据；Go 收件箱末尾 11 个模块的 stub 页亦待补示例。
 
 - Python 库身份核实：[[anyio-python]]、[[fastapi-python]] 已补可靠作者证据；其余库的创建者和现任维护团队需逐库以官方项目资料确认，不能仅凭 PyPI owner 或发布者推断。
@@ -1668,4 +1672,4 @@
 
 ## Stats
 
-- 来源：**720** 份 ｜ wiki 页面：**1507** ｜ Outputs：**1** ｜ 最近更新：2026-11-03
+- 来源：**724** 份 ｜ wiki 页面：**1511** ｜ Outputs：**1** ｜ 最近更新：2026-11-03
