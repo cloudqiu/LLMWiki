@@ -577,3 +577,9 @@
 - 根据 `raw/rust-libs-inbox.md` 新增的 `smol` 条目，查阅 smol 2.0.2 官方文档、仓库和 manifest；新增 `raw/smol-rust-official-research-2026-11-04.md`、[[smol-rust-official-research]]、[[smol-rust]]、[[stjepan-glavina]]，更新 [[async-executor-rust]]、[[async-std-rust]]、[[rust-async-runtime-boundaries]] 与 `index.md`。收件箱原文未改动。
 - 官方 manifest 明确列 Stjepan Glavina 为 smol 与 async-executor 作者；创建者具体角色和当前维护者待验证。记录 `block_on`、`spawn` 两个最小示例及 Tokio 适配边界，示例未在本机编译运行。
 - 来源 733→734，wiki 页面 1523→1526，Outputs 保持 1。
+
+## [2026-11-04] query | 系统性学习 Rust Tokio 的指南
+
+- 查阅 Rust Book 与 Tokio 官方教程、API 和专题资料，写入 `raw/tokio-learning-guide-official-research-2026-11-04.md`，归档 [[rust-tokio-systematic-learning-guide]]；更新 [[tokio-rust]] 与 `index.md`。
+- 指南按 Rust 基础、运行时与任务、共享状态与通道、网络 I/O、取消关闭及测试观测安排练习，以 Mini-Redis 为贯穿项目；示例未在本机编译运行，API 需按目标 Cargo.lock 核对。
+- 来源 734 不变，wiki 页面 1526→1527，Outputs 保持 1；保留 `raw/rust-libs-inbox.md` 的用户编辑。

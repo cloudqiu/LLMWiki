@@ -3,7 +3,7 @@ title: "tokio"
 type: entity
 entity_type: tool
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-04
 tags: [rust, library]
 status: growing
 sources: [raw/tokio-rust-official-research-2026-11-01.md]
@@ -39,7 +39,7 @@ sources: [raw/tokio-rust-official-research-2026-11-01.md]
 
 ## 相关库
 
-[[tokio-macros-rust]]、[[tokio-rustls-rust]]、[[tokio-stream-rust]]、[[tokio-tungstenite-rust]]、[[tokio-util-rust]]、[[mio-rust]]。
+[[tokio-macros-rust]]、[[tokio-rustls-rust]]、[[tokio-stream-rust]]、[[tokio-tungstenite-rust]]、[[tokio-util-rust]]、[[mio-rust]]。系统学习路径见 [[rust-tokio-systematic-learning-guide]]。
 
 ## 来源
 

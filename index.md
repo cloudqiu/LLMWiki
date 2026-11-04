@@ -1593,6 +1593,7 @@
 
 ## Answers 问答归档
 
+- [[rust-tokio-systematic-learning-guide]] — 分阶段学习 Rust Tokio：Future、任务、共享状态、I/O、取消、测试与观测；含贯穿项目和验收标准。
 - [[rust-time-vs-time-core]] — 对照 time 与 time-core 的模块、公开类型及应用依赖方式。
 
 - [[rust-crate-core-split]] — 解释 Rust 项目为何拆出 `-core` crate，并以 time/time-core/time-macros 的依赖关系说明。
@@ -1687,4 +1688,4 @@
 
 ## Stats
 
-- 来源：**734** 份 ｜ wiki 页面：**1526** ｜ Outputs：**1** ｜ 最近更新：2026-11-04
+- 来源：**734** 份 ｜ wiki 页面：**1527** ｜ Outputs：**1** ｜ 最近更新：2026-11-04
