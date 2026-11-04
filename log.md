@@ -588,3 +588,8 @@
 
 - 查阅 Rust 标准库、Rust By Example 和 Tokio `spawn` / `spawn_local` 官方文档，新增 `raw/rust-send-static-tokio-official-research-2026-11-04.md` 与 [[rust-send-static-in-tokio]]，并从 [[rust-tokio-systematic-learning-guide]] 互链；更新 `index.md`。
 - 区分 `T: 'static` 与 `&'static T`，用 `async move`、`Arc` 及非 `Send` 值跨 `.await` 的示例说明编译错误；示例未在本机编译。来源 734 不变，wiki 页面 1527→1528，Outputs 保持 1。
+
+## [2026-11-04] query | Send trait 的其他用法
+
+- 查阅 Rust 标准库与 Rustonomicon，新增 `raw/rust-send-other-uses-official-research-2026-11-04.md`；扩展 [[rust-send-static-in-tokio]]，补 `std::thread::spawn`、跨线程 channel、泛型 API、trait object、`Send`/`Sync` 区别及手动 `unsafe impl` 的边界；同步更新 `index.md`。
+- `channel<T>()` 本身没有 `T: Send` 约束，跨线程移动通道端点才体现消息的线程安全要求。同步线程/channel 示例已用本机 Rust 1.99.1 编译运行并输出“完成”；来源和 wiki 页面计数不变，Outputs 保持 1；`raw/rust-libs-inbox.md` 用户编辑仍不纳入提交。
