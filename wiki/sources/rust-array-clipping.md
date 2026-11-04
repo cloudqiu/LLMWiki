@@ -32,7 +32,7 @@ format: article
 
 ## 与既有知识的关系
 
-- 关联：[[rust-programming-basics]]、[[rust-data-types-clipping]]、[[rust-loops-clipping]]、[[rust-tuple-clipping]]、[[rust-slice-clipping]]。
+- 关联：[[rust-programming-basics]]、[[rust-data-types-clipping]]、[[rust-loops-clipping]]、[[rust-tuple-clipping]]、[[rust-slice-clipping]]、[[rust-vec-clipping]]。
 - 待验证：文章的代码示例没有在本次摄入时编译运行；关于数组与 `Vec` 存储位置的简化表述不宜当作绝对规则。正文署名与发表时间未在线核对。
 
 ## 由本来源派生 / 更新的页面

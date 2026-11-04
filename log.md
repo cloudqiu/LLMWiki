@@ -547,3 +547,9 @@
 - 用户确认批量摄入系列第 15–17 篇；保留三份原始剪藏于 `raw/`，新建 [[rust-array-clipping]]、[[rust-tuple-clipping]]、[[rust-slice-clipping]] 来源页，扩展 [[rust-programming-basics]]，并更新 `index.md`。
 - 区分数组 `[T; N]`、元组与借用切片 `&[T]` / `&str`；记录直接索引与范围访问的 panic 边界、`get()` 的可选返回，以及 UTF-8 字节边界。教程代码未在本次摄入时编译运行，正文署名与日期未在线核对。
 - 第 8 篇仍缺原文。来源 724→727，wiki 页面 1511→1514，Outputs 保持 1。
+
+## [2026-11-04] ingest | 《Rust 编程实战》String 与 Vec 两篇
+
+- 摄入系列第 18–19 篇两份新剪藏；保留 `raw/` 原文，新建 [[rust-string-str-clipping]]、[[rust-vec-clipping]] 来源页，扩展 [[rust-programming-basics]]，补充数组、切片来源页的交叉链接，并同步更新 `index.md`。文末剪藏广告不作为教程证据。
+- 记录 `String` / `&str` 的所有权与借用、UTF-8 字节边界、`Vec` 长度与容量、排序去重和队列删除代价。代码未在本次摄入时编译运行；正文署名与日期未在线核对。其他已修改的 raw 文件保持原样。
+- 第 8 篇仍缺原文。来源 727→729，wiki 页面 1514→1516，Outputs 保持 1。

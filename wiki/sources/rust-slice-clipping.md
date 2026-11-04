@@ -32,7 +32,7 @@ format: article
 
 ## 与既有知识的关系
 
-- 关联：[[rust-programming-basics]]、[[rust-array-clipping]]、[[rust-tuple-clipping]]、[[rust-functions-return-values-clipping]]。
+- 关联：[[rust-programming-basics]]、[[rust-array-clipping]]、[[rust-tuple-clipping]]、[[rust-functions-return-values-clipping]]、[[rust-string-str-clipping]]、[[rust-vec-clipping]]。
 - 待验证：示例未在本次摄入时编译运行；正文署名与发表时间未在线核对。`chars()` 的元素并不总等于用户感知的完整字符，处理字形簇需要另查资料。
 
 ## 由本来源派生 / 更新的页面

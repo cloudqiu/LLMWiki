@@ -22,13 +22,15 @@ sources:
   - "raw/Rust 数组 Array 详解：定义、访问、遍历与切片.md"
   - "raw/Rust 元组 Tuple 详解：组合不同类型的数据.md"
   - "raw/Rust 切片 Slice 详解：安全访问连续数据.md"
+  - "raw/Rust String 与 &str 详解：字符串所有权、借用与转换.md"
+  - "raw/Rust Vec 动态数组详解：创建、增删、遍历与排序.md"
 ---
 
 # Rust 编程入门
 
 ## 概述
 
-《Rust 编程实战》系列已摄入第 1–7、9–17 篇。阅读路径从语言定位与环境安装开始，经过 Hello World、Cargo 和项目结构，再进入变量、基础类型、函数、rustdoc、控制流与模式匹配，接着学习数组、元组和切片。第 8 篇（常量与静态变量）尚无原始资料，不能根据前后篇补写。
+《Rust 编程实战》系列已摄入第 1–7、9–19 篇。阅读路径从语言定位与环境安装开始，经过 Hello World、Cargo 和项目结构，再进入变量、基础类型、函数、rustdoc、控制流与模式匹配，接着学习数组、元组、切片、字符串和 `Vec`。第 8 篇（常量与静态变量）尚无原始资料，不能根据前后篇补写。
 
 这些页面归档的是教程作者的讲解。涉及工具链现状、性能、治理和代码正确性时，仍需官方文档或实机验证。
 
@@ -42,6 +44,7 @@ sources:
 6. [[rust-if-control-flow-clipping|if]] → [[rust-loops-clipping|循环]]：用条件分支与三种循环组织控制流；注意短路、分支次序、退出和范围边界。
 7. [[rust-match-patterns-clipping|match]] → [[rust-if-let-while-let-clipping|if let / while let]]：从穷尽式匹配走向单分支和持续匹配；明确未处理分支及容器取值顺序。
 8. [[rust-array-clipping|数组]] → [[rust-tuple-clipping|元组]] → [[rust-slice-clipping|切片]]：比较固定长度同类型数据与固定位置混合类型数据；用切片借用数组、`Vec` 或字符串的一部分，注意范围和 UTF-8 字节边界。
+9. [[rust-string-str-clipping|String / &str]] → [[rust-vec-clipping|Vec]]：区分拥有与借用、复制与移动；对动态文本和动态集合分别学习增长、访问、容量及迭代。
 
 ## 与已有知识的连接
 
@@ -54,8 +57,9 @@ sources:
 - 对安装命令、Cargo 行为与 doctest 示例，按目标工具链版本核对并实际运行。
 - 第 11 篇的订单输出先写 96.00 后更正为 106.00；第 12 篇预计算的循环条件不可当作动态条件；第 14 篇 let chain 需按目标工具链版本核对。
 - 第 15–17 篇的示例尚未编译运行；尤其需要复核数组遍历的所有权影响、切片范围越界行为及 UTF-8 字符边界。
+- 第 18–19 篇示例尚未编译运行；`chars()` 返回 Unicode 标量值而非完整字形簇，`partial_cmp(...).unwrap()` 不能直接用于可能含 `NaN` 的数据。
 - 作者关于 Rust Foundation、性能和广泛采用的判断，需要独立可靠证据。
 
 ## 来源
 
-- 本页 frontmatter 所列十六份 raw 剪藏；各篇的出处、发表日期与证据边界见对应来源页。
+- 本页 frontmatter 所列十八份 raw 剪藏；各篇的出处、发表日期与证据边界见对应来源页。
