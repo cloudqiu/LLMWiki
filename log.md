@@ -583,3 +583,8 @@
 - 查阅 Rust Book 与 Tokio 官方教程、API 和专题资料，写入 `raw/tokio-learning-guide-official-research-2026-11-04.md`，归档 [[rust-tokio-systematic-learning-guide]]；更新 [[tokio-rust]] 与 `index.md`。
 - 指南按 Rust 基础、运行时与任务、共享状态与通道、网络 I/O、取消关闭及测试观测安排练习，以 Mini-Redis 为贯穿项目；示例未在本机编译运行，API 需按目标 Cargo.lock 核对。
 - 来源 734 不变，wiki 页面 1526→1527，Outputs 保持 1；保留 `raw/rust-libs-inbox.md` 的用户编辑。
+
+## [2026-11-04] query | Rust Send + 'static 与 Tokio 任务
+
+- 查阅 Rust 标准库、Rust By Example 和 Tokio `spawn` / `spawn_local` 官方文档，新增 `raw/rust-send-static-tokio-official-research-2026-11-04.md` 与 [[rust-send-static-in-tokio]]，并从 [[rust-tokio-systematic-learning-guide]] 互链；更新 `index.md`。
+- 区分 `T: 'static` 与 `&'static T`，用 `async move`、`Arc` 及非 `Send` 值跨 `.await` 的示例说明编译错误；示例未在本机编译。来源 734 不变，wiki 页面 1527→1528，Outputs 保持 1。

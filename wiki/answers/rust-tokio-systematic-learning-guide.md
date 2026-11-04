@@ -48,7 +48,7 @@ async fn main() {
 }
 ```
 
-验收：解释为什么顺序等待两个 `JoinHandle` 仍允许任务并发，以及 `spawn` 为何要求 Future 和输出满足 `Send + 'static`。[`spawn` 文档](https://docs.rs/tokio/latest/tokio/task/fn.spawn.html)。此片段按公开 API 编写，尚未在本库环境编译运行。
+验收：解释为什么顺序等待两个 `JoinHandle` 仍允许任务并发，以及 `spawn` 为何要求 Future 和输出满足 `Send + 'static`。详见 [[rust-send-static-in-tokio]] 与 [`spawn` 文档](https://docs.rs/tokio/latest/tokio/task/fn.spawn.html)。此片段按公开 API 编写，尚未在本库环境编译运行。
 
 ## 2. 第 2 周：共享状态、消息传递与并发边界
 
