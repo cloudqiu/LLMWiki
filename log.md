@@ -565,3 +565,9 @@
 - 查询 [[crates-dev-discovery-clipping]] 与原始首页剪藏，并浏览 crates.dev 首页及其导航直接链接的 23 个不同站内页面；新增 `raw/crates-dev-site-survey-2026-11-04.md` 查阅记录及 [[crates-dev-site-summary]] 答案页，更新 `index.md`。
 - 归纳单库评论、主题清单、管理/选型/贡献指南与运行时比较；以 Rust、Rocket、rustls、Hyper 官方资料核对部分旧术语和代码示例。未取得 sitemap，不能证明覆盖未链接页面。
 - 未摄入站内所列的各个 crate，未运行示例；来源页 732 不变，wiki 页面 1520→1521，Outputs 保持 1。
+
+## [2026-11-04] ingest | Rust 异步生态对话摘录
+
+- 保留 `raw/Rust 异步生态futures，async_std, tokio.md` 原文；新增 [[rust-async-ecosystem-conversation]] 来源页与 [[rust-async-runtime-boundaries]] 概念页，更新 `index.md`。
+- 核对 futures、Tokio、async-std、标准库 Future 的发布文档；在新来源页及已有 futures/async-std 实体和官方来源页双向标注冲突：futures 执行器并非只有单线程，async-std 项目已停止并建议转向 smol。
+- 原文的示意代码未在本次摄入时编译运行；绝对化的生产环境与运行时兼容性判断继续标待验证。来源 732→733，wiki 页面 1521→1523，Outputs 保持 1。

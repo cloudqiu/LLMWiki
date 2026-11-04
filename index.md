@@ -26,6 +26,7 @@
 - [[rustify-ten-crates-2026-clipping]] — Rustify 按用途推荐十个常见 crate；量化和维护断言待核查。
 - [[blessed-rs-crate-list-clipping]] — blessed.rs 按场景编排的 Rust crate 候选与替代项。
 - [[crates-dev-discovery-clipping]] — crates.dev 首页通用介绍与常见 crate 名称；证据质量有限。
+- [[rust-async-ecosystem-conversation]] — AI 对话摘录比较 futures、async-std、Tokio；与官方维护状态及执行器文档存在冲突。
 
 - [[async-attributes-rust-official-research]] — async-attributes 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
 - [[async-dup-rust-official-research]] — async-dup 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
@@ -763,6 +764,7 @@
 - [[distributed-quantiles]] — 全局 P99 不能平均各实例 P99；Histogram 聚合与可合并摘要的证据边界。
 - [[emotional-control-at-work]] — 压力和异议沟通的具体做法，以及文章观点的证据边界。
 - [[rust-interior-mutability]] — Cell、RefCell、OnceCell、LazyCell 和 UnsafeCell 的选择线索。
+- [[rust-async-runtime-boundaries]] — 区分 Future 工具、执行器与 I/O 运行时；记录对话摘录和官方文档的冲突。
 - [[sqlite-filter-clause]] — SQLite 普通聚合 FILTER 自 3.30.0 起支持；与 2018 年资料的矛盾。
 - [[llm-wiki]] — 核心模式：LLM 增量维护的持久化 wiki；三层架构 + ingest/query/lint 三操作。
 - [[retrieval-augmented-generation]] — RAG：查询时检索切片生成答案，无知识积累。
@@ -1681,4 +1683,4 @@
 
 ## Stats
 
-- 来源：**732** 份 ｜ wiki 页面：**1521** ｜ Outputs：**1** ｜ 最近更新：2026-11-04
+- 来源：**733** 份 ｜ wiki 页面：**1523** ｜ Outputs：**1** ｜ 最近更新：2026-11-04

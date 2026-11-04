@@ -3,10 +3,10 @@ title: "async-std"
 type: entity
 entity_type: tool
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-04
 tags: [rust, library]
 status: stub
-sources: [raw/async-std-rust-official-research-2026-11-02.md]
+sources: [raw/async-std-rust-official-research-2026-11-02.md, "raw/Rust 异步生态futures，async_std, tokio.md"]
 ---
 
 # async-std
@@ -32,9 +32,12 @@ sources: [raw/async-std-rust-official-research-2026-11-02.md]
 ## 关键限制
 
 - 该包的官方摘要标为 deprecated 或 unmaintained；选用前须核对迁移建议。
+> [!warning] 矛盾
+> [[rust-async-ecosystem-conversation]] 将 `async-std` 描述为仍可选择的生产级运行时；[项目发布文档](https://docs.rs/async-std/latest/async_std/)明确写明已停止，并建议现有用户及依赖它的库转向 `smol`。
 
 
 ## 来源
 
 - [[async-std-rust-official-research]]；本地研究笔记：`raw/async-std-rust-official-research-2026-11-02.md`。
 - [crates.io](https://crates.io/crates/async-std)；[发布文档](https://docs.rs/async-std/latest/async_std/)。
+- 对话摘录：[[rust-async-ecosystem-conversation]]；其选型建议与官方维护声明冲突。另见 [[rust-async-runtime-boundaries]]。

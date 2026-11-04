@@ -3,10 +3,10 @@ title: "futures"
 type: entity
 entity_type: tool
 created: 2026-11-01
-updated: 2026-11-01
+updated: 2026-11-04
 tags: [rust, library]
 status: growing
-sources: [raw/futures-rust-official-research-2026-11-01.md]
+sources: [raw/futures-rust-official-research-2026-11-01.md, "raw/Rust 异步生态futures，async_std, tokio.md"]
 ---
 
 # futures
@@ -36,12 +36,15 @@ let result = futures::executor::block_on(async { 42 });
 ## 关键限制
 
 - 平台、feature 与版本边界须按实际项目核对。
+> [!warning] 矛盾
+> [[rust-async-ecosystem-conversation]] 称 `futures::executor` 只能单线程运行；[发布文档](https://docs.rs/futures/latest/futures/executor/)还列出受 `thread-pool` feature 控制的 `ThreadPool`。`block_on` 本身在当前线程运行，不能代表整个执行器模块。
 
 ## 相关库
 
-[[futures-channel-rust]]、[[futures-core-rust]]、[[futures-executor-rust]]、[[futures-io-rust]]、[[futures-macro-rust]]、[[futures-sink-rust]]、[[futures-task-rust]]、[[futures-util-rust]]。
+[[futures-channel-rust]]、[[futures-core-rust]]、[[futures-executor-rust]]、[[futures-io-rust]]、[[futures-macro-rust]]、[[futures-sink-rust]]、[[futures-task-rust]]、[[futures-util-rust]]、[[rust-async-runtime-boundaries]]。
 
 ## 来源
 
 - [[futures-rust-official-research]]；本地查阅记录：`raw/futures-rust-official-research-2026-11-01.md`。
 - [发布文档](https://docs.rs/futures/latest/futures/)；[crates.io](https://crates.io/crates/futures)。
+- 对话摘录：[[rust-async-ecosystem-conversation]]；其说法须按上面的官方资料辨析。
