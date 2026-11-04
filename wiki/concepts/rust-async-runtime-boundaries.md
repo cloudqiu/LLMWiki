@@ -10,6 +10,7 @@ sources:
   - "raw/futures-rust-official-research-2026-11-01.md"
   - "raw/tokio-rust-official-research-2026-11-01.md"
   - "raw/async-std-rust-official-research-2026-11-02.md"
+  - "raw/smol-rust-official-research-2026-11-04.md"
 ---
 
 # Rust 异步抽象与运行时边界
@@ -29,6 +30,7 @@ sources:
 | [[futures-rust|futures]] | `FutureExt`、`Stream`、`Sink`、channel、`block_on` 等；执行器模块也有 `ThreadPool` | `ThreadPool` 受 feature 控制；该库本身不等同于完整网络 I/O 运行时 |
 | [[tokio-rust|Tokio]] | 运行时、任务调度、I/O 驱动、定时器及网络 API | `net`、`time`、`rt` 等能力按 feature 启用 |
 | [[async-std-rust|async-std]] | 历史上提供类 `std` 的异步 API 与运行时 | [项目文档](https://docs.rs/async-std/latest/async_std/)已声明停止，建议用户转向 `smol` |
+| [[smol-rust|smol]] | 将执行器、网络、I/O 与 timer 等较小 async crates 汇集为运行时入口 | 全局 `spawn` 默认单线程；Tokio 库接入需核对 `async-compat` 适配 |
 
 - 若库只组合 `Future` / `Stream` 且不用特定运行时服务，接口可以保持较强的运行时独立性。要调用 `tokio::net`、`tokio::time` 等，则应明确 Tokio 依赖及 feature；仅实现标准 `Future` 不保证底层 I/O 在其他执行器中可运行。
 - 原文的双 crate 示例是纯计算与字符串格式化演示；`my_lib` 可返回 Future，由 `my_app` 的 Tokio 执行。代码未在本次摄入时运行，且示意目录未包含实际 workspace 根 manifest。
@@ -45,8 +47,8 @@ sources:
 
 ## 相关页面
 
-- [[rust-async-ecosystem-conversation]]、[[futures-rust]]、[[tokio-rust]]、[[async-std-rust]]、[[rust-crate-selection]]。
+- [[rust-async-ecosystem-conversation]]、[[futures-rust]]、[[tokio-rust]]、[[async-std-rust]]、[[smol-rust]]、[[rust-crate-selection]]。
 
 ## 来源
 
-- 本页 frontmatter 所列四份 raw 文件；其中对话摘录不是官方事实来源。官方查阅笔记及上列发布文档用于核对当前状态。
+- 本页 frontmatter 所列 raw 文件；其中对话摘录不是官方事实来源。官方查阅笔记及上列发布文档用于核对当前状态。

@@ -571,3 +571,9 @@
 - 保留 `raw/Rust 异步生态futures，async_std, tokio.md` 原文；新增 [[rust-async-ecosystem-conversation]] 来源页与 [[rust-async-runtime-boundaries]] 概念页，更新 `index.md`。
 - 核对 futures、Tokio、async-std、标准库 Future 的发布文档；在新来源页及已有 futures/async-std 实体和官方来源页双向标注冲突：futures 执行器并非只有单线程，async-std 项目已停止并建议转向 smol。
 - 原文的示意代码未在本次摄入时编译运行；绝对化的生产环境与运行时兼容性判断继续标待验证。来源 732→733，wiki 页面 1521→1523，Outputs 保持 1。
+
+## [2026-11-04] ingest | Rust crate smol
+
+- 根据 `raw/rust-libs-inbox.md` 新增的 `smol` 条目，查阅 smol 2.0.2 官方文档、仓库和 manifest；新增 `raw/smol-rust-official-research-2026-11-04.md`、[[smol-rust-official-research]]、[[smol-rust]]、[[stjepan-glavina]]，更新 [[async-executor-rust]]、[[async-std-rust]]、[[rust-async-runtime-boundaries]] 与 `index.md`。收件箱原文未改动。
+- 官方 manifest 明确列 Stjepan Glavina 为 smol 与 async-executor 作者；创建者具体角色和当前维护者待验证。记录 `block_on`、`spawn` 两个最小示例及 Tokio 适配边界，示例未在本机编译运行。
+- 来源 733→734，wiki 页面 1523→1526，Outputs 保持 1。

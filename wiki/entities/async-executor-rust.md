@@ -3,10 +3,10 @@ title: "async-executor"
 type: entity
 entity_type: tool
 created: 2026-11-02
-updated: 2026-11-02
+updated: 2026-11-04
 tags: [rust, library]
 status: stub
-sources: [raw/async-executor-rust-official-research-2026-11-02.md]
+sources: [raw/async-executor-rust-official-research-2026-11-02.md, raw/smol-rust-official-research-2026-11-04.md]
 ---
 
 # async-executor
@@ -22,7 +22,7 @@ sources: [raw/async-executor-rust-official-research-2026-11-02.md]
 
 ## 作者与维护者
 
-- 创建者：待验证。
+- manifest 署名作者：[[stjepan-glavina|Stjepan Glavina]] 与 John Nunley，依据官方 `Cargo.toml` 的 `authors` 字段；创建者的具体角色待验证。
 - 当前维护者：待验证。
 
 ## 典型用法
@@ -37,3 +37,4 @@ sources: [raw/async-executor-rust-official-research-2026-11-02.md]
 
 - [[async-executor-rust-official-research]]；`raw/async-executor-rust-official-research-2026-11-02.md`。
 - [官方发布文档](https://docs.rs/async-executor/latest/async_executor/)。
+- [官方 manifest](https://github.com/smol-rs/async-executor/blob/master/Cargo.toml) 的作者署名见 `raw/smol-rust-official-research-2026-11-04.md`；此库也是 [[smol-rust|smol]] 的组成组件之一。

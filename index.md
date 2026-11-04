@@ -5,6 +5,7 @@
 
 ## Sources 来源
 
+- [[smol-rust-official-research]] — smol 2.0.2 官方文档、仓库与 manifest 查阅记录；记录运行时能力、兼容边界及作者署名。
 - [[why-learn-rust-clipping]] — 《Rust 编程实战》第 1 篇：学习动机、应用场景与系列路线。
 - [[rust-installation-clipping]] — 第 2 篇：rustup 安装、工具链管理和环境验证。
 - [[rust-hello-world-clipping]] — 第 3 篇：首个 Cargo 项目与 Hello World。
@@ -774,6 +775,8 @@
 
 ## Entities 实体
 
+- [[smol-rust]] — smol：组合执行器、I/O、网络与计时器的 Rust async 运行时；含两个最小示例。
+- [[stjepan-glavina]] — Stjepan Glavina：smol 与 async-executor 官方 manifest 的署名作者；创建与现任维护角色待验证。
 - [[async-attributes-rust]] — async-attributes：Experimental language-level polyfills for Async Rust.（stub，API 示例待补）
 - [[async-dup-rust]] — async-dup：Duplicate an async I/O handle（stub，API 示例待补）
 - [[async-fs-rust]] — async-fs：Async filesystem primitives（stub，API 示例待补）
@@ -1617,6 +1620,7 @@
 - Python 用法与版本验证：本批示例未在本机运行；发布页版本已记录，仍需按目标项目依赖锁定文件核对实际版本与 API。
 
 - Rust 库身份核实：已摄入 243 个收件箱条目对应的 crate；个人创建者与现任维护者尚缺可靠官方证据，逐库查仓库 README、组织主页和维护政策后补作者页与双向链接。
+- smol：已核实 Stjepan Glavina 为 manifest 署名作者；创建者的具体角色与当前维护者仍待官方证据核实。其两个用法示例尚未在本机编译。
 - Rust 示例验证：四批按 docs.rs 公共 API 整理的片段均未在本机编译；低层组件的独立最小示例待从官方项目补齐。
 - `poetential_utf`、`singal-hook-registry`、`sha1-1`：分别暂映射 [[potential-utf-rust]]、[[signal-hook-registry-rust]]、[[sha1-rust]]；需由实际 Cargo.lock 或用户原始依赖清单确认。
 - `jpeg-decorder`：收件箱疑似拼写错误，暂映射 [[jpeg-decoder-rust]]；需由实际 Cargo.lock 或用户原始依赖清单确认。
@@ -1683,4 +1687,4 @@
 
 ## Stats
 
-- 来源：**733** 份 ｜ wiki 页面：**1523** ｜ Outputs：**1** ｜ 最近更新：2026-11-04
+- 来源：**734** 份 ｜ wiki 页面：**1526** ｜ Outputs：**1** ｜ 最近更新：2026-11-04

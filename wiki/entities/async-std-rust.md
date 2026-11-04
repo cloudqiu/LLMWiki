@@ -6,14 +6,14 @@ created: 2026-11-02
 updated: 2026-11-04
 tags: [rust, library]
 status: stub
-sources: [raw/async-std-rust-official-research-2026-11-02.md, "raw/Rust 异步生态futures，async_std, tokio.md"]
+sources: [raw/async-std-rust-official-research-2026-11-02.md, "raw/Rust 异步生态futures，async_std, tokio.md", raw/smol-rust-official-research-2026-11-04.md]
 ---
 
 # async-std
 
 ## 用途与适用场景
 
-官方摘要为“Deprecated in favor of `smol` - Async version of the Rust standard library”。此页记录版本与来源；具体选用场景待核实。（[[async-std-rust-official-research]]）
+官方摘要为“Deprecated in favor of `smol` - Async version of the Rust standard library”。此页记录版本与来源；迁移目标见 [[smol-rust]]，具体迁移步骤仍须按 API 核对。（[[async-std-rust-official-research]]）
 
 ## 依赖与版本
 
