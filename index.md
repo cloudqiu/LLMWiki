@@ -23,6 +23,9 @@
 - [[rust-slice-clipping]] — 第 17 篇：数组与字符串切片、可变借用、范围和 UTF-8 边界。
 - [[rust-string-str-clipping]] — 第 18 篇：String / &str 的所有权、借用、转换与 UTF-8 文本处理。
 - [[rust-vec-clipping]] — 第 19 篇：Vec 的增删改查、容量、排序去重与切片借用。
+- [[rustify-ten-crates-2026-clipping]] — Rustify 按用途推荐十个常见 crate；量化和维护断言待核查。
+- [[blessed-rs-crate-list-clipping]] — blessed.rs 按场景编排的 Rust crate 候选与替代项。
+- [[crates-dev-discovery-clipping]] — crates.dev 首页通用介绍与常见 crate 名称；证据质量有限。
 
 - [[async-attributes-rust-official-research]] — async-attributes 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
 - [[async-dup-rust-official-research]] — async-dup 的 crates.io 版本与官方摘要查阅记录；API 示例待补。
@@ -1574,6 +1577,7 @@
 ## Topics 主题
 
 - [[rust-programming-basics]] — 《Rust 编程实战》十八篇入门教程的阅读路径、交叉引用与待核对处。
+- [[rust-crate-selection]] — 对比三份 Rust crate 推荐剪藏，连接已有库页并标注证据边界。
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
 - [[ai-era-command-line]] — AI 时代的命令行：非技术用户如何搭起本地 AI 工具环境（本轮新开主题 / 连载教程 hub）。
 - [[penpot-self-hosting]] — Penpot 2.18 自托管实例的服务拓扑、数据卷与配置注意点。
@@ -1677,4 +1681,4 @@
 
 ## Stats
 
-- 来源：**729** 份 ｜ wiki 页面：**1516** ｜ Outputs：**1** ｜ 最近更新：2026-11-04
+- 来源：**732** 份 ｜ wiki 页面：**1520** ｜ Outputs：**1** ｜ 最近更新：2026-11-04

@@ -553,3 +553,9 @@
 - 摄入系列第 18–19 篇两份新剪藏；保留 `raw/` 原文，新建 [[rust-string-str-clipping]]、[[rust-vec-clipping]] 来源页，扩展 [[rust-programming-basics]]，补充数组、切片来源页的交叉链接，并同步更新 `index.md`。文末剪藏广告不作为教程证据。
 - 记录 `String` / `&str` 的所有权与借用、UTF-8 字节边界、`Vec` 长度与容量、排序去重和队列删除代价。代码未在本次摄入时编译运行；正文署名与日期未在线核对。其他已修改的 raw 文件保持原样。
 - 第 8 篇仍缺原文。来源 727→729，wiki 页面 1514→1516，Outputs 保持 1。
+
+## [2026-11-04] ingest | 三份 Rust crate 发现与推荐剪藏
+
+- 将 Rustify 十库文章、blessed.rs 的 Crate List 和 crates.dev 首页剪藏保留于 `raw/`，各建来源页，并新建 [[rust-crate-selection]] 主题页；同步更新 `index.md`。没有将推荐列表误作逐个库的官方摄入。
+- 将十个主推荐与本库已有实体页互链；量化普及率、维护状态、站点自称审查及部分术语定义仅作为待核查说法。未在线核对网页现状，也未运行文章示例。
+- 来源 729→732，wiki 页面 1516→1520，Outputs 保持 1。已有工作区中的其他 raw 与 Obsidian 修改不纳入本次提交。
