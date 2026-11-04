@@ -593,3 +593,8 @@
 
 - 查阅 Rust 标准库与 Rustonomicon，新增 `raw/rust-send-other-uses-official-research-2026-11-04.md`；扩展 [[rust-send-static-in-tokio]]，补 `std::thread::spawn`、跨线程 channel、泛型 API、trait object、`Send`/`Sync` 区别及手动 `unsafe impl` 的边界；同步更新 `index.md`。
 - `channel<T>()` 本身没有 `T: Send` 约束，跨线程移动通道端点才体现消息的线程安全要求。同步线程/channel 示例已用本机 Rust 1.99.1 编译运行并输出“完成”；来源和 wiki 页面计数不变，Outputs 保持 1；`raw/rust-libs-inbox.md` 用户编辑仍不纳入提交。
+
+## [2026-11-04] query | Rust Sync、trait object 与跨线程智能指针
+
+- 查阅 Rust 标准库、Reference 和 Rust Book，新增 `raw/rust-sync-trait-objects-smart-pointers-official-research-2026-11-04.md` 与 [[rust-sync-trait-objects-thread-safe-pointers]]；从 [[rust-send-static-in-tokio]] 互链并更新 `index.md`。
+- 区分 `Send` 的转移与 `Sync` 的共享引用，核对 Box、Arc、Mutex、RwLock、Rc 的泛型条件及 `dyn Trait + Send + Sync`；示例已用 Rust 1.99.1 编译运行并通过断言。来源 734 不变，wiki 页面 1528→1529，Outputs 保持 1。保留 `raw/rust-libs-inbox.md` 用户编辑。

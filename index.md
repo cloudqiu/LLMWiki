@@ -1593,6 +1593,7 @@
 
 ## Answers 问答归档
 
+- [[rust-sync-trait-objects-thread-safe-pointers]] — 系统解释 `Sync`、trait object 动态分发，以及 Box、Arc、Mutex、RwLock、Rc 的跨线程条件。
 - [[rust-send-static-in-tokio]] — 解释 Tokio 任务的 `Send + 'static`，并延伸至线程、channel、泛型接口及 `Send`/`Sync` 的区别。
 - [[rust-tokio-systematic-learning-guide]] — 分阶段学习 Rust Tokio：Future、任务、共享状态、I/O、取消、测试与观测；含贯穿项目和验收标准。
 - [[rust-time-vs-time-core]] — 对照 time 与 time-core 的模块、公开类型及应用依赖方式。
@@ -1689,4 +1690,4 @@
 
 ## Stats
 
-- 来源：**734** 份 ｜ wiki 页面：**1528** ｜ Outputs：**1** ｜ 最近更新：2026-11-04
+- 来源：**734** 份 ｜ wiki 页面：**1529** ｜ Outputs：**1** ｜ 最近更新：2026-11-04

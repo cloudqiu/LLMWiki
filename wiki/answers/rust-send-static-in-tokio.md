@@ -116,6 +116,8 @@ fn main() {
 
 `Send` 管**把值转移到别的线程**；`Sync` 管**多个线程共享 `&T`**。严格地说，`T: Sync` 当且仅当 `&T: Send`。[`Sync` 文档](https://doc.rust-lang.org/std/marker/trait.Sync.html)。`Rc<T>` 不适合跨线程；`Arc<T>` 的原子计数也不会自动让不安全的内部 `T` 变安全。常见共享可变状态需要额外同步，例如 `Arc<Mutex<T>>`；具体仍按 `T` 的约束判断。[`Arc` 文档](https://doc.rust-lang.org/std/sync/struct.Arc.html)。
 
+关于 `Sync`、trait object 和智能指针条件的完整对照，见 [[rust-sync-trait-objects-thread-safe-pointers]]。
+
 一般不需要自己写 `unsafe impl Send`：编译器会自动推导。它是 `unsafe` trait，错误实现可能造成未定义行为；只有封装底层并发或 FFI 类型、且能完整证明跨线程安全时才考虑手动实现。[Rustonomicon](https://doc.rust-lang.org/nomicon/send-and-sync.html)。
 
 ## 依据
