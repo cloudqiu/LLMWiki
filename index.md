@@ -1592,7 +1592,7 @@
 
 - [[rust-crate-core-split]] — 解释 Rust 项目为何拆出 `-core` crate，并以 time/time-core/time-macros 的依赖关系说明。
 
-（暂无——有值得留存的查询结果时归档到 `wiki/answers/`）
+- [[crates-dev-site-summary]] — 汇总 crates.dev 首页及导航中的 23 篇文章，并标注旧 API 与来源可信度。
 
 ## Outputs 产物（output/）
 
@@ -1681,4 +1681,4 @@
 
 ## Stats
 
-- 来源：**732** 份 ｜ wiki 页面：**1520** ｜ Outputs：**1** ｜ 最近更新：2026-11-04
+- 来源：**732** 份 ｜ wiki 页面：**1521** ｜ Outputs：**1** ｜ 最近更新：2026-11-04

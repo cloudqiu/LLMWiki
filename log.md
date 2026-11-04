@@ -559,3 +559,9 @@
 - 将 Rustify 十库文章、blessed.rs 的 Crate List 和 crates.dev 首页剪藏保留于 `raw/`，各建来源页，并新建 [[rust-crate-selection]] 主题页；同步更新 `index.md`。没有将推荐列表误作逐个库的官方摄入。
 - 将十个主推荐与本库已有实体页互链；量化普及率、维护状态、站点自称审查及部分术语定义仅作为待核查说法。未在线核对网页现状，也未运行文章示例。
 - 来源 729→732，wiki 页面 1516→1520，Outputs 保持 1。已有工作区中的其他 raw 与 Obsidian 修改不纳入本次提交。
+
+## [2026-11-04] query | crates.dev 站点内容摘要
+
+- 查询 [[crates-dev-discovery-clipping]] 与原始首页剪藏，并浏览 crates.dev 首页及其导航直接链接的 23 个不同站内页面；新增 `raw/crates-dev-site-survey-2026-11-04.md` 查阅记录及 [[crates-dev-site-summary]] 答案页，更新 `index.md`。
+- 归纳单库评论、主题清单、管理/选型/贡献指南与运行时比较；以 Rust、Rocket、rustls、Hyper 官方资料核对部分旧术语和代码示例。未取得 sitemap，不能证明覆盖未链接页面。
+- 未摄入站内所列的各个 crate，未运行示例；来源页 732 不变，wiki 页面 1520→1521，Outputs 保持 1。
