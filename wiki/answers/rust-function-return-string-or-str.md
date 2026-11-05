@@ -7,6 +7,7 @@ tags: [rust, strings, ownership, borrowing, lifetimes]
 status: growing
 sources:
   - raw/rust-string-return-ownership-official-research-2026-11-05.md
+  - raw/rust-static-str-binary-lifetime-official-research-2026-11-05.md
   - raw/Rust String 与 &str 详解：字符串所有权、借用与转换.md
   - raw/Rust 所有权 Ownership 详解：理解内存安全的核心机制.md
 ---
@@ -93,9 +94,26 @@ fn bad() -> &'static str {
 - 调用者需要独立保存一个借来的结果时，可在边界处用 `.to_owned()` 转成 `String`；若接口经常在借用与新建之间切换，可考虑 `Cow<'a, str>`。[标准库 `Cow`](https://doc.rust-lang.org/std/borrow/enum.Cow.html)。
 - 函数**参数**只读时通常优先 `&str`；函数**返回值**需要按所有权来源判断，两者不必对称。`raw/Rust String 与 &str 详解：字符串所有权、借用与转换.md` 的“为什么函数参数优先使用 &str？”讨论的是参数。
 
+### `&'static str` 是否一定来自 binary？
+
+字符串**字面量**如 `"ok"` 在编译时已知，官方资料说明其文本存于程序 binary；函数调用时返回的是指向该文本的 `&str` 视图。`include_str!` 也在编译时把文件内容纳入程序。[Rust Reference](https://doc.rust-lang.org/reference/expressions/literal-expr.html)、[标准库 `include_str!`](https://doc.rust-lang.org/std/macro.include_str.html)。
+
+但 `&'static` 说的是**被引用数据的有效期**，不要求文本本身编译时已知。例如下面的字符串来自运行时输入：
+
+```rust
+fn keep_forever(input: &str) -> &'static str {
+    Box::leak(input.to_owned().into_boxed_str())
+}
+```
+
+`Box::leak` 让这份堆分配在程序剩余时间内保持有效，所以能返回 `&'static str`；代价是内存不会按正常作用域释放。它是说明生命周期含义的反例，普通业务函数通常应返回 `String`，而非故意泄漏内存。该示例已用本机 `rustc --edition=2021` 编译运行。[标准库 `Box::leak`](https://doc.rust-lang.org/std/boxed/struct.Box.html)。
+
+函数本身像普通 Rust 函数一样参与编译与链接；是否保留为 binary 中独立的函数体由优化和链接决定，**不是** `&'static str` 返回类型的要求。
+
 ## 依据
 
 - `raw/rust-string-return-ownership-official-research-2026-11-05.md`：“查阅资料”与“核对结果”。
+- `raw/rust-static-str-binary-lifetime-official-research-2026-11-05.md`：“核对结果”与“验证”。
 - `raw/Rust String 与 &str 详解：字符串所有权、借用与转换.md`：“什么是 &str？”至“String 与 &str 的核心区别”、“借用 String”至“&str 转换为 String”。
 - `raw/Rust 所有权 Ownership 详解：理解内存安全的核心机制.md`：“函数返回值转移所有权”、“只读参数优先借用”。
 
