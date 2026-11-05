@@ -33,7 +33,7 @@ format: article
 
 - 接续 [[rust-option-clipping]]、[[rust-result-clipping]]；相关 crate 见 [[thiserror-rust]]、[[anyhow-rust]]。学习顺序见 [[rust-programming-basics]]。
 > [!warning] 矛盾
-> “3. 程序逻辑错误使用 panic”把 `divide(a, b)` 的 `b == 0` 直接设为 panic；同文“不要滥用 panic”又要求将可预期用户输入错误返回 `Result`。若 `b` 来自调用方输入，除零应按 API 契约和使用场景设计，不能一律视作内部 bug。本条也记录在 [[rust-programming-basics]]。
+> “3. 程序逻辑错误使用 panic”把 `divide(a, b)` 的 `b == 0` 直接设为 panic；同文“不要滥用 panic”又要求将可预期用户输入错误返回 `Result`。后续 [[rust-rustdoc-cargo-doc-clipping]] 与 [[rust-unit-testing-clipping]] 也把除零作为 `Result::Err` 分支。若 `b` 来自调用方输入，除零应按 API 契约和使用场景设计，不能一律视作内部 bug。本条也记录在 [[rust-programming-basics]]。
 
 - 待验证：`thiserror = "2"`、`anyhow = "1"` 及示例未按目标 Cargo.lock 或本机编译核对；来源署名和发表时间未在线核对。文中记录“用户信息”的日志建议必须结合隐私和最小化原则审视。
 

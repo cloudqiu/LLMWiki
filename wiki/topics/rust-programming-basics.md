@@ -31,13 +31,17 @@ sources:
   - "raw/Rust Module 模块系统详解：组织大型项目代码.md"
   - "raw/Rust Package 与 Crate 详解：理解 Rust 项目的基本组成.md"
   - "raw/Rust use 与 pub 详解：模块导入与权限控制.md"
+  - "raw/Rust 文档生成详解：使用 rustdoc 与 cargo doc 编写 API 文档.md"
+  - "raw/Rust 单元测试详解：使用 cargo test 保证代码质量.md"
+  - "raw/Rust 集成测试详解：验证多个模块与公共 API 的协作.md"
+  - "raw/Rust 所有权 Ownership 详解：理解内存安全的核心机制.md"
 ---
 
 # Rust 编程入门
 
 ## 概述
 
-《Rust 编程实战》系列已摄入第 1–7、9–22、24–27 篇。阅读路径从语言定位与环境安装开始，经过 Hello World、Cargo 和项目结构，再进入变量、基础类型、函数、rustdoc、控制流与模式匹配，接着学习数组、元组、切片、字符串、`Vec`、`HashMap`、可选值与错误处理，最后进入模块、package、crate 和公开 API 的组织。第 8 篇（常量与静态变量）和第 23 篇（panic）尚无原始资料，不能根据前后篇补写。
+《Rust 编程实战》系列已摄入第 1–7、9–22、24–31 篇。阅读路径从语言定位与环境安装开始，经过 Hello World、Cargo 和项目结构，再进入变量、基础类型、函数、rustdoc、控制流与模式匹配，接着学习数组、元组、切片、字符串、`Vec`、`HashMap`、可选值与错误处理，再进入模块、package、crate、公开 API、文档、测试和所有权。第 8 篇（常量与静态变量）和第 23 篇（panic）尚无原始资料，不能根据前后篇补写。
 
 这些页面归档的是教程作者的讲解。涉及工具链现状、性能、治理和代码正确性时，仍需官方文档或实机验证。
 
@@ -56,6 +60,9 @@ sources:
 11. [[rust-result-clipping|Result]] → [[rust-error-handling-best-practices-clipping|错误处理实践]]：让错误携带原因，以 `?` 传播并设计分层错误；第 23 篇 panic 原文仍缺。
 12. [[rust-module-clipping|Module]]：用 `mod`、路径和可见性组织多文件项目；区分 crate 根与 package/workspace。
 13. [[rust-package-crate-clipping|Package 与 Crate]] → [[rust-use-pub-clipping|use 与 pub]]：认识 Cargo package、编译 target 与 workspace，再设计模块可见性和 `pub use` 对外接口。
+14. [[rust-rustdoc-cargo-doc-clipping|rustdoc 与 cargo doc]]：为公共 API 编写文档、示例与 doctest，注意文档示例中的可见路径。
+15. [[rust-unit-testing-clipping|单元测试]] → [[rust-integration-testing-clipping|集成测试]]：先验证模块内部逻辑，再从独立测试 crate 检查公开接口及资源隔离。
+16. [[rust-ownership-clipping|所有权]]：用 move、`Copy`、`Clone` 与借用解释资源由谁持有；前文 `String` 和集合例子可回读。
 
 ## 与已有知识的连接
 
@@ -63,7 +70,7 @@ sources:
 - 本库已有的 Rust crate 实体页可供继续探索第三方依赖；库的 API 用法仍以各自官方证据为准。
 
 > [!warning] 矛盾
-> [[rust-error-handling-best-practices-clipping]] 把除数为零直接用作 `panic!` 示例，同篇又要求可预期的用户输入错误使用 `Result`。应按输入来源与函数契约判断，不能把除零一律当作内部逻辑错误。
+> [[rust-error-handling-best-practices-clipping]] 把除数为零直接用作 `panic!` 示例，同篇又要求可预期的用户输入错误使用 `Result`；[[rust-rustdoc-cargo-doc-clipping]] 与 [[rust-unit-testing-clipping]] 也将除零写为 `Result::Err`。应按输入来源与函数契约判断，不能把除零一律当作内部逻辑错误。
 
 ## 开放问题
 
@@ -75,8 +82,10 @@ sources:
 - 第 18–19 篇示例尚未编译运行；`chars()` 返回 Unicode 标量值而非完整字形簇，`partial_cmp(...).unwrap()` 不能直接用于可能含 `NaN` 的数据。
 - 第 20–22、24–25 篇的示例未在本次摄入时编译；特别核对错误层的 `?` 转换、`thiserror` / `anyhow` 版本、`crate` 根的含义和日志敏感字段。
 - 第 26–27 篇的示例未在本次摄入时编译；workspace member 是 package 而不必只有一个 crate，`use user;` 的同名导入、私有 `model` 的所谓原公开路径及实战中缺少 `pub mod user;` 均需复核。
+- 第 28–30 篇的文档和测试示例未在本次摄入时运行；若 doctest 片段未导入函数或 crate，不能直接视为可编译。集成测试的固定临时文件名与其并行隔离建议相冲突。
+- 第 31 篇的所有权示例未在本次摄入时编译；“栈上通常 Copy、堆上通常 Move”只宜作为入门提示，不可代替类型的 `Copy` / `Drop` 条件。
 - 作者关于 Rust Foundation、性能和广泛采用的判断，需要独立可靠证据。
 
 ## 来源
 
-- 本页 frontmatter 所列二十五份 raw 剪藏；各篇的出处、发表日期与证据边界见对应来源页。
+- 本页 frontmatter 所列二十九份 raw 剪藏；各篇的出处、发表日期与证据边界见对应来源页。

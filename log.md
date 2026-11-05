@@ -615,3 +615,9 @@
 
 - 查询 [[rust-use-pub-clipping]]、[[rust-package-crate-clipping]]、[[smol-rust]] 及其 raw 依据；查阅 Rust Book、Reference、Cargo Book、API Guidelines 与 smol 官方文档，记录于 `raw/rust-crate-dependency-reexports-official-research-2026-11-05.md`。归档 [[why-rust-crates-reexport-dependencies]] 并更新 `index.md`。
 - 区分统一入口、公开类型的导入路径、兼容路径与 Cargo feature 转发；指出 re-export 不会自动合并不兼容依赖版本，公开依赖会成为 SemVer 责任。未针对用户的具体项目运行 `cargo tree -d`；来源页仍 741，wiki 页面 1536→1537，Outputs 保持 1。
+
+## [2026-11-05] ingest | 《Rust 编程实战》文档、单元测试、集成测试与所有权四篇
+
+- 用户确认批量摄入系列第 28–31 篇；保留四份 `raw/` 剪藏原样，新建 [[rust-rustdoc-cargo-doc-clipping]]、[[rust-unit-testing-clipping]]、[[rust-integration-testing-clipping]]、[[rust-ownership-clipping]]，扩展 [[rust-programming-basics]]、更新 [[rust-error-handling-best-practices-clipping]] 的矛盾提示，并同步 `index.md`。
+- 文档与测试两篇把除零设计为 `Result::Err`，与第 24 篇的直接 `panic!` 示例冲突，已在相关来源页和主题页标注；doctest 缺导入、固定临时文件名和 Copy/Move 的栈堆简化表述记录为核对事项。
+- 本批示例未编译运行，网页署名和日期未在线核对。第 8、23 篇仍缺；来源 741→745，wiki 页面 1537→1541，Outputs 保持 1。其他工作区修改不纳入本次提交。
