@@ -139,3 +139,4 @@ fn keep_forever(input: &str) -> &'static str {
 ## 后续
 
 - 若有具体函数签名和调用方式，可按返回值是否需要脱离输入独立存活来确定类型。
+- `Box::leak` 的适用条件和单例替代方案见 [[when-to-use-rust-box-leak]]。

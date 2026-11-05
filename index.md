@@ -1604,6 +1604,7 @@
 
 ## Answers 问答归档
 
+- [[when-to-use-rust-box-leak]] — 有意保留数据到进程结束的条件、资源代价与 OnceLock 单例替代方案。
 - [[rust-function-return-string-or-str]] — 按所有权来源选择字符串返回类型；含 `Cow<str>` 与 `Box::leak` 的步骤、生命周期和代价。
 - [[why-rust-crates-reexport-dependencies]] — Rust crate 重新导出第三方依赖的统一入口、类型互操作、API 稳定性与版本代价。
 - [[rust-sync-trait-objects-thread-safe-pointers]] — 系统解释 `Sync`、trait object 动态分发，以及 Box、Arc、Mutex、RwLock、Rc 的跨线程条件。
@@ -1703,4 +1704,4 @@
 
 ## Stats
 
-- 来源：**745** 份 ｜ wiki 页面：**1542** ｜ Outputs：**1** ｜ 最近更新：2026-11-05
+- 来源：**745** 份 ｜ wiki 页面：**1543** ｜ Outputs：**1** ｜ 最近更新：2026-11-05

@@ -645,3 +645,8 @@
 
 - 查阅标准库 `ToOwned`、`String::into_boxed_str`、`Box::leak` 文档，记录于 `raw/rust-box-leak-string-chain-official-research-2026-11-05.md`；扩展 [[rust-function-return-string-or-str]] 并同步 `index.md`。
 - 展开 `&str` → `String` → `Box<str>` → `&'static mut str` → `&'static str` 的类型变化；标明 `into_boxed_str` 可能重新分配，`Box::leak` 故意保留内存。展开代码已用本机 `rustc --edition=2021` 编译运行。来源页 745、wiki 页面 1542、Outputs 1 均不变。
+
+## [2026-11-05] query | Box::leak 的适用场景
+
+- 查阅标准库 `Box::leak`、`OnceLock`、Rust Reference `static` 项及 Rustonomicon，记录于 `raw/rust-box-leak-use-cases-official-research-2026-11-05.md`；归档 [[when-to-use-rust-box-leak]]，从 [[rust-function-return-string-or-str]] 互链，并同步 `index.md`。
+- 归纳有界、进程剩余时间常驻且真实 API 要求长期引用的场景；对照 `OnceLock<String>` 单例，说明 `static` 也不会自动运行 `Drop`，但避免重复泄漏。示例已用本机 `rustc --edition=2021` 编译运行。来源页仍 745，wiki 页面 1542→1543，Outputs 保持 1。
