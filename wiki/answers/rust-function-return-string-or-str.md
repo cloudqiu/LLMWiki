@@ -72,6 +72,8 @@ fn main() {
 
 `"Rust"` 不含 `&`，结果直接借用输入，没有为结果复制文本；`"A&B"` 需要替换，`replace` 新建 `String`，由 `Cow::Owned` 持有。`Cow<'_, str>` 让两个分支共用一个返回类型；借用分支仍受输入生命周期约束。调用者如需无论哪个分支都独立持有，可调用 `.into_owned()`，借用分支届时才复制。这个示例已用本机 `rustc --edition=2021` 编译运行，断言通过。[标准库 `Cow`](https://doc.rust-lang.org/std/borrow/enum.Cow.html)。
 
+`Cow` 是 **Clone on Write** 的缩写，即“写入时才克隆”。它可以先持有借用数据；若调用 `to_mut()` 请求可变访问，借用分支才克隆成拥有的数据。已经是 `Cow::Owned` 时不需再次克隆。上面的 `escape_ampersands` 示例通过条件分支直接构造 `Borrowed` / `Owned`，没有调用 `to_mut()`，但使用的是同一个可借用或拥有的类型。[标准库 `Cow`](https://doc.rust-lang.org/std/borrow/enum.Cow.html)。
+
 不能返回局部 `String` 的借用：
 
 ```rust

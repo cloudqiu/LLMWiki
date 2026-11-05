@@ -631,3 +631,7 @@
 
 - 根据用户追问扩展 [[rust-function-return-string-or-str]]：仅在输入包含 `&` 时生成替换后的 `String`，否则返回借用；同步更新 `index.md`。查阅标准库 `Cow` 文档；示例已用本机 `rustc --edition=2021` 编译运行并通过断言。
 - 说明该片段只替换 `&`，并非完整 HTML 转义；借用分支受输入生命周期约束，调用 `.into_owned()` 时才在必要情况下复制。来源页 745、wiki 页面 1542、Outputs 1 均不变；其他工作区修改未纳入本次提交。
+
+## [2026-11-05] query | Cow 名称的由来
+
+- 查阅 Rust 标准库 `Cow` 文档，扩展 [[rust-function-return-string-or-str]] 并同步 `index.md`：`Cow` 是 Clone on Write，借用分支在调用 `to_mut()` 请求可变访问时才克隆；已拥有的数据不必再次克隆。来源页 745、wiki 页面 1542、Outputs 1 均不变。
