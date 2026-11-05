@@ -29,13 +29,15 @@ sources:
   - "raw/Rust Result 详解：可靠的错误处理机制.md"
   - "raw/Rust 错误处理最佳实践：构建可靠的应用程序.md"
   - "raw/Rust Module 模块系统详解：组织大型项目代码.md"
+  - "raw/Rust Package 与 Crate 详解：理解 Rust 项目的基本组成.md"
+  - "raw/Rust use 与 pub 详解：模块导入与权限控制.md"
 ---
 
 # Rust 编程入门
 
 ## 概述
 
-《Rust 编程实战》系列已摄入第 1–7、9–22、24–25 篇。阅读路径从语言定位与环境安装开始，经过 Hello World、Cargo 和项目结构，再进入变量、基础类型、函数、rustdoc、控制流与模式匹配，接着学习数组、元组、切片、字符串、`Vec`、`HashMap`、可选值与错误处理，最后进入模块组织。第 8 篇（常量与静态变量）和第 23 篇（panic）尚无原始资料，不能根据前后篇补写。
+《Rust 编程实战》系列已摄入第 1–7、9–22、24–27 篇。阅读路径从语言定位与环境安装开始，经过 Hello World、Cargo 和项目结构，再进入变量、基础类型、函数、rustdoc、控制流与模式匹配，接着学习数组、元组、切片、字符串、`Vec`、`HashMap`、可选值与错误处理，最后进入模块、package、crate 和公开 API 的组织。第 8 篇（常量与静态变量）和第 23 篇（panic）尚无原始资料，不能根据前后篇补写。
 
 这些页面归档的是教程作者的讲解。涉及工具链现状、性能、治理和代码正确性时，仍需官方文档或实机验证。
 
@@ -53,6 +55,7 @@ sources:
 10. [[rust-hashmap-clipping|HashMap]] → [[rust-option-clipping|Option]]：按键组织、查询和更新数据，理解 `get()` 返回可选引用；缺失值通过匹配或组合子处理。
 11. [[rust-result-clipping|Result]] → [[rust-error-handling-best-practices-clipping|错误处理实践]]：让错误携带原因，以 `?` 传播并设计分层错误；第 23 篇 panic 原文仍缺。
 12. [[rust-module-clipping|Module]]：用 `mod`、路径和可见性组织多文件项目；区分 crate 根与 package/workspace。
+13. [[rust-package-crate-clipping|Package 与 Crate]] → [[rust-use-pub-clipping|use 与 pub]]：认识 Cargo package、编译 target 与 workspace，再设计模块可见性和 `pub use` 对外接口。
 
 ## 与已有知识的连接
 
@@ -71,8 +74,9 @@ sources:
 - 第 15–17 篇的示例尚未编译运行；尤其需要复核数组遍历的所有权影响、切片范围越界行为及 UTF-8 字符边界。
 - 第 18–19 篇示例尚未编译运行；`chars()` 返回 Unicode 标量值而非完整字形簇，`partial_cmp(...).unwrap()` 不能直接用于可能含 `NaN` 的数据。
 - 第 20–22、24–25 篇的示例未在本次摄入时编译；特别核对错误层的 `?` 转换、`thiserror` / `anyhow` 版本、`crate` 根的含义和日志敏感字段。
+- 第 26–27 篇的示例未在本次摄入时编译；workspace member 是 package 而不必只有一个 crate，`use user;` 的同名导入、私有 `model` 的所谓原公开路径及实战中缺少 `pub mod user;` 均需复核。
 - 作者关于 Rust Foundation、性能和广泛采用的判断，需要独立可靠证据。
 
 ## 来源
 
-- 本页 frontmatter 所列二十三份 raw 剪藏；各篇的出处、发表日期与证据边界见对应来源页。
+- 本页 frontmatter 所列二十五份 raw 剪藏；各篇的出处、发表日期与证据边界见对应来源页。

@@ -604,3 +604,9 @@
 - 用户确认批量摄入系列第 20–22、24–25 篇；保留五份 `raw/` 剪藏原样，新建 [[rust-hashmap-clipping]]、[[rust-option-clipping]]、[[rust-result-clipping]]、[[rust-error-handling-best-practices-clipping]]、[[rust-module-clipping]]，扩展 [[rust-programming-basics]] 并更新 `index.md`。
 - 记录 `HashMap` 的 `entry`、所有权与无序遍历，`Option` / `Result` 的缺失值和错误传播，以及模块的路径与可见性。第 24 篇将除数为零设为 panic，与同篇可预期输入错误返回 `Result` 的建议冲突，已在来源页和主题页双向标注。
 - 第 8、23 篇尚缺原文；本批示例未编译运行，网页署名与发布日期未在线核对，`thiserror` / `anyhow` 依赖版本待按目标项目核实。来源 734→739，wiki 页面 1529→1534，Outputs 保持 1；其他用户编辑和未跟踪资料保留原状。
+
+## [2026-11-05] ingest | 《Rust 编程实战》Package 与 Crate、use 与 pub 两篇
+
+- 用户确认批量摄入系列第 26–27 篇；保留两份 `raw/` 剪藏原样，新建 [[rust-package-crate-clipping]]、[[rust-use-pub-clipping]]，扩展 [[rust-programming-basics]] 并更新 `index.md`。
+- 整理 package、crate、module、workspace、`use`、`pub` 与重新导出之间的关系；记录原文中 workspace member 与 crate 混称、额外 `lib2.rs` target 说明不准确，以及公开 API 示例的路径与模块声明需复核。
+- 第 8、23 篇仍缺；本批代码未编译运行，网页署名与发布日期未在线核对。来源 739→741，wiki 页面 1534→1536，Outputs 保持 1；此前已有的收件箱、Obsidian 与 Module 原文工作区变更不纳入本次提交。

@@ -29,6 +29,8 @@
 - [[rust-result-clipping]] — 第 22 篇：Result、错误传播、类型化错误与 Option 转换。
 - [[rust-error-handling-best-practices-clipping]] — 第 24 篇：Option / Result / panic 分工、错误类型与分层处理；除零示例有内在矛盾。
 - [[rust-module-clipping]] — 第 25 篇：mod、可见性、路径和多文件模块组织。
+- [[rust-package-crate-clipping]] — 第 26 篇：Package、Crate、Module 与 Workspace 的层次及 Cargo target。
+- [[rust-use-pub-clipping]] — 第 27 篇：use 路径绑定、pub 可见性与 pub use 重新导出。
 - [[rustify-ten-crates-2026-clipping]] — Rustify 按用途推荐十个常见 crate；量化和维护断言待核查。
 - [[blessed-rs-crate-list-clipping]] — blessed.rs 按场景编排的 Rust crate 候选与替代项。
 - [[crates-dev-discovery-clipping]] — crates.dev 首页通用介绍与常见 crate 名称；证据质量有限。
@@ -1586,7 +1588,7 @@
 
 ## Topics 主题
 
-- [[rust-programming-basics]] — 《Rust 编程实战》二十三篇入门教程的阅读路径、交叉引用与待核对处。
+- [[rust-programming-basics]] — 《Rust 编程实战》二十五篇入门教程的阅读路径、交叉引用与待核对处。
 - [[rust-crate-selection]] — 对比三份 Rust crate 推荐剪藏，连接已有库页并标注证据边界。
 - [[personal-knowledge-management]] — 个人知识管理：本库正在积累的主题总览（synthesis）。
 - [[ai-era-command-line]] — AI 时代的命令行：非技术用户如何搭起本地 AI 工具环境（本轮新开主题 / 连载教程 hub）。
@@ -1621,7 +1623,7 @@
 
 ## Backlog 待建页面
 
-- 《Rust 编程实战》第 8 篇（常量与静态变量）、第 23 篇（panic）尚无 raw 原文；补齐后再摄入。二十三篇剪藏中的安装与 Cargo 现行行为、let chain 工具链要求、部分代码示例及作者署名均待独立核对；第 24 篇除零 panic 示例与同篇“可预期错误使用 Result”的建议冲突。
+- 《Rust 编程实战》第 8 篇（常量与静态变量）、第 23 篇（panic）尚无 raw 原文；补齐后再摄入。二十五篇剪藏中的安装与 Cargo 现行行为、let chain 工具链要求、部分代码示例及作者署名均待独立核对；第 24 篇除零 panic 示例与同篇“可预期错误使用 Result”的建议冲突；第 26–27 篇的 workspace 成员、额外 library target 和公开模块示例待核对。
 - Rust 收件箱新增段已按 crates.io 元数据初步建页；atomic-walker 与 stringgrep 未在官方注册表找到，需按原始依赖清单核对。大量 stub 页仍需补官方 API 示例、作者与维护者证据；Go 收件箱末尾 11 个模块的 stub 页亦待补示例。
 
 - Python 库身份核实：[[anyio-python]]、[[fastapi-python]] 已补可靠作者证据；其余库的创建者和现任维护团队需逐库以官方项目资料确认，不能仅凭 PyPI owner 或发布者推断。
@@ -1695,4 +1697,4 @@
 
 ## Stats
 
-- 来源：**739** 份 ｜ wiki 页面：**1534** ｜ Outputs：**1** ｜ 最近更新：2026-11-05
+- 来源：**741** 份 ｜ wiki 页面：**1536** ｜ Outputs：**1** ｜ 最近更新：2026-11-05
