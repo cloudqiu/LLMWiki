@@ -626,3 +626,8 @@
 
 - 查询 [[rust-string-str-clipping]]、[[rust-ownership-clipping]]、[[rust-functions-return-values-clipping]] 及原文；查阅 Rust Book、Reference、标准库和错误解释 E0515，记录于 `raw/rust-string-return-ownership-official-research-2026-11-05.md`。归档 [[rust-function-return-string-or-str]]，更新 `index.md`。
 - 按结果是否借自输入、是否需独立拥有区分 `&str` 和 `String`；补充字面量 `&'static str` 与混合返回的 `Cow<'a, str>`，说明不能返回局部 `String` 的借用。示例未在本次编译；来源页仍 745，wiki 页面 1541→1542，Outputs 保持 1。
+
+## [2026-11-05] query | Cow<str> 借用与新建的具体示例
+
+- 根据用户追问扩展 [[rust-function-return-string-or-str]]：仅在输入包含 `&` 时生成替换后的 `String`，否则返回借用；同步更新 `index.md`。查阅标准库 `Cow` 文档；示例已用本机 `rustc --edition=2021` 编译运行并通过断言。
+- 说明该片段只替换 `&`，并非完整 HTML 转义；借用分支受输入生命周期约束，调用 `.into_owned()` 时才在必要情况下复制。来源页 745、wiki 页面 1542、Outputs 1 均不变；其他工作区修改未纳入本次提交。

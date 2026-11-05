@@ -46,6 +46,32 @@ fn label(name: &str) -> String {
 
 这里返回的是新建的文本；调用者获得所有权。若函数**已经拥有**一个 `String`，直接返回它也是所有权转移，不必为了返回而 `clone()`。[Rust Book：返回值与所有权](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)。
 
+### 有时借用、有时新建：`Cow<'a, str>`
+
+下面只演示替换 `&`，不是完整的 HTML 转义器：
+
+```rust
+use std::borrow::Cow;
+
+fn escape_ampersands(input: &str) -> Cow<'_, str> {
+    if input.contains('&') {
+        Cow::Owned(input.replace('&', "&amp;"))
+    } else {
+        Cow::Borrowed(input)
+    }
+}
+
+fn main() {
+    let plain = escape_ampersands("Rust");
+    let escaped = escape_ampersands("A&B");
+    assert!(matches!(plain, Cow::Borrowed("Rust")));
+    assert!(matches!(escaped, Cow::Owned(_)));
+    assert_eq!(escaped, "A&amp;B");
+}
+```
+
+`"Rust"` 不含 `&`，结果直接借用输入，没有为结果复制文本；`"A&B"` 需要替换，`replace` 新建 `String`，由 `Cow::Owned` 持有。`Cow<'_, str>` 让两个分支共用一个返回类型；借用分支仍受输入生命周期约束。调用者如需无论哪个分支都独立持有，可调用 `.into_owned()`，借用分支届时才复制。这个示例已用本机 `rustc --edition=2021` 编译运行，断言通过。[标准库 `Cow`](https://doc.rust-lang.org/std/borrow/enum.Cow.html)。
+
 不能返回局部 `String` 的借用：
 
 ```rust
