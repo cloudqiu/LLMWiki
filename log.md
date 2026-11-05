@@ -610,3 +610,8 @@
 - 用户确认批量摄入系列第 26–27 篇；保留两份 `raw/` 剪藏原样，新建 [[rust-package-crate-clipping]]、[[rust-use-pub-clipping]]，扩展 [[rust-programming-basics]] 并更新 `index.md`。
 - 整理 package、crate、module、workspace、`use`、`pub` 与重新导出之间的关系；记录原文中 workspace member 与 crate 混称、额外 `lib2.rs` target 说明不准确，以及公开 API 示例的路径与模块声明需复核。
 - 第 8、23 篇仍缺；本批代码未编译运行，网页署名与发布日期未在线核对。来源 739→741，wiki 页面 1534→1536，Outputs 保持 1；此前已有的收件箱、Obsidian 与 Module 原文工作区变更不纳入本次提交。
+
+## [2026-11-05] query | Rust crate 为什么 re-export 第三方依赖
+
+- 查询 [[rust-use-pub-clipping]]、[[rust-package-crate-clipping]]、[[smol-rust]] 及其 raw 依据；查阅 Rust Book、Reference、Cargo Book、API Guidelines 与 smol 官方文档，记录于 `raw/rust-crate-dependency-reexports-official-research-2026-11-05.md`。归档 [[why-rust-crates-reexport-dependencies]] 并更新 `index.md`。
+- 区分统一入口、公开类型的导入路径、兼容路径与 Cargo feature 转发；指出 re-export 不会自动合并不兼容依赖版本，公开依赖会成为 SemVer 责任。未针对用户的具体项目运行 `cargo tree -d`；来源页仍 741，wiki 页面 1536→1537，Outputs 保持 1。
