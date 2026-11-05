@@ -1,0 +1,76 @@
+---
+title: "Rust 函数返回字符串时选 String 还是 &str？"
+type: answer
+created: 2026-11-05
+updated: 2026-11-05
+tags: [rust, strings, ownership, borrowing, lifetimes]
+status: growing
+sources:
+  - raw/rust-string-return-ownership-official-research-2026-11-05.md
+  - raw/Rust String 与 &str 详解：字符串所有权、借用与转换.md
+  - raw/Rust 所有权 Ownership 详解：理解内存安全的核心机制.md
+---
+
+# Rust 函数返回字符串时选 `String` 还是 `&str`？
+
+> 归档自 2026-11-05 的查询；关联 [[rust-string-str-clipping]] 与 [[rust-ownership-clipping]]。
+
+## 回答
+
+看**结果的所有权来自哪里**：
+
+| 情况 | 返回类型 | 原因 |
+| --- | --- | --- |
+| 结果是输入文本的一段或原样借用 | `&str` | 借用输入，不制造独立拥有者；调用者不能比输入活得更久。 |
+| 函数创建、拼接、转换文本并交给调用者持有 | `String` | 新文本由调用者拥有，可以独立于输入存在。 |
+| 返回固定字面量 | `&'static str` | 字面量在程序运行期间有效。 |
+| 有时借用输入、有时需要生成新文本 | `Cow<'a, str>` | 统一表达借用和拥有；有额外 API 复杂度。 |
+
+借用输入的示例：
+
+```rust
+fn first_word(s: &str) -> &str {
+    s.split_whitespace().next().unwrap_or("")
+}
+```
+
+这里只有一个输入引用，输出生命周期可由规则省略；效果相当于 `fn first_word<'a>(s: &'a str) -> &'a str`。返回值借自 `s`，所以不能在原字符串失效后使用它。[Rust Book：切片](https://doc.rust-lang.org/book/ch04-03-slices.html)、[生命周期](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)。
+
+新建结果的示例：
+
+```rust
+fn label(name: &str) -> String {
+    format!("用户：{name}")
+}
+```
+
+这里返回的是新建的文本；调用者获得所有权。若函数**已经拥有**一个 `String`，直接返回它也是所有权转移，不必为了返回而 `clone()`。[Rust Book：返回值与所有权](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)。
+
+不能返回局部 `String` 的借用：
+
+```rust
+// 错误示意：
+fn bad() -> &'static str {
+    let s = String::from("hello");
+    s.as_str()
+}
+```
+
+`s` 在函数结束时被释放；返回引用会悬空。把返回类型改成 `String` 并返回 `s`，才把数据交给调用者。给 `&str` 补生命周期标注也不能让局部 `s` 活得更久。[Rust E0515](https://doc.rust-lang.org/error_codes/E0515.html)。
+
+## 易混边界
+
+- 返回字面量可写 `fn status() -> &'static str { "ok" }`；这不适用于函数中新建的 `String`。[标准库 `str`](https://doc.rust-lang.org/std/primitive.str.html)。
+- 若要在两个输入中返回其一，通常需显式标注输出和输入的生命周期关系；不能让签名凭空承诺结果活得比所借数据更久。[Rust Book：生命周期](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)。
+- 调用者需要独立保存一个借来的结果时，可在边界处用 `.to_owned()` 转成 `String`；若接口经常在借用与新建之间切换，可考虑 `Cow<'a, str>`。[标准库 `Cow`](https://doc.rust-lang.org/std/borrow/enum.Cow.html)。
+- 函数**参数**只读时通常优先 `&str`；函数**返回值**需要按所有权来源判断，两者不必对称。`raw/Rust String 与 &str 详解：字符串所有权、借用与转换.md` 的“为什么函数参数优先使用 &str？”讨论的是参数。
+
+## 依据
+
+- `raw/rust-string-return-ownership-official-research-2026-11-05.md`：“查阅资料”与“核对结果”。
+- `raw/Rust String 与 &str 详解：字符串所有权、借用与转换.md`：“什么是 &str？”至“String 与 &str 的核心区别”、“借用 String”至“&str 转换为 String”。
+- `raw/Rust 所有权 Ownership 详解：理解内存安全的核心机制.md`：“函数返回值转移所有权”、“只读参数优先借用”。
+
+## 后续
+
+- 若有具体函数签名和调用方式，可按返回值是否需要脱离输入独立存活来确定类型。

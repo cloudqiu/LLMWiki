@@ -621,3 +621,8 @@
 - 用户确认批量摄入系列第 28–31 篇；保留四份 `raw/` 剪藏原样，新建 [[rust-rustdoc-cargo-doc-clipping]]、[[rust-unit-testing-clipping]]、[[rust-integration-testing-clipping]]、[[rust-ownership-clipping]]，扩展 [[rust-programming-basics]]、更新 [[rust-error-handling-best-practices-clipping]] 的矛盾提示，并同步 `index.md`。
 - 文档与测试两篇把除零设计为 `Result::Err`，与第 24 篇的直接 `panic!` 示例冲突，已在相关来源页和主题页标注；doctest 缺导入、固定临时文件名和 Copy/Move 的栈堆简化表述记录为核对事项。
 - 本批示例未编译运行，网页署名和日期未在线核对。第 8、23 篇仍缺；来源 741→745，wiki 页面 1537→1541，Outputs 保持 1。其他工作区修改不纳入本次提交。
+
+## [2026-11-05] query | Rust 函数返回 String 还是 &str
+
+- 查询 [[rust-string-str-clipping]]、[[rust-ownership-clipping]]、[[rust-functions-return-values-clipping]] 及原文；查阅 Rust Book、Reference、标准库和错误解释 E0515，记录于 `raw/rust-string-return-ownership-official-research-2026-11-05.md`。归档 [[rust-function-return-string-or-str]]，更新 `index.md`。
+- 按结果是否借自输入、是否需独立拥有区分 `&str` 和 `String`；补充字面量 `&'static str` 与混合返回的 `Cow<'a, str>`，说明不能返回局部 `String` 的借用。示例未在本次编译；来源页仍 745，wiki 页面 1541→1542，Outputs 保持 1。

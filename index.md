@@ -1604,6 +1604,7 @@
 
 ## Answers 问答归档
 
+- [[rust-function-return-string-or-str]] — 按所有权来源判断函数返回 `String`、`&str`、`&'static str` 或 `Cow<str>`。
 - [[why-rust-crates-reexport-dependencies]] — Rust crate 重新导出第三方依赖的统一入口、类型互操作、API 稳定性与版本代价。
 - [[rust-sync-trait-objects-thread-safe-pointers]] — 系统解释 `Sync`、trait object 动态分发，以及 Box、Arc、Mutex、RwLock、Rc 的跨线程条件。
 - [[rust-send-static-in-tokio]] — 解释 Tokio 任务的 `Send + 'static`，并延伸至线程、channel、泛型接口及 `Send`/`Sync` 的区别。
@@ -1702,4 +1703,4 @@
 
 ## Stats
 
-- 来源：**745** 份 ｜ wiki 页面：**1541** ｜ Outputs：**1** ｜ 最近更新：2026-11-05
+- 来源：**745** 份 ｜ wiki 页面：**1542** ｜ Outputs：**1** ｜ 最近更新：2026-11-05
