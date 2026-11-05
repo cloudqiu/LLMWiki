@@ -1604,7 +1604,7 @@
 
 ## Answers 问答归档
 
-- [[rust-function-return-string-or-str]] — 按所有权来源选择字符串返回类型；含 `Cow<str>` 示例及 `&'static str` 与 binary 的关系。
+- [[rust-function-return-string-or-str]] — 按所有权来源选择字符串返回类型；含 `Cow<str>` 与 `Box::leak` 的步骤、生命周期和代价。
 - [[why-rust-crates-reexport-dependencies]] — Rust crate 重新导出第三方依赖的统一入口、类型互操作、API 稳定性与版本代价。
 - [[rust-sync-trait-objects-thread-safe-pointers]] — 系统解释 `Sync`、trait object 动态分发，以及 Box、Arc、Mutex、RwLock、Rc 的跨线程条件。
 - [[rust-send-static-in-tokio]] — 解释 Tokio 任务的 `Send + 'static`，并延伸至线程、channel、泛型接口及 `Send`/`Sync` 的区别。

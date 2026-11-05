@@ -640,3 +640,8 @@
 
 - 查阅 Rust Reference、Rust Book、标准库 `Box::leak` 与 `include_str!`，记录于 `raw/rust-static-str-binary-lifetime-official-research-2026-11-05.md`；扩展 [[rust-function-return-string-or-str]] 并同步 `index.md`。
 - 区分字面量通常编入 binary 与 `'static` 表示数据有效期；用运行时输入经 `Box::leak` 得到 `&'static str` 的反例说明后者不要求编译期已知，但会保留堆内存。示例已用本机 `rustc --edition=2021` 编译运行。来源页 745、wiki 页面 1542、Outputs 1 均不变。
+
+## [2026-11-05] query | Box::leak 字符串调用链
+
+- 查阅标准库 `ToOwned`、`String::into_boxed_str`、`Box::leak` 文档，记录于 `raw/rust-box-leak-string-chain-official-research-2026-11-05.md`；扩展 [[rust-function-return-string-or-str]] 并同步 `index.md`。
+- 展开 `&str` → `String` → `Box<str>` → `&'static mut str` → `&'static str` 的类型变化；标明 `into_boxed_str` 可能重新分配，`Box::leak` 故意保留内存。展开代码已用本机 `rustc --edition=2021` 编译运行。来源页 745、wiki 页面 1542、Outputs 1 均不变。

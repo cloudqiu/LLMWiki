@@ -8,6 +8,7 @@ status: growing
 sources:
   - raw/rust-string-return-ownership-official-research-2026-11-05.md
   - raw/rust-static-str-binary-lifetime-official-research-2026-11-05.md
+  - raw/rust-box-leak-string-chain-official-research-2026-11-05.md
   - raw/Rust String 与 &str 详解：字符串所有权、借用与转换.md
   - raw/Rust 所有权 Ownership 详解：理解内存安全的核心机制.md
 ---
@@ -108,12 +109,30 @@ fn keep_forever(input: &str) -> &'static str {
 
 `Box::leak` 让这份堆分配在程序剩余时间内保持有效，所以能返回 `&'static str`；代价是内存不会按正常作用域释放。它是说明生命周期含义的反例，普通业务函数通常应返回 `String`，而非故意泄漏内存。该示例已用本机 `rustc --edition=2021` 编译运行。[标准库 `Box::leak`](https://doc.rust-lang.org/std/boxed/struct.Box.html)。
 
+把调用链展开后，类型变化是：
+
+```rust
+fn keep_forever(input: &str) -> &'static str {
+    let owned: String = input.to_owned();
+    let boxed: Box<str> = owned.into_boxed_str();
+    let leaked: &'static mut str = Box::leak(boxed);
+    leaked // &mut str 可作为共享的 &str 返回
+}
+```
+
+1. `to_owned()` 从借用的 `&str` 复制内容，建立独立的 `String`。[`ToOwned`](https://doc.rust-lang.org/std/borrow/trait.ToOwned.html)。
+2. `into_boxed_str()` 消费 `String` 并得到拥有该字符串的 `Box<str>`；它丢弃多余容量，**可能重新分配并复制字节**。[`String::into_boxed_str`](https://doc.rust-lang.org/std/string/struct.String.html)。
+3. `Box::leak()` 消费 `Box`，不再自动释放其分配，返回 `&mut str`；在这里它可取 `'static` 生命周期，再转为返回签名要求的 `&'static str`。[`Box::leak`](https://doc.rust-lang.org/std/boxed/struct.Box.html)。
+
+所以这不是普通的“延长借用”语法：它先**复制并拥有数据**，再有意**泄漏这份所有权**。每次调用都可能长期占用一份内存；若调用者只需要独立拥有结果，直接返回 `String` 更合适。
+
 函数本身像普通 Rust 函数一样参与编译与链接；是否保留为 binary 中独立的函数体由优化和链接决定，**不是** `&'static str` 返回类型的要求。
 
 ## 依据
 
 - `raw/rust-string-return-ownership-official-research-2026-11-05.md`：“查阅资料”与“核对结果”。
 - `raw/rust-static-str-binary-lifetime-official-research-2026-11-05.md`：“核对结果”与“验证”。
+- `raw/rust-box-leak-string-chain-official-research-2026-11-05.md`：“核对结果”。
 - `raw/Rust String 与 &str 详解：字符串所有权、借用与转换.md`：“什么是 &str？”至“String 与 &str 的核心区别”、“借用 String”至“&str 转换为 String”。
 - `raw/Rust 所有权 Ownership 详解：理解内存安全的核心机制.md`：“函数返回值转移所有权”、“只读参数优先借用”。
 
